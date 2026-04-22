@@ -465,6 +465,28 @@ html::-webkit-scrollbar {
             font-weight: 500;
             color: white;
         }
+
+        /* ----- VIEW TRANSITION: VIDEO FULLSCREEN ----- */
+::view-transition-old(video-player),
+::view-transition-new(video-player) {
+    animation-duration: 0.35s;
+    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+::view-transition-old(video-player) {
+    animation-name: vt-fade-scale-out;
+}
+::view-transition-new(video-player) {
+    animation-name: vt-fade-scale-in;
+}
+@keyframes vt-fade-scale-out {
+    from { opacity: 1; transform: scale(1); }
+    to   { opacity: 0; transform: scale(1.04); }
+}
+@keyframes vt-fade-scale-in {
+    from { opacity: 0; transform: scale(0.96); }
+    to   { opacity: 1; transform: scale(1); }
+}
+        
     </style>
 </head>
 <body class="bg-gray-50 min-h-screen p-4 md:p-12 font-sans text-gray-900">
@@ -1023,18 +1045,33 @@ html::-webkit-scrollbar {
                         speedBtn.textContent = `${this.currentPlaybackRate}x`;
                     });
 
-                    const fsBtn = c.querySelector('.fullscreen-btn');
-                    if (fsBtn) fsBtn.addEventListener('click', (e) => {
-                        e.stopPropagation();
-                        const target = c.querySelector('.video-player-container');
-                        if (!document.fullscreenElement) {
-                            (target.requestFullscreen || target.webkitRequestFullscreen).call(target);
-                            fsBtn.innerHTML = '<i class="fas fa-compress"></i>';
-                        } else {
-                            (document.exitFullscreen || document.webkitExitFullscreen).call(document);
-                            fsBtn.innerHTML = '<i class="fas fa-expand"></i>';
-                        }
-                    });
+                    // NEW
+const fsBtn = c.querySelector('.fullscreen-btn');
+if (fsBtn) fsBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    const target = c.querySelector('.video-player-container');
+
+    const doFullscreen = () => {
+        if (!document.fullscreenElement) {
+            (target.requestFullscreen || target.webkitRequestFullscreen).call(target);
+            fsBtn.innerHTML = '<i class="fas fa-compress"></i>';
+        } else {
+            (document.exitFullscreen || document.webkitExitFullscreen).call(document);
+            fsBtn.innerHTML = '<i class="fas fa-expand"></i>';
+        }
+    };
+
+    if (document.startViewTransition) {
+        target.style.viewTransitionName = 'video-player';
+        document.startViewTransition(() => {
+            doFullscreen();
+        }).finished.finally(() => {
+            target.style.viewTransitionName = '';
+        });
+    } else {
+        doFullscreen();
+    }
+});
 
                     const overlay = c.querySelector('.video-overlay');
                     if (overlay) {
