@@ -849,8 +849,8 @@
                 init() {
                     this.container.innerHTML = `
                         <div class="video-player-container" id="${this.uniqueId}">
-                            <div class="double-tap-indicator double-tap-left"><div class="double-tap-text">-10 min</div></div>
-                            <div class="double-tap-indicator double-tap-right"><div class="double-tap-text">+20 min</div></div>
+                            <div class="double-tap-indicator double-tap-left"><div class="double-tap-text">-10s</div></div>
+                            <div class="double-tap-indicator double-tap-right"><div class="double-tap-text">+20s</div></div>
                             <div class="youtube-iframe-wrapper"></div>
                             <div class="video-overlay">
                                 <div class="modern-control-bar">
@@ -1049,8 +1049,8 @@
                                 if (this.player && this.player.getDuration) {
                                     const currentTime = this.player.getCurrentTime();
                                     const newTime = isLeft 
-                                        ? Math.max(0, currentTime - 600)    // -10 minutes
-                                        : Math.min(this.player.getDuration(), currentTime + 1200); // +20 minutes
+                                        ? Math.max(0, currentTime - 10)    // -10 minutes
+                                        : Math.min(this.player.getDuration(), currentTime + 20); // +20 minutes
                                     this.player.seekTo(newTime, true);
                                     
                                     // Show indicator
