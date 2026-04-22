@@ -290,12 +290,16 @@ html::-webkit-scrollbar {
         }
         .play-pause-btn svg { width: 24px; height: 24px; }
         .time-display {
-            font-size: 12px;
-            font-weight: 500;
-            white-space: nowrap;
-            min-width: 100px;
-            text-align: center;
-            color: rgba(255,255,255,0.95);
+    font-size: 12px;
+    font-weight: 500;
+    white-space: nowrap;
+    text-align: center;
+    color: rgba(255,255,255,0.95);
+    background: rgba(0,0,0,0.45);
+    padding: 3px 10px;
+    border-radius: 9999px;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
         }
         .speed-btn {
             font-size: 14px;
@@ -529,11 +533,6 @@ html::-webkit-scrollbar {
 
     <footer class="mt-20 max-w-6xl mx-auto border-t border-gray-100 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-gray-400 text-[10px] font-bold tracking-widest uppercase">
         <p>&copy; 2024 tutoriom Education</p>
-        <div class="flex space-x-6 lowercase font-normal tracking-normal text-xs">
-            <a href="#" class="hover:text-indigo-600 transition-colors">Privacy</a>
-            <a href="#" class="hover:text-indigo-600 transition-colors">Terms</a>
-            <a href="#" class="hover:text-indigo-600 transition-colors">Support</a>
-        </div>
     </footer>
 
     <script>
