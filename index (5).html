@@ -1042,10 +1042,18 @@ html::-webkit-scrollbar {
                             const bar = c.querySelector('.modern-control-bar');
                             if (bar) bar.classList.add('visible');
                         };
-                        overlay.addEventListener('mouseenter', show);
-                        overlay.addEventListener('mousemove', show);
+                        overlay.addEventListener('mouseenter', () => { show(); this.hideControlsAfterDelay(); });
+                        overlay.addEventListener('mousemove', () => { show(); this.hideControlsAfterDelay(); });
                         overlay.addEventListener('mouseleave', () => this.hideControlsAfterDelay());
-                        overlay.addEventListener('touchstart', show, { passive: true });
+                        overlay.addEventListener('touchstart', (e) => {
+    const bar = c.querySelector('.modern-control-bar');
+    if (bar && bar.classList.contains('visible')) {
+        bar.classList.remove('visible');
+    } else {
+        show();
+        this.hideControlsAfterDelay();
+    }
+}, { passive: true });
                         
                         // CHANGE 5: Double-tap handling with new seek deltas (-10 min, +20 min)
                         overlay.addEventListener('touchstart', (e) => {
@@ -1094,7 +1102,7 @@ html::-webkit-scrollbar {
                         if (this.player && this.player.getPlayerState() === YT.PlayerState.PLAYING) {
                             bar.classList.remove('visible');
                         }
-                    }, 2500);
+                    }, 3000);
                 }
 
                 startUpdateInterval() {
