@@ -9,7 +9,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     <!-- Font Awesome for player icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
+    <!-- KaTeX for LaTeX rendering -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/contrib/auto-render.min.js"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
     
     <script src="https://cdn.tailwindcss.com"></script>
@@ -586,6 +589,109 @@ html::-webkit-scrollbar {
             color: #0f172a;
             letter-spacing: -0.01em;
         }
+
+        /* ----- PRACTICE / QUESTION CARD STYLES (from quiz1) ----- */
+        #practice-section {
+            display: none;
+        }
+        #practice-section.visible {
+            display: block;
+        }
+        .question-item {
+            background-color: #f1f5f9;
+            padding: 16px 12px;
+            border-radius: 4px;
+            margin: 20px 0;
+            transition: background-color 0.2s;
+        }
+        .question-item.subjective {
+            background-color: #ffe4e1;
+        }
+        .q-tag {
+            display: inline-block;
+            background-color: #000000;
+            color: #ffffff;
+            font-size: 0.7rem;
+            font-weight: 700;
+            padding: 2px 8px;
+            border-radius: 4px;
+            text-transform: uppercase;
+            margin-bottom: 8px;
+            letter-spacing: 0.05em;
+        }
+        .question-text {
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: #1e293b;
+            margin-bottom: 12px;
+            line-height: 1.5;
+        }
+        .option-container {
+            display: flex;
+            align-items: center;
+            padding: 10px 14px;
+            margin: 6px 0;
+            border: 1px solid #cbd5e1;
+            border-radius: 9999px;
+            font-size: 0.85rem;
+            color: #334155;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            background-color: #ffffff;
+        }
+        .option-container:hover { background-color: #f8fafc; border-color: #94a3b8; }
+        .option-container input { margin-right: 12px; accent-color: #000000; pointer-events: auto; }
+        .option-container.correct-bg { background-color: #d1fae5; border-color: #10b981; }
+        .option-container.wrong-bg { background-color: #fee2e2; border-color: #ef4444; }
+        .action-buttons { display: flex; gap: 12px; margin-top: 12px; flex-wrap: wrap; }
+        .action-btn {
+            background-color: #334155;
+            color: white;
+            padding: 6px 14px;
+            border-radius: 9999px;
+            font-size: 0.75rem;
+            font-weight: 500;
+            cursor: pointer;
+            border: none;
+            transition: opacity 0.2s;
+        }
+        .action-btn:hover { opacity: 0.9; }
+        .action-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+        .submit-btn { background-color: #059669; }
+        .text-solution-btn, .video-solution-btn { background-color: #4b5563; }
+        .solution-container { margin-top: 12px; display: none; }
+        .solution-container.visible { display: block; }
+        .solution-box {
+            padding: 12px;
+            background-color: #ecfdf5;
+            border-left: 4px solid #10b981;
+            font-size: 0.85rem;
+            color: #065f46;
+            border-radius: 4px;
+        }
+        .video-container { margin-top: 12px; width: 100%; border-radius: 4px; overflow: hidden; }
+        .video-container iframe, .video-container video { width: 100%; max-width: 100%; border-radius: 4px; display: block; }
+        .correct-answer-box {
+            margin-top: 12px;
+            padding: 12px;
+            background-color: #fef9c3;
+            border-left: 4px solid #eab308;
+            font-size: 0.85rem;
+            color: #854d0e;
+            border-radius: 4px;
+            display: none;
+        }
+        .correct-answer-box.visible { display: flex; align-items: baseline; gap: 6px; flex-wrap: wrap; }
+        .correct-answer-label { font-weight: 700; }
+        .practice-loader {
+            text-align: center;
+            padding: 20px;
+            font-size: 0.85rem;
+            color: #6b7280;
+            display: none;
+        }
+        .katex { font-size: 1em !important; }
+        .katex-display { margin: 0.5em 0; }
         
     </style>
 </head>
@@ -648,7 +754,7 @@ html::-webkit-scrollbar {
         <div id="capsule-carousel" class="flex overflow-x-auto no-scrollbar gap-3 py-4 px-8 snap-x mask-fade">
 
             <!-- Lectures -->
-            <button class="flex-shrink-0 flex items-center gap-2.5 bg-white p-1 pr-4 rounded-full border border-slate-200/60 snap-center transition-all duration-300 hover:scale-105 active:scale-95 capsule-shadow-purple">
+            <button id="capsule-lectures" class="flex-shrink-0 flex items-center gap-2.5 bg-white p-1 pr-4 rounded-full border border-slate-200/60 snap-center transition-all duration-300 hover:scale-105 active:scale-95 capsule-shadow-purple">
                 <div class="w-8 h-8 rounded-full bg-gradient-to-br from-purple-500 to-purple-600 flex items-center justify-center shadow-sm text-white">
                     <i data-lucide="play-circle" class="w-4 h-4" stroke-width="2.5"></i>
                 </div>
@@ -656,7 +762,7 @@ html::-webkit-scrollbar {
             </button>
 
             <!-- Practice -->
-            <button class="flex-shrink-0 flex items-center gap-2.5 bg-white p-1 pr-4 rounded-full border border-slate-200/60 snap-center transition-all duration-300 hover:scale-105 active:scale-95 capsule-shadow-blue">
+            <button id="capsule-practice" class="flex-shrink-0 flex items-center gap-2.5 bg-white p-1 pr-4 rounded-full border border-slate-200/60 snap-center transition-all duration-300 hover:scale-105 active:scale-95 capsule-shadow-blue">
                 <div class="w-8 h-8 rounded-full bg-gradient-to-br from-blue-500 to-blue-600 flex items-center justify-center shadow-sm text-white">
                     <i data-lucide="pencil" class="w-4 h-4" stroke-width="2.5"></i>
                 </div>
@@ -727,6 +833,14 @@ html::-webkit-scrollbar {
         </div>
     </main>
 
+    <!-- Practice Section (questions infinite scroll) -->
+    <div id="practice-section" class="max-w-6xl mx-auto px-0">
+        <div id="questions-container"></div>
+        <div id="practice-loader" class="practice-loader">Loading more questions...</div>
+        <div id="practice-empty" style="display:none;" class="empty-state">📝 No questions found for this chapter.</div>
+        <div id="practice-error" style="display:none;" class="error-message" style="margin: 1rem 0;">⚠️ Failed to load questions. Please try again.</div>
+    </div>
+
     <!-- Traffic Insight Capsule -->
     <div class="badge-fixed-corner">
         <div class="tech-capsule">
@@ -780,6 +894,13 @@ html::-webkit-scrollbar {
             let activePlayerInstance = null; // reference to SimpleYouTubePlayer instance
             let classesData = []; // store fetched classes with subjects
 
+            // ---------- PRACTICE STATE ----------
+            let practiceMode = false; // true = showing questions, false = showing posts
+            let practiceCursor = null;
+            let practiceHasMore = true;
+            let practiceLoading = false;
+            let practiceQuestionCount = 0; // running total for global question numbering
+            
             // DOM elements
             const dropdownContainer = document.getElementById('dropdown-container');
             const selectedValueSpan = document.getElementById('selected-value');
@@ -1012,6 +1133,352 @@ html::-webkit-scrollbar {
                 }
             }
 
+            // ---------- PRACTICE: API ----------
+            async function fetchQuestionsPage(reset = false) {
+                if (!practiceHasMore || practiceLoading) return;
+                if (!currentClassId || !currentSubjectId || !currentChapterId) {
+                    document.getElementById('practice-error').style.display = 'block';
+                    document.getElementById('practice-error').textContent = '⚠️ Please select a Class, Subject, and Chapter first.';
+                    return;
+                }
+                practiceLoading = true;
+                const loaderEl = document.getElementById('practice-loader');
+                if (!reset) loaderEl.style.display = 'block';
+
+                try {
+                    const params = new URLSearchParams({
+                        classId: currentClassId,
+                        subjectId: currentSubjectId,
+                        chapterId: currentChapterId
+                    });
+                    if (practiceCursor !== null) params.append('after', practiceCursor.toString());
+
+                    const res = await fetch(`${BASE_URL}/questions?${params.toString()}`);
+                    if (!res.ok) throw new Error(`Server error: ${res.status}`);
+                    const data = await res.json();
+
+                    const questions = data.questions || [];
+                    const container = document.getElementById('questions-container');
+
+                    if (reset) {
+                        container.innerHTML = '';
+                        practiceQuestionCount = 0;
+                        if (questions.length === 0) {
+                            document.getElementById('practice-empty').style.display = 'block';
+                            practiceHasMore = false;
+                        }
+                    }
+
+                    if (questions.length > 0) {
+                        document.getElementById('practice-empty').style.display = 'none';
+                        appendQuestions(questions);
+                    }
+
+                    practiceCursor = (data.nextCursor !== null && data.nextCursor !== undefined)
+                        ? (typeof data.nextCursor === 'number' ? data.nextCursor : parseInt(data.nextCursor, 10))
+                        : null;
+                    practiceHasMore = data.hasMore === true;
+                } catch (err) {
+                    console.error('Failed to fetch questions:', err);
+                    if (reset) {
+                        document.getElementById('practice-error').style.display = 'block';
+                    }
+                } finally {
+                    practiceLoading = false;
+                    document.getElementById('practice-loader').style.display = 'none';
+                }
+            }
+
+            // ---------- PRACTICE: RENDER ----------
+            function replaceNewlinesWithBr(text) {
+                if (!text) return text;
+                return text.replace(/\r?\n/g, '<br>');
+            }
+
+            function renderMathInElementWithDelay(element) {
+                if (!element) return;
+                const tryRender = () => {
+                    if (typeof renderMathInElement === 'function') {
+                        try {
+                            renderMathInElement(element, {
+                                delimiters: [
+                                    { left: '$$', right: '$$', display: true },
+                                    { left: '$', right: '$', display: false },
+                                    { left: '\\(', right: '\\)', display: false },
+                                    { left: '\\[', right: '\\]', display: true }
+                                ],
+                                throwOnError: false,
+                                errorColor: '#cc0000'
+                            });
+                        } catch (e) { console.warn('KaTeX error:', e); }
+                    } else {
+                        setTimeout(tryRender, 150);
+                    }
+                };
+                tryRender();
+            }
+
+            function getYouTubeEmbedUrl(url) {
+                if (!url) return null;
+                const patterns = [
+                    /(?:youtube\.com\/watch\?v=|youtu\.be\/)([^&?#]+)/,
+                    /youtube\.com\/embed\/([^?]+)/
+                ];
+                for (let pattern of patterns) {
+                    const match = url.match(pattern);
+                    if (match && match[1]) return `https://www.youtube.com/embed/${match[1]}`;
+                }
+                return null;
+            }
+
+            function createVideoElement(url) {
+                if (!url) return null;
+                const container = document.createElement('div');
+                container.className = 'video-container';
+                const youtubeEmbed = getYouTubeEmbedUrl(url);
+                if (youtubeEmbed) {
+                    const iframe = document.createElement('iframe');
+                    iframe.src = youtubeEmbed;
+                    iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+                    iframe.allowFullscreen = true;
+                    iframe.frameBorder = '0';
+                    iframe.style.width = '100%';
+                    iframe.style.aspectRatio = '16/9';
+                    container.appendChild(iframe);
+                } else if (url.match(/\.(mp4|webm|ogg)$/i)) {
+                    const video = document.createElement('video');
+                    video.controls = true;
+                    video.preload = 'metadata';
+                    video.style.width = '100%';
+                    const source = document.createElement('source');
+                    source.src = url;
+                    source.type = 'video/mp4';
+                    video.appendChild(source);
+                    container.appendChild(video);
+                }
+                return container;
+            }
+
+            function createQuestionElement(q, globalIndex) {
+                const formattedQuestionText = replaceNewlinesWithBr(q.questionText);
+                const formattedOptions = q.questionOptions ? q.questionOptions.map(opt => replaceNewlinesWithBr(opt)) : [];
+                const formattedSolutionText = q.solutionText ? replaceNewlinesWithBr(q.solutionText) : null;
+                const isSubjective = (q.questionType === 'Subjective');
+
+                const questionDiv = document.createElement('div');
+                questionDiv.className = 'question-item';
+                if (isSubjective) questionDiv.classList.add('subjective');
+
+                const qTag = document.createElement('div');
+                qTag.className = 'q-tag';
+                qTag.textContent = `Question ${globalIndex} ${isSubjective ? '(Subjective)' : '(Objective)'}`;
+
+                const qText = document.createElement('div');
+                qText.className = 'question-text';
+                qText.innerHTML = formattedQuestionText;
+
+                questionDiv.appendChild(qTag);
+                questionDiv.appendChild(qText);
+
+                // Question image
+                if (q.questionImageUrl) {
+                    const img = document.createElement('img');
+                    img.src = q.questionImageUrl;
+                    img.alt = 'Question illustration';
+                    img.style.maxWidth = '100%';
+                    img.style.marginBottom = '12px';
+                    img.style.borderRadius = '4px';
+                    questionDiv.appendChild(img);
+                }
+
+                let optionsDiv = null, optionContainers = [], submitBtn = null, correctAnswerBox = null;
+
+                // Objective: options + submit
+                if (!isSubjective) {
+                    optionsDiv = document.createElement('div');
+                    optionsDiv.className = 'options-list';
+                    formattedOptions.forEach((opt, optIdx) => {
+                        const label = document.createElement('label');
+                        label.className = 'option-container';
+                        const radio = document.createElement('input');
+                        radio.type = 'radio';
+                        radio.name = `pq_${globalIndex}`;
+                        radio.value = optIdx;
+                        const span = document.createElement('span');
+                        span.innerHTML = opt;
+                        label.appendChild(radio);
+                        label.appendChild(span);
+                        optionsDiv.appendChild(label);
+                        optionContainers.push(label);
+                    });
+                    questionDiv.appendChild(optionsDiv);
+                }
+
+                // Action buttons
+                const actionRow = document.createElement('div');
+                actionRow.className = 'action-buttons';
+
+                const textSolutionBtn = document.createElement('button');
+                textSolutionBtn.textContent = 'Text Solution';
+                textSolutionBtn.className = 'action-btn text-solution-btn';
+
+                const videoSolutionBtn = document.createElement('button');
+                videoSolutionBtn.textContent = 'Video Solution';
+                videoSolutionBtn.className = 'action-btn video-solution-btn';
+
+                if (!isSubjective) {
+                    submitBtn = document.createElement('button');
+                    submitBtn.textContent = 'Submit';
+                    submitBtn.className = 'action-btn submit-btn';
+                    actionRow.appendChild(submitBtn);
+                }
+                actionRow.appendChild(textSolutionBtn);
+                actionRow.appendChild(videoSolutionBtn);
+                questionDiv.appendChild(actionRow);
+
+                // Correct answer box (objective only)
+                if (!isSubjective) {
+                    correctAnswerBox = document.createElement('div');
+                    correctAnswerBox.className = 'correct-answer-box';
+                    const correctLabel = document.createElement('span');
+                    correctLabel.className = 'correct-answer-label';
+                    correctLabel.textContent = 'Correct Answer:';
+                    const correctAnswerSpan = document.createElement('span');
+                    correctAnswerSpan.innerHTML = formattedOptions[q.correctIndex] || 'N/A';
+                    correctAnswerBox.appendChild(correctLabel);
+                    correctAnswerBox.appendChild(correctAnswerSpan);
+                    questionDiv.appendChild(correctAnswerBox);
+                }
+
+                // Text solution container
+                const textSolutionContainer = document.createElement('div');
+                textSolutionContainer.className = 'solution-container';
+                if (formattedSolutionText) {
+                    const textBox = document.createElement('div');
+                    textBox.className = 'solution-box';
+                    const solutionPara = document.createElement('p');
+                    solutionPara.innerHTML = formattedSolutionText;
+                    textBox.appendChild(solutionPara);
+                    if (q.solutionImageUrl) {
+                        const img = document.createElement('img');
+                        img.src = q.solutionImageUrl;
+                        img.alt = 'Solution illustration';
+                        img.style.maxWidth = '100%';
+                        img.style.marginTop = '10px';
+                        img.style.borderRadius = '4px';
+                        textBox.appendChild(img);
+                    }
+                    textSolutionContainer.appendChild(textBox);
+                }
+                questionDiv.appendChild(textSolutionContainer);
+
+                // Video solution container
+                const videoSolutionContainer = document.createElement('div');
+                videoSolutionContainer.className = 'solution-container';
+                if (q.solutionVideoUrl) {
+                    const videoElem = createVideoElement(q.solutionVideoUrl);
+                    if (videoElem) videoSolutionContainer.appendChild(videoElem);
+                }
+                questionDiv.appendChild(videoSolutionContainer);
+
+                // Submit logic (objective)
+                if (!isSubjective) {
+                    let submitted = false;
+                    textSolutionBtn.disabled = true;
+                    videoSolutionBtn.disabled = true;
+                    submitBtn.onclick = () => {
+                        if (submitted) return;
+                        const selectedRadio = document.querySelector(`input[name="pq_${globalIndex}"]:checked`);
+                        if (!selectedRadio) { alert('Please select an answer'); return; }
+                        const selectedIndex = parseInt(selectedRadio.value);
+                        const isCorrect = (selectedIndex === q.correctIndex);
+                        optionContainers.forEach((container, i) => {
+                            if (i === q.correctIndex) container.classList.add('correct-bg');
+                            else if (i === selectedIndex && !isCorrect) container.classList.add('wrong-bg');
+                        });
+                        if (correctAnswerBox) correctAnswerBox.classList.add('visible');
+                        if (formattedSolutionText) textSolutionBtn.disabled = false;
+                        if (q.solutionVideoUrl) videoSolutionBtn.disabled = false;
+                        submitted = true;
+                        submitBtn.disabled = true;
+                    };
+                } else {
+                    textSolutionBtn.disabled = false;
+                    videoSolutionBtn.disabled = false;
+                }
+
+                // Solution toggle logic
+                textSolutionBtn.onclick = () => {
+                    const wasVisible = textSolutionContainer.classList.contains('visible');
+                    textSolutionContainer.classList.toggle('visible', !wasVisible);
+                    if (!wasVisible) videoSolutionContainer.classList.remove('visible');
+                };
+                videoSolutionBtn.onclick = () => {
+                    const wasVisible = videoSolutionContainer.classList.contains('visible');
+                    videoSolutionContainer.classList.toggle('visible', !wasVisible);
+                    if (!wasVisible) textSolutionContainer.classList.remove('visible');
+                };
+
+                renderMathInElementWithDelay(questionDiv);
+                return questionDiv;
+            }
+
+            function appendQuestions(questions) {
+                const container = document.getElementById('questions-container');
+                const fragment = document.createDocumentFragment();
+                questions.forEach(q => {
+                    practiceQuestionCount++;
+                    fragment.appendChild(createQuestionElement(q, practiceQuestionCount));
+                });
+                container.appendChild(fragment);
+            }
+
+            // ---------- PRACTICE: VIEW TOGGLE ----------
+            function showPracticeView() {
+                if (!currentClassId || !currentSubjectId || !currentChapterId) {
+                    alert('Please select a Class, Subject, and Chapter before opening Practice.');
+                    return;
+                }
+                practiceMode = true;
+
+                // Hide posts, show practice
+                postsGrid.style.display = 'none';
+                document.getElementById('feed-section-header').classList.remove('visible');
+                document.getElementById('practice-section').classList.add('visible');
+                document.getElementById('practice-error').style.display = 'none';
+                document.getElementById('practice-empty').style.display = 'none';
+
+                // Reset and fetch
+                practiceCursor = null;
+                practiceHasMore = true;
+                practiceLoading = false;
+                practiceQuestionCount = 0;
+                document.getElementById('questions-container').innerHTML =
+                    `<div class="loader-grid col-span-full"><div class="loader-dot"></div><div class="loader-dot"></div><div class="loader-dot"></div></div>`;
+
+                fetchQuestionsPage(true);
+            }
+
+            function showLecturesView() {
+                practiceMode = false;
+
+                // Hide practice, show posts
+                document.getElementById('practice-section').classList.remove('visible');
+                postsGrid.style.display = '';
+                updateFeedSectionHeader();
+            }
+
+            // ---------- PRACTICE: INFINITE SCROLL ----------
+            window.addEventListener('scroll', () => {
+                if (!practiceMode) return;
+                const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+                const windowHeight = window.innerHeight;
+                const documentHeight = document.documentElement.scrollHeight;
+                if (scrollTop + windowHeight >= documentHeight - 300) {
+                    fetchQuestionsPage(false);
+                }
+            });
+            
             async function loadPostsForCurrentChapter() {
                 postsGrid.innerHTML = `<div class="loader-grid col-span-full"><div class="loader-dot"></div><div class="loader-dot"></div><div class="loader-dot"></div></div>`;
                 
@@ -1527,6 +1994,9 @@ html::-webkit-scrollbar {
             }
 
             initialize();
+            // ---------- CAPSULE CLICK HANDLERS ----------
+            document.getElementById('capsule-practice').addEventListener('click', showPracticeView);
+            document.getElementById('capsule-lectures').addEventListener('click', showLecturesView);
         })();
     </script>
 </body>
