@@ -539,6 +539,47 @@ html::-webkit-scrollbar {
         .capsule-shadow-amber  { box-shadow: 0 8px 20px -6px rgba(245, 158, 11, 0.4); }
         .capsule-shadow-rose   { box-shadow: 0 8px 20px -6px rgba(225, 29, 72, 0.4); }
         .capsule-shadow-slate  { box-shadow: 0 8px 20px -6px rgba(71, 85, 105, 0.4); }
+
+        /* ----- FEED SECTION HEADER ----- */
+        #feed-section-header {
+            display: none;
+        }
+        #feed-section-header.visible {
+            display: block;
+        }
+        .feed-chapter-name {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.75rem;
+            font-weight: 900;
+            color: #0f172a;
+            letter-spacing: -0.03em;
+            line-height: 1.1;
+            margin-bottom: 6px;
+        }
+        .feed-bar {
+            display: inline-block;
+            width: 4px;
+            height: 1.75rem;
+            background: #4f46e5;
+            border-radius: 2px;
+            margin-right: 12px;
+            vertical-align: middle;
+        }
+        .feed-meta {
+            font-size: 0.78rem;
+            font-weight: 700;
+            color: #64748b;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            margin-left: calc(4px + 12px);
+        }
+        .feed-label {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.1rem;
+            font-weight: 800;
+            color: #0f172a;
+            letter-spacing: -0.01em;
+        }
         
     </style>
 </head>
@@ -651,6 +692,23 @@ html::-webkit-scrollbar {
         </div>
         <div class="absolute top-0 right-0 bottom-0 w-12 bg-gradient-to-l from-gray-50 to-transparent pointer-events-none z-10"></div>
         <div class="absolute top-0 left-0 bottom-0 w-12 bg-gradient-to-r from-gray-50 to-transparent pointer-events-none z-10"></div>
+    </div>
+
+    <!-- Feed Section Header -->
+    <div id="feed-section-header" class="max-w-6xl mx-auto mb-6">
+        <div id="feed-header-chapter">
+            <div style="display:flex;align-items:center;">
+                <span class="feed-bar"></span>
+                <span class="feed-chapter-name" id="feed-chapter-text"></span>
+            </div>
+            <div class="feed-meta" id="feed-meta-text"></div>
+        </div>
+        <div id="feed-header-recent" style="display:none;">
+            <div style="display:flex;align-items:center;">
+                <span class="feed-bar"></span>
+                <span class="feed-label">Recent Feeds</span>
+            </div>
+        </div>
     </div>
     
     <!-- Gallery Grid -->
@@ -837,6 +895,7 @@ html::-webkit-scrollbar {
                 selectedValueSpan.innerText = chapterName;
                 currentChapterId = chapterId === 'all' ? null : chapterId;
                 dropdownContainer.classList.remove('dropdown-open');
+                updateFeedSectionHeader();
                 loadPostsForCurrentChapter();
             };
 
@@ -994,16 +1053,49 @@ html::-webkit-scrollbar {
             }
 
             async function resetAndReloadAfterSubjectChange() {
-                // Reset chapter to placeholder
                 currentChapterId = null;
                 selectedValueSpan.innerText = '--- Select Chapter ---';
-                // Fetch new chapters and repopulate
+                updateFeedSectionHeader();
                 const chapters = await fetchChapters();
                 repopulateChapterDropdown(chapters);
-                // Reload posts
                 await loadPostsForCurrentChapter();
             }
 
+            function updateFeedSectionHeader() {
+                const header = document.getElementById('feed-section-header');
+                const chapterDiv = document.getElementById('feed-header-chapter');
+                const recentDiv = document.getElementById('feed-header-recent');
+                const chapterText = document.getElementById('feed-chapter-text');
+                const metaText = document.getElementById('feed-meta-text');
+
+                const allSelected = currentClassId && currentSubjectId && currentChapterId;
+
+                if (allSelected) {
+                    // Find class name and subject name from classesData
+                    const selectedClass = classesData.find(c => c.classId === currentClassId);
+                    const className = selectedClass ? selectedClass.className : '';
+                    const selectedSubject = selectedClass
+                        ? (selectedClass.subjects || []).find(s => s.subjectId === currentSubjectId)
+                        : null;
+                    const subjectName = selectedSubject ? selectedSubject.subjectName : '';
+
+                    chapterText.textContent = selectedValueSpan.innerText;
+                    metaText.textContent = className + (subjectName ? '—' + subjectName : '');
+
+                    chapterDiv.style.display = 'block';
+                    recentDiv.style.display = 'none';
+                    header.classList.add('visible');
+                } else if (!currentClassId && !currentSubjectId && !currentChapterId) {
+                    // Nothing selected — show "Recent Feeds"
+                    chapterDiv.style.display = 'none';
+                    recentDiv.style.display = 'block';
+                    header.classList.add('visible');
+                } else {
+                    // Partial selection — hide header
+                    header.classList.remove('visible');
+                }
+            }
+            
             // ---------- IN-CARD PLAYER (with double-tap modifications) ----------
             class SimpleYouTubePlayer {
                 constructor(containerElement, videoId) {
@@ -1421,6 +1513,7 @@ html::-webkit-scrollbar {
                     
                     // CHANGE 2: Render recent posts immediately
                     renderPosts(recentPosts);
+                    updateFeedSectionHeader();
                 } catch (err) {
                     console.error('Init error:', err);
                     postsGrid.innerHTML = `<div class="error-message col-span-full">Failed to load initial data. Please refresh.</div>`;
