@@ -647,9 +647,9 @@ html::-webkit-scrollbar {
         .action-btn {
             background-color: #334155;
             color: white;
-            padding: 6px 14px;
+            padding: 9px 20px;
             border-radius: 9999px;
-            font-size: 0.75rem;
+            font-size: 0.85rem;
             font-weight: 500;
             cursor: pointer;
             border: none;
@@ -1318,10 +1318,7 @@ html::-webkit-scrollbar {
                 const actionRow = document.createElement('div');
                 actionRow.className = 'action-buttons';
 
-                const textSolutionBtn = document.createElement('button');
-                textSolutionBtn.textContent = 'Text Solution';
-                textSolutionBtn.className = 'action-btn text-solution-btn';
-
+                
                 const videoSolutionBtn = document.createElement('button');
                 videoSolutionBtn.textContent = 'Video Solution';
                 videoSolutionBtn.className = 'action-btn video-solution-btn';
@@ -1332,7 +1329,7 @@ html::-webkit-scrollbar {
                     submitBtn.className = 'action-btn submit-btn';
                     actionRow.appendChild(submitBtn);
                 }
-                actionRow.appendChild(textSolutionBtn);
+                
                 actionRow.appendChild(videoSolutionBtn);
                 questionDiv.appendChild(actionRow);
 
@@ -1384,7 +1381,7 @@ html::-webkit-scrollbar {
                 // Submit logic (objective)
                 if (!isSubjective) {
                     let submitted = false;
-                    textSolutionBtn.disabled = true;
+                    
                     videoSolutionBtn.disabled = true;
                     submitBtn.onclick = () => {
                         if (submitted) return;
@@ -1393,26 +1390,25 @@ html::-webkit-scrollbar {
                         const selectedIndex = parseInt(selectedRadio.value);
                         const isCorrect = (selectedIndex === q.correctIndex);
                         optionContainers.forEach((container, i) => {
-                            if (i === q.correctIndex) container.classList.add('correct-bg');
-                            else if (i === selectedIndex && !isCorrect) container.classList.add('wrong-bg');
+                            if (i === q.correctIndex) {
+                                container.classList.add('correct-bg');
+                            } else if (i === selectedIndex) {
+                                container.classList.add('wrong-bg');
+                            }
                         });
                         if (correctAnswerBox) correctAnswerBox.classList.add('visible');
-                        if (formattedSolutionText) textSolutionBtn.disabled = false;
+                        
                         if (q.solutionVideoUrl) videoSolutionBtn.disabled = false;
                         submitted = true;
                         submitBtn.disabled = true;
                     };
                 } else {
-                    textSolutionBtn.disabled = false;
+                    
                     videoSolutionBtn.disabled = false;
                 }
 
                 // Solution toggle logic
-                textSolutionBtn.onclick = () => {
-                    const wasVisible = textSolutionContainer.classList.contains('visible');
-                    textSolutionContainer.classList.toggle('visible', !wasVisible);
-                    if (!wasVisible) videoSolutionContainer.classList.remove('visible');
-                };
+                
                 videoSolutionBtn.onclick = () => {
                     const wasVisible = videoSolutionContainer.classList.contains('visible');
                     videoSolutionContainer.classList.toggle('visible', !wasVisible);
@@ -1443,7 +1439,7 @@ html::-webkit-scrollbar {
 
                 // Hide posts, show practice
                 postsGrid.style.display = 'none';
-                document.getElementById('feed-section-header').classList.remove('visible');
+                document.getElementById('feed-section-header').classList.add('visible');
                 document.getElementById('practice-section').classList.add('visible');
                 document.getElementById('practice-error').style.display = 'none';
                 document.getElementById('practice-empty').style.display = 'none';
