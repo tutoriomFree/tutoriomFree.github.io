@@ -221,6 +221,14 @@
                     <i data-lucide="edit" size="20"></i>
                     <span class="font-medium">Update Post</span>
                 </button>
+                <button onclick="switchTab('createQuestion')" class="sidebar-item w-full flex items-center space-x-3 px-4 py-3 rounded-lg transition-colors text-gray-400 hover:bg-gray-800 hover:text-white">
+                    <i data-lucide="help-circle" size="20"></i>
+                    <span class="font-medium">Create Questions</span>
+                </button>
+                <button onclick="switchTab('updateQuestion')" class="sidebar-item w-full flex items-center space-x-3 px-4 py-3 rounded-lg transition-colors text-gray-400 hover:bg-gray-800 hover:text-white">
+                    <i data-lucide="list-checks" size="20"></i>
+                    <span class="font-medium">Update Question</span>
+                </button>
             </nav>
 
             <!-- Lock session box (replaces logout) -->
@@ -381,6 +389,61 @@
                     <div id="updateToast" class="hidden mb-3 px-4 py-3 rounded-lg flex items-center space-x-2 font-semibold bg-green-500 text-white"><i data-lucide="check-circle-2"></i><span id="updateToastText"></span></div>
                 </div>
             </div>
+            <!-- 6. Create Questions Tab -->
+            <div id="createQuestion" class="tab-content max-w-2xl mx-auto">
+                <div class="mb-6">
+                    <h2 class="text-2xl font-bold text-gray-800">Create Questions</h2>
+                    <p class="text-gray-500 font-medium">Paste a JSON array of questions and bulk upload.</p>
+                </div>
+                <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-6 space-y-6">
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                        <div><label class="block text-sm font-semibold text-gray-700 mb-1">Class</label><div class="custom-select-container" id="qCreateClassSelect"><div class="custom-select-trigger"><span>-- Select --</span><div class="select-arrow"></div></div><div class="custom-select-options" id="qCreateClassOptions"></div></div></div>
+                        <div><label class="block text-sm font-semibold text-gray-700 mb-1">Subject</label><div class="custom-select-container" id="qCreateSubjectSelect"><div class="custom-select-trigger"><span>-- Select Class First --</span><div class="select-arrow"></div></div><div class="custom-select-options" id="qCreateSubjectOptions"></div></div></div>
+                        <div><label class="block text-sm font-semibold text-gray-700 mb-1">Chapter</label><div class="custom-select-container" id="qCreateChapterSelect"><div class="custom-select-trigger"><span>-- Select Subject First --</span><div class="select-arrow"></div></div><div class="custom-select-options" id="qCreateChapterOptions"></div></div></div>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-semibold text-gray-700 mb-1">Questions JSON</label>
+                        <textarea id="questionsJsonInput" rows="12" placeholder='[
+  {
+    "questionType": "Objective",
+    "questionText": "What is 2+2?",
+    "questionOptions": ["1","2","4","8"],
+    "correctIndex": 2,
+    "questionOrder": 1
+  },
+  {
+    "questionType": "Subjective",
+    "questionText": "Explain gravity.",
+    "questionOrder": 2,
+    "solutionText": "Gravity is..."
+  }
+]' class="w-full rounded-lg border border-gray-300 p-3 font-mono text-xs focus:ring-2 focus:ring-blue-500 outline-none resize-y"></textarea>
+                    </div>
+                    <div id="qCreateToast" class="hidden px-4 py-3 rounded-lg flex items-center space-x-2 font-semibold bg-green-500 text-white"><i data-lucide="check-circle-2"></i><span id="qCreateToastText"></span></div>
+                    <button id="submitQuestionsBtn" type="button" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 rounded-lg flex items-center justify-center space-x-2 shadow-md">
+                        <i data-lucide="upload"></i><span>Upload Questions</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- 7. Update Question Tab -->
+            <div id="updateQuestion" class="tab-content max-w-4xl mx-auto">
+                <div class="mb-6">
+                    <h2 class="text-2xl font-bold text-gray-800">Update or Delete Questions</h2>
+                    <p class="text-gray-500 font-medium">Filter by class, subject, chapter to manage questions.</p>
+                </div>
+                <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-6 space-y-6">
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                        <div><label class="block text-sm font-semibold text-gray-700 mb-1">Class</label><div class="custom-select-container" id="qUpdateClassSelect"><div class="custom-select-trigger"><span>-- Select --</span><div class="select-arrow"></div></div><div class="custom-select-options" id="qUpdateClassOptions"></div></div></div>
+                        <div><label class="block text-sm font-semibold text-gray-700 mb-1">Subject</label><div class="custom-select-container" id="qUpdateSubjectSelect"><div class="custom-select-trigger"><span>-- Select Class First --</span><div class="select-arrow"></div></div><div class="custom-select-options" id="qUpdateSubjectOptions"></div></div></div>
+                        <div><label class="block text-sm font-semibold text-gray-700 mb-1">Chapter</label><div class="custom-select-container" id="qUpdateChapterSelect"><div class="custom-select-trigger"><span>-- Select Subject First --</span><div class="select-arrow"></div></div><div class="custom-select-options" id="qUpdateChapterOptions"></div></div></div>
+                    </div>
+                    <div id="questionsListContainer" class="mt-6 space-y-4">
+                        <p class="text-gray-500 text-center py-4">Select a chapter to load questions.</p>
+                    </div>
+                    <div id="qUpdateToast" class="hidden px-4 py-3 rounded-lg flex items-center space-x-2 font-semibold bg-green-500 text-white"><i data-lucide="check-circle-2"></i><span id="qUpdateToastText"></span></div>
+                </div>
+            </div>
         </div>
     </main>
 
@@ -414,6 +477,37 @@
         </div>
     </div>
 
+    <div id="editQuestionModal" class="modal-overlay hidden">
+        <div class="modal-card" style="max-width:600px;max-height:90vh;overflow-y:auto;">
+            <h3 class="text-xl font-bold mb-4">Edit Question</h3>
+            <div class="space-y-3">
+                <input type="hidden" id="editQuestionId">
+                <div>
+                    <label class="block text-sm font-semibold mb-1">Question Type</label>
+                    <select id="editQuestionType" class="w-full border p-2 rounded font-medium">
+                        <option value="Objective">Objective</option>
+                        <option value="Subjective">Subjective</option>
+                    </select>
+                </div>
+                <div><label class="block text-sm font-semibold mb-1">Question Text</label><textarea id="editQuestionText" rows="3" class="w-full border p-2 rounded text-sm resize-none"></textarea></div>
+                <div><label class="block text-sm font-semibold mb-1">Question Image URL <span class="text-gray-400 font-normal">(optional, blank to clear)</span></label><input type="url" id="editQuestionImageUrl" class="w-full border p-2 rounded"></div>
+                <div id="editOptionsBlock" class="space-y-2">
+                    <label class="block text-sm font-semibold mb-1">Options (one per line)</label>
+                    <textarea id="editQuestionOptions" rows="4" placeholder="Option A&#10;Option B&#10;Option C&#10;Option D" class="w-full border p-2 rounded text-sm font-mono resize-none"></textarea>
+                    <div><label class="block text-sm font-semibold mb-1">Correct Index <span class="text-gray-400 font-normal">(0-based)</span></label><input type="number" id="editCorrectIndex" min="0" class="w-full border p-2 rounded"></div>
+                </div>
+                <div><label class="block text-sm font-semibold mb-1">Question Order</label><input type="number" id="editQuestionOrder" min="0" class="w-full border p-2 rounded"></div>
+                <div><label class="block text-sm font-semibold mb-1">Solution Text <span class="text-gray-400 font-normal">(optional)</span></label><textarea id="editSolutionText" rows="2" class="w-full border p-2 rounded text-sm resize-none"></textarea></div>
+                <div><label class="block text-sm font-semibold mb-1">Solution Video URL <span class="text-gray-400 font-normal">(optional, blank to clear)</span></label><input type="url" id="editSolutionVideoUrl" class="w-full border p-2 rounded"></div>
+                <div><label class="block text-sm font-semibold mb-1">Solution Image URL <span class="text-gray-400 font-normal">(optional, blank to clear)</span></label><input type="url" id="editSolutionImageUrl" class="w-full border p-2 rounded"></div>
+                <div class="flex justify-end gap-3 pt-4">
+                    <button type="button" id="cancelEditQuestionBtn" class="px-4 py-2 bg-gray-200 rounded-lg font-medium">Cancel</button>
+                    <button type="button" id="saveEditQuestionBtn" class="px-4 py-2 bg-blue-600 text-white rounded-lg font-medium">Save Changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     <script type="module">
         // ---------- CONFIG ----------
         const API_BASE = "https://tutoriumfree.onrender.com";
@@ -760,6 +854,239 @@
             } catch(err) { showToast(err.message, true, 'postToast', 'postToastText'); }
         });
 
+        // ── Questions: init dropdowns ─────────────────────
+        function initQuestionSelects() {
+            // Create Questions tab
+            populateClassDropdown('qCreateClassSelect', 'qCreateClassOptions', (classId, _, subjects) => {
+                document.getElementById('qCreateClassSelect').setAttribute('data-selected', classId);
+                document.getElementById('qCreateSubjectSelect').querySelector('.custom-select-trigger span').textContent = '-- Select Subject --';
+                document.getElementById('qCreateChapterSelect').querySelector('.custom-select-trigger span').textContent = '-- Select Subject First --';
+                document.getElementById('qCreateSubjectSelect').removeAttribute('data-selected');
+                document.getElementById('qCreateChapterSelect').removeAttribute('data-selected');
+                populateSubjectDropdown('qCreateSubjectSelect', 'qCreateSubjectOptions', subjects, (subId) => {
+                    document.getElementById('qCreateSubjectSelect').setAttribute('data-selected', subId);
+                    populateChapterDropdown('qCreateChapterSelect', 'qCreateChapterOptions', classId, subId, (chId) => {
+                        document.getElementById('qCreateChapterSelect').setAttribute('data-selected', chId);
+                    });
+                });
+            });
+            // Update Questions tab
+            populateClassDropdown('qUpdateClassSelect', 'qUpdateClassOptions', (classId, _, subjects) => {
+                document.getElementById('qUpdateClassSelect').setAttribute('data-selected', classId);
+                document.getElementById('qUpdateSubjectSelect').querySelector('.custom-select-trigger span').textContent = '-- Select Subject --';
+                document.getElementById('qUpdateChapterSelect').querySelector('.custom-select-trigger span').textContent = '-- Select Subject First --';
+                document.getElementById('qUpdateSubjectSelect').removeAttribute('data-selected');
+                document.getElementById('qUpdateChapterSelect').removeAttribute('data-selected');
+                populateSubjectDropdown('qUpdateSubjectSelect', 'qUpdateSubjectOptions', subjects, (subId) => {
+                    document.getElementById('qUpdateSubjectSelect').setAttribute('data-selected', subId);
+                    populateChapterDropdown('qUpdateChapterSelect', 'qUpdateChapterOptions', classId, subId, (chId) => {
+                        document.getElementById('qUpdateChapterSelect').setAttribute('data-selected', chId);
+                        loadQuestionsForUpdate(classId, subId, chId);
+                    });
+                });
+            });
+        }
+
+        // ── Upload Questions (bulk) ───────────────────────
+        document.getElementById('submitQuestionsBtn').addEventListener('click', async () => {
+            const classId   = document.getElementById('qCreateClassSelect').getAttribute('data-selected');
+            const subjectId = document.getElementById('qCreateSubjectSelect').getAttribute('data-selected');
+            const chapterId = document.getElementById('qCreateChapterSelect').getAttribute('data-selected');
+            if (!classId || !subjectId || !chapterId) {
+                showToast('Select Class, Subject, and Chapter first', true, 'qCreateToast', 'qCreateToastText');
+                return;
+            }
+            let questions;
+            try {
+                questions = JSON.parse(document.getElementById('questionsJsonInput').value.trim());
+                if (!Array.isArray(questions) || questions.length === 0) throw new Error();
+            } catch {
+                showToast('Invalid JSON — must be a non-empty array', true, 'qCreateToast', 'qCreateToastText');
+                return;
+            }
+            const btn = document.getElementById('submitQuestionsBtn');
+            btn.classList.add('btn-loading');
+            btn.innerHTML = '<span class="loader"></span><span>Uploading...</span>';
+            try {
+                const res = await adminFetch(`${API_BASE}/admin/questions`, {
+                    method: 'POST',
+                    body: JSON.stringify({ classId, subjectId, chapterId, questions })
+                });
+                const data = await res.json();
+                if (res.status === 201) {
+                    showToast(`${data.created} question(s) uploaded successfully`, false, 'qCreateToast', 'qCreateToastText');
+                    document.getElementById('questionsJsonInput').value = '';
+                } else {
+                    throw new Error(data.error || 'Upload failed');
+                }
+            } catch (err) {
+                showToast(err.message, true, 'qCreateToast', 'qCreateToastText');
+            } finally {
+                btn.classList.remove('btn-loading');
+                btn.innerHTML = '<i data-lucide="upload"></i><span>Upload Questions</span>';
+                lucide.createIcons();
+            }
+        });
+
+        // ── Load questions into update tab ────────────────
+        async function loadQuestionsForUpdate(classId, subjectId, chapterId) {
+            const container = document.getElementById('questionsListContainer');
+            container.innerHTML = '<p class="text-center py-4 text-gray-500">Loading questions...</p>';
+            try {
+                const res       = await fetch(`${API_BASE}/questions?classId=${classId}&subjectId=${subjectId}&chapterId=${chapterId}`);
+                const data      = await res.json();
+                const questions = data.questions ?? [];
+                if (questions.length === 0) {
+                    container.innerHTML = '<p class="text-center text-gray-500 py-4">No questions found.</p>';
+                    return;
+                }
+                let html = '';
+                questions.forEach(q => {
+                    const typeBadge  = q.questionType === 'Objective'
+                        ? '<span class="bg-blue-100 text-blue-700 text-xs font-bold px-2 py-0.5 rounded">Objective</span>'
+                        : '<span class="bg-purple-100 text-purple-700 text-xs font-bold px-2 py-0.5 rounded">Subjective</span>';
+                    const optionsHtml = q.questionOptions
+                        ? `<p class="text-xs text-gray-500 mt-1">Options: ${q.questionOptions.join(' / ')} &nbsp;|&nbsp; Correct: #${q.correctIndex}</p>`
+                        : '';
+                    html += `
+                        <div class="border rounded-lg p-4 bg-gray-50" data-question-id="${q.questionId}"
+                             data-question='${JSON.stringify(q).replace(/'/g,"&#39;")}'>
+                            <div class="flex items-start justify-between gap-2">
+                                <div class="flex-1 min-w-0">
+                                    <div class="flex items-center gap-2 mb-1">
+                                        ${typeBadge}
+                                        <span class="text-xs text-gray-400 font-medium">Order: ${q.questionOrder}</span>
+                                    </div>
+                                    <p class="font-semibold text-sm text-gray-800">${q.questionText}</p>
+                                    ${optionsHtml}
+                                </div>
+                            </div>
+                            <div class="flex gap-2 mt-3">
+                                <button class="edit-question-btn bg-blue-500 text-white px-3 py-1 rounded text-sm font-medium">Edit</button>
+                                <button class="delete-question-btn bg-red-500 text-white px-3 py-1 rounded text-sm font-medium">Delete</button>
+                            </div>
+                        </div>`;
+                });
+                container.innerHTML = html;
+                attachQuestionEvents();
+                lucide.createIcons();
+            } catch (e) {
+                container.innerHTML = '<p class="text-red-500 text-center">Error loading questions.</p>';
+            }
+        }
+
+        // ── Attach edit/delete events to question cards ───
+        function attachQuestionEvents() {
+            document.querySelectorAll('.edit-question-btn').forEach(btn => {
+                btn.addEventListener('click', (e) => {
+                    const card = e.target.closest('[data-question-id]');
+                    openEditQuestionModal(JSON.parse(card.dataset.question));
+                });
+            });
+            document.querySelectorAll('.delete-question-btn').forEach(btn => {
+                btn.addEventListener('click', async (e) => {
+                    const card       = e.target.closest('[data-question-id]');
+                    const questionId = card.dataset.questionId;
+                    if (!confirm('Delete this question permanently?')) return;
+                    try {
+                        const res = await adminFetch(`${API_BASE}/admin/questions`, {
+                            method: 'DELETE',
+                            body: JSON.stringify({ questionId })
+                        });
+                        if (res.ok) {
+                            card.remove();
+                            showToast('Question deleted', false, 'qUpdateToast', 'qUpdateToastText');
+                        } else {
+                            const err = await res.json();
+                            throw new Error(err.error);
+                        }
+                    } catch (err) {
+                        showToast(err.message, true, 'qUpdateToast', 'qUpdateToastText');
+                    }
+                });
+            });
+        }
+
+        // ── Open edit modal and populate fields ───────────
+        function openEditQuestionModal(q) {
+            document.getElementById('editQuestionId').value            = q.questionId;
+            document.getElementById('editQuestionType').value          = q.questionType;
+            document.getElementById('editQuestionText').value          = q.questionText   ?? '';
+            document.getElementById('editQuestionImageUrl').value      = q.questionImageUrl ?? '';
+            document.getElementById('editQuestionOrder').value         = q.questionOrder   ?? 0;
+            document.getElementById('editSolutionText').value          = q.solutionText    ?? '';
+            document.getElementById('editSolutionVideoUrl').value      = q.solutionVideoUrl ?? '';
+            document.getElementById('editSolutionImageUrl').value      = q.solutionImageUrl ?? '';
+            if (q.questionType === 'Objective') {
+                document.getElementById('editOptionsBlock').classList.remove('hidden');
+                document.getElementById('editQuestionOptions').value = (q.questionOptions ?? []).join('\n');
+                document.getElementById('editCorrectIndex').value    = q.correctIndex ?? 0;
+            } else {
+                document.getElementById('editOptionsBlock').classList.add('hidden');
+            }
+            // Toggle options block on type change
+            document.getElementById('editQuestionType').onchange = function() {
+                document.getElementById('editOptionsBlock').classList.toggle('hidden', this.value === 'Subjective');
+            };
+            document.getElementById('editQuestionModal').classList.remove('hidden');
+        }
+
+        document.getElementById('cancelEditQuestionBtn').addEventListener('click', () => {
+            document.getElementById('editQuestionModal').classList.add('hidden');
+        });
+
+        document.getElementById('saveEditQuestionBtn').addEventListener('click', async () => {
+            const questionId = document.getElementById('editQuestionId').value;
+            const qType      = document.getElementById('editQuestionType').value;
+            const payload    = {
+                questionId,
+                questionType:  qType,
+                questionText:  document.getElementById('editQuestionText').value.trim(),
+                questionOrder: parseInt(document.getElementById('editQuestionOrder').value, 10),
+            };
+            // Optional text field
+            const solText = document.getElementById('editSolutionText').value.trim();
+            if (solText) payload.solutionText = solText;
+            // Optional URL fields — send "" to clear, or the URL value
+            ['questionImageUrl','solutionVideoUrl','solutionImageUrl'].forEach(field => {
+                const el = document.getElementById('edit' + field.charAt(0).toUpperCase() + field.slice(1));
+                if (el) payload[field] = el.value.trim();
+            });
+            // Objective-specific
+            if (qType === 'Objective') {
+                const options = document.getElementById('editQuestionOptions').value
+                    .split('\n').map(o => o.trim()).filter(Boolean);
+                payload.questionOptions = options;
+                payload.correctIndex    = parseInt(document.getElementById('editCorrectIndex').value, 10);
+            }
+            const saveBtn = document.getElementById('saveEditQuestionBtn');
+            saveBtn.textContent = 'Saving...';
+            saveBtn.disabled    = true;
+            try {
+                const res = await adminFetch(`${API_BASE}/admin/questions`, {
+                    method: 'PUT',
+                    body:   JSON.stringify(payload)
+                });
+                const data = await res.json();
+                if (res.ok) {
+                    showToast('Question updated', false, 'qUpdateToast', 'qUpdateToastText');
+                    document.getElementById('editQuestionModal').classList.add('hidden');
+                    // Reload the list
+                    const classId   = document.getElementById('qUpdateClassSelect').getAttribute('data-selected');
+                    const subjectId = document.getElementById('qUpdateSubjectSelect').getAttribute('data-selected');
+                    const chapterId = document.getElementById('qUpdateChapterSelect').getAttribute('data-selected');
+                    if (classId && subjectId && chapterId) loadQuestionsForUpdate(classId, subjectId, chapterId);
+                } else {
+                    throw new Error(data.error || 'Update failed');
+                }
+            } catch (err) {
+                showToast(err.message, true, 'qUpdateToast', 'qUpdateToastText');
+            } finally {
+                saveBtn.textContent = 'Save Changes';
+                saveBtn.disabled    = false;
+            }
+        });
+        
         // Sidebar & tab switching
         window.switchTab = (tabId) => {
             document.querySelectorAll('.tab-content').forEach(t=>t.classList.remove('active'));
@@ -795,6 +1122,7 @@
         // Start
         (async () => {
             await initAllSelects();
+            initQuestionSelects();
             switchTab('createClass');
             lucide.createIcons();
         })();
