@@ -713,7 +713,7 @@
                 if (posts.length === 0) { container.innerHTML = '<p class="text-center text-gray-500 py-4">No posts found.</p>'; return; }
                 let html = '';
                 posts.forEach(post => {
-                    html += `<div class="border rounded-lg p-4 bg-gray-50" data-post-id="${post.postId}">
+                    html += `<div class="border rounded-lg p-4 bg-gray-50" data-post-id="${post.postId}" data-post='${JSON.stringify(post).replace(/'/g,"&#39;")}'>
                         <h4 class="font-bold text-lg">${post.postTitle}</h4>
                         <p class="text-sm text-gray-600">${post.postSubtitle || ''}</p>
                         <p class="text-xs mt-1">Video: ${post.videoUrl}</p>
@@ -756,18 +756,14 @@
         }
 
         function openEditModal(postId, card) {
-            const title = card.querySelector('h4').innerText;
-            const subtitle = card.querySelector('p.text-sm').innerText;
-            const video = card.querySelector('p:nth-of-type(1)').innerText.replace('Video: ','');
-            const thumb = card.querySelector('p:nth-of-type(2)').innerText.replace('Thumb: ','');
-            const tutor = card.querySelector('p:nth-of-type(3)').innerText.replace('Tutor: ','');
-            document.getElementById('editPostId').value = postId;
-            document.getElementById('editPostTitle').value = title;
-            document.getElementById('editPostSubtitle').value = subtitle;
-            document.getElementById('editVideoUrl').value = video;
-            document.getElementById('editThumbUrl').value = thumb;
-            document.getElementById('editTutorName').value = tutor;
-            document.getElementById('editPostModal').classList.remove('hidden');
+    const post = JSON.parse(card.dataset.post);
+    document.getElementById('editPostId').value       = post.postId;
+    document.getElementById('editPostTitle').value    = post.postTitle    ?? '';
+    document.getElementById('editPostSubtitle').value = post.postSubtitle ?? '';
+    document.getElementById('editVideoUrl').value     = post.videoUrl     ?? '';
+    document.getElementById('editThumbUrl').value     = post.thumbnailUrl ?? '';
+    document.getElementById('editTutorName').value    = post.tutorName    ?? '';
+    document.getElementById('editPostModal').classList.remove('hidden');
         }
 
         document.getElementById('cancelEditBtn').addEventListener('click', ()=>{
