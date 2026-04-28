@@ -692,7 +692,21 @@ html::-webkit-scrollbar {
         }
         .katex { font-size: 1em !important; }
         .katex-display { margin: 0.5em 0; }
-        
+        /* Always show progress thumb on touch screens */
+@media (hover: none) {
+    .progress-thumb { opacity: 1; }
+}
+
+/* iOS CSS fullscreen fallback */
+.ios-fullscreen {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    z-index: 99999 !important;
+    border-radius: 0 !important;
+        }
     </style>
 </head>
 <body class="bg-gray-50 min-h-screen p-4 md:p-12 font-sans text-gray-900">
@@ -1682,10 +1696,11 @@ html::-webkit-scrollbar {
                 }
 
                 onPlayerReady(event) {
-                    event.target.setVolume(100);
-                    event.target.setPlaybackRate(this.currentPlaybackRate);
-                    event.target.playVideo();
-                    this.startUpdateInterval();
+    event.target.setVolume(100);
+    event.target.setPlaybackRate(this.currentPlaybackRate);
+    const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+    if (!isIOS) event.target.playVideo();
+    this.startUpdateInterval();
                 }
 
                 onStateChange(event) {
@@ -1721,16 +1736,16 @@ html::-webkit-scrollbar {
                             this.player.seekTo(pct * this.player.getDuration(), true);
                         };
                         progressBar.addEventListener('click', (e) => { e.stopPropagation(); seek(e.clientX); });
-                        progressBar.addEventListener('touchstart', (e) => { e.stopPropagation(); seek(e.touches[0].clientX); }, { passive: true });
-                        progressBar.addEventListener('touchmove', (e) => { e.stopPropagation(); seek(e.touches[0].clientX); }, { passive: true });
+                        progressBar.addEventListener('touchstart', (e) => { e.stopPropagation(); e.preventDefault(); seek(e.touches[0].clientX); }, { passive: false });
+progressBar.addEventListener('touchmove', (e) => { e.stopPropagation(); e.preventDefault(); seek(e.touches[0].clientX); }, { passive: false });
                     }
 
                     const volBtn = c.querySelector('.volume-btn');
                     if (volBtn) volBtn.addEventListener('click', (e) => {
                         e.stopPropagation();
                         if (!this.player) return;
-                        const muted = this.player.getVolume() === 0;
-                        this.player.setVolume(muted ? 100 : 0);
+                        const muted = this.player.isMuted();
+muted ? this.player.unMute() : this.player.mute();
                         volBtn.innerHTML = muted ? '<i class="fas fa-volume-up"></i>' : '<i class="fas fa-volume-mute"></i>';
                     });
 
@@ -1748,13 +1763,24 @@ html::-webkit-scrollbar {
                     if (fsBtn) fsBtn.addEventListener('click', (e) => {
                         e.stopPropagation();
                         const target = c.querySelector('.video-player-container');
-                        if (!document.fullscreenElement) {
-                            (target.requestFullscreen || target.webkitRequestFullscreen).call(target);
-                            fsBtn.innerHTML = '<i class="fas fa-compress"></i>';
-                        } else {
-                            (document.exitFullscreen || document.webkitExitFullscreen).call(document);
-                            fsBtn.innerHTML = '<i class="fas fa-expand"></i>';
-                        }
+                        const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+if (isIOS) {
+    if (target.classList.contains('ios-fullscreen')) {
+        target.classList.remove('ios-fullscreen');
+        document.body.style.overflow = '';
+        fsBtn.innerHTML = '<i class="fas fa-expand"></i>';
+    } else {
+        target.classList.add('ios-fullscreen');
+        document.body.style.overflow = 'hidden';
+        fsBtn.innerHTML = '<i class="fas fa-compress"></i>';
+    }
+} else if (!document.fullscreenElement) {
+    (target.requestFullscreen || target.webkitRequestFullscreen).call(target);
+    fsBtn.innerHTML = '<i class="fas fa-compress"></i>';
+} else {
+    (document.exitFullscreen || document.webkitExitFullscreen).call(document);
+    fsBtn.innerHTML = '<i class="fas fa-expand"></i>';
+}
                     });
 
                     const overlay = c.querySelector('.video-overlay');
@@ -1768,16 +1794,20 @@ html::-webkit-scrollbar {
                         overlay.addEventListener('mouseleave', () => this.hideControlsAfterDelay());
                         overlay.addEventListener('touchstart', (e) => {
     const bar = c.querySelector('.modern-control-bar');
+    if (bar && bar.contains(e.target)) return;
+    e.preventDefault();
     if (bar && bar.classList.contains('visible')) {
         bar.classList.remove('visible');
     } else {
         show();
         this.hideControlsAfterDelay();
     }
-}, { passive: true });
+}, { passive: false });
                         
                         // CHANGE 5: Double-tap handling with new seek deltas (-10 min, +20 min)
                         overlay.addEventListener('touchstart', (e) => {
+                            const bar = c.querySelector('.modern-control-bar');
+                            if (bar && bar.contains(e.target)) return;
                             const touch = e.touches[0];
                             const rect = overlay.getBoundingClientRect();
                             const x = touch.clientX - rect.left;
