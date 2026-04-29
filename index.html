@@ -659,6 +659,24 @@ html::-webkit-scrollbar {
         .action-btn:disabled { opacity: 0.5; cursor: not-allowed; }
         .submit-btn { background-color: #059669; }
         .text-solution-btn, .video-solution-btn { background-color: #4b5563; }
+        .btn-gold-text-solution {
+            width: 44px;
+            height: 44px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(145deg, #fbbf24 0%, #d97706 100%);
+            box-shadow: 0 2px 8px rgba(180, 83, 9, 0.4), inset 0 1px 1px rgba(255, 255, 255, 0.3);
+            border: 1px solid #b45309;
+            cursor: pointer;
+            outline: none;
+            flex-shrink: 0;
+        }
+        .btn-gold-text-solution:disabled {
+            opacity: 0.4;
+            cursor: not-allowed;
+        }
         .solution-container { margin-top: 12px; display: none; }
         .solution-container.visible { display: block; }
         .solution-box {
@@ -1331,6 +1349,12 @@ html::-webkit-scrollbar {
                 }
                 
                 actionRow.appendChild(videoSolutionBtn);
+
+                const textSolutionBtn = document.createElement('button');
+                textSolutionBtn.innerHTML = `<svg style="width:22px;height:22px;color:white;filter:drop-shadow(0 1px 1px rgba(0,0,0,0.2));" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L14.8 9.2L22 12L14.8 14.8L12 22L9.2 14.8L2 12L9.2 9.2L12 2Z"/></svg>`;
+                textSolutionBtn.className = 'btn-gold-text-solution';
+                textSolutionBtn.title = 'Text Solution';
+                actionRow.appendChild(textSolutionBtn);
                 questionDiv.appendChild(actionRow);
 
                 // Correct answer box (objective only)
@@ -1383,6 +1407,7 @@ html::-webkit-scrollbar {
                     let submitted = false;
                     
                     videoSolutionBtn.disabled = true;
+                    textSolutionBtn.disabled = true;
                     submitBtn.onclick = () => {
                         if (submitted) return;
                         const selectedRadio = document.querySelector(`input[name="pq_${globalIndex}"]:checked`);
@@ -1399,12 +1424,14 @@ html::-webkit-scrollbar {
                         if (correctAnswerBox) correctAnswerBox.classList.add('visible');
                         
                         if (q.solutionVideoUrl) videoSolutionBtn.disabled = false;
+                        if (q.solutionText) textSolutionBtn.disabled = false;
                         submitted = true;
                         submitBtn.disabled = true;
                     };
                 } else {
                     
                     videoSolutionBtn.disabled = false;
+                    if (q.solutionText) textSolutionBtn.disabled = false;
                 }
 
                 // Solution toggle logic
@@ -1413,6 +1440,12 @@ html::-webkit-scrollbar {
                     const wasVisible = videoSolutionContainer.classList.contains('visible');
                     videoSolutionContainer.classList.toggle('visible', !wasVisible);
                     if (!wasVisible) textSolutionContainer.classList.remove('visible');
+                };
+
+                textSolutionBtn.onclick = () => {
+                    const wasVisible = textSolutionContainer.classList.contains('visible');
+                    textSolutionContainer.classList.toggle('visible', !wasVisible);
+                    if (!wasVisible) videoSolutionContainer.classList.remove('visible');
                 };
 
                 renderMathInElementWithDelay(questionDiv);
