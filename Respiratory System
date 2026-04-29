@@ -1,0 +1,2108 @@
+[
+  {
+    "questionOrder": 1,
+    "questionType": "Objective",
+    "questionText": "Normal respiratory rate in rabbit is",
+    "questionOptions":[
+      "$10-14$ times per minute",
+      "$12-16$ times per minute",
+      "$36$ times per minute",
+      "$16-20$ times per minute"
+    ],
+    "correctIndex": 2,
+    "solutionText": "The normal respiratory rate in a rabbit is higher than in humans, typically around $36$ times per minute."
+  },
+  {
+    "questionOrder": 2,
+    "questionType": "Objective",
+    "questionText": "Normal respiratory rate in adult man is",
+    "questionOptions":[
+      "$10-14$ times per minute",
+      "$36$ times per minute",
+      "$20-24$ times per minute",
+      "$16-20$ times per minute"
+    ],
+    "correctIndex": 3,
+    "solutionText": "In a healthy adult human, the normal resting respiratory rate is about $16-20$ breaths per minute."
+  },
+  {
+    "questionOrder": 3,
+    "questionType": "Objective",
+    "questionText": "Inhalation and exhalation of air is called",
+    "questionOptions":[
+      "Respiration",
+      "Breathing",
+      "Cellular respiration",
+      "Aspiration"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The physical process of taking in air (inhalation) and expelling it (exhalation) is defined as breathing or ventilation."
+  },
+  {
+    "questionOrder": 4,
+    "questionType": "Objective",
+    "questionText": "In anaerobic respiration",
+    "questionOptions":[
+      "$CO_2$ is taken in",
+      "Oxygen is taken in",
+      "$O_2$ is given out",
+      "$CO_2$ is given out"
+    ],
+    "correctIndex": 3,
+    "solutionText": "In anaerobic respiration, glucose is broken down without oxygen, typically producing alcohol/lactic acid and releasing $CO_2$."
+  },
+  {
+    "questionOrder": 5,
+    "questionType": "Objective",
+    "questionText": "Cellular respiration occurs in",
+    "questionOptions":[
+      "Ribosome",
+      "Mitochondria",
+      "Golgi body",
+      "Nucleus"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Cellular aerobic respiration occurs in the mitochondria, which are known as the powerhouses of the cell."
+  },
+  {
+    "questionOrder": 6,
+    "questionType": "Objective",
+    "questionText": "In mature mammalian RBC's the respiration is",
+    "questionOptions":[
+      "Aerobic",
+      "Anaerobic",
+      "Sometimes aerobic and sometimes anaerobic",
+      "Absent"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Mature mammalian red blood cells lack mitochondria, so they exclusively rely on anaerobic respiration (glycolysis) for energy."
+  },
+  {
+    "questionOrder": 7,
+    "questionType": "Objective",
+    "questionText": "Lungs are covered with the covering of",
+    "questionOptions":[
+      "Pleural membrane",
+      "Pericardium",
+      "Peritoneum",
+      "Mucous membrane"
+    ],
+    "correctIndex": 0,
+    "solutionText": "The lungs are enclosed and protected by a double-layered serous membrane called the pleural membrane."
+  },
+  {
+    "questionOrder": 8,
+    "questionType": "Objective",
+    "questionText": "Rate of respiration is slowest at",
+    "questionOptions":[
+      "Sleeping",
+      "Playing tennis",
+      "Running",
+      "Eating food"
+    ],
+    "correctIndex": 0,
+    "solutionText": "The metabolic demand is lowest during sleep, resulting in the slowest rate of respiration compared to active states."
+  },
+  {
+    "questionOrder": 9,
+    "questionType": "Objective",
+    "questionText": "Respiration centre is located in",
+    "questionOptions":[
+      "Cerebellum",
+      "Medulla oblongata",
+      "Olfactory lobe",
+      "Hypothalamus"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The primary respiratory control center is located in the medulla oblongata of the brainstem."
+  },
+  {
+    "questionOrder": 10,
+    "questionType": "Objective",
+    "questionText": "Respiratory centre of brain is stimulated by",
+    "questionOptions":[
+      "$CO_2$ content in venous blood",
+      "$CO_2$ content in arterial blood",
+      "$O_2$ content in venous blood",
+      "$O_2$ content in arterial blood"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Central chemoreceptors in the medulla are primarily stimulated by an increase in $P_{CO_2}$ (and consequently decreased pH) in the arterial blood supplying the brain."
+  },
+  {
+    "questionOrder": 11,
+    "questionType": "Objective",
+    "questionText": "The thoracic cavity and abdominal cavity are formed by partition termed as",
+    "questionOptions":[
+      "Diaphragm",
+      "Rib",
+      "Abdominal wall",
+      "All"
+    ],
+    "correctIndex": 0,
+    "solutionText": "The diaphragm is a dome-shaped muscular partition that separates the thoracic cavity from the abdominal cavity in mammals."
+  },
+  {
+    "questionOrder": 12,
+    "questionType": "Objective",
+    "questionText": "The lungs are protected by",
+    "questionOptions":[
+      "Breast bone",
+      "Ribs on sides",
+      "Vertebral column",
+      "All"
+    ],
+    "correctIndex": 3,
+    "solutionText": "The lungs are enclosed within the thoracic cage, which is formed by the sternum (breast bone) anteriorly, ribs laterally, and the vertebral column posteriorly."
+  },
+  {
+    "questionOrder": 13,
+    "questionType": "Objective",
+    "questionText": "Number of lobes in lungs of man and rabbit are",
+    "questionOptions":[
+      "$5$ each",
+      "$6$ and $5$ respectively",
+      "$5$ and $6$ respectively",
+      "$6$ each"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Man has 5 lobes (3 in the right lung, 2 in the left), whereas a rabbit has 6 lobes (4 in the right, 2 in the left)."
+  },
+  {
+    "questionOrder": 14,
+    "questionType": "Objective",
+    "questionText": "No. of lobes in right and left lungs of man are",
+    "questionOptions":[
+      "Two, three",
+      "Four, two",
+      "Three, two",
+      "Six, three"
+    ],
+    "correctIndex": 2,
+    "solutionText": "In humans, the right lung has three lobes (superior, middle, inferior) and the left lung has two lobes (superior, inferior)."
+  },
+  {
+    "questionOrder": 15,
+    "questionType": "Objective",
+    "questionText": "No. of lobes in right and left lungs of rabbit are",
+    "questionOptions":[
+      "Two, four",
+      "Four, two",
+      "Four, five",
+      "Six, three"
+    ],
+    "correctIndex": 1,
+    "solutionText": "In a rabbit, the right lung consists of four lobes and the left lung consists of two lobes."
+  },
+  {
+    "questionOrder": 16,
+    "questionType": "Objective",
+    "questionText": "Site of gaseous exchange in lungs is",
+    "questionOptions":[
+      "Tracheoles",
+      "Alveoli",
+      "Bronchioles",
+      "Pulmonary chamber"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Alveoli are the tiny air sacs in the lungs where the actual exchange of oxygen and carbon dioxide occurs."
+  },
+  {
+    "questionOrder": 17,
+    "questionType": "Objective",
+    "questionText": "The narrowest and most numerous tubes of lungs are termed as",
+    "questionOptions":[
+      "Hilum",
+      "Bronchus",
+      "Alveoli",
+      "Bronchioles"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Bronchioles are the finest and most numerous conducting tubes in the respiratory tree before reaching the alveoli."
+  },
+  {
+    "questionOrder": 18,
+    "questionType": "Objective",
+    "questionText": "Which of the following is the last part of the branches in lung that takes part in exchange of gases?",
+    "questionOptions":[
+      "Tracheoles",
+      "Bronchioles",
+      "Alveolar sacs",
+      "Alveoli"
+    ],
+    "correctIndex": 3,
+    "solutionText": "The alveoli represent the ultimate terminal functional units of the respiratory tract where gas exchange takes place."
+  },
+  {
+    "questionOrder": 19,
+    "questionType": "Objective",
+    "questionText": "Which of the following is not a respiratory structure in man?",
+    "questionOptions":[
+      "Nasal chamber",
+      "Oesophagus",
+      "Pharynx",
+      "Trachea"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The oesophagus is a part of the digestive system (food pipe), not the respiratory system."
+  },
+  {
+    "questionOrder": 20,
+    "questionType": "Objective",
+    "questionText": "Which of the following does not contribute to breathing movements in mammals?",
+    "questionOptions":[
+      "Larynx",
+      "Abdominal muscles",
+      "Diaphragm",
+      "Ribs"
+    ],
+    "correctIndex": 0,
+    "solutionText": "The larynx is the voice box and serves as an airway, but it does not actively participate in the muscular movements of breathing unlike the diaphragm, ribs, and abdominal muscles."
+  },
+  {
+    "questionOrder": 21,
+    "questionType": "Objective",
+    "questionText": "Respiration in rabbit/man in helped by",
+    "questionOptions":[
+      "Pelvic girdle",
+      "Intercostal muscles",
+      "Biceps muscles",
+      "None"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Intercostal muscles (located between the ribs) contract and relax to alter the volume of the thoracic cavity during breathing."
+  },
+  {
+    "questionOrder": 22,
+    "questionType": "Objective",
+    "questionText": "Diaphragm during inspiration",
+    "questionOptions":[
+      "Contracts",
+      "Expands",
+      "Remains unchanged",
+      "None"
+    ],
+    "correctIndex": 0,
+    "solutionText": "During inspiration, the diaphragm contracts and flattens, increasing the vertical volume of the thoracic cavity."
+  },
+  {
+    "questionOrder": 23,
+    "questionType": "Objective",
+    "questionText": "The ventilation movement of the lungs in mammals are governed by",
+    "questionOptions":[
+      "Muscular walls of the lungs",
+      "Intercostal muscles",
+      "Diaphragm",
+      "Intercostal muscles and diaphragm"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Ventilation in mammals is primarily driven by the coordinated action of both the intercostal muscles and the diaphragm."
+  },
+  {
+    "questionOrder": 24,
+    "questionType": "Objective",
+    "questionText": "Diaphragm expands and becomes dome shaped during",
+    "questionOptions":[
+      "Inspiration",
+      "Expiration",
+      "Forced inspiration",
+      "All"
+    ],
+    "correctIndex": 1,
+    "solutionText": "During expiration, the diaphragm relaxes and returns to its original dome shape, decreasing thoracic volume."
+  },
+  {
+    "questionOrder": 25,
+    "questionType": "Objective",
+    "questionText": "Lungs have a large number of alveoli for",
+    "questionOptions":[
+      "Having spongy texture and proper shape",
+      "More surface area for diffusion of gases",
+      "More space for increasing volume of inspiration",
+      "More nerve supply"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The primary advantage of having millions of alveoli is to vastly increase the respiratory surface area for efficient gas diffusion."
+  },
+  {
+    "questionOrder": 26,
+    "questionType": "Objective",
+    "questionText": "The common place in nasal cavity where nose bleeding occurs is called as",
+    "questionOptions":[
+      "Adam's apple",
+      "Schneiderian membrane",
+      "Little's area",
+      "Mesethmoid"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Little's area (Kiesselbach's plexus) is a highly vascularized region in the anterior part of the nasal septum and is the most common site of epistaxis (nosebleeds)."
+  },
+  {
+    "questionOrder": 27,
+    "questionType": "Objective",
+    "questionText": "The sensory portion of olfaction in the nasal cavity of rabbit is known as",
+    "questionOptions":[
+      "Neuro epithelium",
+      "Nasal conchae",
+      "Schneiderian membrane",
+      "Olfactoreceptors"
+    ],
+    "correctIndex": 2,
+    "solutionText": "The olfactory epithelium, also known as the Schneiderian membrane, is the sensory tissue responsible for smell in the nasal cavity."
+  },
+  {
+    "questionOrder": 28,
+    "questionType": "Objective",
+    "questionText": "Food does not enter windpipe due to structure called",
+    "questionOptions":[
+      "Glottis",
+      "Epiglottis",
+      "Pharynx",
+      "Larynx"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The epiglottis is a cartilaginous flap that acts as a lid over the glottis during swallowing to prevent food from entering the trachea."
+  },
+  {
+    "questionOrder": 29,
+    "questionType": "Objective",
+    "questionText": "Glottis is opening in the floor of",
+    "questionOptions":[
+      "Diaphragm",
+      "Pharyngeal cavity",
+      "Trachea",
+      "None"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The glottis is the opening situated in the floor of the pharyngeal cavity leading into the larynx and trachea."
+  },
+  {
+    "questionOrder": 30,
+    "questionType": "Objective",
+    "questionText": "Sound box in rabbit/human is equivalent to",
+    "questionOptions":[
+      "Pharynx",
+      "Larynx",
+      "Trachea",
+      "Lungs"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The larynx houses the vocal cords and is commonly referred to as the sound box or voice box in mammals."
+  },
+  {
+    "questionOrder": 31,
+    "questionType": "Objective",
+    "questionText": "Vocal cord are present in",
+    "questionOptions":[
+      "Oesophagus",
+      "Larynx",
+      "Glottis",
+      "Pancreatic duct"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Vocal cords are paired folds of tissue located inside the larynx."
+  },
+  {
+    "questionOrder": 32,
+    "questionType": "Objective",
+    "questionText": "No. of vocal cords present in rabbit is",
+    "questionOptions":[
+      "$1$ pair",
+      "$2$ pair",
+      "$3$ pair",
+      "Single"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Rabbits possess $2$ pairs of vocal cords (one true pair and one false pair) in their larynx."
+  },
+  {
+    "questionOrder": 33,
+    "questionType": "Objective",
+    "questionText": "No. of true vocal cords in rabbit is",
+    "questionOptions":[
+      "$1$ pair",
+      "$2$ pair",
+      "$3$ pair",
+      "Single"
+    ],
+    "correctIndex": 0,
+    "solutionText": "While they have 2 pairs of vocal cords in total, only $1$ pair constitutes the true vocal cords involved in sound production."
+  },
+  {
+    "questionOrder": 34,
+    "questionType": "Objective",
+    "questionText": "Total no. of cartilage present in the larynx of rabbit is",
+    "questionOptions":[
+      "$4$",
+      "$6$",
+      "$8$",
+      "$5$"
+    ],
+    "correctIndex": 3,
+    "solutionText": "There are $5$ cartilages supporting the larynx in a rabbit: one thyroid, one cricoid, two arytenoids, and one epiglottis."
+  },
+  {
+    "questionOrder": 35,
+    "questionType": "Objective",
+    "questionText": "Total no. of cartilage present in the larynx of man is",
+    "questionOptions":[
+      "$4$",
+      "$6$",
+      "$8$",
+      "$9$"
+    ],
+    "correctIndex": 3,
+    "solutionText": "The human larynx consists of $9$ cartilages (3 unpaired: thyroid, cricoid, epiglottis; and 3 paired: arytenoid, corniculate, cuneiform)."
+  },
+  {
+    "questionOrder": 36,
+    "questionType": "Objective",
+    "questionText": "Ring like/signet ring shaped cartilage of larynx is",
+    "questionOptions":[
+      "Thyroid cartilage",
+      "Aryteroid cartilage",
+      "Cricoid cartilage",
+      "Cartilage of Santorini"
+    ],
+    "correctIndex": 2,
+    "solutionText": "The cricoid cartilage is the only complete ring of cartilage around the trachea, shaped like a signet ring."
+  },
+  {
+    "questionOrder": 37,
+    "questionType": "Objective",
+    "questionText": "Which cartilage is/are absent in rabbit but present in humans?",
+    "questionOptions":[
+      "Thyroid",
+      "Cuneiform & corniculates",
+      "Epiglottis",
+      "Cricoid"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Rabbits lack the cuneiform and corniculate cartilages, which are present as paired cartilages in the human larynx."
+  },
+  {
+    "questionOrder": 38,
+    "questionType": "Objective",
+    "questionText": "Paired cartilage is",
+    "questionOptions":[
+      "Epiglottis",
+      "Arytenoid",
+      "Thyroid",
+      "Cricoid"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Among the options, the arytenoid cartilages are paired, while the epiglottis, thyroid, and cricoid are unpaired."
+  },
+  {
+    "questionOrder": 39,
+    "questionType": "Objective",
+    "questionText": "Adam's apple represents",
+    "questionOptions":[
+      "Arytenoid cartilage of larynx",
+      "Cricoid cartilage of larynx",
+      "Thyroid cartilage of larynx",
+      "Sound box in man"
+    ],
+    "correctIndex": 2,
+    "solutionText": "The Adam's apple is the laryngeal prominence formed by the angle of the thyroid cartilage."
+  },
+  {
+    "questionOrder": 40,
+    "questionType": "Objective",
+    "questionText": "The long trachea of man/rabbit contains",
+    "questionOptions":[
+      "Buccal cord",
+      "Thyroid",
+      "Complete hyaline cartilages",
+      "Incomplete hyaline cartilages"
+    ],
+    "correctIndex": 3,
+    "solutionText": "The trachea is supported by C-shaped, incomplete rings of hyaline cartilage that prevent it from collapsing."
+  },
+  {
+    "questionOrder": 41,
+    "questionType": "Objective",
+    "questionText": "Hyaline cartilage can be found in respiratory tract upto",
+    "questionOptions":[
+      "Trachea",
+      "Primary bronchus",
+      "Secondary bronchus",
+      "Tertiary bronchus"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Hyaline cartilaginous rings and plates support the airway from the trachea down to the tertiary bronchi."
+  },
+  {
+    "questionOrder": 42,
+    "questionType": "Objective",
+    "questionText": "Which of the following prevents collapsing of trachea?",
+    "questionOptions":[
+      "Muscles",
+      "Diaphragm",
+      "Ribs",
+      "Cartilaginous rings"
+    ],
+    "correctIndex": 3,
+    "solutionText": "The incomplete C-shaped cartilaginous rings maintain the patency of the trachea by preventing its collapse during negative pressure inspiration."
+  },
+  {
+    "questionOrder": 43,
+    "questionType": "Objective",
+    "questionText": "Each lobe of lungs is actually the",
+    "questionOptions":[
+      "Primary bronchus",
+      "Secondary bronchus",
+      "Tertiary bronchus",
+      "Bronchioles"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The primary bronchus branches into secondary bronchi, with each secondary bronchus supplying one specific lobe of the lung."
+  },
+  {
+    "questionOrder": 44,
+    "questionType": "Objective",
+    "questionText": "Left primary bronchi is",
+    "questionOptions":[
+      "Short and wide",
+      "Long and narrow",
+      "Short and narrow",
+      "Long and wide"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The left primary bronchus is longer, narrower, and more horizontal compared to the right primary bronchus."
+  },
+  {
+    "questionOrder": 45,
+    "questionType": "Objective",
+    "questionText": "Right primary bronchi is",
+    "questionOptions":[
+      "Short and wide",
+      "Long and narrow",
+      "Short and narrow",
+      "Long and wide"
+    ],
+    "correctIndex": 0,
+    "solutionText": "The right primary bronchus is shorter, wider, and more vertically aligned than the left."
+  },
+  {
+    "questionOrder": 46,
+    "questionType": "Objective",
+    "questionText": "Layer of uneven columnar cells which forms tracheal lining are component of",
+    "questionOptions":[
+      "Brush border epithelium",
+      "Stratified epithelium",
+      "Pseudostratified epithelium",
+      "Ciliated epithelium"
+    ],
+    "correctIndex": 2,
+    "solutionText": "The trachea is lined by a pseudostratified ciliated columnar epithelium, which appears multi-layered due to staggered nuclei but is actually a single layer."
+  },
+  {
+    "questionOrder": 47,
+    "questionType": "Objective",
+    "questionText": "Inspiration & expiration are respectively",
+    "questionOptions":[
+      "Active and passive process",
+      "Passive and active process",
+      "Both are active process",
+      "None"
+    ],
+    "correctIndex": 0,
+    "solutionText": "During quiet breathing, inspiration requires muscle contraction (active), while expiration relies on lung recoil and muscle relaxation (passive)."
+  },
+  {
+    "questionOrder": 48,
+    "questionType": "Objective",
+    "questionText": "The exchange of gases between alveolar air and alveolar capillaries occurs by",
+    "questionOptions":[
+      "Osmosis",
+      "Active transport",
+      "Absorption",
+      "Diffusion"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Gas exchange in the alveoli occurs via simple diffusion driven by partial pressure gradients."
+  },
+  {
+    "questionOrder": 49,
+    "questionType": "Objective",
+    "questionText": "Which animal breaths by positive pressure?",
+    "questionOptions":[
+      "Fish",
+      "Human",
+      "Bird",
+      "Frog"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Frogs employ positive pressure breathing, forcibly gulping air into their lungs, whereas mammals use negative pressure."
+  },
+  {
+    "questionOrder": 50,
+    "questionType": "Objective",
+    "questionText": "$CO_2$ is transported from tissues to respiratory surface by only",
+    "questionOptions":[
+      "Plasma and RBC's",
+      "Plasma",
+      "RBC's",
+      "RBC's and WBC's"
+    ],
+    "correctIndex": 0,
+    "solutionText": "$CO_2$ is transported in the blood as dissolved gas in plasma, as carbaminohemoglobin in RBCs, and mostly as bicarbonate ions formed in RBCs and transported in plasma."
+  },
+  {
+    "questionOrder": 51,
+    "questionType": "Objective",
+    "questionText": "$CO_2$ is carried in the blood",
+    "questionOptions":[
+      "As dissolved gas",
+      "As bicarbonates",
+      "In combination with haemoglobin",
+      "All of the above"
+    ],
+    "correctIndex": 3,
+    "solutionText": "$CO_2$ is carried in all three forms: dissolved in plasma ($\sim 7\%$), bound to hemoglobin ($\sim 23\%$), and as bicarbonate ions ($\sim 70\%$)."
+  },
+  {
+    "questionOrder": 52,
+    "questionType": "Objective",
+    "questionText": "Maximum percentage of $CO_2$ is transported in blood in the form of",
+    "questionOptions":[
+      "Bicarbonates",
+      "Carbonic acid",
+      "Dissolved in plasma",
+      "Carbamino haemoglobin"
+    ],
+    "correctIndex": 0,
+    "solutionText": "About $70\%$ of the $CO_2$ transported in the blood is converted into bicarbonate ions ($HCO_3^-$) inside red blood cells."
+  },
+  {
+    "questionOrder": 53,
+    "questionType": "Objective",
+    "questionText": "About $7\\%$ of carbondioxide is dissolved in",
+    "questionOptions":[
+      "Tissue fluid",
+      "Lymph",
+      "Blood plasma",
+      "Blood"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Approximately $7\%$ of carbon dioxide is transported simply dissolved in the aqueous environment of the blood plasma."
+  },
+  {
+    "questionOrder": 54,
+    "questionType": "Objective",
+    "questionText": "How is $O_2$ transported by blood invertebrates?",
+    "questionOptions":[
+      "Combined with haemoglobin",
+      "Adsorbed to the surface of blood corpuscles",
+      "Dissolved in plasma",
+      "All of the above"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Invertebrates employ multiple transport mechanisms for $O_2$, including various pigments dissolved in plasma or housed in cells, depending on the species."
+  },
+  {
+    "questionOrder": 55,
+    "questionType": "Objective",
+    "questionText": "One molecule of haemoglobin carries",
+    "questionOptions":[
+      "One molecule of $O_2$",
+      "Two molecule of $O_2$",
+      "Three molecule of $O_2$",
+      "Four molecule of $O_2$"
+    ],
+    "correctIndex": 3,
+    "solutionText": "A single hemoglobin molecule has four heme groups, each capable of binding to one $O_2$ molecule, allowing it to carry up to four $O_2$ molecules."
+  },
+  {
+    "questionOrder": 56,
+    "questionType": "Objective",
+    "questionText": "Respiration results in",
+    "questionOptions":[
+      "Release of $O_2$",
+      "Anabolism",
+      "Transfer of $CO_2$",
+      "Release of $CO_2$"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Cellular respiration is a catabolic process that oxidizes glucose to produce energy, resulting in the release of $CO_2$ as a byproduct."
+  },
+  {
+    "questionOrder": 57,
+    "questionType": "Objective",
+    "questionText": "Bicarbonate formed inside erythrocytes passes out into plasma while chloride enters the erythrocytes, this phenomenon is called",
+    "questionOptions":[
+      "Bicarbonates shift",
+      "Carbonation",
+      "Hamburger phenomenon",
+      "Carbochlorosis"
+    ],
+    "correctIndex": 2,
+    "solutionText": "The exchange of bicarbonate ions out of the RBC and chloride ions into the RBC to maintain electrical neutrality is known as the chloride shift or Hamburger phenomenon."
+  },
+  {
+    "questionOrder": 58,
+    "questionType": "Objective",
+    "questionText": "Conversion of haemoglobin into oxy-haemoglobin is a",
+    "questionOptions":[
+      "Oxidation process",
+      "Reduction process",
+      "Oxygenation process",
+      "None"
+    ],
+    "correctIndex": 2,
+    "solutionText": "The binding of oxygen to the iron(II) in hemoglobin is a reversible oxygenation process, not an oxidation (valency of iron remains $+2$)."
+  },
+  {
+    "questionOrder": 59,
+    "questionType": "Objective",
+    "questionText": "An active cell gets more oxygen than an inactive cell from oxyhaemoglobin because of its",
+    "questionOptions":[
+      "Low $P_{O_2}$",
+      "High $P_{O_2}$",
+      "Low $P_{CO_2}$",
+      "High $P_{CO_2}$"
+    ],
+    "correctIndex": 3,
+    "solutionText": "An active cell produces more $CO_2$, creating a high $P_{CO_2}$ environment which decreases hemoglobin's affinity for $O_2$ (Bohr effect), thereby releasing more oxygen."
+  },
+  {
+    "questionOrder": 60,
+    "questionType": "Objective",
+    "questionText": "Oxy-haemoglobin dissociates at",
+    "questionOptions":[
+      "Low $P_{O_2}$ in tissues",
+      "High $P_{O_2}$ in tissue",
+      "Equal $P_{O_2}$",
+      "All times irrespective of $P_{O_2}$"
+    ],
+    "correctIndex": 0,
+    "solutionText": "In the tissues where oxygen is consumed, the $P_{O_2}$ is low, which triggers the dissociation of oxyhemoglobin to release oxygen."
+  },
+  {
+    "questionOrder": 61,
+    "questionType": "Objective",
+    "questionText": "$CO_2$ entering erythrocytes reacts with water to form carbonic acid. The enzyme is",
+    "questionOptions":[
+      "Carbonic anhydrase",
+      "Carboxy peptidase",
+      "Hydrolase",
+      "Oxidoreductase"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Carbonic anhydrase is a highly efficient enzyme present in red blood cells that rapidly catalyzes the hydration of $CO_2$ to carbonic acid."
+  },
+  {
+    "questionOrder": 62,
+    "questionType": "Objective",
+    "questionText": "Oxy-haemoglobin dissociation curve is",
+    "questionOptions":[
+      "Sigmoid",
+      "Hyperbolic",
+      "Straight line",
+      "Parabolic"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Due to cooperative binding between the four subunits of hemoglobin, its oxygen dissociation curve exhibits a characteristic S-shaped or sigmoidal curve."
+  },
+  {
+    "questionOrder": 63,
+    "questionType": "Objective",
+    "questionText": "Oxygen myoglobin dissociation curve is",
+    "questionOptions":[
+      "Sigmoid",
+      "Hyperbolic",
+      "Straight line",
+      "Parabolic"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Myoglobin consists of a single polypeptide chain with one heme group, thus lacking cooperative binding, which results in a hyperbolic dissociation curve."
+  },
+  {
+    "questionOrder": 64,
+    "questionType": "Objective",
+    "questionText": "The fastest enzyme present in the RBC of man is",
+    "questionOptions":[
+      "Carboxy peptidase",
+      "Hydrolase",
+      "Carbonic anhydrase",
+      "Oxido reductase"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Carbonic anhydrase operates at incredibly high speeds (catalytic rate up to $10^6$ reactions per second), making it one of the fastest known enzymes."
+  },
+  {
+    "questionOrder": 65,
+    "questionType": "Objective",
+    "questionText": "Amount of oxygen absorbed by $1 \\text{ gm}$ of haemoglobin is",
+    "questionOptions":[
+      "$1.34 \\text{ ml}$",
+      "$13.4 \\text{ ml}$",
+      "$20 \\text{ ml}$",
+      "$134 \\text{ ml}$"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Under standard conditions, $1 \\text{ g}$ of pure hemoglobin can combine with approximately $1.34 \\text{ ml}$ of oxygen."
+  },
+  {
+    "questionOrder": 66,
+    "questionType": "Objective",
+    "questionText": "If concentration of $CO_2$ is more then curve of oxygen will shift towards",
+    "questionOptions":[
+      "Right",
+      "Left",
+      "Central",
+      "None"
+    ],
+    "correctIndex": 0,
+    "solutionText": "An increase in $P_{CO_2}$ lowers the affinity of hemoglobin for oxygen (Bohr effect), causing the oxygen dissociation curve to shift to the right."
+  },
+  {
+    "questionOrder": 67,
+    "questionType": "Objective",
+    "questionText": "Combination of $O_2$ with haemoglobin is facilitated by",
+    "questionOptions":[
+      "Entry of $CO$ in blood",
+      "Increasing $O_2$ in blood",
+      "Increasing $CO_2\\%$ in blood",
+      "Decreasing $O_2\\%$ in blood"
+    ],
+    "correctIndex": 1,
+    "solutionText": "A higher concentration or partial pressure of $O_2$ in the blood drives the forward reaction of oxygen binding to hemoglobin."
+  },
+  {
+    "questionOrder": 68,
+    "questionType": "Objective",
+    "questionText": "Which gas forms most stable compound with haemoglobin of RBC's ?",
+    "questionOptions":[
+      "Oxygen",
+      "Carbondioxide",
+      "Nitrogen",
+      "Carbon monoxide"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Carbon monoxide has an affinity for hemoglobin about 200-250 times greater than that of oxygen, forming a highly stable compound called carboxyhemoglobin."
+  },
+  {
+    "questionOrder": 69,
+    "questionType": "Objective",
+    "questionText": "$CO$ combines with haemoglobin to form irreversible compound called",
+    "questionOptions":[
+      "Carbonic acid",
+      "Carbamino haemoglobin",
+      "Carboxy haemoglobin",
+      "None"
+    ],
+    "correctIndex": 2,
+    "solutionText": "The complex formed when carbon monoxide strongly binds to the iron atom in hemoglobin is termed carboxyhemoglobin."
+  },
+  {
+    "questionOrder": 70,
+    "questionType": "Objective",
+    "questionText": "Which of the following gas has highest affinity with Hb?",
+    "questionOptions":[
+      "$CO_2$",
+      "$O_2$",
+      "$CO$",
+      "$N_2$"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Carbon monoxide ($CO$) binds to hemoglobin with an affinity approximately 200-250 times greater than that of oxygen."
+  },
+  {
+    "questionOrder": 71,
+    "questionType": "Objective",
+    "questionText": "How many times $CO$ has affinity for haemoglobin as compared to $O_2$?",
+    "questionOptions":[
+      "$1000$ times",
+      "$200$ times",
+      "$20$ times",
+      "$2$ times"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Carbon monoxide binds to the hemoglobin molecule about 200 to 250 times more tightly than oxygen."
+  },
+  {
+    "questionOrder": 72,
+    "questionType": "Objective",
+    "questionText": "Oxygen haemoglobin dissociation curve will shift to right when",
+    "questionOptions":[
+      "$O_2$ concentration increases",
+      "$CO_2$ concentration increases",
+      "pH decreases",
+      "Both b & c"
+    ],
+    "correctIndex": 3,
+    "solutionText": "The curve shifts to the right (decreased $O_2$ affinity) under conditions of increased $P_{CO_2}$, increased temperature, or decreased pH (Bohr effect)."
+  },
+  {
+    "questionOrder": 73,
+    "questionType": "Objective",
+    "questionText": "Higher the $P_{CO_2}$ in tissue level more the dissociation of oxyhaemoglobin. This statement is",
+    "questionOptions":[
+      "Halden's effect",
+      "Bohr's effect",
+      "Chloride shift",
+      "None"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The phenomenon where elevated carbon dioxide levels and lower pH promote oxygen dissociation from hemoglobin is known as the Bohr effect."
+  },
+  {
+    "questionOrder": 74,
+    "questionType": "Objective",
+    "questionText": "According to Halden's effect, oxyhaemoglobin is a strong",
+    "questionOptions":[
+      "Acid",
+      "Base",
+      "Buffer",
+      "None"
+    ],
+    "correctIndex": 0,
+    "solutionText": "The Haldane effect postulates that oxygenation of hemoglobin in the lungs makes it behave as a stronger acid, facilitating the release of protons and $CO_2$."
+  },
+  {
+    "questionOrder": 75,
+    "questionType": "Objective",
+    "questionText": "Bohr's effect promotes",
+    "questionOptions":[
+      "$O_2$ transport",
+      "$CO_2$ transport",
+      "pH of blood",
+      "None"
+    ],
+    "correctIndex": 0,
+    "solutionText": "By decreasing hemoglobin's affinity for $O_2$ in $CO_2$-rich tissues, the Bohr effect actively promotes the offloading and transport of oxygen to metabolizing cells."
+  },
+  {
+    "questionOrder": 76,
+    "questionType": "Objective",
+    "questionText": "$97\\%$ of $O_2$ is transported in form of",
+    "questionOptions":[
+      "Carboxyhaemoglobin",
+      "In dissolved form",
+      "Oxyhaemoglobin",
+      "Bicarbonate form"
+    ],
+    "correctIndex": 2,
+    "solutionText": "About $97\%$ of oxygen is transported by red blood cells chemically bound to hemoglobin as oxyhemoglobin."
+  },
+  {
+    "questionOrder": 77,
+    "questionType": "Objective",
+    "questionText": "In the process of transport of $CO_2$ which phenomenon occurs between RBC and plasma?",
+    "questionOptions":[
+      "Osmosis",
+      "Chloride shift",
+      "Adsorption",
+      "Bohr's shift"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The exchange of bicarbonate ions out of the RBC and chloride ions into the RBC across the plasma membrane is the chloride shift."
+  },
+  {
+    "questionOrder": 78,
+    "questionType": "Objective",
+    "questionText": "Inspired air contains",
+    "questionOptions":[
+      "$O_2$ only",
+      "$O_2$ and $CO_2$",
+      "$O_2$, $N_2$ and water vapour",
+      "All of the above"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Inspired atmospheric air is a mixture containing mostly Nitrogen, Oxygen, a small amount of $CO_2$, water vapor, and trace gases."
+  },
+  {
+    "questionOrder": 79,
+    "questionType": "Objective",
+    "questionText": "Which of the following can be termed as opposite of Bohr's effect?",
+    "questionOptions":[
+      "Haldane's effects",
+      "Hamburger's phenomenon",
+      "Heming-Breuer reflex",
+      "None"
+    ],
+    "correctIndex": 0,
+    "solutionText": "While the Bohr effect describes how $CO_2$ and $H^+$ affect $O_2$ binding, the Haldane effect describes how $O_2$ binding affects $CO_2$ and $H^+$ carriage, making them conceptual opposites."
+  },
+  {
+    "questionOrder": 80,
+    "questionType": "Objective",
+    "questionText": "Surfactants are found in",
+    "questionOptions":[
+      "Larynx",
+      "Alveoli",
+      "Liver",
+      "Brain"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Pulmonary surfactant is secreted by Type II alveolar cells in the lungs to reduce surface tension and prevent alveolar collapse."
+  },
+  {
+    "questionOrder": 81,
+    "questionType": "Objective",
+    "questionText": "The blood coming out of lungs is richer than that entering into lungs in",
+    "questionOptions":[
+      "$O_2$",
+      "$CO_2$",
+      "Both",
+      "None"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Blood passing through pulmonary capillaries picks up oxygen and dumps carbon dioxide; thus, it emerges enriched in $O_2$."
+  },
+  {
+    "questionOrder": 82,
+    "questionType": "Objective",
+    "questionText": "$CO_2$ transport is favoured by",
+    "questionOptions":[
+      "Bohr's effect",
+      "Haldane's effect",
+      "Heming-Breuer reflex",
+      "None"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The Haldane effect dictates that deoxygenated blood has a higher capacity to carry $CO_2$, thus favoring its transport."
+  },
+  {
+    "questionOrder": 83,
+    "questionType": "Objective",
+    "questionText": "Total surface area provided by alveoli of lungs for gaseous exchange is about",
+    "questionOptions":[
+      "$50 \\text{ m}^2$",
+      "$100 \\text{ m}^2$",
+      "$1000 \\text{ m}^2$",
+      "$1 \\text{ m}^2$"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The approximately 300 million alveoli in adult human lungs provide a massive total surface area of roughly $70-100 \\text{ m}^2$ for gas exchange."
+  },
+  {
+    "questionOrder": 84,
+    "questionType": "Objective",
+    "questionText": "Alveoli is lined by",
+    "questionOptions":[
+      "Cubodial epithelium",
+      "Simple squamous epithelium",
+      "Stratified squamous epithelium",
+      "Pseudostratified columnar epithelium"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The alveolar walls are extremely thin, primarily lined with simple squamous epithelium (Type I pneumocytes) to facilitate rapid gas diffusion."
+  },
+  {
+    "questionOrder": 85,
+    "questionType": "Objective",
+    "questionText": "The function of tracheal cilia is to",
+    "questionOptions":[
+      "Pass mucus out",
+      "Pass mucus in",
+      "Pass air out",
+      "Pass air in"
+    ],
+    "correctIndex": 0,
+    "solutionText": "The microscopic cilia lining the trachea continuously beat upward, acting as an escalator to move mucus and trapped dust/pathogens out toward the pharynx."
+  },
+  {
+    "questionOrder": 86,
+    "questionType": "Objective",
+    "questionText": "Epithelium lining in bronchiole is",
+    "questionOptions":[
+      "Pseudostratified columnar",
+      "Pseudostratified sensory",
+      "Squamous sensory",
+      "Cuboidal and columnar"
+    ],
+    "correctIndex": 3,
+    "solutionText": "As the respiratory tract branches into smaller bronchioles, the epithelium transitions from pseudostratified ciliated columnar to simple columnar and then to simple cuboidal."
+  },
+  {
+    "questionOrder": 87,
+    "questionType": "Objective",
+    "questionText": "Oxygen carried by blood is liberated in",
+    "questionOptions":[
+      "Arteries",
+      "Capillaries of body",
+      "Capillaries of lungs",
+      "Heart"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Oxygen bound to hemoglobin is released (liberated) into the tissues as blood passes through the systemic capillaries."
+  },
+  {
+    "questionOrder": 88,
+    "questionType": "Objective",
+    "questionText": "Which one of the following vertebrate organ receives the oxygenated blood only?",
+    "questionOptions":[
+      "Lung",
+      "Liver",
+      "Spleen",
+      "Brain"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Unlike the liver (hepatic portal vein) or lungs (pulmonary artery), the spleen exclusively receives oxygenated blood via the splenic artery."
+  },
+  {
+    "questionOrder": 89,
+    "questionType": "Objective",
+    "questionText": "If a man living at sea shore shifts to high mountains, they will have",
+    "questionOptions":[
+      "Increased Hb\\%",
+      "Increased antibiotics",
+      "Decreased Hb\\%",
+      "No change in Hb\\%"
+    ],
+    "correctIndex": 0,
+    "solutionText": "At high altitudes where $P_{O_2}$ is low, the body compensates over time by increasing erythropoietin secretion, which stimulates the production of more RBCs and higher Hb percentage."
+  },
+  {
+    "questionOrder": 90,
+    "questionType": "Objective",
+    "questionText": "Air that is drawn in and expelled out during normal breathing is called",
+    "questionOptions":[
+      "Inspiratory reserved volume",
+      "Tidal volume",
+      "Expiratory reserved volume",
+      "Dead space volume"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Tidal Volume (TV) is defined as the volume of air inhaled or exhaled in a single normal, resting breath."
+  },
+  {
+    "questionOrder": 91,
+    "questionType": "Objective",
+    "questionText": "Tidal air in man is about",
+    "questionOptions":[
+      "$500 \\text{ ml}$",
+      "$700 \\text{ ml}$",
+      "$1200 \\text{ ml}$",
+      "$6000 \\text{ ml}$"
+    ],
+    "correctIndex": 0,
+    "solutionText": "In a healthy adult human, the normal resting tidal volume is approximately $500 \\text{ ml}$ per breath."
+  },
+  {
+    "questionOrder": 92,
+    "questionType": "Objective",
+    "questionText": "The amount of air which can be maximum inspired and also maximum expired is called",
+    "questionOptions":[
+      "Residual volume",
+      "Tidal volume",
+      "Vital capacity",
+      "Lung volume"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Vital capacity is the maximum amount of air a person can expel from the lungs after a maximum inhalation ($VC = ERV + TV + IRV$)."
+  },
+  {
+    "questionOrder": 93,
+    "questionType": "Objective",
+    "questionText": "Volume of air remaining in lungs after maximum respiratory effect is",
+    "questionOptions":[
+      "Vital capacity",
+      "Residual volume",
+      "Total lung capacity",
+      "Tidal volume"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Residual Volume (RV) is the volume of air that stubbornly remains in the lungs even after the most forceful expiration."
+  },
+  {
+    "questionOrder": 94,
+    "questionType": "Objective",
+    "questionText": "Residual air mostly occurs in",
+    "questionOptions":[
+      "Alveoli",
+      "Bronchus",
+      "Nostrils",
+      "Trachea"
+    ],
+    "correctIndex": 0,
+    "solutionText": "The residual volume of air prevents the alveoli from collapsing completely, so it is primarily located within the alveoli."
+  },
+  {
+    "questionOrder": 95,
+    "questionType": "Objective",
+    "questionText": "Gasesous exchange continues in the lungs without interruption due to",
+    "questionOptions":[
+      "Presence of residual air",
+      "Continuous stimulation",
+      "Presence of erythrocytes",
+      "Large number of alveoli"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Residual air left in the alveoli ensures that there is a continuous diffusion of gases into the blood even between breaths."
+  },
+  {
+    "questionOrder": 96,
+    "questionType": "Objective",
+    "questionText": "Which of the following has minimum volume?",
+    "questionOptions":[
+      "Inspiratory reserve volume",
+      "Expiratory reserve volume",
+      "Tidal volume",
+      "Residual volume"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Normal Tidal Volume is about $500 \\text{ ml}$, which is generally the lowest compared to IRV ($\sim 3000 \\text{ ml}$), ERV ($\sim 1100 \\text{ ml}$), and RV ($\sim 1200 \\text{ ml}$)."
+  },
+  {
+    "questionOrder": 97,
+    "questionType": "Objective",
+    "questionText": "Amount of air present in respiratory tubes where gaseous exchange do not occur is known as",
+    "questionOptions":[
+      "Residual volume",
+      "Dead space air",
+      "Expiratory reserve volume",
+      "Tidal volume"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Anatomical dead space refers to the volume of air that fills the conducting zones (trachea, bronchi) but never reaches the alveoli for gas exchange."
+  },
+  {
+    "questionOrder": 98,
+    "questionType": "Objective",
+    "questionText": "Vital capacity in man is",
+    "questionOptions":[
+      "$4000-4800 \\text{ ml}$",
+      "$1000 \\text{ ml}$",
+      "$5800-6000 \\text{ ml}$",
+      "$2000-2500 \\text{ ml}$"
+    ],
+    "correctIndex": 0,
+    "solutionText": "In a healthy adult male, vital capacity typically ranges from $4000 \\text{ ml}$ to $4800 \\text{ ml}$ depending on size and fitness."
+  },
+  {
+    "questionOrder": 99,
+    "questionType": "Objective",
+    "questionText": "Which of the following is correct?",
+    "questionOptions":[
+      "$VC = TV + IRV$",
+      "$IC = TV + ERV$",
+      "$TLC = VC + RV$",
+      "$VC = TLC + RV$"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Total Lung Capacity (TLC) is the sum of Vital Capacity (VC) and Residual Volume (RV)."
+  },
+  {
+    "questionOrder": 100,
+    "questionType": "Objective",
+    "questionText": "In smokers which of the following increases?",
+    "questionOptions":[
+      "TV",
+      "IRV",
+      "VC",
+      "RV"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Smoking often leads to emphysema, which destroys alveolar elasticity, causing air trapping and a resulting increase in Residual Volume (RV)."
+  },
+  {
+    "questionOrder": 101,
+    "questionType": "Objective",
+    "questionText": "Vital capacity of lungs is equal to",
+    "questionOptions":[
+      "$IRV + ERV + TV$",
+      "$IRV + ERV + TV - RV$",
+      "$IRV + ERV + TV + RV$",
+      "$IRV + ERV$"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Vital capacity is the maximum functional breath volume, calculated as the sum of Inspiratory Reserve Volume, Expiratory Reserve Volume, and Tidal Volume."
+  },
+  {
+    "questionOrder": 1,
+    "questionType": "Objective",
+    "questionText": "The cellular respiration differs from breathing in that in cellular respiration",
+    "questionOptions":[
+      "Air rich in $O_2$ is taken in and air poor $O_2$ is given out.",
+      "Glucose is oxidized to $CO_2$ and water with release of energy",
+      "$O_2$ is bound to haemoglobin producing oxyhaemoglobin in the lungs",
+      "None"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Breathing is a physical gas exchange process, whereas cellular respiration is a biochemical process where glucose is oxidized to release energy."
+  },
+  {
+    "questionOrder": 2,
+    "questionType": "Objective",
+    "questionText": "Arterial blood is present in",
+    "questionOptions":[
+      "Pulmonary arteries",
+      "Pulmonary veins",
+      "All the arteries",
+      "All the veins"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Oxygenated (arterial) blood returning from the lungs travels to the left atrium of the heart via the pulmonary veins."
+  },
+  {
+    "questionOrder": 3,
+    "questionType": "Objective",
+    "questionText": "Venous blood is present in",
+    "questionOptions":[
+      "All the veins",
+      "All the arteries",
+      "Pulmonary veins",
+      "Pulmonary arteries"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Deoxygenated (venous) blood from the right ventricle is pumped to the lungs for oxygenation through the pulmonary arteries."
+  },
+  {
+    "questionOrder": 4,
+    "questionType": "Objective",
+    "questionText": "In man, which of the following structures is analogous to the spiracles of cockroach?",
+    "questionOptions":[
+      "Alveoli",
+      "Bronchioles",
+      "Lungs",
+      "Nostrils"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Spiracles in insects are external openings that allow air into the tracheal system, functionally analogous to nostrils in humans."
+  },
+  {
+    "questionOrder": 5,
+    "questionType": "Objective",
+    "questionText": "Rate and depth of respiration shall increase when",
+    "questionOptions":[
+      "$O_2 \\text{ conc}^n$ increases",
+      "$CO_2 \\text{ conc}^n$ increases",
+      "Bicarbonate $\\text{conc}^n$ increases",
+      "Bicarbonate $\\text{conc}^n$ decreases"
+    ],
+    "correctIndex": 1,
+    "solutionText": "An increase in arterial $CO_2$ concentration strongly stimulates central chemoreceptors to reflexively increase the rate and depth of breathing to blow off excess $CO_2$."
+  },
+  {
+    "questionOrder": 6,
+    "questionType": "Objective",
+    "questionText": "In respiration air passes through",
+    "questionOptions":[
+      "Nasopharynx, nasal cavity, larynx, trachea, bronchi, bronchioles, lungs",
+      "Nasal cavity, nasopharynx, larynx, trachea, bronchi, bronchioles, lungs",
+      "Larynx, nasal cavity, nasopharynx, trachea, lungs",
+      "Larynx, nasopharynx, trachea, lungs"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The correct anatomical pathway of inhaled air is: Nasal cavity $\\rightarrow$ Nasopharynx $\\rightarrow$ Larynx $\\rightarrow$ Trachea $\\rightarrow$ Bronchi $\\rightarrow$ Bronchioles $\\rightarrow$ Alveoli (Lungs)."
+  },
+  {
+    "questionOrder": 7,
+    "questionType": "Objective",
+    "questionText": "The impulse for voluntary forced breathing starts in",
+    "questionOptions":[
+      "Spinal cord",
+      "Vagus nerve",
+      "Medulla oblongata",
+      "Cerebral hemispheres"
+    ],
+    "correctIndex": 3,
+    "solutionText": "While involuntary breathing is controlled by the medulla, voluntary control over breathing is mediated by the motor cortex of the cerebral hemispheres."
+  },
+  {
+    "questionOrder": 8,
+    "questionType": "Objective",
+    "questionText": "Pleura form double membrane sac which",
+    "questionOptions":[
+      "Envelops the kidneys",
+      "Envelops the brain",
+      "Envelops the lungs",
+      "Lines the nasal passage"
+    ],
+    "correctIndex": 2,
+    "solutionText": "The pleura consists of a visceral layer and a parietal layer that together form a double-membrane sac enveloping the lungs."
+  },
+  {
+    "questionOrder": 9,
+    "questionType": "Objective",
+    "questionText": "Conchae are located in",
+    "questionOptions":[
+      "Trachea",
+      "Bronchioles",
+      "Ventricle",
+      "Nasal chambers"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Nasal conchae (or turbinates) are bony projections located within the nasal chambers that increase surface area to warm and humidify inspired air."
+  },
+  {
+    "questionOrder": 10,
+    "questionType": "Objective",
+    "questionText": "Respiratory control centre lies in",
+    "questionOptions":[
+      "Pons",
+      "Medulla oblongata",
+      "Cerebrum",
+      "Both a & b"
+    ],
+    "correctIndex": 3,
+    "solutionText": "The neural networks controlling respiration are distributed across both the medulla oblongata (primary rhythmicity center) and the pons (pneumotaxic and apneustic centers)."
+  },
+  {
+    "questionOrder": 11,
+    "questionType": "Objective",
+    "questionText": "If the respiratory and digestive tract were completely separate, there would be no need for",
+    "questionOptions":[
+      "Swallowing",
+      "External nerves",
+      "Epiglottis",
+      "Diaphragm"
+    ],
+    "correctIndex": 2,
+    "solutionText": "The epiglottis serves to seal off the windpipe during eating. If the tracts didn't cross in the pharynx, such a protective flap would be unnecessary."
+  },
+  {
+    "questionOrder": 12,
+    "questionType": "Objective",
+    "questionText": "The cells which do not respire are",
+    "questionOptions":[
+      "Epidermal cells",
+      "Sieve cells",
+      "Cortical cells",
+      "Erythrocytes"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Mammalian erythrocytes lack mitochondria and cannot perform aerobic respiration; they only rely on minimal anaerobic glycolysis."
+  },
+  {
+    "questionOrder": 13,
+    "questionType": "Objective",
+    "questionText": "Respiration occurring through gills is called",
+    "questionOptions":[
+      "Pulmonary respiration",
+      "Cutaneous respiration",
+      "Branchial respiration",
+      "Buccopharyngeal respiration"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Gas exchange across gills, primarily seen in aquatic organisms like fish, is biologically termed branchial respiration."
+  },
+  {
+    "questionOrder": 14,
+    "questionType": "Objective",
+    "questionText": "Space between two vocal cords is known as",
+    "questionOptions":[
+      "Adam's apple",
+      "Rima glottidis",
+      "Karina",
+      "None"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The slit-like anatomical space between the true vocal cords and the arytenoid cartilages is called the rima glottidis."
+  },
+  {
+    "questionOrder": 15,
+    "questionType": "Objective",
+    "questionText": "Vocal cords in mammals connects",
+    "questionOptions":[
+      "Cricoids with arytenoids cartilages",
+      "Thyroid with arytenoids cartilages",
+      "Cricoids with epiglottis",
+      "None"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The true vocal cords are ligamentous bands stretching anteriorly from the thyroid cartilage to the arytenoid cartilages posteriorly."
+  },
+  {
+    "questionOrder": 16,
+    "questionType": "Objective",
+    "questionText": "Which of the following structure is not supported by incomplete cartilaginous rings?",
+    "questionOptions":[
+      "Trachea",
+      "Secondary bronchi",
+      "Terminal bronchioles",
+      "Primary bronchi"
+    ],
+    "correctIndex": 2,
+    "solutionText": "As airways narrow, cartilage is gradually replaced by smooth muscle. By the time they become terminal bronchioles, cartilaginous rings are completely absent."
+  },
+  {
+    "questionOrder": 17,
+    "questionType": "Objective",
+    "questionText": "The rate of breathing in mammals depends largely on the",
+    "questionOptions":[
+      "Concentration of $O_2$ in the blood",
+      "Volume of $O_2$ in the blood",
+      "Volume of $O_2$ in trachea",
+      "Extent of depression in the diaphragm"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Though $CO_2$ is the primary driver, in the context of these specific options, the chemical concentration of blood gases (such as $O_2$ via peripheral chemoreceptors) influences breathing rate."
+  },
+  {
+    "questionOrder": 18,
+    "questionType": "Objective",
+    "questionText": "'Hiccough' (hiccup) is due to activity of",
+    "questionOptions":[
+      "Intercostal muscles",
+      "Food in air tract",
+      "Diaphragm",
+      "Inadequate $O_2$ in environment"
+    ],
+    "correctIndex": 2,
+    "solutionText": "A hiccup is a sudden, involuntary spasm or contraction of the diaphragm muscle, followed by rapid closure of the vocal cords."
+  },
+  {
+    "questionOrder": 19,
+    "questionType": "Objective",
+    "questionText": "Which one has the smallest diameter?",
+    "questionOptions":[
+      "Right bronchus",
+      "Left bronchus",
+      "Secondary bronchus",
+      "Respiratory bronchiole"
+    ],
+    "correctIndex": 3,
+    "solutionText": "The respiratory tree branches successively into smaller passages; respiratory bronchioles are near the terminal end and possess the smallest diameter among the choices."
+  },
+  {
+    "questionOrder": 20,
+    "questionType": "Objective",
+    "questionText": "$CO_2$ concentration is more in",
+    "questionOptions":[
+      "Expired air than in alveolar air",
+      "Alveolar air than in expired air",
+      "Inspired air than in alveolar air",
+      "Inspired air than in expired air"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Alveolar air is in direct equilibrium with blood and has a high $CO_2$ concentration. Expired air has slightly less $CO_2$ because it gets mixed with dead space air."
+  },
+  {
+    "questionOrder": 21,
+    "questionType": "Objective",
+    "questionText": "Respiratory centre of brain is sensitive to",
+    "questionOptions":[
+      "More $O_2$ concentration in blood",
+      "More $CO_2$ concentration in blood",
+      "Accumulation of blood in brain",
+      "All of these"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The central chemoreceptors are exquisitely sensitive to increases in $CO_2$ levels (and corresponding $H^+$ increases) in the blood/CSF."
+  },
+  {
+    "questionOrder": 22,
+    "questionType": "Objective",
+    "questionText": "After taking a long deep breath we do not respire for some seconds due to",
+    "questionOptions":[
+      "More $CO_2$ in blood",
+      "More $O_2$ in blood",
+      "Less $CO_2$ in blood",
+      "Less $O_2$ in blood"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Deep hyperventilation washes out $CO_2$ from the blood. The resulting low $P_{CO_2}$ temporarily removes the chemical drive to breathe."
+  },
+  {
+    "questionOrder": 23,
+    "questionType": "Objective",
+    "questionText": "Determination of oxygen carried by haemoglobin is done by",
+    "questionOptions":[
+      "pH",
+      "Partial pressure of $O_2$",
+      "Partial pressure of $CO_2$",
+      "All"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The primary factor determining the percentage saturation of hemoglobin with oxygen is the partial pressure of oxygen ($P_{O_2}$) in the surrounding medium."
+  },
+  {
+    "questionOrder": 24,
+    "questionType": "Objective",
+    "questionText": "At higher $CO_2$ concentration of blood causes",
+    "questionOptions":[
+      "Slow diffusion of $O_2$ from blood",
+      "Slow transport of $O_2$ in blood",
+      "Quick diffusion of $O_2$ from blood",
+      "Both a & b"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Due to the Bohr effect, a high $P_{CO_2}$ reduces hemoglobin's affinity for $O_2$, prompting faster offloading and diffusion of $O_2$ into tissues."
+  },
+  {
+    "questionOrder": 25,
+    "questionType": "Objective",
+    "questionText": "When $CO_2$ concentration in blood increases breathing becomes",
+    "questionOptions":[
+      "Shallower and slow",
+      "There is no effect on breathing",
+      "Slow and deep",
+      "Faster and deeper"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Elevated $CO_2$ stimulates the respiratory center to increase both the rate and depth of respiration (hyperventilation) to expel the excess gas."
+  },
+  {
+    "questionOrder": 26,
+    "questionType": "Objective",
+    "questionText": "During oxygen transport the oxyhaemoglobin at the tissue level liberates oxygen to the cells because in tissue",
+    "questionOptions":[
+      "$O_2$ concentration is high and $CO_2$ is low",
+      "$O_2$ concentration is low and $CO_2$ is high",
+      "$O_2$ tension is high and $CO_2$ tension is low",
+      "$O_2$ tension is low and $CO_2$ tension is high"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Metabolizing tissues constantly consume $O_2$ and produce $CO_2$. Therefore, $P_{O_2}$ is low and $P_{CO_2}$ is high, which promotes oxyhemoglobin dissociation."
+  },
+  {
+    "questionOrder": 27,
+    "questionType": "Objective",
+    "questionText": "Which does not affect, oxyhaemoglobin dissociation curve?",
+    "questionOptions":[
+      "High $O_2$ and high Hb",
+      "High $O_2$ and low $CO_2$",
+      "High body temperature",
+      "High pH"
+    ],
+    "correctIndex": 0,
+    "solutionText": "The actual physical shape and shift of the curve are affected by $P_{CO_2}$, pH, and temperature. Simply having a high baseline amount of Hb doesn't shift the intrinsic properties of the curve."
+  },
+  {
+    "questionOrder": 28,
+    "questionType": "Objective",
+    "questionText": "Carbon monoxide contained in tobacco smoke",
+    "questionOptions":[
+      "Is carbinogenic",
+      "Causes gastric ulcers",
+      "Reduces oxygen carrying capacity of blood",
+      "Raises blood pressure"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Carbon monoxide has a vastly superior affinity for hemoglobin over oxygen, competitively binding to it and functionally reducing the blood's oxygen-carrying capacity."
+  },
+  {
+    "questionOrder": 29,
+    "questionType": "Objective",
+    "questionText": "The haemoglobin of a human fetus",
+    "questionOptions":[
+      "Has higher affinity for $O_2$ than that of adult",
+      "Has lower affinity for $O_2$ than that of adult",
+      "Its affinity for $O_2$ is the same as that of adult",
+      "Has two proteins subunits instead of four"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Fetal hemoglobin (HbF) contains gamma chains instead of beta chains, granting it a higher affinity for oxygen than adult Hb, which allows the fetus to extract oxygen from the mother's blood."
+  },
+  {
+    "questionOrder": 30,
+    "questionType": "Objective",
+    "questionText": "Diffusion membrane is made up of which of the following layers?",
+    "questionOptions":[
+      "Thin squamous epithelium of alveoli",
+      "Basement membrane",
+      "Endothelium of alveolar capillaries",
+      "All of these"
+    ],
+    "correctIndex": 3,
+    "solutionText": "The respiratory diffusion membrane comprises three main layers: alveolar squamous epithelium, capillary endothelium, and their fused intervening basement membranes."
+  },
+  {
+    "questionOrder": 31,
+    "questionType": "Objective",
+    "questionText": "In which of the following disorder there is difficulty in breathing causing wheezing due to inflammation of bronchi and bronchioles?",
+    "questionOptions":[
+      "Emphysema",
+      "Asthma",
+      "Pleurisy",
+      "Tuberculosis"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Asthma is an allergic or inflammatory respiratory condition characterized by bronchospasm and inflammation of airways, leading to wheezing and breathlessness."
+  },
+  {
+    "questionOrder": 32,
+    "questionType": "Objective",
+    "questionText": "With the increase of temperature the respiratory rate will",
+    "questionOptions":[
+      "Increase",
+      "Decrease rapidly",
+      "Remain unaffected",
+      "Decrease slowly"
+    ],
+    "correctIndex": 0,
+    "solutionText": "An increase in body temperature (e.g., during fever or exercise) increases metabolic demands and stimulates the respiratory centers, thereby increasing respiratory rate."
+  },
+  {
+    "questionOrder": 33,
+    "questionType": "Objective",
+    "questionText": "One of the following is not a respiratory pigment?",
+    "questionOptions":[
+      "Haemoglobin",
+      "Chlorocruonin",
+      "Haemocyanin",
+      "Haemozoin"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Hemozoin is a malarial pigment (a disposal product formed from the digestion of blood by parasites), not a functional respiratory pigment like hemoglobin or hemocyanin."
+  },
+  {
+    "questionOrder": 34,
+    "questionType": "Objective",
+    "questionText": "Low oxygen tension in the blood causes",
+    "questionOptions":[
+      "Coughing",
+      "Hiccups",
+      "Sneezing",
+      "Yawning"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Yawning is physiologically triggered by mild hypoxia (low oxygen tension) and elevated $CO_2$ levels in the blood as an involuntary effort to intake a large volume of air."
+  },
+  {
+    "questionOrder": 35,
+    "questionType": "Objective",
+    "questionText": "Percentage amount of $CO_2$ carried or transported by Hb is",
+    "questionOptions":[
+      "$10\\%$",
+      "$80\\%$",
+      "$70\\%$",
+      "$23\\%$"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Approximately $20-25\\%$ (averaging about $23\\%$) of carbon dioxide in the blood is transported directly bound to the globin part of hemoglobin as carbaminohemoglobin."
+  },
+  {
+    "questionOrder": 36,
+    "questionType": "Objective",
+    "questionText": "Bohr effect is represented by",
+    "questionOptions":[
+      "Increased $P_{O_2}$ and pH",
+      "Increased $P_{O_2}$ and pH while decreased $P_{CO_2}$",
+      "Increased $P_{O_2}$ and $CO_2$",
+      "None"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The options in the text might be slightly counter-intuitive, but a left shift (increased affinity) correlates with increased pH and decreased $P_{CO_2}$. Here, option b is assigned as correct per the source text."
+  },
+  {
+    "questionOrder": 37,
+    "questionType": "Objective",
+    "questionText": "The correct order of affinity of Hb for different gases is",
+    "questionOptions":[
+      "$CO > CO_2 > O_2$",
+      "$CO > O_2 > CO_2$",
+      "$O_2 > CO > CO_2$",
+      "$O_2 > CO_2 > CO$"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Hemoglobin's affinity is highest for Carbon Monoxide ($CO$), followed by Oxygen ($O_2$), and then Carbon Dioxide ($CO_2$)."
+  },
+  {
+    "questionOrder": 38,
+    "questionType": "Objective",
+    "questionText": "In alveoli surfactant is produced by",
+    "questionOptions":[
+      "Type I pneumocyte",
+      "Type II pneumocyte",
+      "Kuffer's cells",
+      "Dust cells"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Type II alveolar cells (pneumocytes) secrete pulmonary surfactant, a lipid-protein complex that reduces alveolar surface tension."
+  },
+  {
+    "questionOrder": 39,
+    "questionType": "Objective",
+    "questionText": "What will be the $P_{O_2}$ and $P_{CO_2}$ in the atmospheric air as compared to those in the alveolar air?",
+    "questionOptions":[
+      "$P_{O_2}$ lesser, $P_{CO_2}$ higher",
+      "$P_{O_2}$ higher, $P_{CO_2}$ lesser",
+      "$P_{O_2}$ higher, $P_{CO_2}$ higher",
+      "$P_{O_2}$ lesser, $P_{CO_2}$ lesser"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Atmospheric air is rich in oxygen and very poor in $CO_2$, so it has a higher $P_{O_2}$ and a lower $P_{CO_2}$ compared to the mixed air in the alveoli."
+  },
+  {
+    "questionOrder": 40,
+    "questionType": "Objective",
+    "questionText": "Thoracic cage of man is formed of",
+    "questionOptions":[
+      "Ribs and sternum",
+      "Ribs, sternum & thoracic vertebrae",
+      "Ribs, sternum and lumbar vertebrae",
+      "Ribs and thoracic vertebrae"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The human thoracic cage acts as a protective enclosure and is comprised of the ribs laterally, sternum anteriorly, and thoracic vertebrae posteriorly."
+  },
+  {
+    "questionOrder": 41,
+    "questionType": "Objective",
+    "questionText": "$100 \\text{ ml}$ of normal blood carries approximately the following amount of oxygen?",
+    "questionOptions":[
+      "$10 \\text{ ml}$",
+      "$20 \\text{ ml}$",
+      "$30 \\text{ ml}$",
+      "$40 \\text{ ml}$"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Under normal physiological conditions, $100 \\text{ ml}$ of oxygenated blood contains about $15 \\text{ g}$ of Hb, capable of carrying approximately $20 \\text{ ml}$ of oxygen."
+  },
+  {
+    "questionOrder": 42,
+    "questionType": "Objective",
+    "questionText": "The increased capacity of deoxygenated blood for carrying more carbondioxide is called",
+    "questionOptions":[
+      "Bohr's effect",
+      "Hamburger phenomenon",
+      "Chloride shift",
+      "Haldane effect"
+    ],
+    "correctIndex": 3,
+    "solutionText": "The Haldane effect describes the property of hemoglobin whereby deoxygenation of the blood increases its ability to carry carbon dioxide."
+  },
+  {
+    "questionOrder": 43,
+    "questionType": "Objective",
+    "questionText": "The narrowest and most numerous tubes of lungs are termed as",
+    "questionOptions":[
+      "Hilum",
+      "Bronchus",
+      "Alveoli",
+      "Bronchioles"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Bronchioles lack cartilage and branch repeatedly to become the finest and most plentiful airways in the lungs leading to the alveoli."
+  },
+  {
+    "questionOrder": 44,
+    "questionType": "Objective",
+    "questionText": "The function of tracheal cilia is to",
+    "questionOptions":[
+      "Pass mucus out",
+      "Pass mucus in",
+      "Pass air out",
+      "Pass air in"
+    ],
+    "correctIndex": 0,
+    "solutionText": "The coordinated upward sweeping motion of tracheal cilia sweeps mucus, along with trapped foreign particles, up and out of the respiratory tract."
+  },
+  {
+    "questionOrder": 45,
+    "questionType": "Objective",
+    "questionText": "Central control of rate of breathing is in the form of respiratory centres placed in",
+    "questionOptions":[
+      "Hypothalamus",
+      "Cerebral cortex",
+      "Medulla",
+      "Cerebellum"
+    ],
+    "correctIndex": 2,
+    "solutionText": "The fundamental rhythm and basic control of breathing are governed automatically by the respiratory centers located in the medulla oblongata."
+  },
+  {
+    "questionOrder": 46,
+    "questionType": "Objective",
+    "questionText": "Carbonic anhydrase contains",
+    "questionOptions":[
+      "Mn",
+      "Co",
+      "Cu",
+      "Zn"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Carbonic anhydrase is a metalloenzyme that absolutely requires a Zinc ($Zn^{2+}$) ion at its active site for catalytic activity."
+  },
+  {
+    "questionOrder": 47,
+    "questionType": "Objective",
+    "questionText": "Hyperpnea is",
+    "questionOptions":[
+      "Increased rate and depth of breathing",
+      "Interference with aeration of blood",
+      "Lack of breathing",
+      "Ordinary quiet breathing"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Hyperpnea refers to an abnormally increased rate and depth of breathing, typically occurring to meet an increased metabolic demand (e.g., during exercise)."
+  },
+  {
+    "questionOrder": 48,
+    "questionType": "Objective",
+    "questionText": "$O_2$ content in the air we inspire is",
+    "questionOptions":[
+      "$4\\%$",
+      "$20\\%$",
+      "$25\\%$",
+      "$16\\%$"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The air we inspire from the atmosphere is composed of approximately $21\\%$ oxygen, with $20\\%$ being the closest option."
+  },
+  {
+    "questionOrder": 49,
+    "questionType": "Objective",
+    "questionText": "Vertebral organ which receives only oxygenated blood is",
+    "questionOptions":[
+      "Gill",
+      "Lung",
+      "Spleen",
+      "Liver"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Based on the provided answer key, Gill is selected. However, biologically, gills receive strictly deoxygenated blood to oxygenate it."
+  },
+  {
+    "questionOrder": 50,
+    "questionType": "Objective",
+    "questionText": "Wind pipe in man arises from",
+    "questionOptions":[
+      "Larynx",
+      "Nasopharynx",
+      "Oropharynx",
+      "Laryngopharynx"
+    ],
+    "correctIndex": 0,
+    "solutionText": "The trachea (windpipe) is the direct downward continuation of the larynx, serving as the main airway to the lungs."
+  },
+  {
+    "questionOrder": 51,
+    "questionType": "Objective",
+    "questionText": "Hb value of a healthy adult male is",
+    "questionOptions":[
+      "$10 \\text{ g}/100 \\text{ ml}$",
+      "$11 \\text{ gm}/100 \\text{ ml}$",
+      "$12 \\text{ gm}/100 \\text{ ml}$",
+      "$14-15 \\text{ gm}/100 \\text{ ml}$"
+    ],
+    "correctIndex": 3,
+    "solutionText": "The normal reference range for hemoglobin in a healthy adult male is typically between $13.5$ and $17.5 \\text{ g}/100 \\text{ ml}$, so $14-15 \\text{ gm}/100 \\text{ ml}$ is correct."
+  },
+  {
+    "questionOrder": 52,
+    "questionType": "Objective",
+    "questionText": "Oxygen dissociation curve for myoglobin is",
+    "questionOptions":[
+      "Sigmoidal",
+      "Hyperbolic",
+      "Linear",
+      "Parabolic"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Myoglobin consists of only one subunit and does not exhibit cooperative binding, hence its oxygen dissociation curve is a simple rectangular hyperbola."
+  },
+  {
+    "questionOrder": 53,
+    "questionType": "Objective",
+    "questionText": "Last electron acceptor in ETS is",
+    "questionOptions":[
+      "$O_2$",
+      "Water",
+      "Cytochrome",
+      "Cytochrome $a_3$"
+    ],
+    "correctIndex": 0,
+    "solutionText": "In the mitochondrial electron transport chain (ETS), molecular oxygen ($O_2$) acts as the final electron acceptor, combining with protons to form water."
+  },
+  {
+    "questionOrder": 54,
+    "questionType": "Objective",
+    "questionText": "A large proportion of oxygen remains unused in the human blood even after uptake by the body tissues. This $O_2$",
+    "questionOptions":[
+      "acts as reserve during muscular exercise",
+      "raises $P_{CO_2}$ of blood to $75 \\text{ mm of Hg}$",
+      "is enough to keep oxyhemoglobin saturation at $96\\%$",
+      "helps in releasing more $O_2$ to epithelial tissues"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Resting tissues only extract about $25\\%$ of the oxygen from arterial blood. The remaining $75\\%$ acts as a crucial reserve that can be tapped during intense muscular exertion."
+  },
+  {
+    "questionOrder": 55,
+    "questionType": "Objective",
+    "questionText": "Whether a child died after a normal birth or died before birth can be confirmed by measuring",
+    "questionOptions":[
+      "Residual volume of air",
+      "Tidal volume of air",
+      "Weight of child",
+      "Dead space air"
+    ],
+    "correctIndex": 0,
+    "solutionText": "If a baby takes even a single breath, a residual volume of air remains in the alveoli. This makes the lung float in water, confirming the child was born alive."
+  },
+  {
+    "questionOrder": 56,
+    "questionType": "Objective",
+    "questionText": "The movement of true vocal cords in man is controlled by cartilage",
+    "questionOptions":[
+      "Arytenoids",
+      "Cricoid",
+      "Thyroid",
+      "Both a & b"
+    ],
+    "correctIndex": 0,
+    "solutionText": "The arytenoid cartilages serve as the posterior attachment points for the vocal cords. Muscles acting on them rotate and glide the arytenoids to control vocal cord tension and movement."
+  },
+  {
+    "questionOrder": 57,
+    "questionType": "Objective",
+    "questionText": "Accumulation of fluid between the pleura is called",
+    "questionOptions":[
+      "Pneumonia",
+      "Pleurisy",
+      "Bronchitis",
+      "Asthma"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Pleurisy (or pleuritis) is the inflammation of the pleura, often leading to the excessive accumulation of pleural fluid (pleural effusion) in the pleural cavity."
+  },
+  {
+    "questionOrder": 58,
+    "questionType": "Objective",
+    "questionText": "Which of the following animals possess non elastic lungs with elastic air sacs connected to them?",
+    "questionOptions":[
+      "Reptiles",
+      "Birds",
+      "Amphibians",
+      "Mammals"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Birds have a highly specialized, rigidly structured, non-elastic lung system that relies on associated expandable elastic air sacs to maintain a unidirectional flow of fresh air."
+  },
+  {
+    "questionOrder": 59,
+    "questionType": "Objective",
+    "questionText": "Residual air mostly found in",
+    "questionOptions":[
+      "Alveoli",
+      "Bronchus",
+      "Nostrils",
+      "Trachea"
+    ],
+    "correctIndex": 0,
+    "solutionText": "The residual volume is functionally required to keep the delicate alveolar sacs open and prevent collapse, hence it is predominantly found in the alveoli."
+  },
+  {
+    "questionOrder": 60,
+    "questionType": "Objective",
+    "questionText": "The affinity of haemoglobin for oxygen is increased by",
+    "questionOptions":[
+      "Pernicious anaemia",
+      "Storage for several days",
+      "Carbon monoxide poisoning",
+      "Decreased alveolar ventilation"
+    ],
+    "correctIndex": 2,
+    "solutionText": "When $CO$ binds to one of the heme sites, it causes an allosteric shift that actually increases the remaining heme groups' affinity for $O_2$, shifting the curve left and preventing $O_2$ release to tissues."
+  },
+  {
+    "questionOrder": 61,
+    "questionType": "Objective",
+    "questionText": "Epithelial lining of the alveoli of frog's lung facing lung cavity is",
+    "questionOptions":[
+      "Squamous, ciliated",
+      "Squamous, non-ciliated",
+      "Columnar, non-ciliated",
+      "Columnar, ciliated"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Unlike mammalian alveoli which use thin squamous cells for gas exchange, the internal ridges of a frog's lung are lined with ciliated columnar epithelium to aid in mucus clearance."
+  }
+]
