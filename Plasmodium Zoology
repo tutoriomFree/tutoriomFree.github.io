@@ -1,0 +1,1471 @@
+[
+  {
+    "questionOrder": 1,
+    "questionType": "Objective",
+    "questionText": "Plasmodium belongs to the class",
+    "questionOptions":[
+      "Sporozoa",
+      "Sarcodina",
+      "Mastigophora",
+      "Ciliata"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Plasmodium belongs to the class Sporozoa because it lacks specialized locomotory organelles and produces spores (sporozoites) during its life cycle."
+  },
+  {
+    "questionOrder": 2,
+    "questionType": "Objective",
+    "questionText": "Plasmodium, causative agent of malaria was discovered by",
+    "questionOptions":[
+      "Charles Laveran",
+      "Ronald Ross",
+      "Grassi",
+      "Celli"
+    ],
+    "correctIndex": 0,
+    "solutionText": "The malarial parasite, Plasmodium, was first discovered by the French military doctor Charles Alphonse Laveran in 1880."
+  },
+  {
+    "questionOrder": 3,
+    "questionType": "Objective",
+    "questionText": "Who was the first to observe plasmodium in the RBC of patient of malaria?",
+    "questionOptions":[
+      "Edward Jenner",
+      "Ronald Ross",
+      "Laveran",
+      "Louis Pasteur"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Charles Laveran was the first to observe the malarial parasite (Plasmodium) in the red blood cells of a patient suffering from malaria."
+  },
+  {
+    "questionOrder": 4,
+    "questionType": "Objective",
+    "questionText": "Relationship of malarial parasite with mosquito was discovered by",
+    "questionOptions":[
+      "Ronald Ross",
+      "Laveran",
+      "Grassi",
+      "Celli"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Sir Ronald Ross discovered the relationship between the malarial parasite and the mosquito by observing the oocysts in the gut wall of female Anopheles mosquitoes."
+  },
+  {
+    "questionOrder": 5,
+    "questionType": "Objective",
+    "questionText": "Who discovered oocyst stage plasmodium on the gut walls of female anopheles mosquito?",
+    "questionOptions":[
+      "Ronald Ross",
+      "Laveran",
+      "Grassi",
+      "Celli"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Ronald Ross discovered the oocyst stage of Plasmodium on the stomach wall of female Anopheles mosquitoes in 1897."
+  },
+  {
+    "questionOrder": 6,
+    "questionType": "Objective",
+    "questionText": "Digenetic life cycle of malarial parasite was described by",
+    "questionOptions":[
+      "Ronald Ross",
+      "Laveran",
+      "Grassi",
+      "Celli"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Giovanni Battista Grassi and his team completely described the digenetic life cycle of the human malarial parasite in Anopheles mosquitoes."
+  },
+  {
+    "questionOrder": 7,
+    "questionType": "Objective",
+    "questionText": "Plasmodium is",
+    "questionOptions":[
+      "Extracellular malarial parasite",
+      "Intracellular blood parasite",
+      "Malarial parasite",
+      "Both b & c"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Plasmodium is an intracellular blood parasite as it spends a part of its life cycle inside human red blood cells. It is also well known as a malarial parasite."
+  },
+  {
+    "questionOrder": 8,
+    "questionType": "Objective",
+    "questionText": "Malaria is caused by",
+    "questionOptions":[
+      "Female anopheles",
+      "Female culex",
+      "Plasmodium",
+      "Male anopheles"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Malaria is a disease caused by protozoan parasites of the genus Plasmodium, though it is transmitted by mosquitoes."
+  },
+  {
+    "questionOrder": 9,
+    "questionType": "Objective",
+    "questionText": "Malaria is transmitted by",
+    "questionOptions":[
+      "Plasmodium",
+      "Female anopheles",
+      "Female culex",
+      "Male anopheles"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Malaria is transmitted from an infected person to a healthy person through the bite of an infected female Anopheles mosquito."
+  },
+  {
+    "questionOrder": 10,
+    "questionType": "Objective",
+    "questionText": "The primary host of malarial parasite is",
+    "questionOptions":[
+      "Man",
+      "Female anopheles mosquito",
+      "Male anopheles mosquito",
+      "None"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Biologically, the primary host is the female Anopheles mosquito because the sexual phase of Plasmodium's life cycle occurs there."
+  },
+  {
+    "questionOrder": 11,
+    "questionType": "Objective",
+    "questionText": "The secondary host of plasmodium is",
+    "questionOptions":[
+      "Male Culex",
+      "Male Anopheles",
+      "Female Anopheles",
+      "Female Culex"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Medically, humans are considered the primary host as they suffer from the disease, making the female Anopheles mosquito the secondary host. (Based on alternative medical terminology usage)."
+  },
+  {
+    "questionOrder": 12,
+    "questionType": "Objective",
+    "questionText": "Infective stage of plasmodium for mosquito is",
+    "questionOptions":[
+      "Sporozoite",
+      "Schizont",
+      "Trophozoite",
+      "Gametocyte"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Gametocytes are the infective stage for mosquitoes. They are ingested by the mosquito during a blood meal from an infected human."
+  },
+  {
+    "questionOrder": 13,
+    "questionType": "Objective",
+    "questionText": "Infective stage of plasmodium is",
+    "questionOptions":[
+      "Schizont",
+      "Sporozoite",
+      "Trophozoite",
+      "Gametocyte"
+    ],
+    "correctIndex": 1,
+    "solutionText": "For humans, the infective stage of Plasmodium is the sporozoite, which is injected into the bloodstream via mosquito saliva."
+  },
+  {
+    "questionOrder": 14,
+    "questionType": "Objective",
+    "questionText": "Schizogony of plasmodium occurs in",
+    "questionOptions":[
+      "Stomach of mosquito",
+      "Blood of man",
+      "Water",
+      "Salivary glands of mosquito"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Schizogony is an asexual multiplication phase that occurs in the human host, both in liver cells and in the blood (RBCs)."
+  },
+  {
+    "questionOrder": 15,
+    "questionType": "Objective",
+    "questionText": "Schizont stage of Plasmodium vivax in man are found in",
+    "questionOptions":[
+      "RBC's only",
+      "RBC's & liver cells",
+      "Liver cells only",
+      "RBC's, Liver cells & spleen"
+    ],
+    "correctIndex": 1,
+    "solutionText": "In the human body, the schizont stage of Plasmodium vivax is formed during asexual reproduction in both liver cells (exo-erythrocytic schizogony) and RBCs (erythrocytic schizogony)."
+  },
+  {
+    "questionOrder": 16,
+    "questionType": "Objective",
+    "questionText": "Trophozoite stage of plasmodium in man occurs in",
+    "questionOptions":[
+      "RBC's only",
+      "Liver cells only",
+      "Both RBC's and liver cells",
+      "Only in spleen"
+    ],
+    "correctIndex": 0,
+    "solutionText": "The trophozoite is the actively feeding stage of Plasmodium, which predominantly occurs inside the human red blood cells (RBCs)."
+  },
+  {
+    "questionOrder": 17,
+    "questionType": "Objective",
+    "questionText": "Merogony stage occurs in",
+    "questionOptions":[
+      "RBC of man",
+      "Liver of man",
+      "Salivary glands of mosquito",
+      "Stomach wall of mosquito"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Merogony is an asexual replication process that occurs within the red blood cells (RBCs) of the human host, producing merozoites."
+  },
+  {
+    "questionOrder": 18,
+    "questionType": "Objective",
+    "questionText": "Sporogony in the life of plasmodium occurs in",
+    "questionOptions":[
+      "RBC of man",
+      "Liver of man",
+      "Salivary glands of mosquito",
+      "Stomach wall of mosquito"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Sporogony is the phase of sexual reproduction leading to the formation of sporozoites, which takes place in the oocysts on the stomach wall of the mosquito."
+  },
+  {
+    "questionOrder": 19,
+    "questionType": "Objective",
+    "questionText": "Ex-flagellation in life cycle of plasmodium is related with",
+    "questionOptions":[
+      "Formation of male gamete",
+      "Formation of female gamete",
+      "Formation of male gametocytes",
+      "None"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Exflagellation is the rapid process by which a microgametocyte (male) produces several flagellated microgametes (male gametes) in the mosquito's stomach."
+  },
+  {
+    "questionOrder": 20,
+    "questionType": "Objective",
+    "questionText": "Fertilization of male & female gametes of plasmodium species occurs in",
+    "questionOptions":[
+      "Stomach of mosquito",
+      "Stomach wall of mosquito",
+      "Liver of man",
+      "Salivary glands of mosquito"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Fertilization, or syngamy, between male and female gametes of Plasmodium takes place inside the lumen of the stomach (midgut) of the female Anopheles mosquito."
+  },
+  {
+    "questionOrder": 21,
+    "questionType": "Objective",
+    "questionText": "Cryptomerozoites are the resultant cells of",
+    "questionOptions":[
+      "Liver schizogony",
+      "Erythrocytic schizogony",
+      "Sporogony",
+      "Gamogony"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Cryptomerozoites are formed as a result of pre-erythrocytic schizogony occurring in the liver cells of humans."
+  },
+  {
+    "questionOrder": 22,
+    "questionType": "Objective",
+    "questionText": "Which one of the following begins erythrocytic schizogony?",
+    "questionOptions":[
+      "Merozoites",
+      "Cryptomerozoites",
+      "Metacryptomerozoites",
+      "Sporozoites"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Metacryptomerozoites, which are released from liver cells after exo-erythrocytic schizogony, invade RBCs to begin the erythrocytic schizogony cycle."
+  },
+  {
+    "questionOrder": 23,
+    "questionType": "Objective",
+    "questionText": "Resultant cells of schizogony cycle are",
+    "questionOptions":[
+      "Merozoites",
+      "Cryptomerozoites",
+      "Metacryptomerozoites",
+      "Sporozoites"
+    ],
+    "correctIndex": 0,
+    "solutionText": "The general term for the product of a schizogony cycle, particularly in red blood cells, is merozoites."
+  },
+  {
+    "questionOrder": 24,
+    "questionType": "Objective",
+    "questionText": "Which stage of malarial parasite escapes digestion inside stomach of mosquito?",
+    "questionOptions":[
+      "Gametocytes",
+      "Trophozoites",
+      "Merozoites",
+      "Sporozoites"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Gametocytes are adapted to survive the digestive enzymes in the mosquito's stomach and subsequently develop into gametes, while other stages are digested."
+  },
+  {
+    "questionOrder": 25,
+    "questionType": "Objective",
+    "questionText": "Schuffner's granules (dots) are found in malarial patient in the cells of",
+    "questionOptions":[
+      "Liver",
+      "RBC",
+      "Signet ring trophozoite",
+      "Gametocytes of plasmodium"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Schuffner's dots are morphological changes (stippling) seen in the cytoplasm of human red blood cells infected with Plasmodium vivax or Plasmodium ovale."
+  },
+  {
+    "questionOrder": 26,
+    "questionType": "Objective",
+    "questionText": "Malarial fever is characterized by release of",
+    "questionOptions":[
+      "Cryptomerozoites",
+      "Schizont",
+      "Haemozoin",
+      "Kappa particles"
+    ],
+    "correctIndex": 2,
+    "solutionText": "The periodic malarial fever and chills coincide with the rupture of RBCs and the release of toxic haemozoin granules into the bloodstream."
+  },
+  {
+    "questionOrder": 27,
+    "questionType": "Objective",
+    "questionText": "Incubation period of Plasmodium vivax is",
+    "questionOptions":[
+      "12 days",
+      "12-14 days",
+      "17 days",
+      "28 days"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The average incubation period for Plasmodium vivax is typically around 12 to 14 days."
+  },
+  {
+    "questionOrder": 28,
+    "questionType": "Objective",
+    "questionText": "Longest incubation period is found in which species of plasmodium?",
+    "questionOptions":[
+      "Vivax",
+      "Falciparum",
+      "Malariae",
+      "Ovale"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Plasmodium malariae has the longest incubation period among the human malarial parasites, averaging about 28 days."
+  },
+  {
+    "questionOrder": 29,
+    "questionType": "Objective",
+    "questionText": "Malignant tertian malaria is caused by",
+    "questionOptions":[
+      "P. malariae",
+      "P. falciparum",
+      "P. ovale",
+      "P. vivax"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Plasmodium falciparum causes malignant tertian malaria, the most severe and life-threatening form of the disease."
+  },
+  {
+    "questionOrder": 30,
+    "questionType": "Objective",
+    "questionText": "Benign quartan malaria is caused by",
+    "questionOptions":[
+      "P. malariae",
+      "P. falciparum",
+      "P. ovale",
+      "P. vivax"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Plasmodium malariae is responsible for benign quartan malaria, in which fever paroxysms occur every 72 hours."
+  },
+  {
+    "questionOrder": 31,
+    "questionType": "Objective",
+    "questionText": "Most dangerous/cerebral malaria is caused by",
+    "questionOptions":[
+      "P. ovale",
+      "P. vivax",
+      "P. malariae",
+      "P. falciparum"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Plasmodium falciparum causes cerebral malaria, making it the most deadly species as it leads to infected RBCs blocking capillaries in the brain."
+  },
+  {
+    "questionOrder": 32,
+    "questionType": "Objective",
+    "questionText": "Black water fever is caused by which species of plasmodium?",
+    "questionOptions":[
+      "Ovale",
+      "Vivax",
+      "Malariae",
+      "Falciparum"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Blackwater fever is a severe complication of Plasmodium falciparum infection characterized by massive intravascular hemolysis and dark urine."
+  },
+  {
+    "questionOrder": 33,
+    "questionType": "Objective",
+    "questionText": "Schuffner's dot is found in which species of plasmodium?",
+    "questionOptions":[
+      "P. vivax",
+      "P. falciparum",
+      "P. ovale",
+      "P. malariae"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Schuffner's dots are characteristically found in the host RBCs infected by Plasmodium vivax."
+  },
+  {
+    "questionOrder": 34,
+    "questionType": "Objective",
+    "questionText": "Which species of plasmodium not found in Nepal?",
+    "questionOptions":[
+      "P. vivax",
+      "P. ovale",
+      "P. falciparum",
+      "P. malaria"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Plasmodium ovale is primarily restricted to West Africa and is exceptionally rare or absent in Nepal."
+  },
+  {
+    "questionOrder": 35,
+    "questionType": "Objective",
+    "questionText": "Zieman's dot is found in which stage of Plasmodium malariae?",
+    "questionOptions":[
+      "Sporozoite",
+      "Trophozoite",
+      "Merozoite",
+      "Gametocyte"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Ziemann's dots are morphological stipplings seen in RBCs infected with the trophozoite stage of Plasmodium malariae."
+  },
+  {
+    "questionOrder": 36,
+    "questionType": "Objective",
+    "questionText": "During the life cycle of plasmodium trophozoite represents",
+    "questionOptions":[
+      "Reproductive stage",
+      "Feeding stage",
+      "Quiescent stage",
+      "Spore"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The trophozoite represents the active, growing, and feeding stage of the Plasmodium life cycle in human RBCs."
+  },
+  {
+    "questionOrder": 37,
+    "questionType": "Objective",
+    "questionText": "Asexual reproduction by schizogony in malarial parasite involves",
+    "questionOptions":[
+      "Binary fission",
+      "Multiple fission",
+      "Budding",
+      "Fragmentation"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Schizogony is a form of asexual reproduction by multiple fission where the nucleus divides multiple times before the cytoplasm divides."
+  },
+  {
+    "questionOrder": 38,
+    "questionType": "Objective",
+    "questionText": "Duration of erythrocytic cycle in P. vivax and P. malariae are respectively",
+    "questionOptions":[
+      "24 hours and 48 hours",
+      "48 hours (tertian) and 36 hours (sub. tertian)",
+      "48 hours (tertian) and 72 hours(quartan)",
+      "72 hours (quartan) and 48 hours(tertian)"
+    ],
+    "correctIndex": 2,
+    "solutionText": "The erythrocytic cycle for P. vivax takes 48 hours (tertian), while for P. malariae it takes 72 hours (quartan)."
+  },
+  {
+    "questionOrder": 39,
+    "questionType": "Objective",
+    "questionText": "Fish that feeds upon mosquito larvae in ponds is",
+    "questionOptions":[
+      "Gambusia",
+      "Utricularia",
+      "Rohu",
+      "Scoliodon"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Gambusia, commonly known as the mosquitofish, is a larvivorous fish used in biological control because it feeds on mosquito larvae."
+  },
+  {
+    "questionOrder": 40,
+    "questionType": "Objective",
+    "questionText": "At which stage plasmodium infects the liver of man?",
+    "questionOptions":[
+      "Sporogony",
+      "Erythrocytic cycle",
+      "Pre-erythrocytic cycle",
+      "Gamogony"
+    ],
+    "correctIndex": 2,
+    "solutionText": "The pre-erythrocytic cycle begins when sporozoites infect human liver cells immediately after the mosquito bite."
+  },
+  {
+    "questionOrder": 41,
+    "questionType": "Objective",
+    "questionText": "Which of the following undergoes multiple fission to give sporozoites?",
+    "questionOptions":[
+      "Trophozoite",
+      "Zygote",
+      "Ookinete",
+      "Sporoblast"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Inside the oocyst, multiple fission (sporogony) forms sporoblasts, which further divide into multiple slender sporozoites."
+  },
+  {
+    "questionOrder": 42,
+    "questionType": "Objective",
+    "questionText": "Exflagellation takes place in",
+    "questionOptions":[
+      "Microgametocytes",
+      "Macrogametocytes",
+      "Sporozoites",
+      "Merozoites"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Exflagellation is a process specific to microgametocytes (male gametocytes), where they extrude flagella-like structures that break off to become microgametes."
+  },
+  {
+    "questionOrder": 43,
+    "questionType": "Objective",
+    "questionText": "Incubation period in P. vivax is",
+    "questionOptions":[
+      "48 hours",
+      "72 hours",
+      "240 hours",
+      "120 hours"
+    ],
+    "correctIndex": 2,
+    "solutionText": "The incubation period of P. vivax is usually 10 to 14 days, which is approximately 240 hours (10 days)."
+  },
+  {
+    "questionOrder": 44,
+    "questionType": "Objective",
+    "questionText": "The best drug used against malaria is",
+    "questionOptions":[
+      "Gambusia",
+      "Quinine",
+      "Chloroquinine",
+      "AZT"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Historically and classically, Quinine has been the best known and most highly effective drug against malaria."
+  },
+  {
+    "questionOrder": 45,
+    "questionType": "Objective",
+    "questionText": "Quinine, used in malarial disease is extracted from",
+    "questionOptions":[
+      "Bark of Cinnamon",
+      "Bark of Cinchona",
+      "Leaves of Ocimum",
+      "Stem of Heves"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Quinine is an alkaloid naturally extracted from the bark of the Cinchona tree."
+  },
+  {
+    "questionOrder": 46,
+    "questionType": "Objective",
+    "questionText": "Chloroquinine is used against",
+    "questionOptions":[
+      "Malaria",
+      "Cancer",
+      "AIDS",
+      "Amoebiasis"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Chloroquine (or Chloroquinine) is a famous antimalarial medication used to treat and prevent malaria."
+  },
+  {
+    "questionOrder": 47,
+    "questionType": "Objective",
+    "questionText": "Mepacrine and Paludrine drugs are used for",
+    "questionOptions":[
+      "Malaria",
+      "Cancer",
+      "AIDS",
+      "Amoebiasis"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Mepacrine and Paludrine (proguanil) are historically established synthetic antimalarial drugs."
+  },
+  {
+    "questionOrder": 48,
+    "questionType": "Objective",
+    "questionText": "Storehouse of malarial parasite in human's body is",
+    "questionOptions":[
+      "Liver",
+      "Blood",
+      "Spleen",
+      "Brain"
+    ],
+    "correctIndex": 2,
+    "solutionText": "The spleen acts as a storehouse and filter, enlarging due to the accumulation of infected RBCs and debris of the malarial parasite."
+  },
+  {
+    "questionOrder": 49,
+    "questionType": "Objective",
+    "questionText": "In malarial infection one of the following gets enlarged and secretes lysolecithin which destroys RBC?",
+    "questionOptions":[
+      "Lymphocyte of blood",
+      "Liver",
+      "Spleen",
+      "Plasmodium"
+    ],
+    "correctIndex": 2,
+    "solutionText": "During malaria, the spleen becomes significantly enlarged and releases lysolecithin, a substance that contributes to the destruction of red blood cells."
+  },
+  {
+    "questionOrder": 1,
+    "questionType": "Objective",
+    "questionText": "Malarial parasite can be best obtained from the patient",
+    "questionOptions":[
+      "Five hours after temperature becomes normal",
+      "When temperature rises with vigour",
+      "One hour before rise of temperature",
+      "Any time"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The malarial parasite is best obtained from the blood when the fever rises with vigour, as this corresponds to the synchronous rupture of RBCs releasing many parasites."
+  },
+  {
+    "questionOrder": 2,
+    "questionType": "Objective",
+    "questionText": "The motile zygote after fertilization in plasmodium is called",
+    "questionOptions":[
+      "Oocyst",
+      "Ookinete",
+      "Gamont",
+      "Trophozoites"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Following fertilization in the mosquito's gut, the zygote elongates and becomes motile, adopting the name ookinete."
+  },
+  {
+    "questionOrder": 3,
+    "questionType": "Objective",
+    "questionText": "Diagnostic period of plasmodium is",
+    "questionOptions":[
+      "Gametogony in mosquito",
+      "Sporogony in mosquito",
+      "Schizogony in liver",
+      "Schizogony in RBC"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Schizogony in the RBC is the diagnostic stage because blood smears reveal the characteristic ring, trophozoite, and schizont forms of the parasite."
+  },
+  {
+    "questionOrder": 4,
+    "questionType": "Objective",
+    "questionText": "Sporozoites of malarial parasite enter",
+    "questionOptions":[
+      "RBC's of humans",
+      "Liver cells of human",
+      "Stomach of mosquito",
+      "Salivary glands of mosquito"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Upon being injected into the human bloodstream, sporozoites rapidly migrate and enter the liver cells to initiate the pre-erythrocytic cycle."
+  },
+  {
+    "questionOrder": 5,
+    "questionType": "Objective",
+    "questionText": "The correct sequence of events of sporogony is",
+    "questionOptions":[
+      "Zygote, ookinete, oocyst, sporozoite",
+      "Zygote, oocyst, ookinete, sporozoite",
+      "Zygote, sporozoite, ookinete, oocyst",
+      "Ookinete, sporozoite, oocyst, zygote"
+    ],
+    "correctIndex": 0,
+    "solutionText": "The sequence is: the zygote forms post-fertilization, becomes the motile ookinete, encysts to form an oocyst, and finally undergoes multiple fission to release sporozoites."
+  },
+  {
+    "questionOrder": 6,
+    "questionType": "Objective",
+    "questionText": "Sporozoites of Plasmodium vivax are formed in",
+    "questionOptions":[
+      "Spores",
+      "Sporoblasts",
+      "Oocysts",
+      "Gametocytes"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Sporozoites are formed inside the mature oocysts situated on the outer stomach wall of the female Anopheles mosquito."
+  },
+  {
+    "questionOrder": 7,
+    "questionType": "Objective",
+    "questionText": "If gametocytes are not sucked by mosquito they,",
+    "questionOptions":[
+      "Degenerate and die out",
+      "Remain permanently inactive till death of the host",
+      "Transform into active schizont",
+      "None of the above"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Gametocytes can only develop further inside the gut of a mosquito. If they remain in human blood, they eventually degenerate and die."
+  },
+  {
+    "questionOrder": 8,
+    "questionType": "Objective",
+    "questionText": "Gametocytes of malarial parasite are formed in",
+    "questionOptions":[
+      "RBC/blood of man",
+      "Salivary glands of anopheles",
+      "Stomach of female anopheles",
+      "None"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Gametocytes develop from some merozoites that enter the red blood cells (RBCs) of the human host."
+  },
+  {
+    "questionOrder": 9,
+    "questionType": "Objective",
+    "questionText": "Which one of the following pierces the stomach wall and becomes encysted on the peritrophic membrane of stomach in plasmodium life cycle",
+    "questionOptions":[
+      "Zygote",
+      "Oocyst",
+      "Ookinete",
+      "Merozoites"
+    ],
+    "correctIndex": 2,
+    "solutionText": "The motile ookinete is the stage that penetrates the stomach wall of the mosquito and encysts just beneath the outer membrane to become an oocyst."
+  },
+  {
+    "questionOrder": 10,
+    "questionType": "Objective",
+    "questionText": "Paroxysm in tertian malaria occurs after every",
+    "questionOptions":[
+      "72 hours",
+      "48 hours",
+      "24 hours",
+      "12 hours"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Tertian malaria causes fever paroxysms every 48 hours, correlating with the synchronous rupture of infected RBCs."
+  },
+  {
+    "questionOrder": 11,
+    "questionType": "Objective",
+    "questionText": "Vegetative phase of plasmodium in RBC of man is called",
+    "questionOptions":[
+      "Merozoite",
+      "Trophozoite",
+      "Cryptozoite",
+      "Sporozoite"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The trophozoite stage acts as the vegetative phase as it grows and feeds on hemoglobin inside the RBC."
+  },
+  {
+    "questionOrder": 12,
+    "questionType": "Objective",
+    "questionText": "Haemozoin, a toxic pigment formed by the digestion of hemoglobin by plasmodium inside RBC is at which stage?",
+    "questionOptions":[
+      "$Fe^{+2}$",
+      "$Fe^{+3}$",
+      "Fe",
+      "None"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Haemozoin is a dark pigment derived from hematin, in which the iron from hemoglobin gets oxidized to the $Fe^{+3}$ (ferric) state."
+  },
+  {
+    "questionOrder": 13,
+    "questionType": "Objective",
+    "questionText": "All species of plasmodium causes benign malaria except",
+    "questionOptions":[
+      "P. vivax",
+      "P. falciparum",
+      "P. malaria",
+      "P. ovale"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Plasmodium falciparum is the exception because it causes malignant malaria, whereas others typically cause benign malaria."
+  },
+  {
+    "questionOrder": 14,
+    "questionType": "Objective",
+    "questionText": "All species of plasmodium causes tertian malaria except",
+    "questionOptions":[
+      "P. vivax",
+      "P. falciparum",
+      "P. malaria",
+      "P. ovale"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Plasmodium malariae causes quartan malaria (fever every 72 hours), while vivax, ovale, and falciparum cause tertian periodicity (every 48 hours)."
+  },
+  {
+    "questionOrder": 15,
+    "questionType": "Objective",
+    "questionText": "Relapsing fever is absent in",
+    "questionOptions":[
+      "P. malaria",
+      "P. falciparum",
+      "P. vivax",
+      "P. ovale"
+    ],
+    "correctIndex": 1,
+    "solutionText": "P. falciparum lacks a persistent exo-erythrocytic cycle (hypnozoites in the liver), so relapses do not occur once the blood infection is cleared."
+  },
+  {
+    "questionOrder": 16,
+    "questionType": "Objective",
+    "questionText": "Rarest species of plasmodium is",
+    "questionOptions":[
+      "P. malaria",
+      "P. falciparum",
+      "P. vivax",
+      "P. ovale"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Plasmodium ovale is considered the rarest among the primary human malarial species, geographically limited largely to West Africa."
+  },
+  {
+    "questionOrder": 17,
+    "questionType": "Objective",
+    "questionText": "Mild tertian malaria is caused by",
+    "questionOptions":[
+      "P. vivax",
+      "P. falciparum",
+      "P. ovale",
+      "P. malaria"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Plasmodium ovale causes mild tertian malaria, generally presenting with milder symptoms compared to other tertian species."
+  },
+  {
+    "questionOrder": 18,
+    "questionType": "Objective",
+    "questionText": "Which species of malarial parasite causes malignant tertian malaria in humans?",
+    "questionOptions":[
+      "P. falciparum",
+      "P. vivax",
+      "P. ovale",
+      "P. malaria"
+    ],
+    "correctIndex": 0,
+    "solutionText": "P. falciparum causes malignant tertian malaria, known for its high mortality rate due to complications like cerebral malaria."
+  },
+  {
+    "questionOrder": 19,
+    "questionType": "Objective",
+    "questionText": "Spraying of kerosene oil on stagnant water controls malaria because",
+    "questionOptions":[
+      "Water becomes impure for mosquito",
+      "Of blocking of respiratory tract of Anopheles larva",
+      "Oil destroys malarial parasite in the body of mosquito",
+      "Prevention of spiracle to come out of water"
+    ],
+    "correctIndex": 1,
+    "solutionText": "A layer of oil on the water surface lowers surface tension and physically blocks the respiratory siphons (spiracles) of mosquito larvae, drowning them."
+  },
+  {
+    "questionOrder": 20,
+    "questionType": "Objective",
+    "questionText": "Just after a blood meal, a female Anopheles will have in its stomach",
+    "questionOptions":[
+      "RBC's and gametocyte",
+      "Only WBC's",
+      "RBC's and WBC's",
+      "Coagulated blood"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Upon taking a blood meal from an infected host, the mosquito's stomach will contain RBCs, WBCs, and the critical gametocytes needed to continue the Plasmodium life cycle."
+  },
+  {
+    "questionOrder": 21,
+    "questionType": "Objective",
+    "questionText": "Which of the following is responsible for clinical fever in malaria?",
+    "questionOptions":[
+      "Pre-erythrocytic schizogamy",
+      "Eye defects",
+      "Erythrocytic schizogony",
+      "Ear defects"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Erythrocytic schizogony leads to the synchronous rupture of RBCs and the release of merozoites and haemozoin, triggering the clinical fever paroxysms."
+  },
+  {
+    "questionOrder": 22,
+    "questionType": "Objective",
+    "questionText": "After how many days could a patient commonly feel malaria from the time of biting of mosquito?",
+    "questionOptions":[
+      "2-8 days",
+      "8-10 days",
+      "10-20 days",
+      "20-30 days"
+    ],
+    "correctIndex": 2,
+    "solutionText": "The incubation period spans the time from infection to symptoms, generally falling within 10 to 20 days for typical Plasmodium infections."
+  },
+  {
+    "questionOrder": 23,
+    "questionType": "Objective",
+    "questionText": "Which of the two species of plasmodium are responsible for relapse of malaria?",
+    "questionOptions":[
+      "P. falciparum & P. vivax",
+      "P. vivax & P. ovale",
+      "P. falciparum & P. ovale",
+      "None"
+    ],
+    "correctIndex": 1,
+    "solutionText": "P. vivax and P. ovale can form dormant hypnozoite stages in liver cells, which can reactivate months or years later causing malarial relapse."
+  },
+  {
+    "questionOrder": 24,
+    "questionType": "Objective",
+    "questionText": "Who discovered that malaria is transmitted by mosquito?",
+    "questionOptions":[
+      "Ronald Ross",
+      "Laveran",
+      "Lancisi",
+      "Grassi"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Sir Ronald Ross discovered that malaria is transmitted via mosquitoes when he found Plasmodium cysts in an Anopheles mosquito's stomach."
+  },
+  {
+    "questionOrder": 25,
+    "questionType": "Objective",
+    "questionText": "A person suffering from malaria runs fever when",
+    "questionOptions":[
+      "Exo-erythrocytic cycle is completed",
+      "Signet ring stage is formed",
+      "RBC's rupture and haemozoin granules are released",
+      "All of the above"
+    ],
+    "correctIndex": 3,
+    "solutionText": "According to the provided answer key, the answer is 'All of the above', though strictly speaking, the fever correlates directly with RBC rupture and haemozoin release."
+  },
+  {
+    "questionOrder": 1,
+    "questionType": "Objective",
+    "questionText": "Which substance in plasmodium cause fever and chills?",
+    "questionOptions":[
+      "haematin",
+      "sporozoite",
+      "haemozoin",
+      "schuffner's granules"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Haemozoin is a toxic by-product of hemoglobin degradation by the parasite. Its release into the bloodstream triggers intense fever and chills."
+  },
+  {
+    "questionOrder": 2,
+    "questionType": "Objective",
+    "questionText": "Which stage of plasmodium escapes the digestion in the gut of mosquito?",
+    "questionOptions":[
+      "sporocytes",
+      "Gametocytes",
+      "trophozoites",
+      "merozoites"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Only gametocytes are capable of surviving the digestive enzymes in the mosquito's gut to further develop into gametes."
+  },
+  {
+    "questionOrder": 3,
+    "questionType": "Objective",
+    "questionText": "Motile, elongated zygote of plasmodium is found in",
+    "questionOptions":[
+      "Gut of mosquito",
+      "RBC of human",
+      "Liver of human",
+      "Salivary glands of mosquito"
+    ],
+    "correctIndex": 0,
+    "solutionText": "The motile, elongated zygote known as the ookinete is formed and found in the stomach (gut) lumen of the mosquito."
+  },
+  {
+    "questionOrder": 4,
+    "questionType": "Objective",
+    "questionText": "Mature gametocytes of plasmodium are found in",
+    "questionOptions":[
+      "Human stomach",
+      "Stomach of female anopheles",
+      "Human blood",
+      "Blood of female anopheles"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Although gametocytes develop in human blood, mature functional gametes and subsequent fertilization occur in the stomach of the female Anopheles mosquito."
+  },
+  {
+    "questionOrder": 5,
+    "questionType": "Objective",
+    "questionText": "The most dangerous species of plasmodium is",
+    "questionOptions":[
+      "Malariae",
+      "Ovale",
+      "Falciparum",
+      "Vivax"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Plasmodium falciparum causes malignant tertian and cerebral malaria, making it the most lethal species."
+  },
+  {
+    "questionOrder": 6,
+    "questionType": "Objective",
+    "questionText": "Infective stage of Plasmodium in its life-cycle is the",
+    "questionOptions":[
+      "Merozoites",
+      "Sporozoites",
+      "Micromerozoites",
+      "Metacryptozoites"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The sporozoite is the infectious form that is transmitted from the mosquito's salivary glands to a human host during a blood meal."
+  },
+  {
+    "questionOrder": 7,
+    "questionType": "Objective",
+    "questionText": "Sporogony in plasmodium takes place in",
+    "questionOptions":[
+      "Stomach wall of mosquito",
+      "RBC of man",
+      "Liver of man",
+      "Salivary gland of mosquito"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Sporogony is the multiple fission inside the oocyst, which is attached to the outer stomach wall of the mosquito."
+  },
+  {
+    "questionOrder": 8,
+    "questionType": "Objective",
+    "questionText": "Benign tertian malaria is due to",
+    "questionOptions":[
+      "P. vivax",
+      "P. falciparum",
+      "P. malaria",
+      "P. ovale"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Plasmodium vivax causes benign tertian malaria, characterized by fever spikes every 48 hours without the severe complications of P. falciparum."
+  },
+  {
+    "questionOrder": 9,
+    "questionType": "Objective",
+    "questionText": "The peculiarity with malarial parasite is that",
+    "questionOptions":[
+      "Its asexual stage passes in secondary host and sexual in primary host",
+      "Its sexual stage passes in secondary host and asexual in primary host",
+      "Both sexual and asexual stages pass in the primary host while the secondary host only helps in dispersal",
+      "None"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Following traditional medical definitions, humans are referred to as primary hosts (asexual stage) and mosquitoes as secondary hosts (sexual stage), matching option b according to the answer key."
+  },
+  {
+    "questionOrder": 10,
+    "questionType": "Objective",
+    "questionText": "Multiple fission is shown by",
+    "questionOptions":[
+      "Plasmodium",
+      "Paramecium",
+      "Hydra",
+      "Obelia"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Plasmodium reproduces asexually through multiple fission, known as schizogony in humans and sporogony in mosquitoes."
+  },
+  {
+    "questionOrder": 11,
+    "questionType": "Objective",
+    "questionText": "Sporozoite is formed from",
+    "questionOptions":[
+      "Sporoblast",
+      "Cryptometozoite",
+      "Merozoite",
+      "Metacryptomerozoite"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Inside the oocyst, the cytoplasm divides into multiple sporoblasts, which further elongate to develop into individual sporozoites."
+  },
+  {
+    "questionOrder": 12,
+    "questionType": "Objective",
+    "questionText": "Which of the following forms of plasmodium is found in the wall of the stomach of host mosquito?",
+    "questionOptions":[
+      "Ookinete",
+      "Oocyst",
+      "Sporoblast",
+      "Sporozoite"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The ookinete penetrates the gut wall and encysts as an oocyst on the outer side of the mosquito's stomach wall."
+  },
+  {
+    "questionOrder": 13,
+    "questionType": "Objective",
+    "questionText": "\"Malaria is caused by plasmodium\" was discovered by",
+    "questionOptions":[
+      "Ronald Ross",
+      "Robert Koch",
+      "Pastur",
+      "Charak"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Although Laveran identified Plasmodium as the cause, among the choices provided, Ronald Ross is credited due to his discovery of its transmission cycle linking Plasmodium to malaria."
+  },
+  {
+    "questionOrder": 14,
+    "questionType": "Objective",
+    "questionText": "The common character among the Paramecium and Plasmodium is the",
+    "questionOptions":[
+      "Uninucleate condition",
+      "Unicellular condition",
+      "Asexual mode of reproduction",
+      "Mode of nutrition"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Both Paramecium and Plasmodium belong to Kingdom Protista and are characterized by a unicellular bodily organization."
+  },
+  {
+    "questionOrder": 15,
+    "questionType": "Objective",
+    "questionText": "The stage of plasmodium which is found in salivary gland of mosquito and enters in human blood during mosquito bite is",
+    "questionOptions":[
+      "Trophozoite",
+      "Sporozoite",
+      "Merozoite",
+      "Metacryptozoite"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Sporozoites migrate from the burst oocysts to the salivary glands of the mosquito, from where they are injected into the human host."
+  },
+  {
+    "questionOrder": 16,
+    "questionType": "Objective",
+    "questionText": "The common feature of Plasmodium & Paramecium is the",
+    "questionOptions":[
+      "Mode of nutrition",
+      "Locomotory organ",
+      "Reproduction by fission",
+      "Habit"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Both organisms can reproduce via fission; Paramecium by binary fission and Plasmodium via multiple fission."
+  },
+  {
+    "questionOrder": 17,
+    "questionType": "Objective",
+    "questionText": "Patients suffering from malaria show enlargement of spleen that is due to",
+    "questionOptions":[
+      "Accumulation of metabolites",
+      "Haemorrhage of the arteries",
+      "Enormous increase in number of phagocytes",
+      "Metastatic nodules"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Splenomegaly in malaria is mainly due to an enormous increase in the number of phagocytic cells attempting to clear infected RBCs and cellular debris."
+  },
+  {
+    "questionOrder": 18,
+    "questionType": "Objective",
+    "questionText": "Erythrocytic schizogony of plasmodium takes place in the host",
+    "questionOptions":[
+      "Anopheles",
+      "Homo",
+      "Culex",
+      "Bombyx"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Erythrocytic schizogony occurs in the red blood cells of the human host (Homo sapiens)."
+  },
+  {
+    "questionOrder": 19,
+    "questionType": "Objective",
+    "questionText": "The feeding stage of plasmodium is",
+    "questionOptions":[
+      "Merozoite",
+      "Trophozoite",
+      "Sporozoite",
+      "gametocyte"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The trophozoite acts as the growing and actively feeding stage, consuming the cytoplasm and hemoglobin of the host red blood cell."
+  },
+  {
+    "questionOrder": 20,
+    "questionType": "Objective",
+    "questionText": "Erythrocytic life cycle of plasmodium occurs in",
+    "questionOptions":[
+      "WBC",
+      "RBC",
+      "Liver",
+      "Mosquito"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The erythrocytic life cycle takes place entirely within the red blood cells (RBCs) of the human host."
+  },
+  {
+    "questionOrder": 21,
+    "questionType": "Objective",
+    "questionText": "Alternation of generation is found in",
+    "questionOptions":[
+      "Planaria",
+      "Earthworm",
+      "Plasmodium",
+      "Sea horse"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Plasmodium exhibits alternation of generations, cycling between an asexual phase in humans and a sexual phase in mosquitoes."
+  },
+  {
+    "questionOrder": 22,
+    "questionType": "Objective",
+    "questionText": "Which cell is attacked by sporozoites?",
+    "questionOptions":[
+      "RBC",
+      "Liver",
+      "WBC",
+      "Gut"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Upon entering the human body, sporozoites rapidly seek out and penetrate liver cells (hepatocytes) to begin their first cycle of asexual replication."
+  },
+  {
+    "questionOrder": 23,
+    "questionType": "Objective",
+    "questionText": "Plasmodium vivax is transmitted by",
+    "questionOptions":[
+      "Male culex",
+      "Female culex",
+      "Male anopheles",
+      "Female anopheles"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Only the female Anopheles mosquito transmits Plasmodium vivax, because females require a blood meal for egg development."
+  },
+  {
+    "questionOrder": 24,
+    "questionType": "Objective",
+    "questionText": "In 1880, plasmodium was discovered by",
+    "questionOptions":[
+      "Charles laveran",
+      "Sir Ronald Ross",
+      "Grassi",
+      "Okazaki"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Charles Laveran, a French physician, discovered the parasite in the blood of a malaria patient in 1880."
+  },
+  {
+    "questionOrder": 25,
+    "questionType": "Objective",
+    "questionText": "Which of the following organism causes most severe form of malaria?",
+    "questionOptions":[
+      "P. vivax",
+      "P. falciparum",
+      "P. ovale",
+      "P. malaria"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Plasmodium falciparum causes the most severe, often fatal form of malaria, leading to complications such as cerebral malaria."
+  },
+  {
+    "questionOrder": 26,
+    "questionType": "Objective",
+    "questionText": "Which of following causes malaria?",
+    "questionOptions":[
+      "Radiolarian",
+      "Trichosome",
+      "Dinoflagellate",
+      "Sporozoan"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Malaria is caused by Plasmodium, which is a member of the protozoan group called Sporozoa."
+  },
+  {
+    "questionOrder": 27,
+    "questionType": "Objective",
+    "questionText": "Schizont stage of Plasmodium is found in",
+    "questionOptions":[
+      "Erythrocyte of blood",
+      "Erythrocyte of Brain & heart",
+      "Erythrocyte of Liver and Pancreas",
+      "Erythrocyte of Liver and Kidney"
+    ],
+    "correctIndex": 0,
+    "solutionText": "The typical mature dividing stage, the schizont, is observed in the erythrocytes (red blood cells) of human blood during the asexual cycle."
+  },
+  {
+    "questionOrder": 28,
+    "questionType": "Objective",
+    "questionText": "Which of the following stage of plasmodium should be present in blood stream of man so that it can complete its life cycle only by entering the gut of mosquito.",
+    "questionOptions":[
+      "Scizont",
+      "Gametocyte",
+      "Micrometacryptozoite",
+      "Cryptozoic"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Gametocytes are the only stages capable of initiating the sexual cycle upon being ingested by the mosquito."
+  },
+  {
+    "questionOrder": 29,
+    "questionType": "Objective",
+    "questionText": "Sexual cycle of Plasmodium occurs in",
+    "questionOptions":[
+      "Salivary gland of mosquito",
+      "Gut of mosquito",
+      "Blood of man",
+      "Liver cells"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The sexual phase of the Plasmodium life cycle, which includes gametogenesis and fertilization, occurs in the gut of the mosquito."
+  },
+  {
+    "questionOrder": 30,
+    "questionType": "Objective",
+    "questionText": "Signet-ring stage is found in",
+    "questionOptions":[
+      "Erythrocytic cycle",
+      "Pre-erythrocytic cycle",
+      "Exo-erythrocytic cycle",
+      "None"
+    ],
+    "correctIndex": 0,
+    "solutionText": "The signet-ring stage is an early trophozoite morphological form found exclusively during the erythrocytic cycle in human RBCs."
+  },
+  {
+    "questionOrder": 31,
+    "questionType": "Objective",
+    "questionText": "In which of the following exflagellation occurs?",
+    "questionOptions":[
+      "Microgametocyte",
+      "Mega gametocyte",
+      "Sporozoite",
+      "Oocyte"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Exflagellation is the process where a microgametocyte forms several flagellated microgametes (male gametes)."
+  },
+  {
+    "questionOrder": 32,
+    "questionType": "Objective",
+    "questionText": "In malaria patient, toxic substance hemozoin is released in",
+    "questionOptions":[
+      "Spleen",
+      "Liver",
+      "Stomach of FAM",
+      "Salivary gland"
+    ],
+    "correctIndex": 0,
+    "solutionText": "While released in the bloodstream, according to the provided answer key, it severely impacts and is accumulated in the spleen causing splenomegaly."
+  },
+  {
+    "questionOrder": 33,
+    "questionType": "Objective",
+    "questionText": "Infective stage of Plasmodium is",
+    "questionOptions":[
+      "Sporozoite",
+      "Trophozoite",
+      "Merozoite",
+      "Ookinete"
+    ],
+    "correctIndex": 0,
+    "solutionText": "The sporozoite is the life stage transmitted to humans during a mosquito bite, thus serving as the infective stage."
+  },
+  {
+    "questionOrder": 34,
+    "questionType": "Objective",
+    "questionText": "Sexual cycle of Plasmodium occurs in",
+    "questionOptions":[
+      "Mosquito only",
+      "Human only",
+      "Partly human & partly mosquito",
+      "None"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Gametocyte formation initiates in the human host, while fertilization and further sexual development take place in the mosquito; therefore, it involves partly human and partly mosquito stages."
+  },
+  {
+    "questionOrder": 35,
+    "questionType": "Objective",
+    "questionText": "Hemozoin is secreted during ..... schizogony.",
+    "questionOptions":[
+      "Pre-erythrocytic",
+      "Exo-erythrocytic",
+      "Erythrocytic",
+      "Sporogony"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Hemozoin is a byproduct of hemoglobin digestion which only occurs during the erythrocytic schizogony within RBCs."
+  },
+  {
+    "questionOrder": 36,
+    "questionType": "Objective",
+    "questionText": "Longest incubation period is of",
+    "questionOptions":[
+      "P. vivax",
+      "P. malariae",
+      "P. ovale",
+      "P. falciparum"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Plasmodium malariae presents the longest incubation period, frequently lasting up to 28 days or even more."
+  },
+  {
+    "questionOrder": 37,
+    "questionType": "Objective",
+    "questionText": "Signet ring stage is present in ___ cycle.",
+    "questionOptions":[
+      "Erythrocytic",
+      "Pre-erythrocytic",
+      "Exo-erythrocytic",
+      "Sporogony"
+    ],
+    "correctIndex": 0,
+    "solutionText": "The signet ring form characterizes the early trophozoite stage inside the host's red blood cells, which defines the erythrocytic cycle."
+  },
+  {
+    "questionOrder": 38,
+    "questionType": "Objective",
+    "questionText": "When nucleus is at periphery and vacuole at center. It represents the stage:",
+    "questionOptions":[
+      "Amoeboid",
+      "Signet ring",
+      "Rosette",
+      "None of the above"
+    ],
+    "correctIndex": 1,
+    "solutionText": "In the signet-ring stage, a large central vacuole forms, pushing the cytoplasm and nucleus to the periphery, resembling a signet ring."
+  },
+  {
+    "questionOrder": 39,
+    "questionType": "Objective",
+    "questionText": "Haemozoin is left after the consumption of",
+    "questionOptions":[
+      "Color pigment of RBCs",
+      "Globin protein of RBCs",
+      "Whole RBCs",
+      "All of the above"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Hemozoin is the insoluble residue formed when the malarial parasite consumes the globin and oxidizes the remaining toxic heme component (the color pigment) of hemoglobin."
+  }
+]
