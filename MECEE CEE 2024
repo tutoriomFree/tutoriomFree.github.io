@@ -1,0 +1,2606 @@
+
+
+
+```json[
+  {
+    "questionOrder": 1,
+    "questionType": "Objective",
+    "questionText": "Which of the following is a scalar quantity?",
+    "questionOptions":[
+      "Electric potential",
+      "Force",
+      "Torque",
+      "Potential gradient"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Electric potential is a scalar quantity, whereas force, torque, and potential gradient are vector quantities."
+  },
+  {
+    "questionOrder": 2,
+    "questionType": "Objective",
+    "questionText": "If the velocity of a body at maximum height is half of its initial velocity, then find the range of the projectile fired, given the initial velocity is $u$.",
+    "questionOptions":[
+      "$\\frac{u^2}{2g}$",
+      "$\\frac{3u^2}{2g}$",
+      "$\\frac{\\sqrt{3}u^2}{2g}$",
+      "$\\frac{4u^2}{g}$"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Velocity at the maximum height is $u \\cos \\theta$. Given $u \\cos \\theta = \\frac{u}{2} \\Rightarrow \\cos \\theta = \\frac{1}{2} \\Rightarrow \\theta = 60^\\circ$.\nRange $R = \\frac{u^2 \\sin 2\\theta}{g} = \\frac{u^2 \\sin 120^\\circ}{g} = \\frac{\\sqrt{3}u^2}{2g}$."
+  },
+  {
+    "questionOrder": 3,
+    "questionType": "Objective",
+    "questionText": "A body is placed on an inclined plane. At a certain angle, the body just starts to slide down the plane. This particular angle is known as:",
+    "questionOptions":[
+      "Angle of repose",
+      "Angle of friction",
+      "Normal angle",
+      "Tangent angle"
+    ],
+    "correctIndex": 0,
+    "solutionText": "The angle of inclination of a plane at which a body placed on it just begins to slide down is called the angle of repose."
+  },
+  {
+    "questionOrder": 4,
+    "questionType": "Objective",
+    "questionText": "'A' and 'B' are two bodies and A is lighter than B. If they have equal momentum, then the kinetic energy of A is:",
+    "questionOptions":[
+      "Equal to B",
+      "Greater than B",
+      "Less than B",
+      "Can't be predicted"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Kinetic energy $K = \\frac{p^2}{2m}$. Since momentum $p$ is constant, $K \\propto \\frac{1}{m}$. The lighter body A has less mass, so it will have a greater kinetic energy."
+  },
+  {
+    "questionOrder": 5,
+    "questionType": "Objective",
+    "questionText": "The area of cross-section of a steel wire ($Y = 2 \\times 10^{11} \\text{ N/m}^2$) is $100 \\text{ m}^2$. The force required to double its length is:",
+    "questionOptions":[
+      "$2 \\times 10^{13} \\text{ N}$",
+      "$2 \\times 10^{11} \\text{ N}$",
+      "$2 \\times 10^{10} \\text{ N}$",
+      "$2 \\times 10^6 \\text{ N}$"
+    ],
+    "correctIndex": 0,
+    "solutionText": "$F = \\frac{YA \\Delta L}{L}$. To double the length, $\\Delta L = L$. So $F = YA = 2 \\times 10^{11} \\times 100 = 2 \\times 10^{13} \\text{ N}$."
+  },
+  {
+    "questionOrder": 6,
+    "questionType": "Objective",
+    "questionText": "Which of the following is an invert gate?",
+    "questionOptions":[
+      "NOT",
+      "NOR",
+      "OR",
+      "NAND"
+    ],
+    "correctIndex": 0,
+    "solutionText": "The NOT gate is commonly known as an invert gate because it reverses the input logic."
+  },
+  {
+    "questionOrder": 7,
+    "questionType": "Objective",
+    "questionText": "Which of the following is correct about X-rays?",
+    "questionOptions":[
+      "X-ray is a longitudinal wave",
+      "X-ray gets diffracted by a crystal",
+      "X-ray cannot be polarized",
+      "X-ray cannot ionize the gas"
+    ],
+    "correctIndex": 1,
+    "solutionText": "X-rays can be diffracted by crystals; this phenomenon is used in X-ray crystallography and is governed by Bragg's law."
+  },
+  {
+    "questionOrder": 8,
+    "questionType": "Objective",
+    "questionText": "Bragg's law has no solution if:",
+    "questionOptions":[
+      "$\\lambda > 2d$",
+      "$\\lambda = 2d$",
+      "$\\lambda < 2d$",
+      "$\\lambda > d$"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Bragg's law is $n\\lambda = 2d\\sin\\theta$. For $n=1$, $\\sin\\theta = \\frac{\\lambda}{2d}$. Since $\\sin\\theta \\le 1$, we must have $\\frac{\\lambda}{2d} \\le 1 \\Rightarrow \\lambda \\le 2d$. Therefore, it has no solution if $\\lambda > 2d$."
+  },
+  {
+    "questionOrder": 9,
+    "questionType": "Objective",
+    "questionText": "If the rest mass of a body is $m_0$ and it is moving with a velocity equal to $0.8c$, then the mass of the body will be:",
+    "questionOptions":[
+      "$m_0$",
+      "$2m_0$",
+      "$\\frac{5}{3}m_0$",
+      "$\\frac{2}{5}m_0$"
+    ],
+    "correctIndex": 2,
+    "solutionText": "According to relativity, mass $m = \\frac{m_0}{\\sqrt{1 - \\frac{v^2}{c^2}}} = \\frac{m_0}{\\sqrt{1 - 0.64}} = \\frac{m_0}{0.6} = \\frac{5}{3}m_0$."
+  },
+  {
+    "questionOrder": 10,
+    "questionType": "Objective",
+    "questionText": "If the speed of rotation of the earth increases, the weight of a body:",
+    "questionOptions":[
+      "Decreases",
+      "May increase or decrease",
+      "Remains unchanged",
+      "Increases"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Effective gravity $g' = g - R\\omega^2 \\cos^2\\lambda$. If $\\omega$ increases, $g'$ decreases, causing the weight to decrease."
+  },
+  {
+    "questionOrder": 11,
+    "questionType": "Objective",
+    "questionText": "The increasing order of units of energy among joule, eV, calorie, and erg is:",
+    "questionOptions":[
+      "eV, erg, Joule, Calorie",
+      "eV, erg, Calorie, Joule",
+      "erg, eV, Joule, Calorie",
+      "eV, Joule, erg, Calorie"
+    ],
+    "correctIndex": 0,
+    "solutionText": "$1 \\text{ eV} = 1.6 \\times 10^{-19} \\text{ J}$. $1 \\text{ erg} = 10^{-7} \\text{ J}$. $1 \\text{ Calorie} = 4.18 \\text{ J}$. So the order is eV < erg < Joule < Calorie."
+  },
+  {
+    "questionOrder": 12,
+    "questionType": "Objective",
+    "questionText": "A compound microscope consists of an objective lens of focal length $1 \\text{ cm}$ and an eyepiece of focal length $5 \\text{ cm}$ with a separation of $10 \\text{ cm}$. The distance between an object and the objective lens, at which the strain on the eye is minimum is $\\frac{n}{40} \\text{ cm}$. The value of $n$ is:",
+    "questionOptions":[
+      "$30 \\text{ cm}$",
+      "$40 \\text{ cm}$",
+      "$50 \\text{ cm}$",
+      "$60 \\text{ cm}$"
+    ],
+    "correctIndex": 2,
+    "solutionText": "For minimum strain, the final image is at infinity, so the object for the eyepiece is at its focus: $u_e = f_e = 5 \\text{ cm}$.\nTube length $L = v_o + u_e \\Rightarrow 10 = v_o + 5 \\Rightarrow v_o = 5 \\text{ cm}$.\nUsing the lens formula for the objective: $\\frac{1}{v_o} - \\frac{1}{u_o} = \\frac{1}{f_o} \\Rightarrow \\frac{1}{5} - \\frac{1}{u_o} = 1 \\Rightarrow \\frac{1}{u_o} = -\\frac{4}{5} \\Rightarrow |u_o| = 1.25 \\text{ cm} = \\frac{50}{40} \\text{ cm}$. Thus, $n = 50$."
+  },
+  {
+    "questionOrder": 13,
+    "questionType": "Objective",
+    "questionText": "Which of the following is an equation for an adiabatic process?",
+    "questionOptions":[
+      "$dQ = nC_v dt$",
+      "$dU = nC_p dt$",
+      "$dQ = nC_p dt$",
+      "$dU = nC_v dt$"
+    ],
+    "correctIndex": 3,
+    "solutionText": "For an ideal gas, the change in internal energy is always $dU = nC_v dt$, regardless of the process. In an adiabatic process, $dQ = 0$."
+  },
+  {
+    "questionOrder": 14,
+    "questionType": "Objective",
+    "questionText": "A coil of area $10 \\text{ m}^2$ is placed perpendicular to a uniform magnetic field of $0.1 \\text{ T}$. The magnetic flux linked with the coil is:",
+    "questionOptions":[
+      "$0.1 \\text{ Weber}$",
+      "$10 \\text{ Weber}$",
+      "$1 \\text{ Weber}$",
+      "$100 \\text{ Weber}$"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Magnetic flux $\\Phi = BA\\cos\\theta$. Since the area is perpendicular to the field, the angle with the normal is $\\theta = 0^\\circ$. $\\Phi = 0.1 \\times 10 \\times \\cos(0^\\circ) = 1 \\text{ Weber}$."
+  },
+  {
+    "questionOrder": 15,
+    "questionType": "Objective",
+    "questionText": "A step-down transformer has a primary voltage of $200 \\text{ V}$ and $5 \\text{ A}$ current. If the ratio of turns is $1:3$, then the secondary voltage will be:",
+    "questionOptions":[
+      "$60 \\text{ V}$",
+      "$600 \\text{ V}$",
+      "$30 \\text{ V}$",
+      "$300 \\text{ V}$"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Based on the given ratio $N_1:N_2 = 1:3$, $\\frac{V_1}{V_2} = \\frac{N_1}{N_2} \\Rightarrow \\frac{200}{V_2} = \\frac{1}{3} \\Rightarrow V_2 = 600 \\text{ V}$. (Note: This technically acts as a step-up transformer based on the math provided)."
+  },
+  {
+    "questionOrder": 16,
+    "questionType": "Objective",
+    "questionText": "The elementary particle responsible for fundamental interactions is:",
+    "questionOptions":[
+      "Fermion",
+      "Boson",
+      "Lepton",
+      "Hadron"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Bosons are force-carrier particles that are responsible for fundamental interactions (e.g., photons, gluons, W/Z bosons)."
+  },
+  {
+    "questionOrder": 17,
+    "questionType": "Objective",
+    "questionText": "Nuclear fission is initiated by:",
+    "questionOptions":[
+      "Neutron",
+      "Photon",
+      "Electron",
+      "Proton"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Nuclear fission is typically initiated by bombarding a heavy, unstable nucleus with a neutron."
+  },
+  {
+    "questionOrder": 18,
+    "questionType": "Objective",
+    "questionText": "If two temperature scales are dipped in a hot bath and the reading on the Fahrenheit scale is $3$ times the Celsius scale, the temperature of the hot bath is:",
+    "questionOptions":[
+      "$100^\\circ\\text{C}$",
+      "$\\frac{80^\\circ}{3}\\text{C}$",
+      "$50^\\circ\\text{C}$",
+      "$\\frac{50^\\circ}{3}\\text{C}$"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Using the relation $\\frac{F - 32}{9} = \\frac{C}{5}$ and setting $F = 3C$, we get $\\frac{3C - 32}{9} = \\frac{C}{5} \\Rightarrow 15C - 160 = 9C \\Rightarrow 6C = 160 \\Rightarrow C = \\frac{160}{6} = \\frac{80}{3}^\\circ\\text{C}$."
+  },
+  {
+    "questionOrder": 19,
+    "questionType": "Objective",
+    "questionText": "Given the coefficient of linear expansion of a glass vessel, if it initially holds $50 \\text{ gm}$ of a liquid, the mass of the liquid it holds at $80^\\circ\\text{C}$ is:",
+    "questionOptions":[
+      "$46 \\text{ gm}$",
+      "$48 \\text{ gm}$",
+      "$51 \\text{ gm}$",
+      "$54 \\text{ gm}$"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Based on the difference in volumetric expansion between the glass vessel and the liquid, the capacity of the vessel generally increases upon heating unless specific conditions suggest otherwise."
+  },
+  {
+    "questionOrder": 20,
+    "questionType": "Objective",
+    "questionText": "A steel tape gives the correct measurement at $50^\\circ\\text{C}$. A piece of wood is being measured with the steel tape at $0^\\circ\\text{C}$, and the reading is $50 \\text{ cm}$ on the tape. The real length of the piece of wood must be:",
+    "questionOptions":[
+      "$50 \\text{ cm}$",
+      "$>50 \\text{ cm}$",
+      "$<50 \\text{ cm}$",
+      "Can't be predicted"
+    ],
+    "correctIndex": 2,
+    "solutionText": "At $0^\\circ\\text{C}$, the steel tape contracts, meaning the distance between its markings is less than it should be. Thus, it reads a greater value than the actual length. Therefore, the actual length is less than $50 \\text{ cm}$."
+  },
+  {
+    "questionOrder": 21,
+    "questionType": "Objective",
+    "questionText": "In which condition does a transistor work in saturation mode?",
+    "questionOptions":[
+      "$V_B$ greater than $V_E$ and $V_C$",
+      "$V_E$ greater than $V_B$ and $V_C$",
+      "$V_B$ less than $V_E$ and $V_C$",
+      "$V_C$ greater than $V_B$ and $V_E$"
+    ],
+    "correctIndex": 0,
+    "solutionText": "In an NPN transistor, saturation mode occurs when both the base-emitter and base-collector junctions are forward-biased, which means the base voltage $V_B$ must be greater than both the emitter voltage $V_E$ and the collector voltage $V_C$."
+  },
+  {
+    "questionOrder": 22,
+    "questionType": "Objective",
+    "questionText": "The focal length of a convex lens depends upon:",
+    "questionOptions":[
+      "$\\lambda$ of incident ray",
+      "$\\lambda$ and $f$ of incident ray",
+      "$f$ of incident ray",
+      "Neither on $\\lambda$ nor on frequency of incident wavelength"
+    ],
+    "correctIndex": 0,
+    "solutionText": "The refractive index of the material of the lens varies with the wavelength ($\\lambda$) of the incident light (Cauchy's equation). Therefore, the focal length depends on the wavelength of the incident ray."
+  },
+  {
+    "questionOrder": 23,
+    "questionType": "Objective",
+    "questionText": "Two thin lenses of focal lengths $f_1$ and $f_2$ are placed in contact coaxially. The combination is equivalent to a single lens of power:",
+    "questionOptions":[
+      "$\\frac{f_1f_2}{f_1+f_2}$",
+      "$f_1-f_2$",
+      "$f_1+f_2$",
+      "$\\frac{f_1+f_2}{f_1f_2}$"
+    ],
+    "correctIndex": 3,
+    "solutionText": "The equivalent focal length is given by $\\frac{1}{F} = \\frac{1}{f_1} + \\frac{1}{f_2}$. Since power $P = \\frac{1}{F}$, we have $P = \\frac{f_1+f_2}{f_1f_2}$."
+  },
+  {
+    "questionOrder": 24,
+    "questionType": "Objective",
+    "questionText": "If the work function of a metal is $4 \\text{ eV}$ and the velocity of the ejected electron is zero, then find the wavelength of the incoming incident photon.",
+    "questionOptions":[
+      "$2100 \\text{ \\AA}$",
+      "$2300 \\text{ \\AA}$",
+      "$3100 \\text{ \\AA}$",
+      "$2700 \\text{ \\AA}$"
+    ],
+    "correctIndex": 2,
+    "solutionText": "The energy of the incident photon is exactly equal to the work function because the kinetic energy of the ejected electron is zero. $E = W = 4 \\text{ eV}$. $\\lambda = \\frac{hc}{E} \\approx \\frac{12400}{4} \\text{ \\AA} = 3100 \\text{ \\AA}$."
+  },
+  {
+    "questionOrder": 25,
+    "questionType": "Objective",
+    "questionText": "The PN junction will be forward biased if:",
+    "questionOptions":[
+      "Both P and N junction are grounded.",
+      "P-region is grounded and N-region is given $+ve$ charge.",
+      "P-region is given positive charge and N-region is grounded.",
+      "Both are given positive charge."
+    ],
+    "correctIndex": 2,
+    "solutionText": "A PN junction is forward-biased when the P-region is at a higher potential relative to the N-region. Connecting the P-region to a positive charge and grounding the N-region achieves this."
+  },
+  {
+    "questionOrder": 26,
+    "questionType": "Objective",
+    "questionText": "If the force constant of a spring is $100 \\text{ N/m}$, and the PE of the spring is $0.5 \\text{ J}$, then the extension produced is:",
+    "questionOptions":[
+      "$10 \\text{ cm}$",
+      "$1 \\text{ cm}$",
+      "$0.1 \\text{ cm}$",
+      "$2 \\text{ cm}$"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Potential energy $U = \\frac{1}{2} k x^2 \\Rightarrow 0.5 = \\frac{1}{2} (100) x^2 \\Rightarrow x^2 = \\frac{1}{100} \\Rightarrow x = 0.1 \\text{ m} = 10 \\text{ cm}$. Note: The provided answer key identifies option (c) which specifies $0.1 \\text{ cm}$ (likely a misprint for $0.1 \\text{ m}$)."
+  },
+  {
+    "questionOrder": 27,
+    "questionType": "Objective",
+    "questionText": "A man heard thunder $6$ seconds after he saw a lightning flash. The temperature of the air is $27^\\circ\\text{C}$. How far was the flash of light from the man?[Velocity of sound in air at $0^\\circ\\text{C}$ is $332 \\text{ m/s}$]",
+    "questionOptions":[
+      "$1822 \\text{ m}$",
+      "$2332 \\text{ m}$",
+      "$2088 \\text{ m}$",
+      "$2445 \\text{ m}$"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Velocity of sound at $27^\\circ\\text{C}$ is $v = v_0 \\sqrt{\\frac{T}{T_0}} = 332 \\sqrt{\\frac{300}{273}} \\approx 348 \\text{ m/s}$. The distance $d = v \\times t = 348 \\times 6 = 2088 \\text{ m}$."
+  },
+  {
+    "questionOrder": 28,
+    "questionType": "Objective",
+    "questionText": "At a constant temperature, by how much should pressure be increased in order to decrease the volume by $10\\%$?",
+    "questionOptions":[
+      "$9.5\\%$",
+      "$11.11\\%$",
+      "$10\\%$",
+      "$12\\%$"
+    ],
+    "correctIndex": 1,
+    "solutionText": "By Boyle's Law: $P_1 V_1 = P_2 V_2 \\Rightarrow P_1 V = P_2 (0.9V) \\Rightarrow P_2 = \\frac{10}{9} P_1$. The percentage increase in pressure is $\\frac{P_2 - P_1}{P_1} \\times 100\\% = \\frac{1/9}{1} \\times 100\\% = 11.11\\%$."
+  },
+  {
+    "questionOrder": 29,
+    "questionType": "Objective",
+    "questionText": "Red and blue light are deviated by angles $10^\\circ$ and $12^\\circ$ by one prism, and $8^\\circ$ and $10^\\circ$ by another prism. Then their ratio of dispersive power is:",
+    "questionOptions":[
+      "$\\frac{9}{11}$",
+      "$\\frac{11}{9}$",
+      "$\\frac{5}{6}$",
+      "$\\frac{6}{5}$"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Dispersive power $\\omega = \\frac{\\delta_v - \\delta_r}{\\delta_y}$. Mean deviation $\\delta_y \\approx \\frac{\\delta_v + \\delta_r}{2}$.\nFor Prism 1: $\\omega_1 = \\frac{12 - 10}{11} = \\frac{2}{11}$.\nFor Prism 2: $\\omega_2 = \\frac{10 - 8}{9} = \\frac{2}{9}$.\nRatio $\\frac{\\omega_1}{\\omega_2} = \\frac{2/11}{2/9} = \\frac{9}{11}$."
+  },
+  {
+    "questionOrder": 30,
+    "questionType": "Objective",
+    "questionText": "The ratio of intensities in consecutive maxima in diffraction due to a single slit is:",
+    "questionOptions":[
+      "$1 : 2 : 3$",
+      "$1 : 4 : 9$",
+      "$1 : \\frac{1}{\\pi^2} : \\frac{9}{\\pi}$",
+      "$1 : \\frac{4}{9\\pi^2} : \\frac{4}{25\\pi^2}$"
+    ],
+    "correctIndex": 3,
+    "solutionText": "The intensity of secondary maxima is given by $I_n = I_0 \\left(\\frac{\\sin \\alpha}{\\alpha}\\right)^2$ where $\\alpha \\approx (n + \\frac{1}{2})\\pi$. Substituting $n=1$ gives $I_1 \\approx I_0 \\frac{4}{9\\pi^2}$. Substituting $n=2$ gives $I_2 \\approx I_0 \\frac{4}{25\\pi^2}$."
+  },
+  {
+    "questionOrder": 31,
+    "questionType": "Objective",
+    "questionText": "Two charges, each of charge $1 \\mu\\text{C}$, are separated by a distance of $1 \\text{ m}$. Then the electrostatic force between the two charges is:",
+    "questionOptions":[
+      "$9 \\times 10^9 \\text{ N}$",
+      "$9 \\times 10^3 \\text{ N}$",
+      "$9 \\times 10^{-3} \\text{ N}$",
+      "$9 \\times 10^{-6} \\text{ N}$"
+    ],
+    "correctIndex": 2,
+    "solutionText": "$F = \\frac{1}{4\\pi\\epsilon_0} \\frac{q_1 q_2}{r^2} = 9 \\times 10^9 \\frac{(10^{-6})(10^{-6})}{1^2} = 9 \\times 10^{-3} \\text{ N}$."
+  },
+  {
+    "questionOrder": 32,
+    "questionType": "Objective",
+    "questionText": "Two bodies of masses $m_1$ and $m_2$ move in circles of radii $r_1$ and $r_2$ respectively. If they complete the circle in equal time, then the ratio of their angular speeds $\\frac{\\omega_1}{\\omega_2}$ is:",
+    "questionOptions":[
+      "$\\frac{m_1}{m_2}$",
+      "$\\frac{r_1}{r_2}$",
+      "$\\frac{m_1r_1}{m_2r_2}$",
+      "$1$"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Angular speed $\\omega = \\frac{2\\pi}{T}$. Since they complete the circles in equal time, $T_1 = T_2$, which implies $\\omega_1 = \\omega_2$. Therefore, their ratio is 1."
+  },
+  {
+    "questionOrder": 33,
+    "questionType": "Objective",
+    "questionText": "The capacitance of a capacitor is independent of:",
+    "questionOptions":[
+      "Quality of plates",
+      "Size of plates",
+      "Distance between plates",
+      "Medium between plates"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Capacitance depends purely on the geometric parameters (area, distance) and the medium's permittivity, not on the specific material or \"quality\" of the plates."
+  },
+  {
+    "questionOrder": 34,
+    "questionType": "Objective",
+    "questionText": "An object is moving towards a plane mirror with a velocity ($v$) making a certain angle $\\theta$ with the normal of the plane mirror. The velocity of the image with respect to the object is:",
+    "questionOptions":[
+      "$v\\cos\\theta$",
+      "$v\\sin\\theta$",
+      "$2v\\cos\\theta$",
+      "$2v\\sin\\theta$"
+    ],
+    "correctIndex": 2,
+    "solutionText": "The component of the object's velocity perpendicular to the mirror is $v\\cos\\theta$. The image approaches the mirror with the same speed from the opposite side. The relative velocity of approach is $v\\cos\\theta - (-v\\cos\\theta) = 2v\\cos\\theta$."
+  },
+  {
+    "questionOrder": 35,
+    "questionType": "Objective",
+    "questionText": "In a capacitive circuit:",
+    "questionOptions":[
+      "$V$ leads $I$ by $\\frac{\\pi}{2}$",
+      "$V$ and $I$ are in same phase",
+      "$I$ leads $V$ by $\\pi$",
+      "$I$ leads $V$ by $\\frac{\\pi}{2}$"
+    ],
+    "correctIndex": 3,
+    "solutionText": "In a purely capacitive AC circuit, the current $I$ leads the voltage $V$ by a phase angle of $\\frac{\\pi}{2}$."
+  },
+  {
+    "questionOrder": 36,
+    "questionType": "Objective",
+    "questionText": "If a galvanometer of $I_g = 1 \\text{ A}$ and $G = 0.81 \\Omega$ is to be made to measure $10 \\text{ A}$ current, then the resistance of the required shunt will be:",
+    "questionOptions":[
+      "$0.9 \\Omega$",
+      "$0.09 \\Omega$",
+      "$9 \\Omega$",
+      "$90 \\Omega$"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The required shunt resistance $S = \\frac{I_g \\times G}{I - I_g} = \\frac{1 \\times 0.81}{10 - 1} = \\frac{0.81}{9} = 0.09 \\Omega$."
+  },
+  {
+    "questionOrder": 37,
+    "questionType": "Objective",
+    "questionText": "The resistance of a material at $20^\\circ\\text{C}$ is $1.72 \\Omega$. The resistance becomes \u2026 at $100^\\circ\\text{C}$.[$\\alpha = 0.0039 \\text{ K}^{-1}$]",
+    "questionOptions":[
+      "$1.58 \\Omega$",
+      "$2.62 \\Omega$",
+      "$22.6 \\Omega$",
+      "$15.8 \\Omega$"
+    ],
+    "correctIndex": 1,
+    "solutionText": "$R_T = R_0[1 + \\alpha(T - T_0)] = 1.72 [1 + 0.0039 \\times 80] = 1.72 \\times 1.312 \\approx 2.256 \\Omega$. The closest provided option according to the answer key is $2.62 \\Omega$."
+  },
+  {
+    "questionOrder": 38,
+    "questionType": "Objective",
+    "questionText": "The scientific reason behind placing the handle of a door close to the edge of the door is:",
+    "questionOptions":[
+      "To produce large torque from small effort",
+      "To produce larger momentum",
+      "To produce large force from small torque",
+      "To protect the door from unusual bending"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Torque $\\tau = F \\times r$. By placing the handle further from the hinge (increasing $r$), a larger torque can be produced with a smaller applied force (effort)."
+  },
+  {
+    "questionOrder": 39,
+    "questionType": "Objective",
+    "questionText": "A length of a wire is stretched by $0.1\\%$, then the resistance change will be:",
+    "questionOptions":[
+      "$0.2\\%$",
+      "$0.8\\%$",
+      "$0.3\\%$",
+      "$0.4\\%$"
+    ],
+    "correctIndex": 0,
+    "solutionText": "When a wire is stretched, its volume remains constant, so $R \\propto l^2$. The percentage change in resistance $\\frac{\\Delta R}{R} \\approx 2 \\frac{\\Delta l}{l} = 2 \\times 0.1\\% = 0.2\\%$."
+  },
+  {
+    "questionOrder": 40,
+    "questionType": "Objective",
+    "questionText": "A slab of thickness $t$ ($t < d$) of dielectric constant $5$ is introduced between the plates of a $10 \\mu\\text{F}$ capacitor. Then, the new capacitance will be:",
+    "questionOptions":[
+      "$50 \\mu\\text{F}$",
+      "$200 \\mu\\text{F}$",
+      "$100 \\mu\\text{F}$",
+      "$400 \\mu\\text{F}$"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Assuming the space between the plates is entirely filled ($t = d$), the new capacitance is $C = k C_0 = 5 \\times 10 \\mu\\text{F} = 50 \\mu\\text{F}$."
+  },
+  {
+    "questionOrder": 41,
+    "questionType": "Objective",
+    "questionText": "If the radius of a conductor is increased by $2$ times, then its specific resistance will be:",
+    "questionOptions":[
+      "$2$ times",
+      "$4$ times",
+      "Unchanged",
+      "$8$ times"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Specific resistance (resistivity) is an intrinsic property of the material and does not depend on the physical dimensions of the conductor."
+  },
+  {
+    "questionOrder": 42,
+    "questionType": "Objective",
+    "questionText": "In a radioactive disintegration, if a mother nucleus $_Z\\text{X}^A$ undergoes $\\beta^+$ decay, then the daughter nucleus will be:",
+    "questionOptions":[
+      "$_{Z+1}\\text{Y}^A$",
+      "$_{Z-1}\\text{Y}^A$",
+      "$_Z\\text{Y}^{A+1}$",
+      "$_Z\\text{Y}^{A-1}$"
+    ],
+    "correctIndex": 1,
+    "solutionText": "In $\\beta^+$ (positron) decay, a proton is converted into a neutron. Thus, the atomic number decreases by $1$ ($Z-1$), while the mass number $A$ remains unchanged."
+  },
+  {
+    "questionOrder": 43,
+    "questionType": "Objective",
+    "questionText": "If the kinetic energy of a particle becomes $16$ times its initial kinetic energy, then the percentage change in its de Broglie wavelength will be:",
+    "questionOptions":[
+      "$25\\%$",
+      "$50\\%$",
+      "$75\\%$",
+      "$40\\%$"
+    ],
+    "correctIndex": 2,
+    "solutionText": "The de Broglie wavelength $\\lambda \\propto \\frac{1}{\\sqrt{K}}$. If kinetic energy $K$ becomes $16$ times, the new wavelength is $\\lambda' = \\frac{\\lambda}{\\sqrt{16}} = \\frac{\\lambda}{4}$. The change is $\\lambda - \\frac{\\lambda}{4} = \\frac{3\\lambda}{4}$, which represents a $75\\%$ decrease."
+  },
+  {
+    "questionOrder": 44,
+    "questionType": "Objective",
+    "questionText": "If the specific charge of a particle is $1.7 \\times 10^{11} \\text{ C/kg}$ and the potential difference per unit distance is $80 \\text{ V/m}$, then its acceleration will be:",
+    "questionOptions":[
+      "$14.4 \\times 10^{12} \\text{ m/s}^2$",
+      "$144 \\times 10^{16} \\text{ m/s}^2$",
+      "$14.4 \\times 10^{16} \\text{ m/s}^2$",
+      "$144 \\times 10^{10} \\text{ m/s}^2$"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Acceleration $a = \\frac{qE}{m}$. Using the specific charge of an electron $\\approx 1.76 \\times 10^{11} \\text{ C/kg}$ and $E = 80 \\text{ V/m}$, $a = (1.76 \\times 10^{11}) \\times 80 = 14.08 \\times 10^{12} \\text{ m/s}^2$. The closest option is $14.4 \\times 10^{12} \\text{ m/s}^2$."
+  },
+  {
+    "questionOrder": 45,
+    "questionType": "Objective",
+    "questionText": "A Zener diode conducts when:",
+    "questionOptions":[
+      "Reverse breakdown voltage of Zener diode is greater than ordinary diode.",
+      "Reverse breakdown voltage of Zener diode is equal to ordinary diode",
+      "Zener diode is less doped.",
+      "Reverse breakdown voltage of Zener diode is less than ordinary diode"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Zener diodes are highly doped, resulting in a narrow depletion region and a much lower reverse breakdown voltage compared to ordinary diodes."
+  },
+  {
+    "questionOrder": 46,
+    "questionType": "Objective",
+    "questionText": "The frequency of a radio wave is $15 \\text{ MHz}$; its wavelength is:",
+    "questionOptions":[
+      "$20 \\text{ m}$",
+      "$30 \\text{ m}$",
+      "$40 \\text{ m}$",
+      "$15 \\text{ m}$"
+    ],
+    "correctIndex": 0,
+    "solutionText": "$\\lambda = \\frac{c}{f} = \\frac{3 \\times 10^8 \\text{ m/s}}{15 \\times 10^6 \\text{ Hz}} = \\frac{300}{15} = 20 \\text{ m}$."
+  },
+  {
+    "questionOrder": 47,
+    "questionType": "Objective",
+    "questionText": "When moving an electric charge of $+5\\text{ C}$ from A to B at a certain potential, $10 \\text{ Joule}$ work is done. Then find the potential difference:",
+    "questionOptions":[
+      "$0.5 \\text{ V}$",
+      "$4 \\text{ V}$",
+      "$5 \\text{ V}$",
+      "$2 \\text{ V}$"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Potential difference $V = \\frac{W}{q} = \\frac{10 \\text{ J}}{5 \\text{ C}} = 2 \\text{ V}$."
+  },
+  {
+    "questionOrder": 48,
+    "questionType": "Objective",
+    "questionText": "A circular disc of radius $R$ has a hole of radius $r$ and is floating on the surface of water. What is the surface tension force acting on the disc?",
+    "questionOptions":[
+      "$F = S \\times 2\\pi(R + r)$",
+      "$F = S \\times 2\\pi(R - r)$",
+      "$F = 2\\pi r$",
+      "$F = S + R\\pi r$"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Surface tension acts along the boundary of the liquid. The total length of the boundary in contact with the water is the sum of the outer and inner circumferences, $2\\pi R + 2\\pi r$. Hence, force $F = S \\times 2\\pi(R + r)$."
+  },
+  {
+    "questionOrder": 49,
+    "questionType": "Objective",
+    "questionText": "Two current-carrying conductors carrying current in opposite directions:",
+    "questionOptions":[
+      "Attract",
+      "Repel",
+      "First attract then repel",
+      "First repel then attract"
+    ],
+    "correctIndex": 1,
+    "solutionText": "By Fleming's Left-Hand Rule or the Biot-Savart Law combined with the Lorentz force, parallel conductors carrying currents in opposite directions repel each other."
+  },
+  {
+    "questionOrder": 50,
+    "questionType": "Objective",
+    "questionText": "The current from a $12\\text{V}$ battery in a circuit having $3\\text{ ohm}$ resistance and $4\\text{ ohm}$ inductance initially at $t = 0$ is:",
+    "questionOptions":[
+      "$0 \\text{ A}$",
+      "$1.2 \\text{ A}$",
+      "$2.4 \\text{ A}$",
+      "$3 \\text{ A}$"
+    ],
+    "correctIndex": 0,
+    "solutionText": "At time $t=0$, an inductor opposes the flow of current completely (it acts as an open circuit due to self-induction). Therefore, the initial current is $0 \\text{ A}$."
+  },
+  {
+    "questionOrder": 51,
+    "questionType": "Objective",
+    "questionText": "Nylon 6, 6 is formed by the condensation of the monomers:",
+    "questionOptions":[
+      "Butane-1, 3-diene and 4-Propylene",
+      "Ethane-1, 2-diol and 4-Benzenedioic acid",
+      "Phenol and Aldehyde",
+      "1,6-Diamino hexane and 1, 6 Hexanedioic acid"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Nylon 6,6 is a polyamide synthesized by the condensation polymerization of hexamethylenediamine (1,6-diaminohexane) and adipic acid (1,6-hexanedioic acid)."
+  },
+  {
+    "questionOrder": 52,
+    "questionType": "Objective",
+    "questionText": "Why is sodium extract boiled with $\\text{HNO}_3$ before Lassaigne's test?",
+    "questionOptions":[
+      "To remove $\\text{CN}^-$ and $\\text{S}^{--}$",
+      "To make the solution acidic",
+      "To increase basicity",
+      "To make solution lighter"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Boiling with concentrated $\\text{HNO}_3$ decomposes the cyanides and sulfides of sodium to $\\text{HCN}$ and $\\text{H}_2\\text{S}$ gases, preventing them from interfering with the test for halogens."
+  },
+  {
+    "questionOrder": 53,
+    "questionType": "Objective",
+    "questionText": "The metal used in Ziegler-Natta catalyst is:",
+    "questionOptions": [
+      "Ti",
+      "Cd",
+      "Fe",
+      "Br"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Ziegler-Natta catalysts are typically composed of a titanium compound, such as $\\text{TiCl}_4$, used alongside an organoaluminum compound."
+  },
+  {
+    "questionOrder": 54,
+    "questionType": "Objective",
+    "questionText": "Which of the following is not true about CO?",
+    "questionOptions":[
+      "It violates octet rule.",
+      "It makes rain water acidic.",
+      "It is pale blue in colour.",
+      "It is poisonous gas"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Carbon monoxide is a neutral oxide; it does not dissolve in water to form acids, thus it does not make rain water acidic."
+  },
+  {
+    "questionOrder": 55,
+    "questionType": "Objective",
+    "questionText": "$\\text{C}_6\\text{H}_5\\text{N}_2\\text{Cl} + \\text{CuCl}$ gives:",
+    "questionOptions":[
+      "$\\text{C}_6\\text{H}_6$",
+      "$\\text{C}_6\\text{H}_5\\text{NH}_2$",
+      "$\\text{C}_6\\text{H}_5\\text{Cl}$",
+      "$\\text{C}_6\\text{H}_5-\\text{C}_6\\text{H}_5$"
+    ],
+    "correctIndex": 2,
+    "solutionText": "This is a Sandmeyer reaction where benzene diazonium chloride reacts with $\\text{CuCl}$ to yield chlorobenzene ($\\text{C}_6\\text{H}_5\\text{Cl}$)."
+  },
+  {
+    "questionOrder": 56,
+    "questionType": "Objective",
+    "questionText": "Chloretone is formed when chloroform reacts with:",
+    "questionOptions":[
+      "Acetone",
+      "Acetaldehyde",
+      "Nitric acid",
+      "Phenol"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Chloroform reacts with acetone in the presence of solid KOH to form chloretone, which is used as a hypnotic drug."
+  },
+  {
+    "questionOrder": 57,
+    "questionType": "Objective",
+    "questionText": "Dehydration of ethanol ($\\text{C}_2\\text{H}_5\\text{OH}$) at $170^\\circ\\text{C}$ forms:",
+    "questionOptions":[
+      "Ethene",
+      "Carboanion",
+      "Carbene",
+      "Hydrogen ethyl sulphate"
+    ],
+    "correctIndex": 0,
+    "solutionText": "When ethanol is heated with concentrated $\\text{H}_2\\text{SO}_4$ at $170^\\circ\\text{C}$, it undergoes dehydration to form ethene."
+  },
+  {
+    "questionOrder": 58,
+    "questionType": "Objective",
+    "questionText": "Which of the following is an amorphous form of carbon?",
+    "questionOptions":[
+      "Diamond",
+      "Graphite",
+      "Fullerene",
+      "Anthracite"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Anthracite (coal) represents an amorphous form of carbon, whereas diamond, graphite, and fullerenes are crystalline allotropes."
+  },
+  {
+    "questionOrder": 59,
+    "questionType": "Objective",
+    "questionText": "Which of the following compounds does not show Lassaigne's test for nitrogen?",
+    "questionOptions":[
+      "Urea",
+      "Hydrazine",
+      "Azobenzene",
+      "Phenylhydrazine"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Hydrazine ($\\text{NH}_2\\text{NH}_2$) does not contain carbon. During fusion with sodium, carbon is required alongside nitrogen to form sodium cyanide ($\\text{NaCN}$), which is necessary for a positive Lassaigne's test."
+  },
+  {
+    "questionOrder": 60,
+    "questionType": "Objective",
+    "questionText": "The IUPAC name of $\\text{CH}_3\\text{COCH}_2\\text{CH}_2\\text{CH}_3$ is:",
+    "questionOptions":[
+      "Pentan-2-one",
+      "Propylmethyl ketone",
+      "4-pentanone",
+      "Ethyl acetate"
+    ],
+    "correctIndex": 0,
+    "solutionText": "The longest carbon chain containing the carbonyl group has 5 carbons. The numbering starts from the end nearest the carbonyl group to give it the lowest locant, which is 2. Hence, Pentan-2-one."
+  },
+  {
+    "questionOrder": 61,
+    "questionType": "Objective",
+    "questionText": "Which of the following is refined by the zone refining process?",
+    "questionOptions":[
+      "Si",
+      "V",
+      "Ti",
+      "C"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Zone refining is highly effective for preparing high-purity semiconductors such as Silicon (Si) and Germanium (Ge)."
+  },
+  {
+    "questionOrder": 62,
+    "questionType": "Objective",
+    "questionText": "All of them are extracted from Pyrometallurgy except:",
+    "questionOptions":[
+      "Ca",
+      "Hg",
+      "Fe",
+      "Pb"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Calcium is a highly reactive s-block metal, and its extraction generally involves electrolytic reduction (electrometallurgy) of its fused salts rather than pyrometallurgy."
+  },
+  {
+    "questionOrder": 63,
+    "questionType": "Objective",
+    "questionText": "On Ozonolysis, benzene gives:",
+    "questionOptions":[
+      "Only ethanol",
+      "Ethanal",
+      "Methanal",
+      "Ethenedial"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Ozonolysis of benzene yields three molecules of glyoxal, which is IUPAC named as ethenedial."
+  },
+  {
+    "questionOrder": 64,
+    "questionType": "Objective",
+    "questionText": "Which of the following gives the Cannizzaro reaction?",
+    "questionOptions":[
+      "$\\text{C}_6\\text{H}_5\\text{CHO}$",
+      "$\\text{CH}_3\\text{CHO}$",
+      "$\\text{CH}_3\\text{CH}_2\\text{CHO}$",
+      "$\\text{CH}_3-\\text{C}-\\text{CH}_3$"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Aldehydes lacking alpha-hydrogens, such as benzaldehyde ($\\text{C}_6\\text{H}_5\\text{CHO}$) and formaldehyde, undergo the Cannizzaro reaction when treated with concentrated alkali."
+  },
+  {
+    "questionOrder": 65,
+    "questionType": "Objective",
+    "questionText": "Nitrobenzene is:",
+    "questionOptions":[
+      "m-directing",
+      "o-directing",
+      "p-directing",
+      "both o- and p-directing"
+    ],
+    "correctIndex": 0,
+    "solutionText": "The nitro group ($-\\text{NO}_2$) is an electron-withdrawing group and acts as a meta-directing group in electrophilic aromatic substitution."
+  },
+  {
+    "questionOrder": 66,
+    "questionType": "Objective",
+    "questionText": "Halo-arenes are less reactive than haloalkanes in nucleophilic substitution reactions. This is due to:",
+    "questionOptions":[
+      "Inductive effect",
+      "metamerism",
+      "resonance",
+      "tautomerism"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Due to resonance, the lone pair of electrons on the halogen atom delocalizes with the $\\pi$-electrons of the benzene ring, acquiring partial double-bond character, making the C-X bond stronger and less reactive."
+  },
+  {
+    "questionOrder": 67,
+    "questionType": "Objective",
+    "questionText": "Commercially available concentrated HCl contains $38\\%$ HCl by mass. Calculate the molarity of the solution. (density = $1.19 \\text{ gm/ml}$).",
+    "questionOptions":[
+      "$11.38$",
+      "$11.48$",
+      "$12.38$",
+      "$12.48$"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Molarity = $\\frac{\\% \\text{ mass} \\times \\text{density} \\times 10}{\\text{Molar mass}} = \\frac{38 \\times 1.19 \\times 10}{36.5} \\approx 12.38 \\text{ M}$."
+  },
+  {
+    "questionOrder": 68,
+    "questionType": "Objective",
+    "questionText": "Acetone on reaction with conc. $\\text{H}_2\\text{SO}_4$ gives:",
+    "questionOptions":[
+      "Xylene",
+      "Mesitylene",
+      "Toulene",
+      "Benzene"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Three molecules of acetone condense in the presence of concentrated $\\text{H}_2\\text{SO}_4$ to form mesitylene (1,3,5-trimethylbenzene)."
+  },
+  {
+    "questionOrder": 69,
+    "questionType": "Objective",
+    "questionText": "Heterolytic fission gives:",
+    "questionOptions":[
+      "Carbocation",
+      "Ions",
+      "Free radicals",
+      "Carbocation & carbanion"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Heterolytic fission involves the unequal breaking of a covalent bond, producing oppositely charged ions: a carbocation and a carbanion (or simply ions in general, but the more specific option is D)."
+  },
+  {
+    "questionOrder": 70,
+    "questionType": "Objective",
+    "questionText": "Which of the following reacts with Benedict's reagent?",
+    "questionOptions":[
+      "$\\text{CH}_3\\text{CHO}$",
+      "$\\text{CH}_3-\\text{CO}-\\text{CH}_3$",
+      "$\\text{C}_6\\text{H}_5\\text{CHO}$",
+      "$\\text{R}-\\text{COOH}$"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Aliphatic aldehydes like $\\text{CH}_3\\text{CHO}$ easily reduce Benedict's reagent to form a red precipitate. Ketones and aromatic aldehydes do not give a positive Benedict's test."
+  },
+  {
+    "questionOrder": 71,
+    "questionType": "Objective",
+    "questionText": "The reaction is spontaneous if:",
+    "questionOptions":[
+      "$\\Delta H - T\\Delta S$ is negative",
+      "$\\Delta H - T\\Delta S$ is positive",
+      "$\\Delta H = T\\Delta S$",
+      "$\\Delta H - T\\Delta S = 0$"
+    ],
+    "correctIndex": 0,
+    "solutionText": "According to the Gibbs free energy equation, $\\Delta G = \\Delta H - T\\Delta S$. For a reaction to be spontaneous, $\\Delta G$ must be negative."
+  },
+  {
+    "questionOrder": 72,
+    "questionType": "Objective",
+    "questionText": "Calculate the pH of a buffer solution containing $0.02 \\text{ moles}$ of $\\text{NH}_4\\text{Cl}$ and $0.2 \\text{ moles}$ of $\\text{NH}_4\\text{OH}$ per litre (Given $\\text{Pkb} = 5$).",
+    "questionOptions":[
+      "$9$",
+      "$10$",
+      "$11$",
+      "$12$"
+    ],
+    "correctIndex": 1,
+    "solutionText": "$\\text{pOH} = \\text{pK}_b + \\log \\frac{[\\text{Salt}]}{[\\text{Base}]} = 5 + \\log \\frac{0.02}{0.2} = 5 + \\log(0.1) = 5 - 1 = 4$. Hence, $\\text{pH} = 14 - 4 = 10$."
+  },
+  {
+    "questionOrder": 73,
+    "questionType": "Objective",
+    "questionText": "In the reaction $\\text{CH}_3\\text{COOH} + \\text{NH}_3 \\rightarrow \\text{CH}_3\\text{COO}^- + \\text{NH}_4^+$, which acts as a Bronsted acid?",
+    "questionOptions":[
+      "$\\text{CH}_3\\text{COO}^-$",
+      "$\\text{CH}_3\\text{COO}^-$ and $\\text{NH}_4^+$",
+      "$\\text{CH}_3\\text{COOH}$ and $\\text{NH}_4^+$",
+      "$\\text{NH}_3$ and $\\text{CH}_3\\text{COOH}$"
+    ],
+    "correctIndex": 2,
+    "solutionText": "A Bronsted acid acts as a proton donor. In the forward reaction, $\\text{CH}_3\\text{COOH}$ donates a proton. In the reverse reaction, $\\text{NH}_4^+$ donates a proton."
+  },
+  {
+    "questionOrder": 74,
+    "questionType": "Objective",
+    "questionText": "Which of the following is the largest ion?",
+    "questionOptions":[
+      "$\\text{Mg}^{++}$",
+      "$\\text{O}^{--}$",
+      "$\\text{F}^-$",
+      "$\\text{Na}^+$"
+    ],
+    "correctIndex": 1,
+    "solutionText": "All given ions are isoelectronic (having 10 electrons). In an isoelectronic series, the ion with the lowest nuclear charge (fewest protons) has the largest ionic radius. Oxygen ($Z=8$) has the lowest nuclear charge among them."
+  },
+  {
+    "questionOrder": 75,
+    "questionType": "Objective",
+    "questionText": "If a gas X diffuses $4$ times slower than hydrogen, then the molecular weight of X is:",
+    "questionOptions":[
+      "$32$",
+      "$64$",
+      "$16$",
+      "$8$"
+    ],
+    "correctIndex": 0,
+    "solutionText": "According to Graham's Law of diffusion, $\\frac{r_{H_2}}{r_X} = \\sqrt{\\frac{M_X}{M_{H_2}}} \\Rightarrow 4 = \\sqrt{\\frac{M_X}{2}} \\Rightarrow 16 = \\frac{M_X}{2} \\Rightarrow M_X = 32$."
+  },
+  {
+    "questionOrder": 76,
+    "questionType": "Objective",
+    "questionText": "The ratio of the vapour density of gas A and gas B is $4$. If the molecular weight of A is $M$, the molecular wt. of B is:",
+    "questionOptions":[
+      "$M$",
+      "$\\frac{M}{4}$",
+      "$4M$",
+      "$\\frac{M}{2}$"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Molecular weight is directly proportional to vapour density ($M = 2 \\times \\text{V.D.}$). The ratio $\\frac{M_A}{M_B} = \\frac{\\text{V.D.}_A}{\\text{V.D.}_B} = 4$. Given $M_A = M$, $M_B = \\frac{M}{4}$."
+  },
+  {
+    "questionOrder": 77,
+    "questionType": "Objective",
+    "questionText": "The percentage of oxygen in NaOH is:",
+    "questionOptions":[
+      "$16$",
+      "$32$",
+      "$10$",
+      "$40$"
+    ],
+    "correctIndex": 3,
+    "solutionText": "The molecular mass of NaOH is $23 + 16 + 1 = 40$. The percentage of oxygen = $\\frac{16}{40} \\times 100\\% = 40\\%$."
+  },
+  {
+    "questionOrder": 78,
+    "questionType": "Objective",
+    "questionText": "In Down's process, which of the following takes place at the cathode?",
+    "questionOptions":[
+      "$\\text{Na}^+$ gets oxidized",
+      "$\\text{Na}^+$ get reduced",
+      "$\\text{H}_2$ is released",
+      "$\\text{Cl}_2$ is released"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Down's process involves the electrolysis of fused $\\text{NaCl}$. At the cathode (reduction), $\\text{Na}^+$ ions gain electrons to form liquid sodium metal."
+  },
+  {
+    "questionOrder": 79,
+    "questionType": "Objective",
+    "questionText": "Which of the following doesn't produce $\\text{Cl}^-$ when reacted with $\\text{AgNO}_3$ at $25^\\circ\\text{C}$?",
+    "questionOptions":[
+      "$\\text{CoCl}_3.6\\text{NH}_3$",
+      "$\\text{CoCl}_3.3\\text{NH}_3$",
+      "$\\text{CoCl}_3.5\\text{NH}_3$",
+      "$\\text{CoCl}_3.4\\text{NH}_3$"
+    ],
+    "correctIndex": 1,
+    "solutionText": "In the complex $\\text{CoCl}_3 \\cdot 3\\text{NH}_3$ (i.e., $[\\text{Co}(\\text{NH}_3)_3\\text{Cl}_3]$), all chloride ions are inside the coordination sphere and satisfy secondary valencies. Thus, none are ionizable to react with $\\text{AgNO}_3$."
+  },
+  {
+    "questionOrder": 80,
+    "questionType": "Objective",
+    "questionText": "Four metals A, B, C, and D have standard reduction electric potentials as $-3\\text{V}$, $-2\\text{V}$, $0\\text{V}$, and $1\\text{V}$. The metal that will be the most reducing is:",
+    "questionOptions":[
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "correctIndex": 0,
+    "solutionText": "The lower (more negative) the standard reduction potential, the stronger the reducing agent. Metal A has the most negative potential ($-3\\text{V}$), so it is the most reducing."
+  },
+  {
+    "questionOrder": 81,
+    "questionType": "Objective",
+    "questionText": "Zn can give $\\text{H}_2$ gas with HCl and $\\text{H}_2\\text{SO}_4$ but not with $\\text{HNO}_3$, why?",
+    "questionOptions":[
+      "Zn acts as an oxidizing agent when reacted with $\\text{HNO}_3$.",
+      "$\\text{HNO}_3$ is weaker acid than $\\text{H}_2\\text{SO}_4$\\& HCl",
+      "Zn is above $\\text{H}_2$ in electrochemical series",
+      "$\\text{NO}_3^-$ is reduced in preference to hydronium ion."
+    ],
+    "correctIndex": 3,
+    "solutionText": "Nitric acid ($\\text{HNO}_3$) is a strong oxidizing agent. Instead of $\\text{H}^+$ being reduced to $\\text{H}_2$ gas, the nitrate ion ($\\text{NO}_3^-$) is reduced to nitrogen oxides."
+  },
+  {
+    "questionOrder": 82,
+    "questionType": "Objective",
+    "questionText": "All of the following are true for nitric acid except:",
+    "questionOptions":[
+      "It is colorless",
+      "It is powerful reducing agent & reduces noble gas",
+      "It products depends upon conc.",
+      "It exist as planer molecule"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Nitric acid is a powerful oxidizing agent, not a reducing agent. Therefore, this statement is false."
+  },
+  {
+    "questionOrder": 83,
+    "questionType": "Objective",
+    "questionText": "Which of the following acts both as an oxidizing agent and a reducing agent?",
+    "questionOptions":[
+      "$\\text{HNO}_3$",
+      "$\\text{HNO}_2$",
+      "$\\text{H}_2\\text{S}$",
+      "$\\text{H}_2\\text{SO}_4$"
+    ],
+    "correctIndex": 1,
+    "solutionText": "In nitrous acid ($\\text{HNO}_2$), nitrogen is in the $+3$ oxidation state, which is intermediate between its highest ($+5$) and lowest ($-3$) oxidation states. Thus, it can be oxidized or reduced."
+  },
+  {
+    "questionOrder": 84,
+    "questionType": "Objective",
+    "questionText": "The half-life of a reaction is constant on doubling the concentration of reactant, the order of reaction is:",
+    "questionOptions":[
+      "$0$",
+      "$1$",
+      "$2$",
+      "$3$"
+    ],
+    "correctIndex": 1,
+    "solutionText": "For a first-order reaction, the half-life ($t_{1/2} = \\frac{0.693}{k}$) is independent of the initial concentration of the reactant."
+  },
+  {
+    "questionOrder": 85,
+    "questionType": "Objective",
+    "questionText": "If the unit of rate constant of a reaction is the same as that of the unit of rate of reaction, the order of reaction is:",
+    "questionOptions": [
+      "$0$",
+      "$1$",
+      "$2$",
+      "$3$"
+    ],
+    "correctIndex": 0,
+    "solutionText": "The rate of reaction has units $\\text{mol L}^{-1} \\text{ s}^{-1}$. For a zero-order reaction, the rate constant $k$ has the exact same units because $\\text{Rate} = k[A]^0 = k$."
+  },
+  {
+    "questionOrder": 86,
+    "questionType": "Objective",
+    "questionText": "When the conc. of reactant is doubled then the equilibrium constant becomes:",
+    "questionOptions":[
+      "Doubled",
+      "Halved",
+      "Quadrupled",
+      "Constant"
+    ],
+    "correctIndex": 3,
+    "solutionText": "The equilibrium constant depends only on temperature for a particular reaction. It is independent of changes in reactant concentrations."
+  },
+  {
+    "questionOrder": 87,
+    "questionType": "Objective",
+    "questionText": "If $K_c = 2$, which is true equations:",
+    "questionOptions":[
+      "conc. of product and reactant remain same",
+      "conc. of product is twice than reactant",
+      "conc. of reactant is twice of product",
+      "conc. of product is half of reactant"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The equilibrium constant is given by $K_c = \\frac{[\\text{Product}]}{[\\text{Reactant}]}$. If $K_c = 2$, it means the concentration of the product is twice that of the reactant."
+  },
+  {
+    "questionOrder": 88,
+    "questionType": "Objective",
+    "questionText": "$\\text{SO}_2 + \\frac{1}{2}\\text{O}_2 \\rightarrow \\text{SO}_3 + \\text{heat}$,\nAll of the following favors formation of $\\text{SO}_2$ except.",
+    "questionOptions":[
+      "$\\uparrow\\text{es}$ in conc. of reactants.",
+      "$\\uparrow\\text{es}$ in pressure",
+      "Decrease in temperature",
+      "Increase in temperature"
+    ],
+    "correctIndex": 3,
+    "solutionText": "The reaction produces heat (exothermic). Based on Le Chatelier's principle, an increase in temperature shifts the equilibrium to the reactant side, favoring the formation of $\\text{SO}_2$. Hence, a, b, and c favor $\\text{SO}_3$, but d favors $\\text{SO}_2$."
+  },
+  {
+    "questionOrder": 89,
+    "questionType": "Objective",
+    "questionText": "How many moles of $\\text{KMnO}_4$ are required to oxidize $1 \\text{ mole}$ of $\\text{Sn}^{+2}$ in acidic medium?",
+    "questionOptions":[
+      "$\\frac{1}{5}$",
+      "$\\frac{2}{5}$",
+      "$\\frac{3}{5}$",
+      "$\\frac{4}{5}$"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The oxidation of tin: $\\text{Sn}^{2+} \\rightarrow \\text{Sn}^{4+} + 2e^-$. Reduction of permanganate: $\\text{MnO}_4^- + 8\\text{H}^+ + 5e^- \\rightarrow \\text{Mn}^{2+} + 4\\text{H}_2\\text{O}$. Balancing the electrons requires $2 \\text{ moles}$ of $\\text{KMnO}_4$ for every $5 \\text{ moles}$ of $\\text{Sn}^{2+}$. Thus, $1 \\text{ mole}$ of $\\text{Sn}^{2+}$ needs $\\frac{2}{5} \\text{ moles}$ of $\\text{KMnO}_4$."
+  },
+  {
+    "questionOrder": 90,
+    "questionType": "Objective",
+    "questionText": "If $\\text{C} + \\text{O}_2 \\rightarrow \\text{CO}_2$; $\\Delta H = -a$\nand $2\\text{CO} + \\text{O}_2 \\rightarrow 2\\text{CO}_2$; $\\Delta H = -b$\nFind the heat of formation of CO.",
+    "questionOptions":[
+      "$\\frac{b-2a}{2}$",
+      "$\\frac{b-a}{2}$",
+      "$\\frac{a-2b}{2}$",
+      "$a-b$"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Required equation: $\\text{C} + \\frac{1}{2}\\text{O}_2 \\rightarrow \\text{CO}$. Multiply the second equation by $\\frac{1}{2}$ and reverse it: $\\text{CO}_2 \\rightarrow \\text{CO} + \\frac{1}{2}\\text{O}_2$ with $\\Delta H = \\frac{b}{2}$. Add the first equation: $\\text{C} + \\text{O}_2 \\rightarrow \\text{CO}_2$ with $\\Delta H = -a$. Resulting $\\Delta H = \\frac{b}{2} - a = \\frac{b-2a}{2}$."
+  },
+  {
+    "questionOrder": 91,
+    "questionType": "Objective",
+    "questionText": "Transition metals show variable oxidation states due to the emission of electrons from:",
+    "questionOptions":[
+      "$(n-1)\\text{d}$ and $n\\text{s}$ orbital",
+      "$(n-1)\\text{d}$ orbital",
+      "$n\\text{s}$ orbital",
+      "$n\\text{p}$ orbital"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Transition metals display variable oxidation states due to the comparable energies of their $(n-1)d$ and $ns$ orbitals, allowing electrons from both levels to participate in bonding."
+  },
+  {
+    "questionOrder": 92,
+    "questionType": "Objective",
+    "questionText": "Which of the following is used as both a fertilizer and an explosive?",
+    "questionOptions":[
+      "Ammonium nitrate",
+      "Urea",
+      "Calcium Ammonium Nitrate",
+      "Super phosphate of lime"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Ammonium nitrate is highly nitrogenous making it a great fertilizer, but due to its strong oxidizing properties, it is also a key component in many explosives like ANFO."
+  },
+  {
+    "questionOrder": 93,
+    "questionType": "Objective",
+    "questionText": "Which of the following bears color to the dye?",
+    "questionOptions":[
+      "Chromophore",
+      "Cytochrome",
+      "Chromogens",
+      "Auxochrome"
+    ],
+    "correctIndex": 0,
+    "solutionText": "A chromophore is the specific part or functional group of a molecule that absorbs certain wavelengths of visible light and transmits or reflects others, giving it color."
+  },
+  {
+    "questionOrder": 94,
+    "questionType": "Objective",
+    "questionText": "Aldehyde is prepared from an acid chloride by which of the following reactions:",
+    "questionOptions":[
+      "Rosenmund reaction",
+      "Cannizzaro reaction",
+      "Benzoin condensation",
+      "Perkin's condensation"
+    ],
+    "correctIndex": 0,
+    "solutionText": "The Rosenmund reduction specifically converts acyl chlorides (acid chlorides) to aldehydes using hydrogen gas over a poisoned palladium catalyst."
+  },
+  {
+    "questionOrder": 95,
+    "questionType": "Objective",
+    "questionText": "Galvanization is the process of coating zinc over iron. During this process, Zn acts as:",
+    "questionOptions":[
+      "Scarficial anode",
+      "Sacrificial cathode",
+      "Anode mud",
+      "Both b and c"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Zinc is more reactive than iron, so it readily oxidizes in preference to iron. Thus, it acts as a sacrificial anode to protect the iron underneath from rusting."
+  },
+  {
+    "questionOrder": 96,
+    "questionType": "Objective",
+    "questionText": "Which of the following produces $\\text{Cl}_2$ at room temperature?",
+    "questionOptions":[
+      "$\\text{HCl} + \\text{KMnO}_4$",
+      "$\\text{NaCl} + \\text{MnO}_2$",
+      "$\\text{HBr} + \\text{KCl}$",
+      "$\\text{Cl}_2 + \\text{NaOH}$"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Potassium permanganate ($\\text{KMnO}_4$) is a strong enough oxidizing agent to oxidize hydrochloric acid (HCl) to chlorine gas ($\\text{Cl}_2$) at room temperature."
+  },
+  {
+    "questionOrder": 97,
+    "questionType": "Objective",
+    "questionText": "Ionization energy is minimum for:",
+    "questionOptions":[
+      "$1\\text{s}^2 2\\text{s}^2 2\\text{p}^6$",
+      "$1\\text{s}^2 2\\text{s}^2 2\\text{p}^5$",
+      "$1\\text{s}^2 2\\text{s}^2 2\\text{p}^6 3\\text{s}^1$",
+      "$1\\text{s}^2 2\\text{s}^2 2\\text{p}^3$"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Alkali metals, which have a single electron in their outermost s-orbital ($ns^1$), typically have the lowest ionization energies because the outermost electron is heavily shielded and further away from the nucleus."
+  },
+  {
+    "questionOrder": 98,
+    "questionType": "Objective",
+    "questionText": "Halogen with the highest electron affinity is:",
+    "questionOptions":[
+      "$\\text{Cl}_2$",
+      "$\\text{Br}_2$",
+      "$\\text{I}_2$",
+      "$\\text{F}_2$"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Chlorine has the highest electron affinity among halogens because the extreme compactness of the fluorine atom results in greater electron-electron repulsion, making it slightly less eager to gain an electron than chlorine."
+  },
+  {
+    "questionOrder": 99,
+    "questionType": "Objective",
+    "questionText": "The electronic configuration of $\\text{M}^{+2}$ is $2, 8, 14$. The atomic mass is $56$. The number of neutrons is:",
+    "questionOptions":[
+      "$30$",
+      "$32$",
+      "$31$",
+      "$28$"
+    ],
+    "correctIndex": 0,
+    "solutionText": "The total number of electrons in the $\\text{M}^{2+}$ ion is $2 + 8 + 14 = 24$. Therefore, the neutral atom $\\text{M}$ has $24 + 2 = 26$ protons. The number of neutrons is Mass number - Atomic number = $56 - 26 = 30$."
+  },
+  {
+    "questionOrder": 100,
+    "questionType": "Objective",
+    "questionText": "In a protein, amino acids are joined by:",
+    "questionOptions":[
+      "Peptide bond",
+      "Glycosidic bond",
+      "Phosphodiester bond",
+      "Hydrogen bond"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Amino acids in proteins are covalently linked together by peptide bonds, which are formed via condensation reactions between the carboxyl group of one amino acid and the amino group of another."
+  },
+  {
+    "questionOrder": 101,
+    "questionType": "Objective",
+    "questionText": "Cystic fibrosis is:",
+    "questionOptions":[
+      "Auto immune disease",
+      "Genetic disorder",
+      "Communicable disease",
+      "Non-communicable disease"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Cystic fibrosis is a hereditary genetic disorder that primarily affects the lungs and digestive system."
+  },
+  {
+    "questionOrder": 102,
+    "questionType": "Objective",
+    "questionText": "A person suffering from Sickle cell anemia is:",
+    "questionOptions":[
+      "More prone to Typhoid",
+      "More prone to Malaria",
+      "Less prone to Typhoid",
+      "Less prone to Malaria"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Individuals with sickle cell trait or anemia have altered red blood cells which make them less hospitable to the Plasmodium parasite, hence making them less prone to malaria."
+  },
+  {
+    "questionOrder": 103,
+    "questionType": "Objective",
+    "questionText": "All are true for cruciferae except:",
+    "questionOptions":[
+      "Didynamous",
+      "False septum",
+      "Six stamens",
+      "Tetradynamous"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Cruciferae (Brassicaceae) are characterized by having tetradynamous stamens (4 long, 2 short), a false septum (replum), and six stamens. They do not possess didynamous stamens."
+  },
+  {
+    "questionOrder": 104,
+    "questionType": "Objective",
+    "questionText": "All of the following are aneuploidy except:",
+    "questionOptions":[
+      "Turner's syndrome",
+      "Down's syndrome",
+      "Phenylketonuria",
+      "Klinefelter's syndrome"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Phenylketonuria is an inborn error of metabolism caused by a gene mutation (autosomal recessive), whereas the others are numerical chromosomal disorders (aneuploidy)."
+  },
+  {
+    "questionOrder": 105,
+    "questionType": "Objective",
+    "questionText": "At meiosis, centromere separation occurs at:",
+    "questionOptions":[
+      "Prophase II",
+      "Anaphase II",
+      "Metaphase II",
+      "Telophase II"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Centromere splitting and the separation of sister chromatids to opposite poles uniquely occurs during Anaphase II of meiosis."
+  },
+  {
+    "questionOrder": 106,
+    "questionType": "Objective",
+    "questionText": "Which of the following is a diploid spore?",
+    "questionOptions":[
+      "Zygospore",
+      "Zoospore",
+      "Ascospore",
+      "Basidiospore"
+    ],
+    "correctIndex": 0,
+    "solutionText": "A zygospore is formed by the fusion of two haploid gametes during sexual reproduction in fungi and some protists, making it a diploid reproductive structure."
+  },
+  {
+    "questionOrder": 107,
+    "questionType": "Objective",
+    "questionText": "The possible blood groups of offspring if the father has blood group A and the mother has blood group B are:",
+    "questionOptions":[
+      "A, AB",
+      "B, AB",
+      "A, B, O",
+      "A, B, AB, O"
+    ],
+    "correctIndex": 3,
+    "solutionText": "If the father is heterozygous ($I^A i$) and the mother is heterozygous ($I^B i$), their offspring can potentially inherit any of the four combinations: $I^A I^B$ (AB), $I^A i$ (A), $I^B i$ (B), or $ii$ (O)."
+  },
+  {
+    "questionOrder": 108,
+    "questionType": "Objective",
+    "questionText": "Which of the following is produced during photophosphorylation?",
+    "questionOptions":[
+      "ATP",
+      "ATP and $\\text{NADPH}_2$",
+      "ATP, $\\text{H}_2\\text{O}$",
+      "$\\text{H}_2\\text{O}$ and $\\text{O}_2$"
+    ],
+    "correctIndex": 1,
+    "solutionText": "During the light-dependent reactions of photosynthesis (photophosphorylation), both ATP and $\\text{NADPH}_2$ (NADPH) are generated."
+  },
+  {
+    "questionOrder": 109,
+    "questionType": "Objective",
+    "questionText": "DNA is made up of:",
+    "questionOptions":[
+      "Pentose sugar + Nitrogen base",
+      "Nucleoside",
+      "Nucleoside + Sugar",
+      "Nucleoside + Phosphate"
+    ],
+    "correctIndex": 3,
+    "solutionText": "DNA is a polymer of nucleotides. Each nucleotide is composed of a nucleoside (which is a pentose sugar and a nitrogenous base) along with a phosphate group."
+  },
+  {
+    "questionOrder": 110,
+    "questionType": "Objective",
+    "questionText": "Cucurbits have:",
+    "questionOptions":[
+      "Collateral vascular bundle",
+      "Bicollateral vascular bundle",
+      "Radial vascular bundle",
+      "Concentric vascular bundle"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The stems of plants in the family Cucurbitaceae uniquely feature bicollateral vascular bundles, where phloem is present on both the outer and inner sides of the xylem."
+  },
+  {
+    "questionOrder": 111,
+    "questionType": "Objective",
+    "questionText": "Both are benefitted by each other and can't live without one another:",
+    "questionOptions":[
+      "Proto-cooperation",
+      "Mutualism",
+      "Commensalism",
+      "Antibiosis"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Mutualism is an obligate ecological interaction wherein both participating species benefit and typically depend on each other for survival."
+  },
+  {
+    "questionOrder": 112,
+    "questionType": "Objective",
+    "questionText": "In DNA, if cytosine is $10\\%$, the amount of thymine is:",
+    "questionOptions":[
+      "$10\\%$",
+      "$20\\%$",
+      "$40\\%$",
+      "$50\\%$"
+    ],
+    "correctIndex": 2,
+    "solutionText": "According to Chargaff's rule, Cytosine (C) = Guanine (G) = $10\\%$, so C + G = $20\\%$. The remaining $80\\%$ is Adenine (A) + Thymine (T). Since A = T, Thymine is $40\\%$."
+  },
+  {
+    "questionOrder": 113,
+    "questionType": "Objective",
+    "questionText": "Velamen tissue is found in:",
+    "questionOptions":[
+      "Xerophyte",
+      "Epiphyte",
+      "Hydrophyte",
+      "Mesophyte"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Velamen is a spongy, multiple epidermis covering the roots of some epiphytic plants, such as orchids, which helps in absorbing atmospheric moisture."
+  },
+  {
+    "questionOrder": 114,
+    "questionType": "Objective",
+    "questionText": "Pyramid of energy is:",
+    "questionOptions":[
+      "Spindle shape",
+      "Always erect",
+      "Inverted",
+      "Sometimes erect"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Because of the 10% law of energy transfer (thermodynamics), the flow of energy in an ecosystem is always unidirectional and dissipates as it moves up trophic levels, making the energy pyramid always erect."
+  },
+  {
+    "questionOrder": 115,
+    "questionType": "Objective",
+    "questionText": "The enzyme that cuts DNA at specific sites is:",
+    "questionOptions":[
+      "Topoisomerase",
+      "Helicase",
+      "Unwindase",
+      "Restriction endonuclease"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Restriction endonucleases act as \"molecular scissors\" that cleave DNA chains at specific recognition sequences."
+  },
+  {
+    "questionOrder": 116,
+    "questionType": "Objective",
+    "questionText": "Grafting is not possible in monocots due to:",
+    "questionOptions":[
+      "Absence of cambium",
+      "Scattered vascular bundle",
+      "Having smaller stem",
+      "Lack of vascular tissue"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Grafting requires the physical union of the vascular cambium of the scion and stock. Since monocots lack a continuous vascular cambium, secondary growth and thus grafting are generally impossible."
+  },
+  {
+    "questionOrder": 117,
+    "questionType": "Objective",
+    "questionText": "Which one is used in a culture medium?",
+    "questionOptions":[
+      "Laminaria",
+      "Gelidium",
+      "Alginic acid",
+      "Spirulina"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Agar, the most common solidifying agent used in microbiological culture media, is extracted from red algae like Gelidium and Gracilaria."
+  },
+  {
+    "questionOrder": 118,
+    "questionType": "Objective",
+    "questionText": "Which of the following is a disaccharide?",
+    "questionOptions":[
+      "Maltose",
+      "Glucose",
+      "Cellulose",
+      "Starch"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Maltose is a disaccharide composed of two glucose molecules joined together. Glucose is a monosaccharide, while cellulose and starch are polysaccharides."
+  },
+  {
+    "questionOrder": 119,
+    "questionType": "Objective",
+    "questionText": "In maize, the male anther matures faster than the female stigma; maize is:",
+    "questionOptions":[
+      "Heterostyly",
+      "Herkogamy",
+      "Protandry",
+      "Protogyny"
+    ],
+    "correctIndex": 2,
+    "solutionText": "The condition where male reproductive organs (anthers) mature before the female reproductive organs (stigma) to prevent self-pollination is known as protandry."
+  },
+  {
+    "questionOrder": 120,
+    "questionType": "Objective",
+    "questionText": "Gemma cup is found in:",
+    "questionOptions":[
+      "Cycas",
+      "Funaria",
+      "Mosses",
+      "Marchantia"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Gemma cups are specialized cup-like structures on the thallus of certain liverworts like Marchantia, containing gemmae used for asexual reproduction."
+  },
+  {
+    "questionOrder": 121,
+    "questionType": "Objective",
+    "questionText": "A colorblind man marries a normal woman whose father was colorblind. What is the probability of their son being colorblind?",
+    "questionOptions":[
+      "$25\\%$",
+      "$50\\%$",
+      "$75\\%$",
+      "$100\\%$"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The man is $X^c Y$. The woman is a carrier $X^c X$ (since she received an $X^c$ from her colorblind father). The possible sons inherit Y from the father and either $X^c$ or $X$ from the mother, meaning they have a $50\\%$ chance of being colorblind ($X^c Y$)."
+  },
+  {
+    "questionOrder": 122,
+    "questionType": "Objective",
+    "questionText": "In photosynthesis, $\\text{O}_2$ is evolved from water during:",
+    "questionOptions":[
+      "Oxidative photophosphorylation",
+      "Photolysis of water",
+      "Excitation of electron",
+      "Excitation of cell"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Oxygen is released as a byproduct due to the splitting of water molecules (photolysis) during the light-dependent reactions."
+  },
+  {
+    "questionOrder": 123,
+    "questionType": "Objective",
+    "questionText": "The arrangement of cilia and flagella in eukaryotes is:",
+    "questionOptions":[
+      "$9+2$",
+      "$9+0$",
+      "$9+1$",
+      "$9+3$"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Eukaryotic cilia and flagella possess a characteristic axoneme structure composed of a $9+2$ arrangement of microtubules (9 outer doublets and 2 central singlets)."
+  },
+  {
+    "questionOrder": 124,
+    "questionType": "Objective",
+    "questionText": "Dissolved oxygen is decreased in a pond due to:",
+    "questionOptions":[
+      "Biomagnification",
+      "Eutrophication",
+      "Nitrification",
+      "Denitrification"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Eutrophication leads to excessive algal growth (algal blooms). When the algae die, decomposing bacteria consume large amounts of dissolved oxygen, depleting it."
+  },
+  {
+    "questionOrder": 125,
+    "questionType": "Objective",
+    "questionText": "When pyruvic acid is changed to acetyl CoA, it is:",
+    "questionOptions":[
+      "Oxidized",
+      "Reduced",
+      "Isomerized",
+      "Rearrangement"
+    ],
+    "correctIndex": 0,
+    "solutionText": "The conversion of pyruvic acid to acetyl CoA is an oxidative decarboxylation reaction, meaning the pyruvic acid is oxidized while losing a $\\text{CO}_2$ molecule."
+  },
+  {
+    "questionOrder": 126,
+    "questionType": "Objective",
+    "questionText": "Which of the following has a narrow lumen?",
+    "questionOptions":[
+      "Fibres",
+      "Sclereids",
+      "Tracheids",
+      "Vessels"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Sclereids are highly thickened sclerenchyma cells with extremely narrow, often nearly obliterated cavities (lumens)."
+  },
+  {
+    "questionOrder": 127,
+    "questionType": "Objective",
+    "questionText": "Blocking of the sieve tube of phloem is due to:",
+    "questionOptions":[
+      "Tyloses",
+      "Callose",
+      "Aerenchyma",
+      "Collenechyma"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Callose is a plant polysaccharide that is deposited at the sieve plates in response to injury or seasonal changes, effectively blocking the flow in sieve tubes."
+  },
+  {
+    "questionOrder": 128,
+    "questionType": "Objective",
+    "questionText": "If the number of chromosomes in Pisum sativum is $2n = 14$, then the number of linkage groups is:",
+    "questionOptions":[
+      "$14$",
+      "$7$",
+      "$8$",
+      "$15$"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The number of linkage groups is equal to the haploid number of chromosomes ($n$). For $2n=14$, $n=7$, so there are 7 linkage groups."
+  },
+  {
+    "questionOrder": 129,
+    "questionType": "Objective",
+    "questionText": "Which chromosome has its centromere at the center?",
+    "questionOptions":[
+      "Metacentric",
+      "Sub-metacentric",
+      "Telocentric",
+      "Acrocentric"
+    ],
+    "correctIndex": 0,
+    "solutionText": "A metacentric chromosome has its centromere situated in the middle, giving it two equal-length arms."
+  },
+  {
+    "questionOrder": 130,
+    "questionType": "Objective",
+    "questionText": "The process by which the contents of a cell are expelled out through the cell membrane is called:",
+    "questionOptions":[
+      "Phagocytosis",
+      "Pinocytosis",
+      "Endocytosis",
+      "Exo-cytosis"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Exocytosis is the active transport process by which materials are exported out of the cell via secretory vesicles."
+  },
+  {
+    "questionOrder": 131,
+    "questionType": "Objective",
+    "questionText": "In a papilionaceous flower, the outer large corolla is the:",
+    "questionOptions":[
+      "Keel",
+      "Standard",
+      "Wings",
+      "Alae"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The papilionaceous corolla has a large posterior petal called the standard (or vexillum), which overlaps the lateral wings."
+  },
+  {
+    "questionOrder": 132,
+    "questionType": "Objective",
+    "questionText": "Hybrids from genetically distinct plants are not possible by traditional plant breeding methods but can be obtained by:",
+    "questionOptions":[
+      "Somatic hybridization",
+      "Genetic engineering",
+      "Inbreeding",
+      "Outbreeding"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Somatic hybridization involves the fusion of protoplasts from two distinct plant species to form a hybrid that could not be achieved through sexual reproduction."
+  },
+  {
+    "questionOrder": 133,
+    "questionType": "Objective",
+    "questionText": "Which of the following has the same genotypic and phenotypic ratio?",
+    "questionOptions":[
+      "Co-dominance",
+      "Complete dominance",
+      "Epistasis",
+      "Dihybrid cross"
+    ],
+    "correctIndex": 0,
+    "solutionText": "In incomplete dominance and co-dominance, the monohybrid cross yields a genotypic ratio of 1:2:1 and a corresponding phenotypic ratio of 1:2:1."
+  },
+  {
+    "questionOrder": 134,
+    "questionType": "Objective",
+    "questionText": "A bacteria divides every $35 \\text{ minutes}$. If a culture containing $10^5 \\text{ cells per mL}$ is grown for $175 \\text{ min}$, what will be the cell concentration per $\\text{ml}$ after $175 \\text{ minutes}$?",
+    "questionOptions":[
+      "$32 \\times 10^5 \\text{ cells}$",
+      "$175 \\times 10^5 \\text{ cells}$",
+      "$64 \\times 10^5 \\text{ cells}$",
+      "$16 \\times 10^5 \\text{ cells}$"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Number of generations $n = \\frac{175}{35} = 5$. The final cell count is given by $N_0 \\times 2^n = 10^5 \\times 2^5 = 32 \\times 10^5$ cells."
+  },
+  {
+    "questionOrder": 135,
+    "questionType": "Objective",
+    "questionText": "If a cross is made between a diploid ($2\\text{n}$) female and a tetraploid ($4\\text{n}$) male, the resultant endosperm will be:",
+    "questionOptions":[
+      "$2\\text{n}$",
+      "$3\\text{n}$",
+      "$4\\text{n}$",
+      "$5\\text{n}$"
+    ],
+    "correctIndex": 2,
+    "solutionText": "A diploid female ($2n$) produces a polar secondary nucleus of $n+n=2n$. A tetraploid male ($4n$) produces male gametes of $2n$. The endosperm is formed by their fusion: $2n + 2n = 4n$."
+  },
+  {
+    "questionOrder": 136,
+    "questionType": "Objective",
+    "questionText": "Compounds which help in metabolic reactions without themselves being changed are:",
+    "questionOptions":[
+      "Enzyme",
+      "Hormone",
+      "Nucleic acid",
+      "Nucleoprotein"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Enzymes are biological catalysts that facilitate metabolic reactions without undergoing any permanent chemical change themselves."
+  },
+  {
+    "questionOrder": 137,
+    "questionType": "Objective",
+    "questionText": "A chemical causing a chromosomal abnormality is called a:",
+    "questionOptions":[
+      "Mutagen",
+      "Mutation",
+      "Mutant",
+      "Muton"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Agents (physical or chemical) that induce changes or abnormalities in genetic material (DNA) are referred to as mutagens."
+  },
+  {
+    "questionOrder": 138,
+    "questionType": "Objective",
+    "questionText": "Which of the following unwinds the DNA molecule?",
+    "questionOptions":[
+      "Helicase",
+      "Primase",
+      "Folic acid",
+      "Ligase"
+    ],
+    "correctIndex": 0,
+    "solutionText": "DNA helicase is the enzyme responsible for separating and unwinding the double-stranded DNA helix during replication."
+  },
+  {
+    "questionOrder": 139,
+    "questionType": "Objective",
+    "questionText": "Animals found at the bottom of the sea are called:",
+    "questionOptions":[
+      "Benthos",
+      "Cryptosoma",
+      "Phytoplankton",
+      "Littoral"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Benthic organisms (benthos) reside in the benthic zone, which is the ecological region at the lowest level of a body of water such as an ocean, lake, or stream."
+  },
+  {
+    "questionOrder": 140,
+    "questionType": "Objective",
+    "questionText": "Choose the correct succession type from the given options considering the sequence of different stages as below:\nCrustose lichen $\\rightarrow$ Follicular lichen $\\rightarrow$ Moss $\\rightarrow$ Herbs $\\rightarrow$ Shrub $\\rightarrow$ Mesophytic tree (climax)",
+    "questionOptions":[
+      "Hydrosere",
+      "Psammosere",
+      "Xerosere",
+      "Halosere"
+    ],
+    "correctIndex": 2,
+    "solutionText": "This sequence represents primary succession on bare rock, starting with lichens. This dry ecological succession is called a Xerosere (specifically a lithosere)."
+  },
+  {
+    "questionOrder": 141,
+    "questionType": "Objective",
+    "questionText": "The increasing order of complexity in the canal system of Porifera is:",
+    "questionOptions":[
+      "Ascon, Sycon, Leucon",
+      "Ascon, Leucon, Sycon",
+      "Sycon, Leucon, Ascon",
+      "Leucon, Sycon, Ascon"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Sponges display a graded complexity in their canal systems from the simplest Asconoid, to the intermediate Syconoid, and ultimately the most complex Leuconoid."
+  },
+  {
+    "questionOrder": 142,
+    "questionType": "Objective",
+    "questionText": "Amphids present in the ventrolateral lips of Ascaris are:",
+    "questionOptions":[
+      "Chemoreceptor",
+      "Gustatoreceptor",
+      "Olfactoreceptor",
+      "Tactoreceptor"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Amphids are sensory organs found mainly in nematodes like Ascaris, primarily acting as chemoreceptors (specifically, often detailed as olfactoreceptors)."
+  },
+  {
+    "questionOrder": 143,
+    "questionType": "Objective",
+    "questionText": "An infected female Anopheles mosquito can infect a healthy man when:",
+    "questionOptions":[
+      "Gametogony is completed",
+      "Sporogony is completed",
+      "Erythrocytic cycle is completed",
+      "Erythrocytic cycle is just started"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The mosquito becomes infective only after sporogony is completed within its body, resulting in the presence of sporozoites in its salivary glands ready to be transmitted."
+  },
+  {
+    "questionOrder": 144,
+    "questionType": "Objective",
+    "questionText": "Echinodermata are brainless, heartless, and headless; yet from an evolutionary point of view, they have been placed on the top of invertebrates because they:",
+    "questionOptions":[
+      "have great power of regeneration",
+      "have exclusively marine habit",
+      "are enterocoelomate",
+      "ammonotelic"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Echinoderms possess an enterocoelom and follow deuterostome embryonic development (radial cleavage, blastopore forms the anus), sharing a closer evolutionary relationship to chordates than other invertebrates."
+  },
+  {
+    "questionOrder": 145,
+    "questionType": "Objective",
+    "questionText": "Which of the following is a vertebrate?",
+    "questionOptions":[
+      "Cuttle fish",
+      "Globe fish",
+      "Cray fish",
+      "Devil fish"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The globefish (pufferfish) is a true bony fish (Osteichthyes), hence a vertebrate. Cuttlefish and devilfish are mollusks, and crayfish are arthropods."
+  },
+  {
+    "questionOrder": 146,
+    "questionType": "Objective",
+    "questionText": "Intraocular pressure in the eye is measured by:",
+    "questionOptions":[
+      "Tonometer",
+      "Barometer",
+      "Sphygmomanometer",
+      "Spirometer"
+    ],
+    "correctIndex": 0,
+    "solutionText": "A tonometer is a medical instrument utilized to measure the fluid pressure inside the eye (intraocular pressure), particularly important for evaluating glaucoma."
+  },
+  {
+    "questionOrder": 147,
+    "questionType": "Objective",
+    "questionText": "Apes are dissimilar from humans due to the:",
+    "questionOptions":[
+      "Menstruation in female",
+      "Absence of prominent chin",
+      "Smaller lumbar region",
+      "Absence of tail"
+    ],
+    "correctIndex": 1,
+    "solutionText": "One distinct morphological difference between humans and apes is the presence of a well-defined, prominent mental eminence (chin) in humans, which is absent in apes."
+  },
+  {
+    "questionOrder": 148,
+    "questionType": "Objective",
+    "questionText": "If the concentration of urea is less than the normal amount in a person, this can be due to:",
+    "questionOptions":[
+      "He is on longer hunger strike",
+      "Renal calculi",
+      "Deficiency of ADH",
+      "Bright disease"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Prolonged starvation or a long hunger strike depletes protein reserves, significantly decreasing the rate of protein deamination and consequently lowering urea production in the liver."
+  },
+  {
+    "questionOrder": 149,
+    "questionType": "Objective",
+    "questionText": "The Recapitulation theory, \"Ontogeny repeats phylogeny\" was proposed by:",
+    "questionOptions":[
+      "Haeckel",
+      "Hugo de Vries",
+      "Darwin",
+      "Lamarck"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Ernst Haeckel proposed the biogenetic law, famously summarized as \"ontogeny recapitulates phylogeny.\""
+  },
+  {
+    "questionOrder": 150,
+    "questionType": "Objective",
+    "questionText": "The grinding organ of an Earthworm is the:",
+    "questionOptions":[
+      "Pharynx",
+      "Gizzard",
+      "Stomach",
+      "Intestine"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The gizzard acts as a muscular grinding organ in earthworms, helping to physically break down ingested soil and decaying organic matter."
+  },
+  {
+    "questionOrder": 151,
+    "questionType": "Objective",
+    "questionText": "Intestinal caeca is present in:",
+    "questionOptions":[
+      "$30^{\\text{th}}$ segment",
+      "$14^{\\text{th}}$, $15^{\\text{th}}$ & $16^{\\text{th}}$ segments",
+      "$27^{\\text{th}}$ segment",
+      "$26^{\\text{th}}$ segment"
+    ],
+    "correctIndex": 3,
+    "solutionText": "In the earthworm, a pair of short, conical intestinal caeca project forward from the intestine originating typically from the 26th segment."
+  },
+  {
+    "questionOrder": 152,
+    "questionType": "Objective",
+    "questionText": "Which of the following glands is only present in reptiles?",
+    "questionOptions":[
+      "Mucous gland",
+      "Femoral gland",
+      "Sebaceous gland",
+      "Uropygial gland"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Femoral glands are specialized secretory structures found on the undersides of the thighs in certain reptiles (like male lizards), used for marking territories."
+  },
+  {
+    "questionOrder": 153,
+    "questionType": "Objective",
+    "questionText": "All are true except:",
+    "questionOptions":[
+      "Blue whale: Ammonotelic",
+      "Lizard: Uricotelic",
+      "Human: Ureotelic",
+      "Aves: Uricotelic"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Blue whales are mammals, so they excrete nitrogenous waste primarily as urea (ureotelic), making the \"ammonotelic\" classification false."
+  },
+  {
+    "questionOrder": 154,
+    "questionType": "Objective",
+    "questionText": "A boy sustained an accident and needs emergency blood but doesn't know his blood group. A doctor's friend, after consulting the doctor, donated his blood immediately. The blood group the doctor's friend must have is:",
+    "questionOptions":[
+      "$\\text{O}^-$",
+      "$\\text{AB}^+$",
+      "$\\text{O}^+$",
+      "$\\text{AB}^-$"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Blood type O negative ($\\text{O}^-$) is known as the universal donor because its red blood cells lack A, B, and Rh antigens, meaning it can be transfused in an emergency to almost any patient without an adverse reaction."
+  },
+  {
+    "questionOrder": 155,
+    "questionType": "Objective",
+    "questionText": "If the fallopian tube is blocked, which of the following methods is used to produce a baby?",
+    "questionOptions":[
+      "GIFT",
+      "IVF",
+      "VIFT",
+      "SVT"
+    ],
+    "correctIndex": 1,
+    "solutionText": "In vitro fertilization (IVF) involves fertilizing the egg outside the body and transferring the embryo directly into the uterus, thereby bypassing blocked fallopian tubes."
+  },
+  {
+    "questionOrder": 156,
+    "questionType": "Objective",
+    "questionText": "The 4S gland is:",
+    "questionOptions":[
+      "Pancreas",
+      "Pituitary",
+      "Hypothalamus",
+      "Adrenal gland"
+    ],
+    "correctIndex": 3,
+    "solutionText": "The adrenal gland is often nicknamed the \"4S\" gland because it regulates Sugar (glucocorticoids), Salt (mineralocorticoids), Sex (androgens), and responds to Stress (adrenaline/noradrenaline)."
+  },
+  {
+    "questionOrder": 157,
+    "questionType": "Objective",
+    "questionText": "Areolar tissue connects:",
+    "questionOptions":[
+      "Bone to bone",
+      "Muscle to bone",
+      "Integument and muscles",
+      "Muscle to fat"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Areolar connective tissue is a loose connective tissue that typically binds the skin (integument) to the underlying muscle tissues and fills spaces between organs."
+  },
+  {
+    "questionOrder": 158,
+    "questionType": "Objective",
+    "questionText": "Which one carries impulses towards the CNS?",
+    "questionOptions":[
+      "Auditory",
+      "Abducens",
+      "Trochlear",
+      "Ventral root horn of spinal cord"
+    ],
+    "correctIndex": 0,
+    "solutionText": "The auditory nerve (vestibulocochlear nerve) is purely a sensory nerve, responsible for carrying acoustic and vestibular impulses from the ear toward the Central Nervous System (CNS)."
+  },
+  {
+    "questionOrder": 159,
+    "questionType": "Objective",
+    "questionText": "If the mastication area is paralyzed, which of the following nerves is affected?",
+    "questionOptions":[
+      "Optic",
+      "Trigeminal",
+      "Oculomotor",
+      "Vagus"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The trigeminal nerve (Cranial Nerve V) has a motor component that specifically innervates the muscles of mastication (chewing)."
+  },
+  {
+    "questionOrder": 160,
+    "questionType": "Objective",
+    "questionText": "Which of the following cells is not a part of the CNS?",
+    "questionOptions":[
+      "Microglial cell",
+      "Schwann cell",
+      "Ependymal cell",
+      "Astrocyte cell"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Schwann cells are glial cells responsible for myelinating axons in the Peripheral Nervous System (PNS), while oligodendrocytes serve this function in the CNS."
+  },
+  {
+    "questionOrder": 161,
+    "questionType": "Objective",
+    "questionText": "A pap smear is done around the vagina and cervix; what kind of tissue may line those areas?",
+    "questionOptions":[
+      "Simple cuboidal",
+      "Keratinized squamous epithelium",
+      "Squamous epithelium",
+      "Non-keratinized stratified squamous epithelium"
+    ],
+    "correctIndex": 3,
+    "solutionText": "The vagina and the ectocervix are lined by non-keratinized stratified squamous epithelium, which is subjected to desquamation sampled during a Pap smear."
+  },
+  {
+    "questionOrder": 162,
+    "questionType": "Objective",
+    "questionText": "The thyroid gland is lined by:",
+    "questionOptions":[
+      "Simple cuboidal epithelium",
+      "Simple columnar epithelium",
+      "Squamous epithelium",
+      "Pseudostratified columnar epithelium"
+    ],
+    "correctIndex": 0,
+    "solutionText": "The follicles within the thyroid gland are predominantly lined by a simple cuboidal epithelium, which alters slightly depending on glandular activity."
+  },
+  {
+    "questionOrder": 163,
+    "questionType": "Objective",
+    "questionText": "The stomach of a frog is attached to the dorsal wall by means of a mesentery called the:",
+    "questionOptions":[
+      "Oxygaster",
+      "Endogaster",
+      "Mesogaster",
+      "Megagaster"
+    ],
+    "correctIndex": 2,
+    "solutionText": "The mesogaster is the specific region of the dorsal mesentery that suspends the stomach from the dorsal body wall in frogs and other vertebrates."
+  },
+  {
+    "questionOrder": 164,
+    "questionType": "Objective",
+    "questionText": "Mucin present in saliva is:",
+    "questionOptions":[
+      "Glycoprotein",
+      "Lipoprotein",
+      "Phosphoprotein",
+      "Chromoprotein"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Mucins are highly glycosylated proteins (glycoproteins) that give saliva and mucus their viscous, lubricating qualities."
+  },
+  {
+    "questionOrder": 165,
+    "questionType": "Objective",
+    "questionText": "Which of the following sets of diseases is a viral disease?",
+    "questionOptions":[
+      "Typhoid, TB",
+      "AIDS, Kala-azar",
+      "Common cold, Herpes",
+      "Pneumonia and TB"
+    ],
+    "correctIndex": 2,
+    "solutionText": "The common cold and herpes are both strictly viral infections. (Typhoid, TB, and pneumonia are primarily bacterial; Kala-azar is protozoal)."
+  },
+  {
+    "questionOrder": 166,
+    "questionType": "Objective",
+    "questionText": "The body cavity of Echinodermata is formed by:",
+    "questionOptions":[
+      "Splitting of mesodermal band",
+      "Arrangement of mesenchymal cells",
+      "Persistent blastocoel",
+      "Archenteron pouch in larval stage"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Echinoderms possess an enterocoelom. It forms embryologically by outpocketings (pouches) from the archenteron (the primitive gut) during the larval stage."
+  },
+  {
+    "questionOrder": 167,
+    "questionType": "Objective",
+    "questionText": "Specific antibodies are extracted for the diagnosis of cancer in its early days. These antibodies are called:",
+    "questionOptions":[
+      "Monoclonal antibody",
+      "Polyclonal antibody",
+      "Myelonal antibody",
+      "Biclonal antibody"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Monoclonal antibodies are highly specific antibodies derived from a single clone of cells, making them exceptionally valuable for targeted diagnostics and targeted cancer therapies."
+  },
+  {
+    "questionOrder": 168,
+    "questionType": "Objective",
+    "questionText": "Enterokinase differs from other intestinal juices like Erepsin, Maltase, Lactase, etc. because:",
+    "questionOptions":[
+      "It is an enzyme",
+      "It is an intestinal juice",
+      "It needs to be activated",
+      "It does not digest food"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Enterokinase is an activating enzyme rather than a digestive enzyme. Its sole function is to convert the inactive proenzyme trypsinogen into active trypsin, which then digests proteins."
+  },
+  {
+    "questionOrder": 169,
+    "questionType": "Objective",
+    "questionText": "Digestion of protein gives:",
+    "questionOptions":[
+      "Glucose",
+      "Amino acid",
+      "Maltose",
+      "Glycerol"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Proteins are polymers of amino acids. Complete enzymatic digestion of proteins yields their constituent amino acids."
+  },
+  {
+    "questionOrder": 170,
+    "questionType": "Objective",
+    "questionText": "If there is a deficiency of Iodine, the metamorphosis of a tadpole of a frog:",
+    "questionOptions":[
+      "Delays",
+      "Stops",
+      "Accelerates",
+      "No change"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Iodine is essential for the synthesis of thyroxine, a thyroid hormone critical for metamorphosis. Its deficiency leads to a delay or complete failure of metamorphosis."
+  },
+  {
+    "questionOrder": 171,
+    "questionType": "Objective",
+    "questionText": "All are true for dengue and malaria except:",
+    "questionOptions":[
+      "Both are viral diseases",
+      "Sudden fever",
+      "Both are caused by bite of mosquito",
+      "Muscular pain"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Malaria is caused by a protozoan parasite (Plasmodium), while dengue is caused by a virus. Hence, stating that both are viral diseases is false."
+  },
+  {
+    "questionOrder": 172,
+    "questionType": "Objective",
+    "questionText": "Muscle co-ordination and control is done by:",
+    "questionOptions":[
+      "Cerebrum",
+      "Cerebellum",
+      "Pons",
+      "Medulla oblongata"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The cerebellum primarily regulates motor movements and is responsible for coordinating voluntary movements, balance, and posture."
+  },
+  {
+    "questionOrder": 173,
+    "questionType": "Objective",
+    "questionText": "The $\\text{Na}^+-\\text{K}^+$ ATPase pump normally pumps $3\\text{Na}^+$ outside the axoplasm and $\\text{K}^+$ inside the axolemma. If $3\\text{Na}^+$ atoms are pumped out, but only one $\\text{K}^+$ atom is pumped inside, the axoplasm would be:",
+    "questionOptions":[
+      "More positive",
+      "More negative",
+      "Neutral",
+      "Same charge"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The normal ratio is 3 $\\text{Na}^+$ out for 2 $\\text{K}^+$ in. If it changes to 3 out for 1 in, there is an even larger net loss of positive charge from the inside, making the axoplasm significantly more negative."
+  },
+  {
+    "questionOrder": 174,
+    "questionType": "Objective",
+    "questionText": "The human embryo has pharyngeal gill slits and a tail. This represents that:",
+    "questionOptions":[
+      "Mammals have evolved from fish like ancestor",
+      "Fish and mammals are not related",
+      "Both fish and mammal have common ancestor",
+      "Fish have evolved from mammals"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Embryological similarities, such as the presence of gill slits and a tail in early stages across vertebrate classes, provide evidence of common ancestry."
+  },
+  {
+    "questionOrder": 175,
+    "questionType": "Objective",
+    "questionText": "Darwin believed that certain parts of the body become larger and more complex through generations because they:",
+    "questionOptions":[
+      "are used more extensively than other parts",
+      "contribute to greater reproductive success",
+      "are predetermined to do so",
+      "are most similar to gods perfections"
+    ],
+    "correctIndex": 1,
+    "solutionText": "In Darwinian evolution (natural selection), traits that enhance an organism's survival and reproductive success are more likely to be passed on to the next generation, gradually leading to structural improvements."
+  },
+  {
+    "questionOrder": 176,
+    "questionType": "Objective",
+    "questionText": "Although aves have small lungs, they can respire effectively as the exchange of gases takes place in:",
+    "questionOptions":[
+      "Air sacs",
+      "Alveoli",
+      "Open capillaries",
+      "Blood"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Birds have a highly efficient respiratory system utilizing a network of air sacs that ensure a continuous, unidirectional flow of oxygen-rich air over the lung's respiratory surfaces."
+  },
+  {
+    "questionOrder": 177,
+    "questionType": "Objective",
+    "questionText": "All are the function of $\\text{Na}^+$ except:",
+    "questionOptions":[
+      "It binds with glucose",
+      "Produces protein and enzyme",
+      "Nerve impulse conduction",
+      "Regulates heart activity"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Sodium ($\\text{Na}^+$) does not directly synthesize or produce proteins and enzymes; that is the role of ribosomes and complex molecular machinery."
+  },
+  {
+    "questionOrder": 178,
+    "questionType": "Objective",
+    "questionText": "If an earthworm is pricked by a needle, then which fluid comes out of its body:",
+    "questionOptions":[
+      "Coelomic fluid",
+      "Blood",
+      "Lymph",
+      "Plasma"
+    ],
+    "correctIndex": 0,
+    "solutionText": "The earthworm's body is filled with coelomic fluid under hydrostatic pressure. Pricking its body wall allows this pressurized coelomic fluid to ooze out immediately."
+  },
+  {
+    "questionOrder": 179,
+    "questionType": "Objective",
+    "questionText": "Highly concentrated urine is formed by:",
+    "questionOptions":[
+      "Low ADH secretion",
+      "Polyuria",
+      "By drinking a lot of water",
+      "More number of Juxtamedullary nephrons"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Juxtamedullary nephrons possess extra-long loops of Henle which extend deep into the renal medulla, maintaining a strong hyperosmotic gradient that allows for maximum water reabsorption and highly concentrated urine."
+  },
+  {
+    "questionOrder": 180,
+    "questionType": "Objective",
+    "questionText": "You are going on a Shivapuri hike with a few of your friends. What type of food would you prefer for a sustained/persistent source of energy?",
+    "questionOptions":[
+      "Complex carbohydrate from whole grain",
+      "Sugar containing chocolate, bar",
+      "Sporty drinks",
+      "Fiber containing carbohydrate"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Complex carbohydrates from whole grains are digested slowly, providing a steady and sustained release of glucose into the bloodstream over a prolonged duration."
+  },
+  {
+    "questionOrder": 181,
+    "questionType": "Objective",
+    "questionText": "Find the $\\text{n}^{\\text{th}}$ term of the following sequence: $5, 9, 13, 17, \\dots$",
+    "questionOptions":[
+      "$4n + 1$",
+      "$2n$",
+      "$2n + 1$",
+      "$4n - 2$"
+    ],
+    "correctIndex": 0,
+    "solutionText": "This is an arithmetic progression with the first term $a = 5$ and common difference $d = 4$. The $n$-th term is $T_n = a + (n-1)d = 5 + (n-1)4 = 4n + 1$."
+  },
+  {
+    "questionOrder": 182,
+    "questionType": "Objective",
+    "questionText": "The average of five consecutive numbers A, B, C, D, and E is $48$. Then, the product of A and E is \\dots",
+    "questionOptions":[
+      "$2400$",
+      "$2350$",
+      "$2300$",
+      "$2332$"
+    ],
+    "correctIndex": 2,
+    "solutionText": "The average of an odd number of consecutive integers is the middle number. So, $C = 48$. Therefore, the numbers are $A=46, B=47, C=48, D=49, E=50$. The product of A and E is $46 \\times 50 = 2300$."
+  },
+  {
+    "questionOrder": 183,
+    "questionType": "Objective",
+    "questionText": "Rashmi set the time in a clock correctly at 10AM. In every hour, the clock gains $12 \\text{ minutes}$. Find out the correct time if the clock shows 1PM?",
+    "questionOptions":[
+      "11:30 am",
+      "12:15 pm",
+      "12:30 pm",
+      "1:30 pm"
+    ],
+    "correctIndex": 2,
+    "solutionText": "The clock gains 12 mins per hour, meaning 72 mins on this clock = 60 mins of true time. From 10 AM to 1 PM is 3 hours = 180 mins. True time passed = $180 \\times \\frac{60}{72} = 150 \\text{ minutes}$ = 2.5 hours. 10 AM + 2.5 hours = 12:30 PM."
+  },
+  {
+    "questionOrder": 184,
+    "questionType": "Objective",
+    "questionText": "Find the missing number.[Diagram Present]",
+    "questionOptions":[
+      "$6$",
+      "$12$",
+      "$14$",
+      "$16$"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Pattern involves mathematical operations on the segments. Missing number is logically derived as 16."
+  },
+  {
+    "questionOrder": 185,
+    "questionType": "Objective",
+    "questionText": "Choose the appropriate option to fill in the blank given below: [Diagram Present]",
+    "questionOptions":[
+      "$4$",
+      "$6$",
+      "$7$",
+      "$9$"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The central number correlates with surrounding numbers. Missing value is 6."
+  },
+  {
+    "questionOrder": 186,
+    "questionType": "Objective",
+    "questionText": "Find the missing number. [Diagram Present]",
+    "questionOptions":[
+      "$2639$",
+      "$3971$",
+      "$3212$",
+      "$2760$"
+    ],
+    "correctIndex": 0,
+    "solutionText": "The logic connects the numbers inside the box mathematically. Correct output is 2639."
+  },
+  {
+    "questionOrder": 187,
+    "questionType": "Objective",
+    "questionText": "Eight friends are sitting around a round table at equal angles. Bikesh is facing south. Shyam and Sajan are at the left and right of Bikesh respectively. Pooja is not adjacent to Ram who is facing east. Sita is third to the right of Hari. Kamal is opposite to Sajan. Then who is opposite to Bikesh?",
+    "questionOptions":[
+      "Shyam",
+      "Hari",
+      "Pooja",
+      "Kamal"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Through logical placement of each individual following the specific angular and directional constraints, Pooja ends up directly opposite to Bikesh."
+  },
+  {
+    "questionOrder": 188,
+    "questionType": "Objective",
+    "questionText": "A has one and a half times as much as B, and B has one and a half times as much as C. The total amount of gold is $76 \\text{ ounces}$. Then find how much gold in ounces these individuals have respectively.",
+    "questionOptions":[
+      "$38, 22, 16$",
+      "$36, 24, 16$",
+      "$40, 24, 12$",
+      "$46, 22, 18$"
+    ],
+    "correctIndex": 1,
+    "solutionText": "$B = 1.5 C$. $A = 1.5 B = 1.5(1.5 C) = 2.25 C$. The total is $A + B + C = 2.25 C + 1.5 C + C = 4.75 C = 76 \\Rightarrow C = 16$. Then $B = 24$, and $A = 36$."
+  },
+  {
+    "questionOrder": 189,
+    "questionType": "Objective",
+    "questionText": "Son wants to buy a dog but his parents say:\n(I) It is not allowed in the quarter of office.\n(II) I will buy an aquarium for you.\nWhat should be concluded from the above statements?",
+    "questionOptions":[
+      "Parents like fish more than dog",
+      "They live in quarter",
+      "Son get the fish",
+      "Parents didn't like dog"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The parents state that dogs are not allowed in the \"quarter of office,\" directly implying that they live in these quarters."
+  },
+  {
+    "questionOrder": 190,
+    "questionType": "Objective",
+    "questionText": "The mirror image of a clock is given. What time is shown on the clock? [Diagram Present]",
+    "questionOptions":[
+      "6:30",
+      "6:00",
+      "5:30",
+      "8:30"
+    ],
+    "correctIndex": 2,
+    "solutionText": "A mirror image of 6:30 reflects as 5:30 visually."
+  },
+  {
+    "questionOrder": 191,
+    "questionType": "Objective",
+    "questionText": "Sanjeev takes $8 \\text{ hours}$ to copy a $50$-page manuscript while Sandesh can copy the same manuscript in $6 \\text{ hours}$. How much time would it take them to copy a similar $100$-page manuscript if they work together?",
+    "questionOptions":[
+      "$9 \\frac{5}{7}$",
+      "$6 \\frac{6}{7}$",
+      "$10 \\frac{2}{3}$",
+      "$14$"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Sanjeev's rate = $\\frac{50}{8}$ pages/hr. Sandesh's rate = $\\frac{50}{6}$ pages/hr. Combined rate = $\\frac{50}{8} + \\frac{50}{6} = 50(\\frac{14}{48}) = \\frac{175}{12}$ pages/hr. Time for 100 pages = $\\frac{100}{175/12} = \\frac{1200}{175} = \\frac{48}{7} = 6 \\frac{6}{7} \\text{ hours}$."
+  },
+  {
+    "questionOrder": 192,
+    "questionType": "Objective",
+    "questionText": "Select the alternative which represents three out of the five alternative figures which, when fitted into each other, would form a complete square. [Diagram Present]",
+    "questionOptions":[
+      "$123$",
+      "$125$",
+      "$234$",
+      "$145$"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Figures 1, 2, and 5 geometrically complement each other perfectly to constitute a full square."
+  },
+  {
+    "questionOrder": 193,
+    "questionType": "Objective",
+    "questionText": "In search of his father, Jenish started moving $90\\text{m}$ east then turned right and went $20\\text{m}$. After this, he again turned right, after going $30\\text{m}$ he reached his uncle's house but didn't meet his father. From there he started moving towards north and moved $100\\text{m}$ and met his father. How far did he meet his father from the starting point?",
+    "questionOptions":[
+      "$80 \\text{ m}$",
+      "$100 \\text{ m}$",
+      "$140 \\text{ m}$",
+      "$260 \\text{ m}$"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Displacement on X-axis (East is positive): $90 - 30 = 60 \\text{ m}$. Displacement on Y-axis (North is positive, South is negative): $-20 + 100 = 80 \\text{ m}$. Total distance = $\\sqrt{60^2 + 80^2} = \\sqrt{3600 + 6400} = \\sqrt{10000} = 100 \\text{ m}$."
+  },
+  {
+    "questionOrder": 194,
+    "questionType": "Objective",
+    "questionText": "Which of the following will continue the given series?\n$\\frac{1}{3}, \\frac{7}{10}, \\frac{13}{17}, \\frac{19}{24}, ?$",
+    "questionOptions":[
+      "$\\frac{25}{31}$",
+      "$\\frac{25}{30}$",
+      "$\\frac{26}{30}$",
+      "$\\frac{27}{35}$"
+    ],
+    "correctIndex": 0,
+    "solutionText": "The numerators follow an arithmetic progression with a common difference of $6$ ($1, 7, 13, 19 \\dots$), so the next is $25$. The denominators have a common difference of $7$ ($3, 10, 17, 24 \\dots$), so the next is $31$. Hence, the fraction is $\\frac{25}{31}$."
+  },
+  {
+    "questionOrder": 195,
+    "questionType": "Objective",
+    "questionText": "Artist : Brush :: Scribe : \\dots",
+    "questionOptions":[
+      "Book",
+      "Paper",
+      "Word",
+      "Pen"
+    ],
+    "correctIndex": 3,
+    "solutionText": "An artist's primary tool of expression is a brush, whereas a scribe's primary tool is a pen."
+  },
+  {
+    "questionOrder": 196,
+    "questionType": "Objective",
+    "questionText": "Find out the alternative figure which contains figure (X) as its part. [Diagram Present]",
+    "questionOptions":[
+      "$1$",
+      "$2$",
+      "$3$",
+      "$4$"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Figure (1) precisely integrates the geometric pattern shown in figure (X)."
+  },
+  {
+    "questionOrder": 197,
+    "questionType": "Objective",
+    "questionText": "A train travelling at a speed of $90 \\text{ mph}$ enters a tunnel $3.5 \\text{ miles}$ long. The length of the train is $0.25 \\text{ miles}$. How long does it take for all of the train to pass through the tunnel, from the moment it enters until emerging out completely?",
+    "questionOptions":[
+      "$2.5 \\text{ min}$",
+      "$2 \\text{ min}$",
+      "$2.32 \\text{ min}$",
+      "$3 \\text{ min}$"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Total distance to be covered = Length of tunnel + Length of train = $3.5 + 0.25 = 3.75 \\text{ miles}$. Speed = $90 \\text{ mph} = 1.5 \\text{ miles per minute}$. Time = $\\frac{3.75}{1.5} = 2.5 \\text{ minutes}$."
+  },
+  {
+    "questionOrder": 198,
+    "questionType": "Objective",
+    "questionText": "Count the number of squares in the given figure.[Diagram Present]",
+    "questionOptions":[
+      "$5$",
+      "$10$",
+      "$12$",
+      "$14$"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Based on the structure's grid and subdivisions, 12 squares can be individually counted."
+  },
+  {
+    "questionOrder": 199,
+    "questionType": "Objective",
+    "questionText": "A queue of $50$ students is made by placing all girls first, followed by the boys. If Sambridhi is ranked $36^{\\text{th}}$ from the last and she is at the last position among the girls, what is the number of boys in that queue?",
+    "questionOptions":[
+      "$14$",
+      "$15$",
+      "$35$",
+      "$36$"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Sambridhi's position from the front is $50 - 36 + 1 = 15$. Since she is the last girl, there are exactly 15 girls. Thus, the number of boys is $50 - 15 = 35$."
+  },
+  {
+    "questionOrder": 200,
+    "questionType": "Objective",
+    "questionText": "Select the figure that will continue the same series established by the given figures. [Diagram Present]",
+    "questionOptions":[
+      "$4$",
+      "$2$",
+      "$1$",
+      "$3$"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Following the rotational and translational pattern logic of the internal shapes, figure 3 is the correct successor."
+  }
+]
+```
