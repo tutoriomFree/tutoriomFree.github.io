@@ -1,0 +1,1289 @@
+[
+  {
+    "questionOrder": 1,
+    "questionType": "Objective",
+    "questionText": "If a lift of mass $1000 \\text{ kg}$ moves upward with an acceleration of $1 \\text{ m/s}^2$, then the tension is:",
+    "questionOptions":[
+      "$6,000$",
+      "$11,000$",
+      "$10,800$",
+      "$20,00$"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The tension in the cable of a lift moving upwards with acceleration $a$ is given by $T = m(g + a)$.\nGiven $m = 1000 \\text{ kg}$, $g = 10 \\text{ m/s}^2$ (approx), and $a = 1 \\text{ m/s}^2$.\n$T = 1000(10 + 1) = 1000 \\times 11 = 11,000 \\text{ N}$."
+  },
+  {
+    "questionOrder": 2,
+    "questionType": "Objective",
+    "questionText": "A boy started his journey from home to school, which is $16 \\text{ km}$ far, at a uniform speed of $2.5 \\text{ km/hr}$ and while returning, he returned with $4 \\text{ km/hr}$. What is his average speed?",
+    "questionOptions":[
+      "$3 \\text{ km/hr}$",
+      "$4 \\text{ km/hr}$",
+      "$6 \\text{ km/hr}$",
+      "$8 \\text{ km/hr}$"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Average speed for the same distance traveled at two different speeds $v_1$ and $v_2$ is given by $\\frac{2v_1v_2}{v_1 + v_2}$.\n$V_{avg} = \\frac{2 \\times 2.5 \\times 4}{2.5 + 4} = \\frac{20}{6.5} = \\frac{40}{13} \\approx 3.07 \\text{ km/hr}$, which is approximately $3 \\text{ km/hr}$."
+  },
+  {
+    "questionOrder": 3,
+    "questionType": "Objective",
+    "questionText": "Which is not a graph of uniform motion? [Diagram Present]",
+    "questionOptions":[
+      "Graph a",
+      "Graph b",
+      "Graph c",
+      "Graph d"
+    ],
+    "correctIndex": 3,
+    "solutionText": "For uniform motion, the velocity must remain constant over time, which means a displacement-time graph must be a straight line and a velocity-time graph must be a horizontal line. Graph d shows a changing velocity or an unphysical scenario (going backward in time), making it invalid for uniform motion."
+  },
+  {
+    "questionOrder": 4,
+    "questionType": "Objective",
+    "questionText": "A person on a moving train throws a coin upwards, and if it falls behind him, then the train is:",
+    "questionOptions":[
+      "Accelerating",
+      "Decelerating",
+      "Moving with constant velocity",
+      "All of the above"
+    ],
+    "correctIndex": 0,
+    "solutionText": "When the coin is thrown upwards, it retains the horizontal velocity of the train at that instant. If the train accelerates while the coin is in the air, the train moves forward faster than the coin's constant horizontal velocity. Thus, the coin falls behind the person."
+  },
+  {
+    "questionOrder": 5,
+    "questionType": "Objective",
+    "questionText": "What is the total tension acting in the figure? [Diagram Present]",
+    "questionOptions":[
+      "$75 \\text{ N}$",
+      "$37.5 \\text{ N}$",
+      "$50 \\text{ N}$",
+      "$150 \\text{ N}$"
+    ],
+    "correctIndex": 0,
+    "solutionText": "For a standard Atwood machine with masses $m_1 = 6 \\text{ kg}$ and $m_2 = 10 \\text{ kg}$, the tension in the string is $T = \\frac{2m_1m_2}{m_1 + m_2}g$.\n$T = \\frac{2 \\times 6 \\times 10}{6 + 10} \\times 10 = \\frac{120}{16} \\times 10 = 7.5 \\times 10 = 75 \\text{ N}$."
+  },
+  {
+    "questionOrder": 6,
+    "questionType": "Objective",
+    "questionText": "A boat was crossing the river with a velocity of $40 \\text{ m/s}$ and the river was flowing with a velocity of $30 \\text{ m/s}$. Then the resultant velocity was:",
+    "questionOptions":[
+      "$50 \\text{ m/s}$",
+      "$60 \\text{ m/s}$",
+      "$100 \\text{ m/s}$",
+      "$120 \\text{ m/s}$"
+    ],
+    "correctIndex": 0,
+    "solutionText": "The boat's velocity and the river's velocity are perpendicular to each other. The resultant velocity $v$ is the vector sum: $v = \\sqrt{v_{boat}^2 + v_{river}^2} = \\sqrt{40^2 + 30^2} = \\sqrt{1600 + 900} = \\sqrt{2500} = 50 \\text{ m/s}$."
+  },
+  {
+    "questionOrder": 7,
+    "questionType": "Objective",
+    "questionText": "If a lift of mass $500 \\text{ kg}$ moves upward with an acceleration of $2 \\text{ ms}^{-2}$, then the tension is:",
+    "questionOptions":[
+      "$5900$",
+      "$5800$",
+      "$6100$",
+      "None"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Tension $T = m(g + a)$.\nUsing $g = 9.8 \\text{ m/s}^2$:\n$T = 500(9.8 + 2) = 500(11.8) = 5900 \\text{ N}$."
+  },
+  {
+    "questionOrder": 8,
+    "questionType": "Objective",
+    "questionText": "A body moves along with constant acceleration. Then its graphical representation will be: [Diagram Present]",
+    "questionOptions":[
+      "Graph a",
+      "Graph b",
+      "Graph c",
+      "Graph d"
+    ],
+    "correctIndex": 1,
+    "solutionText": "For constant acceleration, the velocity increases linearly with time. Therefore, the velocity-time (v-t) graph is a straight line with a constant slope."
+  },
+  {
+    "questionOrder": 9,
+    "questionType": "Objective",
+    "questionText": "A vehicle climbs a hill at a speed of $40 \\text{ km/hr}$ and returns to the same place at a speed of $60 \\text{ km/hr}$. What is the average speed for the whole journey?",
+    "questionOptions":[
+      "$48 \\text{ km/hr}$",
+      "$50 \\text{ km/hr}$",
+      "$32 \\text{ km/hr}$",
+      "$52 \\text{ km/hr}$"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Since the distance climbed and returned is the same, the average speed is given by the harmonic mean of the speeds: $\\frac{2v_1v_2}{v_1 + v_2}$.\n$V_{avg} = \\frac{2 \\times 40 \\times 60}{40 + 60} = \\frac{4800}{100} = 48 \\text{ km/hr}$."
+  },
+  {
+    "questionOrder": 10,
+    "questionType": "Objective",
+    "questionText": "A man intends to cross a river on a boat with a velocity of $4 \\text{ m/s}$. If the resultant velocity of the boat is $5 \\text{ m/s}$, then the velocity of the river is:",
+    "questionOptions":[
+      "$3 \\text{ m/s}$",
+      "$3\\sqrt{2} \\text{ m/s}$",
+      "$4 \\text{ m/s}$",
+      "$5\\sqrt{2} \\text{ m/s}$"
+    ],
+    "correctIndex": 0,
+    "solutionText": "By vector addition for perpendicular velocities: $v_{resultant}^2 = v_{boat}^2 + v_{river}^2$.\n$5^2 = 4^2 + v_{river}^2 \\implies 25 = 16 + v_{river}^2 \\implies v_{river}^2 = 9 \\implies v_{river} = 3 \\text{ m/s}$."
+  },
+  {
+    "questionOrder": 11,
+    "questionType": "Objective",
+    "questionText": "Which of the following speed-time graphs is not possible? [Diagram Present]",
+    "questionOptions":[
+      "Graph a",
+      "Graph b",
+      "Graph c",
+      "Graph d"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Speed is a scalar quantity and can never be negative, nor can a particle be at two different speeds at the same time or go backward in time. The graph showing such physically impossible behavior is not possible."
+  },
+  {
+    "questionOrder": 12,
+    "questionType": "Objective",
+    "questionText": "The slope of a velocity-time graph gives:",
+    "questionOptions":[
+      "Acceleration",
+      "Displacement",
+      "Uniform speed",
+      "Stationary object"
+    ],
+    "correctIndex": 0,
+    "solutionText": "The slope of the velocity-time graph is defined as the rate of change of velocity, which is $\\frac{dv}{dt}$. This is mathematically and physically equivalent to acceleration."
+  },
+  {
+    "questionOrder": 13,
+    "questionType": "Objective",
+    "questionText": "Two bodies, one held $1 \\text{ m}$ above the other directly, are released simultaneously and fall freely under gravity. After $3 \\text{ seconds}$, their relative separation will be:",
+    "questionOptions":[
+      "$0.98 \\text{ m}$",
+      "$1 \\text{ m}$",
+      "$4.9 \\text{ m}$",
+      "$9.8 \\text{ m}$"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Both bodies experience the same acceleration due to gravity ($g$). Because their initial velocities are both zero and they have zero relative acceleration, their relative velocity remains zero. Hence, their initial relative separation of $1 \\text{ m}$ is maintained throughout the fall."
+  },
+  {
+    "questionOrder": 14,
+    "questionType": "Objective",
+    "questionText": "The time taken by a train of length $150 \\text{ m}$ and traveling with a uniform velocity of $60 \\text{ km/hr}$ to completely cross a bridge of length $1.5 \\text{ km}$ will be:",
+    "questionOptions":[
+      "$9 \\text{ s}$",
+      "$9.9 \\text{ s}$",
+      "$90 \\text{ s}$",
+      "$99 \\text{ s}$"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Total distance to be covered = length of train + length of bridge = $150 \\text{ m} + 1500 \\text{ m} = 1650 \\text{ m}$.\nVelocity of train = $60 \\text{ km/hr} = 60 \\times \\frac{5}{18} \\text{ m/s} = \\frac{50}{3} \\text{ m/s}$.\nTime = $\\frac{\\text{Distance}}{\\text{Velocity}} = \\frac{1650}{\\frac{50}{3}} = \\frac{1650 \\times 3}{50} = 33 \\times 3 = 99 \\text{ s}$."
+  },
+  {
+    "questionOrder": 15,
+    "questionType": "Objective",
+    "questionText": "A body is thrown vertically upward and attains a velocity of $15 \\text{ m/s}$ at half the maximum height. The maximum height up to which the body can reach will be:",
+    "questionOptions":[
+      "$45.8 \\text{ m}$",
+      "$34.5 \\text{ m}$",
+      "$22.9 \\text{ m}$",
+      "$17.8 \\text{ m}$"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Let the maximum height be $H$. At height $\\frac{H}{2}$, velocity $v = 15 \\text{ m/s}$.\nUsing $v^2 = u^2 - 2g(\\frac{H}{2})$ and knowing at max height $0 = u^2 - 2gH \\implies u^2 = 2gH$.\nSubstitute $u^2$: $15^2 = 2gH - gH = gH$.\n$225 = gH \\implies H = \\frac{225}{9.8} \\approx 22.9 \\text{ m}$."
+  },
+  {
+    "questionOrder": 16,
+    "questionType": "Objective",
+    "questionText": "A body A is moving in the north with $3 \\text{ km/s}$ and B with $4 \\text{ km/s}$ east. What is the relative velocity of body A with respect to B?",
+    "questionOptions":[
+      "$5 \\text{ km/s}$ west of north",
+      "$5 \\text{ km/s}$ east of north",
+      "$5 \\text{ km/s}$ toward north",
+      "$5 \\text{ km/s}$ toward west"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Velocity vectors: $\\vec{v}_A = 3\\hat{j}$ (North) and $\\vec{v}_B = 4\\hat{i}$ (East).\nRelative velocity $\\vec{v}_{AB} = \\vec{v}_A - \\vec{v}_B = -4\\hat{i} + 3\\hat{j}$.\nMagnitude $= \\sqrt{(-4)^2 + 3^2} = 5 \\text{ km/s}$.\nThe direction is West ($-x$) of North ($+y$), so it is west of north."
+  },
+  {
+    "questionOrder": 17,
+    "questionType": "Objective",
+    "questionText": "A body moves $30 \\text{ m}$ due north, $20 \\text{ m}$ due east and $30\\sqrt{2} \\text{ m}$ due south-west. The total displacement covered by the body from its initial position is:",
+    "questionOptions":[
+      "$14 \\text{ m}$ S-W",
+      "$28 \\text{ m}$ south",
+      "$10 \\text{ m}$ west",
+      "$18 \\text{ m}$ south"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Let East be $+x$ and North be $+y$. \nDisplacement 1: $+30\\hat{j}$\nDisplacement 2: $+20\\hat{i}$\nDisplacement 3: $30\\sqrt{2}$ south-west translates to $-30\\hat{i} - 30\\hat{j}$ (since $30\\sqrt{2}\\cos(45^\\circ) = 30$).\nTotal displacement $\\vec{d} = (20 - 30)\\hat{i} + (30 - 30)\\hat{j} = -10\\hat{i}$.\nThe displacement is $10 \\text{ m}$ due west."
+  },
+  {
+    "questionOrder": 18,
+    "questionType": "Objective",
+    "questionText": "Two bodies of mass $2m$ and $m$ are released from height $2H$ and $H$ respectively. The ratio of time taken by them to reach the ground is:",
+    "questionOptions":[
+      "$\\frac{1}{4}$",
+      "$1$",
+      "$\\sqrt{2}$",
+      "$2$"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Time taken to fall freely from rest from height $h$ is independent of mass and given by $t = \\sqrt{\\frac{2h}{g}}$.\nRatio of times $t_1 : t_2 = \\sqrt{\\frac{2(2H)}{g}} : \\sqrt{\\frac{2H}{g}} = \\sqrt{2} : 1 = \\sqrt{2}$."
+  },
+  {
+    "questionOrder": 19,
+    "questionType": "Objective",
+    "questionText": "Two ships A and B are $4 \\text{ km}$ apart. A is due west of B. If A moves with a uniform velocity of $8 \\text{ km h}^{-1}$ due east and B moves with a uniform velocity of $6 \\text{ km h}^{-1}$ due south, calculate the magnitude of the velocity of A relative to B.",
+    "questionOptions":[
+      "$5 \\text{ km/hr}$",
+      "$10 \\text{ km/hr}$",
+      "$15 \\text{ km/hr}$",
+      "$20 \\text{ km/hr}$"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Velocity of A, $\\vec{v}_A = 8\\hat{i}$.\nVelocity of B, $\\vec{v}_B = -6\\hat{j}$.\nRelative velocity $\\vec{v}_{AB} = \\vec{v}_A - \\vec{v}_B = 8\\hat{i} - (-6\\hat{j}) = 8\\hat{i} + 6\\hat{j}$.\nMagnitude $= \\sqrt{8^2 + 6^2} = \\sqrt{64 + 36} = 10 \\text{ km/hr}$."
+  },
+  {
+    "questionOrder": 20,
+    "questionType": "Objective",
+    "questionText": "A body of mass $200 \\text{ gm}$ is thrown upwards with an initial velocity of $30 \\text{ m/s}$. What is the total energy of the body at a height of $20 \\text{ m}$ from the ground?",
+    "questionOptions":[
+      "$50 \\text{ J}$",
+      "$100 \\text{ J}$",
+      "$40 \\text{ J}$",
+      "$90 \\text{ J}$"
+    ],
+    "correctIndex": 3,
+    "solutionText": "By the principle of conservation of energy, the total energy of the body remains constant throughout its flight.\nTotal Energy at any height = Initial Kinetic Energy = $\\frac{1}{2} m u^2$.\n$E = \\frac{1}{2} \\times (0.2 \\text{ kg}) \\times (30 \\text{ m/s})^2 = 0.1 \\times 900 = 90 \\text{ J}$."
+  },
+  {
+    "questionOrder": 21,
+    "questionType": "Objective",
+    "questionText": "A body travels with a velocity of $30 \\text{ m/s}$ for the first half of the time and with a velocity of $40 \\text{ m/s}$ for the second half of the time. What would be the average velocity?",
+    "questionOptions":[
+      "$50 \\text{ m/s}$",
+      "$35 \\text{ m/s}$",
+      "$40 \\text{ m/s}$",
+      "$30 \\text{ m/s}$"
+    ],
+    "correctIndex": 1,
+    "solutionText": "When a body travels with different velocities for equal intervals of time, the average velocity is the arithmetic mean of the velocities.\n$V_{avg} = \\frac{v_1 + v_2}{2} = \\frac{30 + 40}{2} = 35 \\text{ m/s}$."
+  },
+  {
+    "questionOrder": 22,
+    "questionType": "Objective",
+    "questionText": "A body covers $\\frac{1}{3}^{\\text{rd}}$ of the distance with $V_1$ velocity and the next $\\frac{2}{3}^{\\text{rd}}$ of the distance with $V_2$ velocity. Its average velocity is:",
+    "questionOptions":[
+      "$\\frac{2V_1V_2}{V_1+V_2}$",
+      "$\\frac{V_1+V_2}{2}$",
+      "$\\frac{V_1V_2}{3V_2+2V_1}$",
+      "$\\frac{3V_1V_2}{V_2+2V_1}$"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Let the total distance be $S$. \nTime for the first part $t_1 = \\frac{S/3}{V_1} = \\frac{S}{3V_1}$.\nTime for the second part $t_2 = \\frac{2S/3}{V_2} = \\frac{2S}{3V_2}$.\nTotal time $t = t_1 + t_2 = \\frac{S}{3V_1} + \\frac{2S}{3V_2} = S \\left( \\frac{V_2 + 2V_1}{3V_1V_2} \\right)$.\nAverage velocity $V_{avg} = \\frac{S}{t} = \\frac{3V_1V_2}{V_2 + 2V_1}$."
+  },
+  {
+    "questionOrder": 23,
+    "questionType": "Objective",
+    "questionText": "A person weighing $80 \\text{ kg}$ is standing on a lift that moves upward with a uniform acceleration of $4.9 \\text{ m/s}^2$. The apparent weight of the person is:",
+    "questionOptions":[
+      "$80 \\text{ kg}$",
+      "$60 \\text{ kg}$",
+      "$40 \\text{ kg}$",
+      "$120 \\text{ kg}$"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Apparent weight $W_{app} = m(g + a)$.\nUsing $g = 9.8 \\text{ m/s}^2$:\n$W_{app} = 80(9.8 + 4.9) = 80(14.7) = 1176 \\text{ N}$.\nTo convert to kg-weight, divide by $g$: $\\frac{1176}{9.8} = 120 \\text{ kg-wt}$."
+  },
+  {
+    "questionOrder": 24,
+    "questionType": "Objective",
+    "questionText": "Two stones A and B are thrown from the top of a tower. Stone A is thrown vertically upward while stone B is thrown vertically downward with the same speed. Which one of the following statements is true?",
+    "questionOptions":[
+      "Stone A strikes the ground with a higher velocity than B.",
+      "Stone B strikes the ground with a higher velocity than A.",
+      "Both A and B strike the ground with the same velocity.",
+      "A reaches the ground earlier than B."
+    ],
+    "correctIndex": 2,
+    "solutionText": "Stone A, thrown vertically upwards, will rise to a certain height and then fall back. When it passes the top of the tower on its way down, its velocity will be exactly the same as its initial projection speed, but directed downwards. Since this is the exact same state as stone B at launch, both will hit the ground with the identical velocity."
+  },
+  {
+    "questionOrder": 25,
+    "questionType": "Objective",
+    "questionText": "A meter rod pivoted at its one end is rotated through $120^\\circ$. Then the displacement of its free end will be:",
+    "questionOptions":[
+      "$2 \\text{ m}$",
+      "$\\frac{2\\pi}{3} \\text{ m}$",
+      "$\\sqrt{2} \\text{ m}$",
+      "$\\sqrt{3} \\text{ m}$"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Displacement is the straight-line distance between the initial and final positions. For a rotation by angle $\\theta$ of a segment of length $R$, the displacement is $2R\\sin(\\frac{\\theta}{2})$.\nHere, $R = 1 \\text{ m}$, $\\theta = 120^\\circ$.\nDisplacement $= 2(1)\\sin(60^\\circ) = 2 \\times \\frac{\\sqrt{3}}{2} = \\sqrt{3} \\text{ m}$."
+  },
+  {
+    "questionOrder": 26,
+    "questionType": "Objective",
+    "questionText": "A person turns left or right by $90^\\circ$ after travelling each $20 \\text{ m}$ in a straight line. What is his maximum displacement after three successive turns?",
+    "questionOptions":[
+      "$20\\sqrt{5} \\text{ m}$",
+      "$40\\sqrt{5} \\text{ m}$",
+      "$40\\sqrt{2} \\text{ m}$",
+      "$80 \\text{ m}$"
+    ],
+    "correctIndex": 2,
+    "solutionText": "To achieve maximum displacement after 3 turns (which implies 4 straight segments of $20 \\text{ m}$), the path must resemble a stair-case, turning alternately to prevent doubling back completely. E.g. Left, Right, Left.\nPath points: $(0,0) \\rightarrow (20,0) \\rightarrow (20,20) \\rightarrow (40,20) \\rightarrow (40,40)$.\nDisplacement $= \\sqrt{(40-0)^2 + (40-0)^2} = \\sqrt{1600+1600} = 40\\sqrt{2} \\text{ m}$."
+  },
+  {
+    "questionOrder": 27,
+    "questionType": "Objective",
+    "questionText": "A person travels $3 \\text{ km}$ towards north, then $2 \\text{ km}$ towards east and finally $2\\sqrt{2} \\text{ km}$ south-west. What is his displacement?",
+    "questionOptions":[
+      "$\\sqrt{2} \\text{ km}$ north east",
+      "$1 \\text{ km}$ north",
+      "$\\sqrt{2} \\text{ km}$ south west",
+      "zero"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Setting East as $+x$ and North as $+y$:\nDisplacement 1: $3\\hat{j}$\nDisplacement 2: $2\\hat{i}$\nDisplacement 3: $2\\sqrt{2}$ south-west means $-2\\hat{i} - 2\\hat{j}$.\nTotal displacement $\\vec{d} = (2 - 2)\\hat{i} + (3 - 2)\\hat{j} = 0\\hat{i} + 1\\hat{j} = 1 \\text{ km}$ north."
+  },
+  {
+    "questionOrder": 28,
+    "questionType": "Objective",
+    "questionText": "A flying kite travels $24 \\text{ m}$ east, then $8 \\text{ m}$ south, and finally $6 \\text{ m}$ upward. What is its displacement from its initial position?",
+    "questionOptions":[
+      "$30 \\text{ m}$",
+      "$26 \\text{ m}$",
+      "$16 \\text{ m}$",
+      "$40 \\text{ m}$"
+    ],
+    "correctIndex": 1,
+    "solutionText": "These directions represent orthogonal axes (x, y, z).\nDisplacement magnitude $d = \\sqrt{x^2 + y^2 + z^2} = \\sqrt{24^2 + 8^2 + 6^2}$.\n$d = \\sqrt{576 + 64 + 36} = \\sqrt{676} = 26 \\text{ m}$."
+  },
+  {
+    "questionOrder": 29,
+    "questionType": "Objective",
+    "questionText": "A racing car moving along a circular track of radius $R$ at a constant speed $v$ has described an angle $\\theta$ about the centre of the track in a certain time. What is the average velocity for the interval of time?",
+    "questionOptions":[
+      "$v$",
+      "$\\frac{v}{\\theta}$",
+      "$\\frac{v\\sin\\left(\\frac{\\theta}{2}\\right)}{\\theta}$",
+      "$\\frac{2v\\sin\\left(\\frac{\\theta}{2}\\right)}{\\theta}$"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Average velocity = $\\frac{\\text{Total Displacement}}{\\text{Total Time}}$.\nDisplacement across an arc of angle $\\theta$ is $2R\\sin(\\frac{\\theta}{2})$.\nTime taken to cover the arc length $R\\theta$ at speed $v$ is $t = \\frac{R\\theta}{v}$.\n$V_{avg} = \\frac{2R\\sin(\\frac{\\theta}{2})}{\\frac{R\\theta}{v}} = \\frac{2v\\sin(\\frac{\\theta}{2})}{\\theta}$."
+  },
+  {
+    "questionOrder": 30,
+    "questionType": "Objective",
+    "questionText": "A car travelling along a circular track at a constant speed of $20 \\text{ m/s}$ has completed half a revolution on the track. Its average velocity will be:",
+    "questionOptions":[
+      "$10\\pi \\text{ m/s}$",
+      "$\\frac{20}{\\pi} \\text{ m/s}$",
+      "$20 \\text{ m/s}$",
+      "$\\frac{40}{\\pi} \\text{ m/s}$"
+    ],
+    "correctIndex": 3,
+    "solutionText": "For half a revolution, $\\theta = \\pi$.\nUsing the formula $V_{avg} = \\frac{2v\\sin(\\frac{\\theta}{2})}{\\theta}$ from the previous concept:\n$V_{avg} = \\frac{2(20)\\sin(\\frac{\\pi}{2})}{\\pi} = \\frac{40(1)}{\\pi} = \\frac{40}{\\pi} \\text{ m/s}$."
+  },
+  {
+    "questionOrder": 31,
+    "questionType": "Objective",
+    "questionText": "The length of a second hand in a watch is $1 \\text{ cm}$. The change in velocity in $15 \\text{ seconds}$ is:",
+    "questionOptions":[
+      "$\\frac{\\pi}{30\\sqrt{2}} \\text{ cm/s}$",
+      "$\\frac{\\pi}{30} \\text{ cm/s}$",
+      "$0$",
+      "$\\frac{\\pi\\sqrt{2}}{30} \\text{ cm/s}$"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Linear speed of the tip $v = r\\omega = 1 \\times \\frac{2\\pi}{60} = \\frac{\\pi}{30} \\text{ cm/s}$.\nIn $15 \\text{ seconds}$, the hand sweeps $90^\\circ$ ($\\pi/2$ radians). The initial and final velocity vectors are perpendicular.\nChange in velocity $\\Delta v = \\sqrt{v^2 + v^2} = v\\sqrt{2} = \\frac{\\pi\\sqrt{2}}{30} \\text{ cm/s}$."
+  },
+  {
+    "questionOrder": 32,
+    "questionType": "Objective",
+    "questionText": "If the displacement of a body is proportional to the square of time, then the body has:",
+    "questionOptions":[
+      "constant velocity",
+      "constant acceleration",
+      "increasing acceleration",
+      "decreasing acceleration"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Given displacement $s \\propto t^2$, we can write $s = k t^2$, where $k$ is a constant.\nVelocity $v = \\frac{ds}{dt} = 2kt$.\nAcceleration $a = \\frac{dv}{dt} = 2k$, which is a constant."
+  },
+  {
+    "questionOrder": 33,
+    "questionType": "Objective",
+    "questionText": "The displacement of a particle moving in a straight line at any instant time $t$ is given as $x = t^2 + 20$ (in metres). What is its average velocity for the first four seconds?",
+    "questionOptions":[
+      "$4 \\text{ m/s}$",
+      "$6 \\text{ m/s}$",
+      "$8 \\text{ m/s}$",
+      "$10 \\text{ m/s}$"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Average velocity = $\\frac{\\text{Total Displacement}}{\\text{Total Time}} = \\frac{x(t_2) - x(t_1)}{t_2 - t_1}$.\nAt $t = 0$, $x(0) = 0^2 + 20 = 20 \\text{ m}$.\nAt $t = 4$, $x(4) = 4^2 + 20 = 16 + 20 = 36 \\text{ m}$.\n$V_{avg} = \\frac{36 - 20}{4 - 0} = \\frac{16}{4} = 4 \\text{ m/s}$."
+  },
+  {
+    "questionOrder": 34,
+    "questionType": "Objective",
+    "questionText": "In the above question, what is its velocity at $4 \\text{ seconds}$?",
+    "questionOptions":[
+      "$4 \\text{ m/s}$",
+      "$6 \\text{ m/s}$",
+      "$8 \\text{ m/s}$",
+      "$10 \\text{ m/s}$"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Instantaneous velocity $v = \\frac{dx}{dt} = \\frac{d}{dt}(t^2 + 20) = 2t$.\nAt $t = 4 \\text{ s}$, $v = 2(4) = 8 \\text{ m/s}$."
+  },
+  {
+    "questionOrder": 35,
+    "questionType": "Objective",
+    "questionText": "The acceleration of a particle at any instant of time $t$, which starts from the origin at an initial velocity of $2 \\text{ m/s}$, is $a = 2t \\text{ (in m/s}^2\\text{)}$. What is its velocity in $5 \\text{ seconds}$?",
+    "questionOptions":[
+      "$52 \\text{ m/s}$",
+      "$50 \\text{ m/s}$",
+      "$27 \\text{ m/s}$",
+      "$25 \\text{ m/s}$"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Acceleration $a = \\frac{dv}{dt} = 2t$.\nIntegrating, $v = \\int 2t dt = t^2 + C$.\nSince initial velocity (at $t=0$) is $2 \\text{ m/s}$, $C = 2$.\nVelocity at any time $t$ is $v(t) = t^2 + 2$.\nAt $t = 5 \\text{ s}$, $v(5) = 5^2 + 2 = 25 + 2 = 27 \\text{ m/s}$."
+  },
+  {
+    "questionOrder": 36,
+    "questionType": "Objective",
+    "questionText": "A train of $150 \\text{ meter}$ length is going towards the north direction at a speed of $10 \\text{ m/s}$. A parrot flies at a speed of $5 \\text{ m/s}$ towards the south direction parallel to the railway track. The time taken by the parrot to cross the train is:",
+    "questionOptions":[
+      "$12 \\text{ sec}$",
+      "$8 \\text{ sec}$",
+      "$15 \\text{ sec}$",
+      "$10 \\text{ sec}$"
+    ],
+    "correctIndex": 3,
+    "solutionText": "The train and parrot are moving in opposite directions, so their relative velocity is the sum of their individual speeds: $10 \\text{ m/s} + 5 \\text{ m/s} = 15 \\text{ m/s}$.\nThe distance to be covered is the length of the train, $150 \\text{ m}$.\nTime = $\\frac{\\text{Distance}}{\\text{Relative Velocity}} = \\frac{150}{15} = 10 \\text{ sec}$."
+  },
+  {
+    "questionOrder": 37,
+    "questionType": "Objective",
+    "questionText": "Two boys start running towards each other from two points that are $120 \\text{ m}$ apart. One runs with a speed of $5 \\text{ m/s}$ and the other with a speed of $7 \\text{ m/s}$. When and where do they meet each other from the $1^{\\text{st}}$ point?",
+    "questionOptions":[
+      "$10 \\text{ s}, 50 \\text{ m}$",
+      "$10 \\text{ s}, 70 \\text{ m}$",
+      "$24 \\text{ s}, 50 \\text{ m}$",
+      "$17 \\text{ s}, 70 \\text{ m}$"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Relative speed = $5 \\text{ m/s} + 7 \\text{ m/s} = 12 \\text{ m/s}$.\nTime taken to meet = $\\frac{\\text{Total distance}}{\\text{Relative speed}} = \\frac{120}{12} = 10 \\text{ s}$.\nDistance from the $1^{\\text{st}}$ point (where the $5 \\text{ m/s}$ boy started) = $5 \\text{ m/s} \\times 10 \\text{ s} = 50 \\text{ m}$."
+  },
+  {
+    "questionOrder": 38,
+    "questionType": "Objective",
+    "questionText": "A train of length $200 \\text{ m}$ travelling at $30 \\text{ m/sec}$ overtakes another train of length $300 \\text{ m}$ travelling at $20 \\text{ m/sec}$. The time taken by the first train to pass the second is:",
+    "questionOptions":[
+      "$30 \\text{ sec}$",
+      "$10 \\text{ sec}$",
+      "$50 \\text{ sec}$",
+      "$40 \\text{ sec}$"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Relative velocity of the first train with respect to the second = $30 - 20 = 10 \\text{ m/s}$.\nTotal distance to cover to completely pass = sum of lengths = $200 + 300 = 500 \\text{ m}$.\nTime taken = $\\frac{500}{10} = 50 \\text{ sec}$."
+  },
+  {
+    "questionOrder": 39,
+    "questionType": "Objective",
+    "questionText": "An insect crawls a distance of $4 \\text{ m}$ along the north in $10 \\text{ seconds}$ and then a distance of $3 \\text{ m}$ along the east in $5 \\text{ seconds}$. The average velocity of the insect is:",
+    "questionOptions":[
+      "$\\frac{7}{15} \\text{ m/s}$",
+      "$\\frac{1}{5} \\text{ m/sec}$",
+      "$\\frac{5}{15} \\text{ m/s}$",
+      "$\\frac{12}{15} \\text{ m/sec}$"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Total displacement $d = \\sqrt{4^2 + 3^2} = \\sqrt{16 + 9} = 5 \\text{ m}$.\nTotal time taken $t = 10 + 5 = 15 \\text{ seconds}$.\nAverage velocity = $\\frac{\\text{Total Displacement}}{\\text{Total Time}} = \\frac{5}{15} \\text{ m/s}$."
+  },
+  {
+    "questionOrder": 40,
+    "questionType": "Objective",
+    "questionText": "A vehicle moving along a straight road covers half the distance of its journey at $40 \\text{ km/hr}$ and the next half distance at $60 \\text{ km/hr}$ in the same direction. The average velocity for the entire journey is:",
+    "questionOptions":[
+      "$45 \\text{ km/hr}$",
+      "$48 \\text{ km/hr}$",
+      "$54 \\text{ km/hr}$",
+      "$50 \\text{ km/hr}$"
+    ],
+    "correctIndex": 1,
+    "solutionText": "For equal distances, average velocity is the harmonic mean: $\\frac{2v_1v_2}{v_1 + v_2}$.\n$V_{avg} = \\frac{2 \\times 40 \\times 60}{40 + 60} = \\frac{4800}{100} = 48 \\text{ km/hr}$."
+  },
+  {
+    "questionOrder": 41,
+    "questionType": "Objective",
+    "questionText": "A vehicle moving along a straight road travels for half the time at $40 \\text{ km/hr}$ and then travels for the next half time at $60 \\text{ km/hr}$. The average velocity for the entire journey is:",
+    "questionOptions":[
+      "$50 \\text{ km/hr}$",
+      "$48 \\text{ km/hr}$",
+      "$54 \\text{ km/hr}$",
+      "$45 \\text{ km/hr}$"
+    ],
+    "correctIndex": 0,
+    "solutionText": "For equal intervals of time, the average velocity is the arithmetic mean of the velocities.\n$V_{avg} = \\frac{v_1 + v_2}{2} = \\frac{40 + 60}{2} = 50 \\text{ km/hr}$."
+  },
+  {
+    "questionOrder": 42,
+    "questionType": "Objective",
+    "questionText": "A body moving in a straight line travels at $2 \\text{ m/s}$ for the first half of the distance, and the second half of the distance is covered in two equal time intervals at $4 \\text{ m/s}$ and $2 \\text{ m/s}$. What is its average velocity for the entire journey?",
+    "questionOptions":[
+      "$2.25 \\text{ m/s}$",
+      "$2.40 \\text{ m/s}$",
+      "$2.50 \\text{ m/s}$",
+      "$2.60 \\text{ m/s}$"
+    ],
+    "correctIndex": 1,
+    "solutionText": "For the second half of the distance, the velocity changes over two equal time intervals. Thus, its average velocity is $(4+2)/2 = 3 \\text{ m/s}$.\nNow, the total journey consists of two equal halves of distance traveled at $2 \\text{ m/s}$ and $3 \\text{ m/s}$.\nOverall average velocity = $\\frac{2(2)(3)}{2 + 3} = \\frac{12}{5} = 2.40 \\text{ m/s}$."
+  },
+  {
+    "questionOrder": 43,
+    "questionType": "Objective",
+    "questionText": "A body moving in a straight line travels at $2 \\text{ m/s}$ for the first half of the time, and for the second half of the time, it covers equal distances at velocities of $4 \\text{ m/s}$ and $2 \\text{ m/s}$. What is its average velocity for the entire journey?",
+    "questionOptions":[
+      "$\\frac{7}{3} \\text{ m/s}$",
+      "$\\frac{8}{3} \\text{ m/s}$",
+      "$3 \\text{ m/s}$",
+      "$\\frac{21}{4} \\text{ m/s}$"
+    ],
+    "correctIndex": 0,
+    "solutionText": "For the second half of the time, the body covers equal distances, so its average velocity is $\\frac{2(4)(2)}{4+2} = \\frac{16}{6} = \\frac{8}{3} \\text{ m/s}$.\nThe overall journey is split into two equal time halves at $2 \\text{ m/s}$ and $\\frac{8}{3} \\text{ m/s}$.\nOverall average velocity = $\\frac{2 + \\frac{8}{3}}{2} = \\frac{\\frac{14}{3}}{2} = \\frac{7}{3} \\text{ m/s}$."
+  },
+  {
+    "questionOrder": 44,
+    "questionType": "Objective",
+    "questionText": "A person travels a certain distance $x$ due east at a constant velocity $v_1$ and then travels an equal distance $x$ due north at a constant velocity $v_2$. What is his average velocity for the entire journey?",
+    "questionOptions":[
+      "$\\frac{2v_1v_2}{v_1+v_2}$",
+      "$\\sqrt{\\frac{v_1^2+v_2^2}{2}}$",
+      "$\\frac{\\sqrt{2}v_1v_2}{v_1+v_2}$",
+      "$\\frac{1}{2}\\sqrt{v_1^2+v_2^2}$"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Total displacement $d = \\sqrt{x^2 + x^2} = x\\sqrt{2}$.\nTotal time $t = \\frac{x}{v_1} + \\frac{x}{v_2} = x\\left(\\frac{v_1 + v_2}{v_1v_2}\\right)$.\nAverage velocity = $\\frac{d}{t} = \\frac{x\\sqrt{2}}{x\\left(\\frac{v_1 + v_2}{v_1v_2}\\right)} = \\frac{\\sqrt{2}v_1v_2}{v_1 + v_2}$."
+  },
+  {
+    "questionOrder": 45,
+    "questionType": "Objective",
+    "questionText": "A person travels for a certain time $t$ due east at a constant velocity $v_1$ and then travels for an equal time $t$ due north at a constant velocity $v_2$. What is his average velocity for the entire journey?",
+    "questionOptions":[
+      "$\\frac{2v_1v_2}{v_1+v_2}$",
+      "$\\sqrt{\\frac{v_1^2+v_2^2}{2}}$",
+      "$\\frac{v_1+v_2}{2}$",
+      "$\\frac{1}{2}\\sqrt{v_1^2+v_2^2}$"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Total displacement $d = \\sqrt{(v_1t)^2 + (v_2t)^2} = t\\sqrt{v_1^2 + v_2^2}$.\nTotal time = $2t$.\nAverage velocity = $\\frac{d}{2t} = \\frac{t\\sqrt{v_1^2 + v_2^2}}{2t} = \\frac{1}{2}\\sqrt{v_1^2 + v_2^2}$."
+  },
+  {
+    "questionOrder": 46,
+    "questionType": "Objective",
+    "questionText": "The displacement of a particle is given by $x = 2 - 5t + 6t^2$, where $x$ is in meters and $t$ in seconds. The initial velocity of the particle is:",
+    "questionOptions":[
+      "$-5 \\text{ m/s}$",
+      "$-3 \\text{ m/s}$",
+      "$6 \\text{ m/s}$",
+      "$3 \\text{ m/s}$"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Velocity $v = \\frac{dx}{dt} = -5 + 12t$.\nInitial velocity is the velocity at $t = 0$.\n$v(0) = -5 + 12(0) = -5 \\text{ m/s}$."
+  },
+  {
+    "questionOrder": 47,
+    "questionType": "Objective",
+    "questionText": "If $x$ denotes displacement in time $t$, and $x = a\\cos t$, the acceleration is:",
+    "questionOptions":[
+      "$a\\cos t$",
+      "$-a\\cos t$",
+      "$a\\sin t$",
+      "$-a\\sin t$"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Velocity $v = \\frac{dx}{dt} = -a\\sin t$.\nAcceleration $a = \\frac{dv}{dt} = -a\\cos t$."
+  },
+  {
+    "questionOrder": 48,
+    "questionType": "Objective",
+    "questionText": "A car travelling due east at $20 \\text{ m/s}$ turns towards the north without changing speed in $10 \\text{ sec}$. The average acceleration of the car for its turn is:",
+    "questionOptions":[
+      "$2\\sqrt{2} \\text{ m/s}^2$ north-east",
+      "$2\\sqrt{2} \\text{ m/s}^2$ north-west",
+      "$4 \\text{ m/s}^2$ due east",
+      "zero"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Initial velocity $\\vec{v}_i = 20\\hat{i}$. Final velocity $\\vec{v}_f = 20\\hat{j}$.\nChange in velocity $\\Delta\\vec{v} = \\vec{v}_f - \\vec{v}_i = 20\\hat{j} - 20\\hat{i}$.\nMagnitude $= \\sqrt{(-20)^2 + 20^2} = 20\\sqrt{2} \\text{ m/s}$. Direction is North-West.\nAverage acceleration = $\\frac{\\Delta\\vec{v}}{t} = \\frac{20\\sqrt{2}}{10} = 2\\sqrt{2} \\text{ m/s}^2$ north-west."
+  },
+  {
+    "questionOrder": 49,
+    "questionType": "Objective",
+    "questionText": "In the above question, if the car makes a 'U' turn, then the average acceleration of the car will be:",
+    "questionOptions":[
+      "$2\\sqrt{2} \\text{ m/s}^2$ north-east",
+      "$2\\sqrt{2} \\text{ m/s}^2$ north-west",
+      "$4 \\text{ m/s}^2$ due west",
+      "zero"
+    ],
+    "correctIndex": 2,
+    "solutionText": "A 'U' turn means the final velocity is reversed: $\\vec{v}_f = -20\\hat{i}$.\nChange in velocity $\\Delta\\vec{v} = -20\\hat{i} - 20\\hat{i} = -40\\hat{i}$.\nAverage acceleration = $\\frac{\\Delta\\vec{v}}{t} = \\frac{-40\\hat{i}}{10} = -4\\hat{i} \\text{ m/s}^2$ (due west)."
+  },
+  {
+    "questionOrder": 50,
+    "questionType": "Objective",
+    "questionText": "A car travelling due north at $30 \\text{ km/hr}$ turns west and travels at the same speed. The change in velocity of the car is:",
+    "questionOptions":[
+      "$30 \\text{ km/hr}$ north-west",
+      "$60 \\text{ km/hr}$ south-west",
+      "$30\\sqrt{2} \\text{ km/hr}$ south-west",
+      "$30\\sqrt{2} \\text{ km/hr}$ north-east"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Initial velocity $\\vec{v}_i = 30\\hat{j}$ (North). Final velocity $\\vec{v}_f = -30\\hat{i}$ (West).\n$\\Delta\\vec{v} = \\vec{v}_f - \\vec{v}_i = -30\\hat{i} - 30\\hat{j}$.\nMagnitude $= \\sqrt{(-30)^2 + (-30)^2} = 30\\sqrt{2} \\text{ km/hr}$. Direction is South-West."
+  },
+  {
+    "questionOrder": 51,
+    "questionType": "Objective",
+    "questionText": "A body starts from rest and moves at a constant acceleration $a$ in a straight line for time $t_1$ covering a distance $x_1$, and then it retards to rest at a constant deceleration $b$ for time $t_2$ covering a distance $x_2$. Then the average velocity will be:",
+    "questionOptions":[
+      "$\\frac{ab}{a+b}t$",
+      "$\\frac{ab}{2(a+b)}t$",
+      "$\\frac{2ab}{a+b}$",
+      "$(\\sqrt{a^2+b^2})t$"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Let the maximum velocity reached be $V_{max}$. $V_{max} = a t_1 = b t_2$.\nTotal time $t = t_1 + t_2 = \\frac{V_{max}}{a} + \\frac{V_{max}}{b} = V_{max}\\left(\\frac{a+b}{ab}\\right) \\implies V_{max} = \\frac{ab}{a+b}t$.\nThe velocity-time graph is a triangle, so average velocity is $\\frac{V_{max}}{2}$.\n$V_{avg} = \\frac{1}{2} \\left( \\frac{ab}{a+b}t \\right) = \\frac{ab}{2(a+b)}t$."
+  },
+  {
+    "questionOrder": 52,
+    "questionType": "Objective",
+    "questionText": "A stone is dropped from the top of a tower. If it reaches the earth in $6 \\text{ seconds}$, the height of the tower is nearly:",
+    "questionOptions":[
+      "$360 \\text{ m}$",
+      "$180 \\text{ m}$",
+      "$100 \\text{ m}$",
+      "$60 \\text{ m}$"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Using the second equation of motion for free fall from rest: $h = \\frac{1}{2}gt^2$.\nAssuming $g \\approx 10 \\text{ m/s}^2$:\n$h = \\frac{1}{2} \\times 10 \\times 6^2 = 5 \\times 36 = 180 \\text{ m}$."
+  },
+  {
+    "questionOrder": 53,
+    "questionType": "Objective",
+    "questionText": "A car accelerates from rest at a constant rate for the first $10 \\text{ seconds}$ and covers a distance $x$. It covers a distance $y$ in the next $10 \\text{ seconds}$ at the same acceleration. Which of the relations is true?",
+    "questionOptions":[
+      "$y=3x$",
+      "$x=3y$",
+      "$x=y$",
+      "$y=2x$"
+    ],
+    "correctIndex": 0,
+    "solutionText": "For an object accelerating from rest uniformly, the distances covered in successive equal time intervals are in the ratio $1:3:5:\\dots$.\nTherefore, distance $y$ covered in the second interval is 3 times the distance $x$ covered in the first interval. So, $y = 3x$."
+  },
+  {
+    "questionOrder": 54,
+    "questionType": "Objective",
+    "questionText": "A car accelerates at a constant rate $a_1$ for time $t_1$ and then retards at the constant rate $a_2$ for time $t_2$ and comes to rest. $\\frac{t_1}{t_2} =$",
+    "questionOptions":[
+      "$\\frac{a_1}{a_2}$",
+      "$\\frac{a_2}{a_1}$",
+      "$\\left(\\frac{a_1}{a_2}\\right)^2$",
+      "$\\left(\\frac{a_2}{a_1}\\right)^2$"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Maximum velocity attained is $V = a_1 t_1$. The car then decelerates to rest from $V$, so $V = a_2 t_2$.\nEquating both, $a_1 t_1 = a_2 t_2 \\implies \\frac{t_1}{t_2} = \\frac{a_2}{a_1}$."
+  },
+  {
+    "questionOrder": 55,
+    "questionType": "Objective",
+    "questionText": "A person is throwing balls into the air one after the other. He throws the second ball when the first ball is at the highest point. If he is throwing two balls every second, how high do they rise?",
+    "questionOptions":[
+      "$5 \\text{ m}$",
+      "$3.15 \\text{ m}$",
+      "$2.5 \\text{ m}$",
+      "$1.25 \\text{ m}$"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Throwing two balls every second means a new ball is thrown every $0.5 \\text{ s}$.\nThis time interval is exactly the time taken for the first ball to reach its highest point, so $t = 0.5 \\text{ s}$.\nHeight $H = \\frac{1}{2}gt^2 = \\frac{1}{2}(10)(0.5)^2 = 5 \\times 0.25 = 1.25 \\text{ m}$."
+  },
+  {
+    "questionOrder": 56,
+    "questionType": "Objective",
+    "questionText": "A ball is dropped from the top of a tower $100 \\text{ m}$ high. Simultaneously, another ball is thrown upwards with a speed of $50 \\text{ m/s}$. After what time do they cross each other?",
+    "questionOptions":[
+      "$1 \\text{ s}$",
+      "$2 \\text{ s}$",
+      "$3 \\text{ s}$",
+      "$4 \\text{ s}$"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The relative acceleration between the two balls is zero (both experience $-g$).\nInitial relative velocity is $50 \\text{ m/s} - 0 \\text{ m/s} = 50 \\text{ m/s}$.\nTime to meet = $\\frac{\\text{Initial separation}}{\\text{Relative velocity}} = \\frac{100}{50} = 2 \\text{ s}$."
+  },
+  {
+    "questionOrder": 57,
+    "questionType": "Objective",
+    "questionText": "The engine of a motorcycle can produce a maximum acceleration of $5 \\text{ m/s}^2$. Its brakes can produce a maximum retardation of $10 \\text{ ms}^{-2}$. What is the minimum time in which it can cover a distance of $1.5 \\text{ km}$?",
+    "questionOptions":[
+      "$5 \\text{ s}$",
+      "$10 \\text{ s}$",
+      "$15 \\text{ s}$",
+      "$30 \\text{ s}$"
+    ],
+    "correctIndex": 3,
+    "solutionText": "To minimize time starting and ending at rest, it must accelerate at max rate $a_1 = 5$ for $t_1$, then decelerate at $a_2 = 10$ for $t_2$.\nTotal distance $S = \\frac{1}{2} \\left( \\frac{a_1 a_2}{a_1 + a_2} \\right) t^2$.\n$1500 = \\frac{1}{2} \\left( \\frac{5 \\times 10}{15} \\right) t^2 = \\frac{1}{2} \\left( \\frac{50}{15} \\right) t^2 = \\frac{5}{3} t^2$.\n$t^2 = 1500 \\times \\frac{3}{5} = 900 \\implies t = 30 \\text{ s}$."
+  },
+  {
+    "questionOrder": 58,
+    "questionType": "Objective",
+    "questionText": "Two balls A and B are simultaneously projected from the top of a building at $10 \\text{ m/s}$ upwards and $20 \\text{ m/s}$ downwards respectively. Find out the separation between them $3 \\text{ sec}$ after projection.",
+    "questionOptions":[
+      "$30 \\text{ m}$",
+      "$60 \\text{ m}$",
+      "$90 \\text{ m}$",
+      "$120 \\text{ m}$"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Both fall freely so relative acceleration is $0$.\nRelative velocity $V_{rel} = V_A - V_B = 10 - (-20) = 30 \\text{ m/s}$.\nSeparation after $3 \\text{ s} = V_{rel} \\times t = 30 \\times 3 = 90 \\text{ m}$."
+  },
+  {
+    "questionOrder": 59,
+    "questionType": "Objective",
+    "questionText": "A stone is dropped from a certain height such that it can reach the ground in $5 \\text{ seconds}$. It is stopped after three seconds of its fall and then is again released. The total time taken by the stone to reach the ground will be:",
+    "questionOptions":[
+      "$6 \\text{ s}$",
+      "$6.5 \\text{ s}$",
+      "$7 \\text{ s}$",
+      "$7.5 \\text{ s}$"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Total height $H = \\frac{1}{2}g(5^2) = 125 \\text{ m}$ (taking $g=10$).\nDistance fallen in first $3 \\text{ s}$, $h_1 = \\frac{1}{2}g(3^2) = 45 \\text{ m}$.\nRemaining distance $= 125 - 45 = 80 \\text{ m}$.\nThe stone is released again from rest, so time to fall $80 \\text{ m}$ is $t' = \\sqrt{\\frac{2 \\times 80}{10}} = 4 \\text{ s}$.\nTotal time $= 3 \\text{ s} + 4 \\text{ s} = 7 \\text{ s}$."
+  },
+  {
+    "questionOrder": 60,
+    "questionType": "Objective",
+    "questionText": "A balloon is going upwards with a velocity of $12 \\text{ m/s}$. It releases a packet when it is at a height of $65 \\text{ m}$ from the ground. How much time will the packet take to reach the ground ($g = 10 \\text{ m/s}^2$)?",
+    "questionOptions":[
+      "$5 \\text{ s}$",
+      "$6 \\text{ s}$",
+      "$7 \\text{ s}$",
+      "$8 \\text{ s}$"
+    ],
+    "correctIndex": 0,
+    "solutionText": "The packet inherits the initial upward velocity of the balloon ($u = 12 \\text{ m/s}$). It falls $65 \\text{ m}$.\nUsing $S = ut + \\frac{1}{2}at^2$, where $S = -65 \\text{ m}$ and $a = -10 \\text{ m/s}^2$.\n$-65 = 12t - 5t^2 \\implies 5t^2 - 12t - 65 = 0$.\nSolving for $t$: $t = \\frac{12 + \\sqrt{144 - 4(5)(-65)}}{10} = \\frac{12 + \\sqrt{144 + 1300}}{10} = \\frac{12 + 38}{10} = 5 \\text{ s}$."
+  },
+  {
+    "questionOrder": 61,
+    "questionType": "Objective",
+    "questionText": "A car moving with a speed of $40 \\text{ km/hr}$ can be stopped by applying brakes after at least $2 \\text{ m}$. If the same car is moving with a speed of $80 \\text{ km/hr}$, the minimum stopping distance is:",
+    "questionOptions":[
+      "$8 \\text{ m}$",
+      "$2 \\text{ m}$",
+      "$4 \\text{ m}$",
+      "$6 \\text{ m}$"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Stopping distance $S = \\frac{u^2}{2a}$. Thus, $S \\propto u^2$.\nIf the speed is doubled (from $40$ to $80$), the stopping distance increases by a factor of $2^2 = 4$.\nNew stopping distance $= 4 \\times 2 = 8 \\text{ m}$."
+  },
+  {
+    "questionOrder": 62,
+    "questionType": "Objective",
+    "questionText": "A ball is dropped from the top of a very high tower. The distance covered by it in the last second of its motion is equal to the distance covered by it in the first $3 \\text{ secs}$ of its motion. Find the time of fall.",
+    "questionOptions":[
+      "$5 \\text{ s}$",
+      "$10 \\text{ s}$",
+      "$4 \\text{ s}$",
+      "$15 \\text{ s}$"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Distance covered in first $3 \\text{ s} = \\frac{1}{2}g(3^2) = 4.5g$.\nDistance covered in the $n^{\\text{th}}$ second $= \\frac{g}{2}(2n - 1)$.\nEquating both: $4.5g = 0.5g(2n - 1) \\implies 9 = 2n - 1 \\implies 2n = 10 \\implies n = 5 \\text{ s}$."
+  },
+  {
+    "questionOrder": 63,
+    "questionType": "Objective",
+    "questionText": "A ball thrown vertically upward covers equal distances in its fourth and fifth second. Then the initial velocity of projection will be:",
+    "questionOptions":[
+      "$20 \\text{ ms}^{-1}$",
+      "$40 \\text{ ms}^{-1}$",
+      "$25 \\text{ ms}^{-1}$",
+      "$50 \\text{ ms}^{-1}$"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The ball covers equal distances in the $4^{\\text{th}}$ and $5^{\\text{th}}$ second only if it reaches its maximum height exactly at $t = 4 \\text{ s}$.\nTime to reach maximum height $t = \\frac{u}{g} = 4 \\implies u = 4g$.\nUsing $g = 10 \\text{ m/s}^2$, $u = 40 \\text{ m/s}$."
+  },
+  {
+    "questionOrder": 64,
+    "questionType": "Objective",
+    "questionText": "A ball is projected vertically upwards from the ground. It is found at the same elevation at $t = 3 \\text{ s}$ and $t = 7 \\text{ s}$ after projection. Find the projection speed.",
+    "questionOptions":[
+      "$30 \\text{ m/s}$",
+      "$50 \\text{ m/s}$",
+      "$40 \\text{ m/s}$",
+      "$70 \\text{ m/s}$"
+    ],
+    "correctIndex": 1,
+    "solutionText": "If a body is at the same height at $t_1$ and $t_2$, the total time of flight is $T = t_1 + t_2$.\n$T = 3 + 7 = 10 \\text{ s}$.\nSince $T = \\frac{2u}{g}$, $10 = \\frac{2u}{10} \\implies 2u = 100 \\implies u = 50 \\text{ m/s}$."
+  },
+  {
+    "questionOrder": 65,
+    "questionType": "Objective",
+    "questionText": "A stone is dropped from the top of a tower. If it covers $24.5 \\text{ m}$ in the last second of its motion, the height of the tower is:",
+    "questionOptions":[
+      "$44.1 \\text{ m}$",
+      "$49 \\text{ m}$",
+      "$78.4 \\text{ m}$",
+      "$72 \\text{ m}$"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Distance covered in $n^{\\text{th}}$ second $= \\frac{g}{2}(2n - 1)$.\n$24.5 = 4.9(2n - 1) \\implies 2n - 1 = 5 \\implies n = 3 \\text{ s}$.\nTotal height $= \\frac{1}{2}g n^2 = \\frac{1}{2}(9.8)(3^2) = 4.9 \\times 9 = 44.1 \\text{ m}$."
+  },
+  {
+    "questionOrder": 66,
+    "questionType": "Objective",
+    "questionText": "A body is projected vertically upward from point A, the top of a tower. It reaches the ground in $t_1 \\text{ secs}$. If it is projected vertically downwards from A with the same velocity, it reaches the ground in $t_2 \\text{ secs}$. If it falls freely from A, it would reach the ground in:",
+    "questionOptions":[
+      "$\\frac{t_1+t_2}{2} \\text{ secs}$",
+      "$\\frac{t_1-t_2}{2} \\text{ secs}$",
+      "$t_1 t_2 \\text{ secs}$",
+      "$\\sqrt{t_1 t_2} \\text{ secs}$"
+    ],
+    "correctIndex": 3,
+    "solutionText": "For a ball projected up at $u$, it takes $t_1$. For down at $u$, it takes $t_2$. Let height be $h$.\n$-h = ut_1 - \\frac{1}{2}gt_1^2$ and $h = ut_2 + \\frac{1}{2}gt_2^2$.\nEliminating $u$ from these equations gives $h = \\frac{1}{2}g(t_1t_2)$.\nFor a freely falling body from height $h$, time $t = \\sqrt{\\frac{2h}{g}}$.\nSubstitute $h$: $t = \\sqrt{t_1 t_2}$."
+  },
+  {
+    "questionOrder": 67,
+    "questionType": "Objective",
+    "questionText": "A body is released from the top of a smooth inclined plane having an inclination of $30^\\circ$ and takes $3 \\text{ secs}$ to reach the bottom. If the angle of inclination is doubled keeping the height the same, what will be the time taken for the same process?",
+    "questionOptions":[
+      "$3 \\text{ sec}$",
+      "$\\sqrt{3} \\text{ sec}$",
+      "$3\\sqrt{3} \\text{ sec}$",
+      "$1.5 \\text{ sec}$"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Time taken to slide down a plane of length $L$ and height $h$: $t = \\sqrt{\\frac{2L}{g\\sin\\theta}} = \\frac{\\sqrt{2h/g}}{\\sin\\theta}$.\n$t_1 \\sin 30^\\circ = t_2 \\sin 60^\\circ \\implies 3 \\times 0.5 = t_2 \\times \\frac{\\sqrt{3}}{2}$.\n$1.5 = t_2 \\times \\frac{\\sqrt{3}}{2} \\implies t_2 = \\frac{3}{\\sqrt{3}} = \\sqrt{3} \\text{ sec}$."
+  },
+  {
+    "questionOrder": 68,
+    "questionType": "Objective",
+    "questionText": "A body sliding on a smooth inclined plane requires $4 \\text{ seconds}$ to reach the bottom, starting from rest at the top. How much time does it take to cover one-fourth of the distance starting from rest at the top?",
+    "questionOptions":[
+      "$1 \\text{ s}$",
+      "$2 \\text{ s}$",
+      "$4 \\text{ s}$",
+      "$16 \\text{ s}$"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Distance $S = \\frac{1}{2}at^2 \\implies S \\propto t^2 \\implies t \\propto \\sqrt{S}$.\nFor $S/4$, the time $t' = \\sqrt{\\frac{1}{4}} \\times 4 = \\frac{1}{2} \\times 4 = 2 \\text{ s}$."
+  },
+  {
+    "questionOrder": 69,
+    "questionType": "Objective",
+    "questionText": "A ball is dropped from the top of a building and its time of fall is $t$. In the last $1/4^{\\text{th}}$ time of its fall, it travels $1.4 \\text{ metres}$. Find out the height of the building.",
+    "questionOptions":[
+      "$5.6 \\text{ m}$",
+      "$7.2 \\text{ m}$",
+      "$3.2 \\text{ m}$",
+      "$16 \\text{ m}$"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Let the total height be $h$. In time $\\frac{3t}{4}$, distance fallen is $h_1 = h(\\frac{3}{4})^2 = \\frac{9h}{16}$.\nDistance in the last $t/4$ is $h - \\frac{9h}{16} = \\frac{7h}{16}$.\nGiven $\\frac{7h}{16} = 1.4 \\implies h = \\frac{1.4 \\times 16}{7} = 3.2 \\text{ m}$."
+  },
+  {
+    "questionOrder": 70,
+    "questionType": "Objective",
+    "questionText": "A ball is projected vertically upwards from the ground and its time of rise is $t$. In the first $\\frac{t}{5}$ time, it covers a distance of $2.7 \\text{ m}$. Find the height.",
+    "questionOptions":[
+      "$12.5 \\text{ m}$",
+      "$6 \\text{ m}$",
+      "$25 \\text{ m}$",
+      "$7.5 \\text{ m}$"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Total height $H = \\frac{1}{2}gt^2$. \nAn upward journey is a time-reversed free fall. The distance from the top in time $t_{rem} = t - \\frac{t}{5} = \\frac{4t}{5}$ is $H' = \\frac{1}{2}g(\\frac{4t}{5})^2 = \\frac{16}{25}(\\frac{1}{2}gt^2) = \\frac{16H}{25}$.\nSo distance covered from bottom is $H - \\frac{16H}{25} = \\frac{9H}{25}$.\nGiven $\\frac{9H}{25} = 2.7 \\implies H = \\frac{2.7 \\times 25}{9} = 7.5 \\text{ m}$."
+  },
+  {
+    "questionOrder": 71,
+    "questionType": "Objective",
+    "questionText": "A body is thrown upwards with a velocity of $100 \\text{ m/s}$ and it travels $5 \\text{ m}$ in the last second of its upward journey. If the same body is thrown upwards with a velocity of $200 \\text{ m/s}$, what distance will it travel in the last second of its upward journey?",
+    "questionOptions":[
+      "$5 \\text{ m}$",
+      "$10 \\text{ m}$",
+      "$20 \\text{ m}$",
+      "$25 \\text{ m}$"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Due to time reversal symmetry, the distance travelled in the last second of an upward journey is exactly the distance fallen in the first second from rest, which is $\\frac{1}{2}g(1^2) = 5 \\text{ m}$. This is independent of the initial launch speed."
+  },
+  {
+    "questionOrder": 72,
+    "questionType": "Objective",
+    "questionText": "A body falls freely from rest and has a velocity $v$ after it falls through a height $h$. The distance it has to fall down further for its velocity to become double is:",
+    "questionOptions":[
+      "$h$",
+      "$2h$",
+      "$3h$",
+      "$4h$"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Using $v^2 = 2gh$, velocity $v$ requires fall $h$.\nFor velocity $2v$, $(2v)^2 = 2gH \\implies 4v^2 = 2gH \\implies H = 4h$.\nThe further distance to fall is $H - h = 4h - h = 3h$."
+  },
+  {
+    "questionOrder": 73,
+    "questionType": "Objective",
+    "questionText": "A ball is dropped downwards. After $1 \\text{ second}$, another ball is dropped downwards from the same point. What is the distance between them $3 \\text{ seconds}$ after the first ball was dropped?",
+    "questionOptions":[
+      "$25 \\text{ m}$",
+      "$20 \\text{ m}$",
+      "$50 \\text{ m}$",
+      "$9.8 \\text{ m}$"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Distance of the first ball after 3s: $h_1 = \\frac{1}{2}(10)(3^2) = 45 \\text{ m}$.\nDistance of the second ball after 2s: $h_2 = \\frac{1}{2}(10)(2^2) = 20 \\text{ m}$.\nDistance between them $= h_1 - h_2 = 45 - 20 = 25 \\text{ m}$."
+  },
+  {
+    "questionOrder": 74,
+    "questionType": "Objective",
+    "questionText": "Two bodies are thrown vertically upwards with their initial velocities in the ratio $2 : 3$. Then the ratio of maximum heights attained by them is:",
+    "questionOptions":[
+      "$\\sqrt{2} : \\sqrt{3}$",
+      "$2 : 3$",
+      "$4 : 9$",
+      "$8 : 27$"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Maximum height $H = \\frac{u^2}{2g}$. Therefore, $H \\propto u^2$.\nRatio $H_1 : H_2 = u_1^2 : u_2^2 = 2^2 : 3^2 = 4 : 9$."
+  },
+  {
+    "questionOrder": 75,
+    "questionType": "Objective",
+    "questionText": "A lion chases a deer $30 \\text{ m}$ ahead of it and gains $3 \\text{ m}$ in $5 \\text{ s}$ after the chase started. After $10 \\text{ s}$, the distance between them is:",
+    "questionOptions":[
+      "$16 \\text{ m}$",
+      "$17 \\text{ m}$",
+      "$18 \\text{ m}$",
+      "$12 \\text{ m}$"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Assuming constant relative acceleration from rest: $S = \\frac{1}{2}at^2$.\n$3 = \\frac{1}{2}a(5^2) \\implies a = \\frac{6}{25} \\text{ m/s}^2$.\nIn $10 \\text{ s}$, distance gained $= \\frac{1}{2}(\\frac{6}{25})(10^2) = \\frac{3}{25} \\times 100 = 12 \\text{ m}$.\nRemaining distance $= 30 - 12 = 18 \\text{ m}$."
+  },
+  {
+    "questionOrder": 76,
+    "questionType": "Objective",
+    "questionText": "A ball A is thrown vertically upward at an initial speed $u$ while another ball B is dropped from a height at the same instant. After time $t$, their relative velocity with respect to one another will be:",
+    "questionOptions":[
+      "$u$",
+      "$2gt$",
+      "$2gt-u$",
+      "$u-2gt$"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Both objects experience exactly the same acceleration due to gravity ($-g$). Their relative acceleration is zero.\nThus, their relative velocity remains constant and equals their initial relative velocity, which is $u - 0 = u$."
+  },
+  {
+    "questionOrder": 77,
+    "questionType": "Objective",
+    "questionText": "A stone dropped from a height covers $\\frac{5}{9}$ part of the total distance in the last second. Then its initial height will be:",
+    "questionOptions":[
+      "$30 \\text{ m}$",
+      "$60 \\text{ m}$",
+      "$90 \\text{ m}$",
+      "$45 \\text{ m}$"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Total distance $h = \\frac{1}{2}gt^2$.\nDistance in the last second $= h - \\frac{1}{2}g(t-1)^2 = \\frac{5}{9}h$.\nSo, $\\frac{1}{2}g(t-1)^2 = \\frac{4}{9}h = \\frac{4}{9}(\\frac{1}{2}gt^2) \\implies (t-1)^2 = \\frac{4}{9}t^2 \\implies t - 1 = \\frac{2}{3}t \\implies \\frac{t}{3} = 1 \\implies t = 3 \\text{ s}$.\nHeight $h = \\frac{1}{2}(10)(3^2) = 45 \\text{ m}$."
+  },
+  {
+    "questionOrder": 78,
+    "questionType": "Objective",
+    "questionText": "Water drops are falling at regular intervals of time from a roof $5 \\text{ m}$ high. When the first drop strikes the ground, the third drop just leaves the roof, then the height of the second drop from the ground at this instant is:",
+    "questionOptions":[
+      "$1.25 \\text{ m}$",
+      "$2.5 \\text{ m}$",
+      "$3.75 \\text{ m}$",
+      "$4 \\text{ m}$"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Time for the first drop to hit ground $t = \\sqrt{\\frac{2h}{g}} = \\sqrt{\\frac{10}{10}} = 1 \\text{ s}$.\nDrops 1, 2, and 3 correspond to times $1 \\text{ s}$, $0.5 \\text{ s}$, and $0 \\text{ s}$ respectively since the intervals are uniform.\nThe second drop has fallen for $0.5 \\text{ s}$. Distance fallen $= \\frac{1}{2}(10)(0.5^2) = 1.25 \\text{ m}$.\nHeight from ground $= 5 - 1.25 = 3.75 \\text{ m}$."
+  },
+  {
+    "questionOrder": 79,
+    "questionType": "Objective",
+    "questionText": "A body thrown vertically upwards attains a maximum height $H$. While moving upwards, if it covers the first $\\frac{3H}{4}$ distance from the ground in time $T$, then the time taken to cover the remaining distance will be:",
+    "questionOptions":[
+      "$T$",
+      "$\\frac{T}{2}$",
+      "$\\frac{T}{3}$",
+      "$\\frac{3T}{4}$"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Using time-reversal symmetry: falling from rest from top to $H/4$ takes time $t_1$. Total fall time is $t_{total}$.\n$H/4 = \\frac{1}{2}gt_1^2$ and $H = \\frac{1}{2}g t_{total}^2 \\implies t_1 = t_{total}/2$.\nSo time to rise the first $3H/4$ is $T = t_{total} - t_1 = t_{total}/2$.\nThe remaining top distance $H/4$ takes time $t_1 = T$."
+  },
+  {
+    "questionOrder": 80,
+    "questionType": "Objective",
+    "questionText": "When a ball is thrown upwards with air resistance not neglected, it takes $10 \\text{ seconds}$ to reach a height. It then returns to the ground in time:",
+    "questionOptions":[
+      "$8.2 \\text{ s}$",
+      "$6 \\text{ s}$",
+      "$10 \\text{ s}$",
+      "$12.4 \\text{ s}$"
+    ],
+    "correctIndex": 3,
+    "solutionText": "With air resistance, the net downward acceleration during ascent is $g + a_{air}$ and during descent is $g - a_{air}$.\nSince acceleration during ascent is greater, the ascent takes less time than descent.\nIf ascent took $10 \\text{ s}$, descent must take $> 10 \\text{ s}$, which corresponds to $12.4 \\text{ s}$."
+  },
+  {
+    "questionOrder": 81,
+    "questionType": "Objective",
+    "questionText": "A bullet loses $1/20$ of its velocity after penetrating a plank. How many planks are required to stop the bullet?",
+    "questionOptions":[
+      "$6$",
+      "$9$",
+      "$11$",
+      "$13$"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Velocity after one plank $= u - u/20 = 19u/20$.\nUsing $v^2 = u^2 - 2ax$, $(19u/20)^2 = u^2 - 2ax \\implies 2ax = u^2 - 361u^2/400 = 39u^2/400$.\nTo stop entirely, $0 = u^2 - n(2ax) \\implies n = \\frac{u^2}{2ax} = \\frac{u^2}{39u^2/400} = \\frac{400}{39} \\approx 10.25$.\n11 planks are required to fully stop it."
+  },
+  {
+    "questionOrder": 82,
+    "questionType": "Objective",
+    "questionText": "Three particles A, B and C are situated at the vertices of an equilateral triangle ABC of side $l$ at $t = 0$. Each of the particles moves with a constant speed $v$. A always has its velocity along AB, B along BC, and C along CA. At what time will these particles meet each other?",
+    "questionOptions":[
+      "$\\frac{2l}{3v}$",
+      "$\\frac{l}{v}$",
+      "$\\frac{3l}{4v}$",
+      "Never"
+    ],
+    "correctIndex": 0,
+    "solutionText": "The relative velocity of approach between any two particles (e.g., A and B) is $v - v\\cos(120^\\circ) = v - (-v/2) = 3v/2$.\nThe initial separation is $l$.\nTime to meet $t = \\frac{\\text{Separation}}{\\text{Velocity of approach}} = \\frac{l}{3v/2} = \\frac{2l}{3v}$."
+  },
+  {
+    "questionOrder": 83,
+    "questionType": "Objective",
+    "questionText": "A vehicle moving at constant acceleration along a straight road has velocities $u$ and $v$ at two points A and B on the road. Then its velocity midway between A and B will be:",
+    "questionOptions":[
+      "$\\frac{2uv}{u+v}$",
+      "$\\sqrt{\\frac{u^2+v^2}{2}}$",
+      "$\\frac{1}{2}\\sqrt{u^2+v^2}$",
+      "$\\frac{u+v}{2}$"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Let the mid-point velocity be $v'$. The distance for both halves is $S/2$.\n$v'^2 - u^2 = 2a(S/2)$ and $v^2 - v'^2 = 2a(S/2)$.\nEquating both, $v'^2 - u^2 = v^2 - v'^2 \\implies 2v'^2 = u^2 + v^2 \\implies v' = \\sqrt{\\frac{u^2+v^2}{2}}$."
+  },
+  {
+    "questionOrder": 84,
+    "questionType": "Objective",
+    "questionText": "A person who can swim at $5 \\text{ km/hr}$ in still water, crosses a river $1 \\text{ km}$ wide flowing at $3 \\text{ km/hr}$ along the shortest route. Then the time taken to cross the river is:",
+    "questionOptions":[
+      "$10 \\text{ min}$",
+      "$15 \\text{ min}$",
+      "$20 \\text{ min}$",
+      "$12 \\text{ min}$"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Shortest route implies moving straight across, so the net velocity vector must be strictly perpendicular to the flow.\nEffective velocity $= \\sqrt{5^2 - 3^2} = \\sqrt{25 - 9} = 4 \\text{ km/hr}$.\nTime $= \\frac{\\text{Distance}}{\\text{Velocity}} = \\frac{1}{4} \\text{ hr} = 15 \\text{ min}$."
+  },
+  {
+    "questionOrder": 85,
+    "questionType": "Objective",
+    "questionText": "A person who can swim at $12 \\text{ km/hr}$ in still water wants to cross a river flowing at $6 \\text{ km/hr}$ along the shortest route. Then he has to start swimming at:",
+    "questionOptions":[
+      "$60^\\circ$ with the stream",
+      "$90^\\circ$ with the stream",
+      "$120^\\circ$ with the stream",
+      "$150^\\circ$ with the stream"
+    ],
+    "correctIndex": 2,
+    "solutionText": "For the shortest route, the swimmer must angle upstream at an angle $\\theta$ from the normal.\n$\\sin\\theta = \\frac{v_{river}}{v_{man}} = \\frac{6}{12} = \\frac{1}{2} \\implies \\theta = 30^\\circ$.\nThe angle relative to the stream is $90^\\circ + 30^\\circ = 120^\\circ$."
+  },
+  {
+    "questionOrder": 86,
+    "questionType": "Objective",
+    "questionText": "A person who can swim at $5 \\text{ km/hr}$ in still water crosses a river $1 \\text{ km}$ wide flowing at $3 \\text{ km/hr}$ in the shortest time. How far will he reach at the other bank?",
+    "questionOptions":[
+      "$1 \\text{ km}$",
+      "$600 \\text{ m}$",
+      "$800 \\text{ m}$",
+      "$1200 \\text{ m}$"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Shortest time occurs when swimming directly across. Time $= \\frac{1 \\text{ km}}{5 \\text{ km/hr}} = 0.2 \\text{ hr}$.\nThe drift distance downstream $= v_{river} \\times t = 3 \\times 0.2 = 0.6 \\text{ km} = 600 \\text{ m}$."
+  },
+  {
+    "questionOrder": 87,
+    "questionType": "Objective",
+    "questionText": "To a person running due east at $8 \\text{ km/hr}$, raindrops appear to fall vertically downward at $6 \\text{ km/hr}$. Then the actual velocity of the raindrops is:",
+    "questionOptions":[
+      "$10 \\text{ km/hr}$ at an angle $\\tan^{-1}\\left(\\frac{3}{4}\\right)$ with the vertical from east to west",
+      "$10 \\text{ km/hr}$ at an angle $\\tan^{-1}\\left(\\frac{3}{4}\\right)$ with the vertical from west to east",
+      "$10 \\text{ km/hr}$ at an angle $\\tan^{-1}\\left(\\frac{4}{3}\\right)$ with the vertical from west to east",
+      "$10 \\text{ km/hr}$ at an angle $\\tan^{-1}\\left(\\frac{4}{3}\\right)$ with the vertical from east to west"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Let $\\vec{v}_m = 8\\hat{i}$. Relative velocity $\\vec{v}_{rm} = -6\\hat{j}$.\n$\\vec{v}_r = \\vec{v}_{rm} + \\vec{v}_m = 8\\hat{i} - 6\\hat{j}$. Magnitude $= \\sqrt{8^2 + (-6)^2} = 10 \\text{ km/hr}$.\nThe rain actually falls angled towards East. Angle with vertical $\\theta = \\tan^{-1}\\left(\\frac{x}{y}\\right) = \\tan^{-1}\\left(\\frac{8}{6}\\right) = \\tan^{-1}\\left(\\frac{4}{3}\\right)$ from west to east."
+  },
+  {
+    "questionOrder": 88,
+    "questionType": "Objective",
+    "questionText": "A boat takes $2 \\text{ hours}$ to travel $8 \\text{ km}$ and back in a still water lake. If the velocity of the water is $4 \\text{ kmh}^{-1}$, the time taken for going upstream of $8 \\text{ km}$ and coming back is:",
+    "questionOptions":[
+      "$2 \\text{ hours}$",
+      "$2 \\text{ hours } 40 \\text{ minutes}$",
+      "$1 \\text{ hour } 20 \\text{ minutes}$",
+      "none"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Total distance is $16 \\text{ km}$. Velocity of boat $v = \\frac{16}{2} = 8 \\text{ km/h}$.\nUpstream speed $= 8 - 4 = 4 \\text{ km/h}$. Time up $= \\frac{8}{4} = 2 \\text{ hrs}$.\nDownstream speed $= 8 + 4 = 12 \\text{ km/h}$. Time down $= \\frac{8}{12} = \\frac{2}{3} \\text{ hrs}$.\nTotal time $= 2 + \\frac{2}{3} = 2 \\text{ hrs } 40 \\text{ mins}$."
+  },
+  {
+    "questionOrder": 89,
+    "questionType": "Objective",
+    "questionText": "A stone is dropped from the top of a tower of height $h$. It reaches the ground in $t \\text{ secs}$. The position of the stone after $t/3 \\text{ secs.}$ will be ............ from the ground.",
+    "questionOptions":[
+      "$\\frac{3}{4}h$",
+      "$\\frac{1}{9}h$",
+      "$\\frac{8}{9}h$",
+      "$\\frac{1}{4}h$"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Distance fallen from top in time $t/3$: $y = \\frac{1}{2}g\\left(\\frac{t}{3}\\right)^2 = \\frac{1}{9}\\left(\\frac{1}{2}gt^2\\right) = \\frac{1}{9}h$.\nPosition from the ground $= h - \\frac{h}{9} = \\frac{8}{9}h$."
+  },
+  {
+    "questionOrder": 90,
+    "questionType": "Objective",
+    "questionText": "A stone is dropped from the top of a tower of height $h$. After $1 \\text{ second}$, another stone is dropped from a balcony $20 \\text{ m}$ below the top. Both reach the bottom simultaneously. What is the value of $h$?",
+    "questionOptions":[
+      "$3125 \\text{ m}$",
+      "$312.5 \\text{ m}$",
+      "$31.25 \\text{ m}$",
+      "$25.31 \\text{ m}$"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Let the first stone fall for time $t$. Then $h = 5t^2$.\nThe second stone falls for $t - 1$ from height $h - 20$. So $h - 20 = 5(t - 1)^2$.\nSubstituting $h$: $5t^2 - 20 = 5t^2 - 10t + 5 \\implies 10t = 25 \\implies t = 2.5 \\text{ s}$.\nHeight $h = 5(2.5)^2 = 5 \\times 6.25 = 31.25 \\text{ m}$."
+  },
+  {
+    "questionOrder": 91,
+    "questionType": "Objective",
+    "questionText": "A body of mass $m$ is released from height $h$ in time $t$. Then, acceleration is determined by:",
+    "questionOptions":[
+      "Height and time",
+      "Mass and time",
+      "Mass and height",
+      "Mass only"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Using the kinematic equation $h = \\frac{1}{2}at^2$, solving for acceleration gives $a = \\frac{2h}{t^2}$. Therefore, it is determined exclusively by the height and the time."
+  },
+  {
+    "questionOrder": 92,
+    "questionType": "Objective",
+    "questionText": "When an aeroplane is moving with a velocity of $600 \\text{ km/h}$ due east and returns with $400 \\text{ km/hr}$, then what is its average speed if it travels the same distance?",
+    "questionOptions":[
+      "$240$",
+      "$480$",
+      "$500$",
+      "$720$"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Average speed for identical distances is $\\frac{2v_1v_2}{v_1 + v_2}$.\n$V_{avg} = \\frac{2 \\times 600 \\times 400}{600 + 400} = \\frac{480000}{1000} = 480 \\text{ km/hr}$."
+  },
+  {
+    "questionOrder": 93,
+    "questionType": "Objective",
+    "questionText": "A person is traveling at $4 \\text{ m/s}$ towards the east. The rain is apparently falling vertically downwards with $3 \\text{ m/s}$, then the actual velocity of the rain is:",
+    "questionOptions":[
+      "$\\frac{3}{4} \\text{ m/s}$",
+      "$5 \\text{ m/s}$",
+      "$\\frac{4}{3} \\text{ m/s}$",
+      "$7 \\text{ m/s}$"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Vectorially, $\\vec{v}_{rain,man} = \\vec{v}_{rain} - \\vec{v}_{man}$.\n$-3\\hat{j} = \\vec{v}_{rain} - 4\\hat{i} \\implies \\vec{v}_{rain} = 4\\hat{i} - 3\\hat{j}$.\nActual velocity magnitude $= \\sqrt{4^2 + (-3)^2} = 5 \\text{ m/s}$."
+  },
+  {
+    "questionOrder": 94,
+    "questionType": "Objective",
+    "questionText": "A train travels for $40 \\text{ km}$ with a velocity of $80 \\text{ km/hr}$ and again it travels the next $40 \\text{ km}$ with a velocity of $40 \\text{ km/hr}$. Then the average speed of the train is:",
+    "questionOptions":[
+      "$40 \\text{ km/hr}$",
+      "$48 \\text{ km/hr}$",
+      "$45 \\text{ km/hr}$",
+      "$53 \\text{ km/hr}$"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Time for first part $= \\frac{40}{80} = 0.5 \\text{ hr}$. Time for second part $= \\frac{40}{40} = 1 \\text{ hr}$.\nTotal time $= 1.5 \\text{ hr}$. Total distance $= 80 \\text{ km}$.\nAverage speed $= \\frac{80}{1.5} = 53.33 \\text{ km/hr}$, which matches option 53 km/hr."
+  },
+  {
+    "questionOrder": 95,
+    "questionType": "Objective",
+    "questionText": "A train of length $150 \\text{ m}$ crosses a bridge of $1.5 \\text{ km}$ with a velocity of $60 \\text{ km/hr}$. Find the time taken to cross the bridge completely.",
+    "questionOptions":[
+      "$9.9 \\text{ sec}$",
+      "$99 \\text{ sec}$",
+      "$9 \\text{ sec}$",
+      "$90 \\text{ sec}$"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Total distance = $150 \\text{ m} + 1500 \\text{ m} = 1650 \\text{ m}$.\nSpeed $= 60 \\text{ km/hr} = \\frac{50}{3} \\text{ m/s}$.\nTime $= \\frac{1650}{\\frac{50}{3}} = 99 \\text{ sec}$."
+  },
+  {
+    "questionOrder": 96,
+    "questionType": "Objective",
+    "questionText": "A balloon of weight $300 \\text{ N}$ is moving upward. The volume of the balloon is $30 \\text{ m}^3$ and it displaces air of density $1.2 \\text{ kg/m}^3$. Then the force that carries the balloon upward is:",
+    "questionOptions":[
+      "$360 \\text{ N}$",
+      "$60 \\text{ N}$",
+      "$230 \\text{ N}$",
+      "$400 \\text{ N}$"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Upthrust $U = V \\rho_{air} g = 30 \\times 1.2 \\times 10 = 360 \\text{ N}$.\nNet upward force (carrying it upward) $= U - mg = 360 - 300 = 60 \\text{ N}$."
+  },
+  {
+    "questionOrder": 97,
+    "questionType": "Objective",
+    "questionText": "A body moves such that $u = at$. The displacement travelled by it in the first $4 \\text{ seconds}$ is:",
+    "questionOptions":[
+      "$8a$",
+      "$4a$",
+      "$2a$",
+      "$12a$"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Displacement $s = \\int_0^t u dt = \\int_0^4 at dt = a \\left[ \\frac{t^2}{2} \\right]_0^4 = a \\left( \\frac{16}{2} \\right) = 8a$."
+  },
+  {
+    "questionOrder": 98,
+    "questionType": "Objective",
+    "questionText": "To a person running due east at $4 \\text{ m/s}$, raindrops appear to fall vertically downward at $3 \\text{ m/s}$. Then the actual velocity of the raindrop is:",
+    "questionOptions":[
+      "$\\frac{3}{4} \\text{ ms}^{-1}$",
+      "$\\frac{4}{3} \\text{ ms}^{-1}$",
+      "$5 \\text{ ms}^{-1}$",
+      "$7 \\text{ ms}^{-1}$"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Using vectors: $\\vec{v}_m = 4\\hat{i}$. Relative velocity $\\vec{v}_{rm} = -3\\hat{j}$.\n$\\vec{v}_r = \\vec{v}_{rm} + \\vec{v}_m = 4\\hat{i} - 3\\hat{j}$. Magnitude $= \\sqrt{4^2 + (-3)^2} = 5 \\text{ m/s}$."
+  },
+  {
+    "questionOrder": 99,
+    "questionType": "Objective",
+    "questionText": "A person is travelling in a moving train with a certain velocity. He tosses a coin and the coin falls behind him. The train is:",
+    "questionOptions":[
+      "Moving forward with uniform speed",
+      "Moving backward with uniform speed",
+      "Moving forward with accelerating speed",
+      "Moving forward with decelerating speed"
+    ],
+    "correctIndex": 2,
+    "solutionText": "When the coin is tossed, it moves forward with the horizontal velocity the train had at that exact instant. If the train is accelerating, it gains forward speed while the coin is mid-air, causing the train to travel further than the coin and the coin to land behind the thrower."
+  }
+]
