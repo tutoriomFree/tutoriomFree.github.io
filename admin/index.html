@@ -27,6 +27,10 @@
             -webkit-user-select: text;
             user-select: text;
         }
+        #questionsJsonInput {
+            -webkit-touch-callout: default;
+            touch-action: auto;
+        }
         body {
             -webkit-user-select: none;
             user-select: none;
@@ -417,7 +421,7 @@
     "questionOrder": 2,
     "solutionText": "Gravity is..."
   }
-]' class="w-full rounded-lg border border-gray-300 p-3 font-mono text-xs focus:ring-2 focus:ring-blue-500 outline-none resize-y"></textarea>
+]' class="w-full rounded-lg border border-gray-300 p-3 font-mono text-xs focus:ring-2 focus:ring-blue-500 outline-none resize-y" onpaste="event.stopPropagation()"></textarea>
                     </div>
                     <div id="qCreateToast" class="hidden px-4 py-3 rounded-lg flex items-center space-x-2 font-semibold bg-green-500 text-white"><i data-lucide="check-circle-2"></i><span id="qCreateToastText"></span></div>
                     <button id="submitQuestionsBtn" type="button" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 rounded-lg flex items-center justify-center space-x-2 shadow-md">
