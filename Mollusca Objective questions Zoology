@@ -1,0 +1,782 @@
+[
+  {
+    "questionOrder": 1,
+    "questionType": "Objective",
+    "questionText": "The phylum name 'Mollusca' means",
+    "questionOptions":[
+      "Shelled animals",
+      "Aquatic animals",
+      "Soft bodied animals",
+      "Mantle bearers"
+    ],
+    "correctIndex": 2,
+    "solutionText": "The term 'Mollusca' is derived from the Latin word 'mollis', which means soft. Therefore, it refers to soft-bodied animals."
+  },
+  {
+    "questionOrder": 2,
+    "questionType": "Objective",
+    "questionText": "Molluscans possess",
+    "questionOptions":[
+      "Schizocoel",
+      "Pseudocoel",
+      "Enterocoel",
+      "No coelom"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Molluscs are true coelomates, and their coelom is formed by the splitting of the mesoderm, which is known as a schizocoel."
+  },
+  {
+    "questionOrder": 2,
+    "questionType": "Objective",
+    "questionText": "Molluscans possess",
+    "questionOptions":[
+      "True coelom",
+      "False coelom",
+      "Intermediate false coelom",
+      "None"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Molluscs have a true coelom (eucoelom), though it is often reduced to cavities around the heart, kidneys, and gonads."
+  },
+  {
+    "questionOrder": 3,
+    "questionType": "Objective",
+    "questionText": "In molluscs, the blastopore gives rise to the",
+    "questionOptions":[
+      "Mouth",
+      "Anus",
+      "Both mouth as well as anus",
+      "None"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Molluscs are protostomes, meaning that during embryonic development, the blastopore becomes the mouth."
+  },
+  {
+    "questionOrder": 4,
+    "questionType": "Objective",
+    "questionText": "Molluscs carry out oxygen transportation by",
+    "questionOptions":[
+      "Haemocyanin",
+      "Haemoerythrin",
+      "Haemoglobin",
+      "None"
+    ],
+    "correctIndex": 0,
+    "solutionText": "In most molluscs, the primary respiratory pigment responsible for oxygen transportation is haemocyanin."
+  },
+  {
+    "questionOrder": 5,
+    "questionType": "Objective",
+    "questionText": "Haemocyanin, the blue colouring pigment of molluscan blood, contains",
+    "questionOptions":[
+      "Iron",
+      "Magnesium",
+      "Copper",
+      "Manganese"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Haemocyanin is a copper-containing respiratory pigment that turns blue when oxygenated."
+  },
+  {
+    "questionOrder": 6,
+    "questionType": "Objective",
+    "questionText": "Most molluscans are",
+    "questionOptions":[
+      "Marine",
+      "Freshwater",
+      "Terrestrial",
+      "None"
+    ],
+    "correctIndex": 0,
+    "solutionText": "The vast majority of molluscan species inhabit marine environments."
+  },
+  {
+    "questionOrder": 7,
+    "questionType": "Objective",
+    "questionText": "A file-like rasping organ for feeding in molluscs is the",
+    "questionOptions":[
+      "Mantle",
+      "Dental plate",
+      "Radula",
+      "Osphradium"
+    ],
+    "correctIndex": 2,
+    "solutionText": "The radula is a unique anatomical structure used by molluscs for feeding, functioning much like a rasp or file to scrape food."
+  },
+  {
+    "questionOrder": 8,
+    "questionType": "Objective",
+    "questionText": "The heart of a mollusc is",
+    "questionOptions":[
+      "Neurogenic",
+      "Neuro-myogenic",
+      "Myogenic",
+      "Transitional"
+    ],
+    "correctIndex": 2,
+    "solutionText": "The molluscan heart is myogenic, meaning its rhythmic contractions are initiated by the cardiac muscle cells themselves rather than by nerves."
+  },
+  {
+    "questionOrder": 9,
+    "questionType": "Objective",
+    "questionText": "Ctenidia in molluscs are",
+    "questionOptions":[
+      "Excretory organs",
+      "Respiratory organs",
+      "Protective organs",
+      "Reproductive organs"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Ctenidia are comb-like gills that serve as the primary respiratory organs in molluscs."
+  },
+  {
+    "questionOrder": 10,
+    "questionType": "Objective",
+    "questionText": "Excretory structures in mollusca are",
+    "questionOptions":[
+      "Osphradium",
+      "Johnston organ",
+      "Organ of Bojanus",
+      "Mantle"
+    ],
+    "correctIndex": 2,
+    "solutionText": "The Organ of Bojanus functions as a kidney in molluscs, carrying out excretion."
+  },
+  {
+    "questionOrder": 10,
+    "questionType": "Objective",
+    "questionText": "Excretory structures in mollusca are",
+    "questionOptions":[
+      "A pair of kidneys",
+      "Organ of Bojanus",
+      "Keber's gland",
+      "All"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Kidneys, the Organ of Bojanus, and Keber's gland all serve excretory functions in various molluscan groups."
+  },
+  {
+    "questionOrder": 11,
+    "questionType": "Objective",
+    "questionText": "The kidneys of mollusca are",
+    "questionOptions":[
+      "Pronephric",
+      "Metanephric",
+      "Mesonephric",
+      "None"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Molluscs typically possess metanephric kidneys for excretion."
+  },
+  {
+    "questionOrder": 12,
+    "questionType": "Objective",
+    "questionText": "A mollusc differs from others by having",
+    "questionOptions":[
+      "Segmented body and shell",
+      "Mantle and gill",
+      "Segmented body and mantle",
+      "Mantle and shell"
+    ],
+    "correctIndex": 3,
+    "solutionText": "The distinguishing features of molluscs are the presence of a mantle and, in most cases, a calcareous shell secreted by it."
+  },
+  {
+    "questionOrder": 13,
+    "questionType": "Objective",
+    "questionText": "A mollusc which was used as currency is",
+    "questionOptions":[
+      "Turbinella",
+      "Dentalium",
+      "Pila",
+      "Cypraea"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Shells of Cypraea (cowries) were historically widely used as a form of currency."
+  },
+  {
+    "questionOrder": 14,
+    "questionType": "Objective",
+    "questionText": "In molluscs, the shell is secreted by the",
+    "questionOptions":[
+      "Ctenidium",
+      "Operculum",
+      "Foot",
+      "Mantle"
+    ],
+    "correctIndex": 3,
+    "solutionText": "The mantle is the dorsal body wall of a mollusc, and its specialized cells secrete the calcium carbonate that forms the shell."
+  },
+  {
+    "questionOrder": 15,
+    "questionType": "Objective",
+    "questionText": "Which of the following is a molluscan larva?",
+    "questionOptions":[
+      "Bipinnaria",
+      "Veliger",
+      "Parenchymula",
+      "Auricularia"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The veliger is a characteristic planktonic larval stage of many marine molluscs, including bivalves and gastropods."
+  },
+  {
+    "questionOrder": 16,
+    "questionType": "Objective",
+    "questionText": "The most primitive among the following molluscs is",
+    "questionOptions":[
+      "Nautilus",
+      "Neopilina",
+      "Chiton",
+      "Patella"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Neopilina is considered a living fossil and the most primitive mollusc, as it retains features like metameric segmentation."
+  },
+  {
+    "questionOrder": 17,
+    "questionType": "Objective",
+    "questionText": "Neopilina is a connecting link between",
+    "questionOptions":[
+      "Arthropoda and Mollusca",
+      "Annelida and Mollusca",
+      "Mollusca and Echinodermata",
+      "Mollusca and Helminthes"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Because it displays metameric segmentation (like annelids) alongside molluscan features, Neopilina is considered a connecting link between Annelida and Mollusca."
+  },
+  {
+    "questionOrder": 18,
+    "questionType": "Objective",
+    "questionText": "Locomotion in molluscs takes place with the help of",
+    "questionOptions":[
+      "Tentacles",
+      "Tube feet",
+      "Muscular feet",
+      "Boy legs"
+    ],
+    "correctIndex": 2,
+    "solutionText": "The muscular foot is a prominent characteristic of molluscs, primarily adapted for locomotion, creeping, or burrowing."
+  },
+  {
+    "questionOrder": 19,
+    "questionType": "Objective",
+    "questionText": "Molluscs are classified mainly based on the",
+    "questionOptions":[
+      "Shell",
+      "Foot",
+      "Both",
+      "None"
+    ],
+    "correctIndex": 2,
+    "solutionText": "The classification of the phylum Mollusca into distinct classes is largely based on the structural characteristics of both the shell and the muscular foot."
+  },
+  {
+    "questionOrder": 20,
+    "questionType": "Objective",
+    "questionText": "The largest class of mollusca is",
+    "questionOptions":[
+      "Gastropoda",
+      "Pelecypoda",
+      "Cephalopoda",
+      "Polyplacophora"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Gastropoda is by far the largest and most diverse class of molluscs, containing snails, slugs, and their relatives."
+  },
+  {
+    "questionOrder": 21,
+    "questionType": "Objective",
+    "questionText": "Which molluscan group is primarily used in the pearl industry?",
+    "questionOptions":[
+      "Pelecypoda",
+      "Monoplacophora",
+      "Cephalopoda",
+      "Gastropoda"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Pelecypoda (also known as Bivalvia), which includes pearl oysters, are the primary group cultivated in the pearl industry."
+  },
+  {
+    "questionOrder": 22,
+    "questionType": "Objective",
+    "questionText": "Pearls are produced in the bivalve belonging to the genus",
+    "questionOptions":[
+      "Pecten",
+      "Pinctada",
+      "Ostraea",
+      "Lamellidens"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The marine pearl oysters that produce commercial high-quality pearls belong to the genus Pinctada."
+  },
+  {
+    "questionOrder": 23,
+    "questionType": "Objective",
+    "questionText": "Pearls are obtained from",
+    "questionOptions":[
+      "Oyster",
+      "Sepia",
+      "Starfish",
+      "Whale"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Natural and cultured pearls are primarily obtained from oysters, which are bivalve molluscs."
+  },
+  {
+    "questionOrder": 24,
+    "questionType": "Objective",
+    "questionText": "Neopilina belongs to the class",
+    "questionOptions":[
+      "Aplacophora",
+      "Monoplacophora",
+      "Polyplacophora",
+      "Gastropoda"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Neopilina is the best-known surviving member of the class Monoplacophora."
+  },
+  {
+    "questionOrder": 25,
+    "questionType": "Objective",
+    "questionText": "Asymmetric members of mollusca belong to the class",
+    "questionOptions":[
+      "Cephalopoda",
+      "Gastropoda",
+      "Monoplacophora",
+      "Pelecypoda"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Gastropods undergo a unique developmental process called torsion, which results in an asymmetrical adult body plan."
+  },
+  {
+    "questionOrder": 26,
+    "questionType": "Objective",
+    "questionText": "Devil fish belongs to",
+    "questionOptions":[
+      "Cephalopoda",
+      "Pelecypoda",
+      "Gastropoda",
+      "Scaphopoda"
+    ],
+    "correctIndex": 0,
+    "solutionText": "The devil fish is a common name for the octopus, which is a highly developed member of the class Cephalopoda."
+  },
+  {
+    "questionOrder": 27,
+    "questionType": "Objective",
+    "questionText": "Which of the following animals is not a mollusc?",
+    "questionOptions":[
+      "Sea squirt",
+      "Sea hare",
+      "Sea lemon",
+      "Sea butterfly"
+    ],
+    "correctIndex": 0,
+    "solutionText": "A sea squirt is a tunicate belonging to the phylum Chordata, not Mollusca."
+  },
+  {
+    "questionOrder": 27,
+    "questionType": "Objective",
+    "questionText": "Which of the following animals is not a mollusc?",
+    "questionOptions":[
+      "Cuttlefish",
+      "Devil fish",
+      "Catfish",
+      "Pila"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Catfish are true fish with a backbone, thus belonging to the phylum Chordata, unlike the others which are molluscs."
+  },
+  {
+    "questionOrder": 27,
+    "questionType": "Objective",
+    "questionText": "Which of the following animals is not a mollusc?",
+    "questionOptions":[
+      "Sea squid",
+      "Octopus",
+      "Nautilus",
+      "Sea squirt"
+    ],
+    "correctIndex": 3,
+    "solutionText": "A sea squirt is a chordate (Urochordata), while squids, octopuses, and nautiluses are cephalopod molluscs."
+  },
+  {
+    "questionOrder": 28,
+    "questionType": "Objective",
+    "questionText": "In cephalopods (like Sepia),",
+    "questionOptions":[
+      "Shell is absent",
+      "Inner shell is found",
+      "A folded shell is found",
+      "Outer shell is found"
+    ],
+    "correctIndex": 1,
+    "solutionText": "In Sepia (cuttlefish), the shell is reduced and internal, commonly known as a cuttlebone."
+  },
+  {
+    "questionOrder": 29,
+    "questionType": "Objective",
+    "questionText": "The rasping organ radula is found in",
+    "questionOptions":[
+      "Unio",
+      "Octopus",
+      "Sepia",
+      "Pila"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Pila (an apple snail) possesses a well-developed radula used for scraping vegetation."
+  },
+  {
+    "questionOrder": 30,
+    "questionType": "Objective",
+    "questionText": "Which are the exclusive marine molluscs?",
+    "questionOptions":[
+      "Gastropoda",
+      "Bivalvia",
+      "Cephalopoda",
+      "Univalvia"
+    ],
+    "correctIndex": 2,
+    "solutionText": "All species within the class Cephalopoda (squids, octopuses, nautiluses) are entirely marine."
+  },
+  {
+    "questionOrder": 31,
+    "questionType": "Objective",
+    "questionText": "A mollusc without a shell is the",
+    "questionOptions":[
+      "Pila",
+      "Octopus",
+      "Sepia",
+      "Unio"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Among these options, the octopus completely lacks a shell, both internal and external."
+  },
+  {
+    "questionOrder": 32,
+    "questionType": "Objective",
+    "questionText": "The largest invertebrate or mollusc is the",
+    "questionOptions":[
+      "Giant clam",
+      "Giant snail",
+      "Giant octopus",
+      "Giant squid"
+    ],
+    "correctIndex": 3,
+    "solutionText": "The giant squid is recognized as the largest living invertebrate in terms of overall size and weight."
+  },
+  {
+    "questionOrder": 33,
+    "questionType": "Objective",
+    "questionText": "Which of the following has an ink gland?",
+    "questionOptions":[
+      "Cuttle fish",
+      "Hydra",
+      "Snail",
+      "Oyster"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Cuttlefish possess an ink gland that they use to release ink as a smokescreen to evade predators."
+  },
+  {
+    "questionOrder": 34,
+    "questionType": "Objective",
+    "questionText": "Ink glands found in some molluscs are concerned with",
+    "questionOptions":[
+      "Excretion",
+      "Reproduction",
+      "Protection",
+      "All"
+    ],
+    "correctIndex": 2,
+    "solutionText": "The ink secreted by the ink gland provides visual cover, offering protection by confusing predators."
+  },
+  {
+    "questionOrder": 35,
+    "questionType": "Objective",
+    "questionText": "An internal shell occurs in",
+    "questionOptions":[
+      "Sepia",
+      "Limax",
+      "Pila",
+      "Both (a) & (b)"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Both Sepia (cuttlefish) and Limax (a slug) possess an internal, rudimentary shell."
+  },
+  {
+    "questionOrder": 36,
+    "questionType": "Objective",
+    "questionText": "Filter feeding occurs in",
+    "questionOptions":[
+      "Dentalium",
+      "Unio",
+      "Pila",
+      "Amoeba"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Unio is a freshwater bivalve that uses its large gills to filter food particles from the water."
+  },
+  {
+    "questionOrder": 37,
+    "questionType": "Objective",
+    "questionText": "The elephant tusk shell is",
+    "questionOptions":[
+      "Dentalium",
+      "Limax",
+      "Cyproaea",
+      "Nautilus"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Dentalium, a scaphopod, is commonly called the elephant tusk shell because its tubular, tapering shell resembles an elephant's tusk."
+  },
+  {
+    "questionOrder": 1,
+    "questionType": "Objective",
+    "questionText": "Which of the following is not a larval form of mollusca?",
+    "questionOptions":[
+      "Pluteus",
+      "Trochophore",
+      "Veliger",
+      "Glochidium"
+    ],
+    "correctIndex": 0,
+    "solutionText": "The pluteus larva is specific to echinoderms (like sea urchins and brittle stars), whereas the others are molluscan larvae."
+  },
+  {
+    "questionOrder": 2,
+    "questionType": "Objective",
+    "questionText": "Many molluscs have a water-testing organ present in the mantle cavity. This is called the",
+    "questionOptions":[
+      "Statocyst",
+      "Osphradium",
+      "Tentaculocyst",
+      "Amphid"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The osphradium is an olfactory sensory organ located in the mantle cavity of many molluscs, used to test the chemical quality of water."
+  },
+  {
+    "questionOrder": 3,
+    "questionType": "Objective",
+    "questionText": "Pearls are produced in an oyster around the",
+    "questionOptions":[
+      "Tears of sea mermaids falling into the Oyster",
+      "First drops of rain falling into the Oyster in a particular month",
+      "Eggs of Oyster which fail to leave its body",
+      "Some external particles becoming embedded in the skin of Oyster"
+    ],
+    "correctIndex": 3,
+    "solutionText": "A pearl is formed biologically as a defense mechanism when a foreign particle (like a grain of sand or parasite) becomes embedded in the oyster's mantle tissue."
+  },
+  {
+    "questionOrder": 4,
+    "questionType": "Objective",
+    "questionText": "Father of the pearl industry is",
+    "questionOptions":[
+      "Jenner",
+      "Mikimoto",
+      "Trembly",
+      "Wallac"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Kokichi Mikimoto is renowned as the father of the modern cultured pearl industry for creating the first cultured pearl."
+  },
+  {
+    "questionOrder": 5,
+    "questionType": "Objective",
+    "questionText": "Pearl is secreted by the",
+    "questionOptions":[
+      "Prismatic layer",
+      "Connective tissue of mantle",
+      "Columnar epithelial cell of mantle",
+      "Ciliated epithelial cells of mantle"
+    ],
+    "correctIndex": 2,
+    "solutionText": "The nacre that forms pearls is secreted by the specialized columnar epithelial cells of the outer mantle."
+  },
+  {
+    "questionOrder": 6,
+    "questionType": "Objective",
+    "questionText": "In cephalopods,",
+    "questionOptions":[
+      "Head is fused with thorax",
+      "Head is fused with foot",
+      "Foot is located on head",
+      "Head is located on foot"
+    ],
+    "correctIndex": 2,
+    "solutionText": "In cephalopods, the structural foot is modified and located directly on the head, forming a series of arms or tentacles."
+  },
+  {
+    "questionOrder": 7,
+    "questionType": "Objective",
+    "questionText": "The eye of the molluscan group that resembles vertebrate eyes is found in",
+    "questionOptions":[
+      "Pelecypoda",
+      "Cephalopoda",
+      "Gastropoda",
+      "Scaphopoda"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Cephalopod eyes are highly advanced, possessing a cornea, lens, and retina, structurally converging closely with vertebrate eyes."
+  },
+  {
+    "questionOrder": 8,
+    "questionType": "Objective",
+    "questionText": "Glochidium and Veliger both are the larval forms of",
+    "questionOptions":[
+      "Pila",
+      "Nereis",
+      "Asterias",
+      "Bivalves"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Glochidium and veliger are common larval stages found during the life cycle of bivalve molluscs."
+  },
+  {
+    "questionOrder": 9,
+    "questionType": "Objective",
+    "questionText": "Asymmetry in gastropoda is due to",
+    "questionOptions":[
+      "Torsion",
+      "Coiling",
+      "Twisting",
+      "None"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Gastropods undergo torsion, a developmental event that rotates the visceral mass 180 degrees, leading to their characteristic asymmetry."
+  },
+  {
+    "questionOrder": 10,
+    "questionType": "Objective",
+    "questionText": "Which of the following molluscs have asymmetry due to torsion?",
+    "questionOptions":[
+      "Pila",
+      "Teredo",
+      "Dentalium",
+      "Octopus"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Pila, being a gastropod, exhibits asymmetry caused by the process of torsion during its embryonic development."
+  },
+  {
+    "questionOrder": 11,
+    "questionType": "Objective",
+    "questionText": "A wood boring mollusc is",
+    "questionOptions":[
+      "Dentalium",
+      "Teredo",
+      "Limax",
+      "Chiton"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Teredo, widely known as the shipworm, is a bivalve mollusc notorious for boring into underwater wooden structures."
+  },
+  {
+    "questionOrder": 12,
+    "questionType": "Objective",
+    "questionText": "A closed circulatory system does not occur in",
+    "questionOptions":[
+      "Cockroach",
+      "Cuttlefish",
+      "Snail",
+      "All of above"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Note: The provided answer key states 'All of above'. Snails (gastropods) and cockroaches (arthropods) have open circulatory systems, but cuttlefish (cephalopods) actually have closed circulatory systems. The key may be technically flawed."
+  },
+  {
+    "questionOrder": 13,
+    "questionType": "Objective",
+    "questionText": "The swift locomotion in Sepia and Octopus is effected by",
+    "questionOptions":[
+      "A fast moving neighboring animal",
+      "Undulation of their own lateral fins",
+      "Lashing movement of their cephalic arms",
+      "Water in jets expelled through siphon"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Cephalopods propel themselves rapidly backward by forcefully expelling water from their mantle cavity through a muscular funnel or siphon."
+  },
+  {
+    "questionOrder": 14,
+    "questionType": "Objective",
+    "questionText": "Which of the following animals possesses an ink gland?",
+    "questionOptions":[
+      "Scorpion",
+      "Cuttlefish",
+      "Sea urchin",
+      "Blue whale"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Cuttlefish possess specialized ink glands that produce a dark fluid used to disorient predators."
+  },
+  {
+    "questionOrder": 15,
+    "questionType": "Objective",
+    "questionText": "Trochophore is the larva of",
+    "questionOptions":[
+      "Pila",
+      "Chiton",
+      "Neopilina",
+      "All of these"
+    ],
+    "correctIndex": 3,
+    "solutionText": "The trochophore is an early free-swimming larval stage common across various groups of molluscs including Pila, Chiton, and Neopilina."
+  },
+  {
+    "questionOrder": 16,
+    "questionType": "Objective",
+    "questionText": "Sepia and Octopus swim swiftly by means of",
+    "questionOptions":[
+      "Arms",
+      "Suckers",
+      "Lateral fins",
+      "Jet propulsion through siphon"
+    ],
+    "correctIndex": 3,
+    "solutionText": "They utilize a jet propulsion mechanism, shooting a stream of water through their siphon to achieve rapid forward or backward thrust."
+  },
+  {
+    "questionOrder": 17,
+    "questionType": "Objective",
+    "questionText": "Father of the pearl industry is",
+    "questionOptions":[
+      "Jenner",
+      "Mikimato",
+      "Trembly",
+      "Wallac"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Kokichi Mikimoto (spelled here as Mikimato) pioneered the technique to produce cultured pearls, earning the title."
+  },
+  {
+    "questionOrder": 18,
+    "questionType": "Objective",
+    "questionText": "The mollusc which is dioecious with a single gonad & trochophore larva in its life history is",
+    "questionOptions":[
+      "Octopus",
+      "Sepia",
+      "Dentalium",
+      "Loligo"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Dentalium (a scaphopod) is dioecious, has a single median gonad, and includes a trochophore stage in its larval development."
+  },
+  {
+    "questionOrder": 19,
+    "questionType": "Objective",
+    "questionText": "Glochidium & veliger both are the larval form of",
+    "questionOptions":[
+      "Pila",
+      "Nereis",
+      "Asterias",
+      "Bivalves"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Both glochidium and veliger larval stages are characteristics of the bivalve class of molluscs."
+  }
+]
