@@ -1,0 +1,743 @@
+[
+  {
+    "questionOrder": 1,
+    "questionType": "Objective",
+    "questionText": "Echinoderms are so named due to the presence of",
+    "questionOptions":[
+      "Arms",
+      "Spines",
+      "Pedicellariae",
+      "Tube feet"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Echinoderms (echinos = spiny, derma = skin) are named for their spiny skin."
+  },
+  {
+    "questionOrder": 2,
+    "questionType": "Objective",
+    "questionText": "Organization present in Echinodermata is",
+    "questionOptions":[
+      "Cell tissue level",
+      "Tissue level",
+      "Organ level",
+      "Organs system level"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Echinoderms have an organ system level of body organization."
+  },
+  {
+    "questionOrder": 3,
+    "questionType": "Objective",
+    "questionText": "Echinoderms are",
+    "questionOptions":[
+      "Diloblastic",
+      "Triploblastic",
+      "Both",
+      "None"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Echinoderms are triploblastic, having all three germ layers: ectoderm, mesoderm, and endoderm."
+  },
+  {
+    "questionOrder": null,
+    "questionType": "Objective",
+    "questionText": "Echinoderms are",
+    "questionOptions":[
+      "Fresh water forms",
+      "Exclusively marine",
+      "Both freshwater and marine",
+      "None of the above"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Echinoderms are an exclusively marine phylum; there are no freshwater or terrestrial forms."
+  },
+  {
+    "questionOrder": 4,
+    "questionType": "Objective",
+    "questionText": "Echinoderms are",
+    "questionOptions":[
+      "Ammonotelic and aminotelic",
+      "Ureotelic",
+      "Uricotelic",
+      "Both b & c"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Echinoderms excrete nitrogenous wastes primarily in the form of ammonia and amino acids, making them ammonotelic and aminotelic."
+  },
+  {
+    "questionOrder": 5,
+    "questionType": "Objective",
+    "questionText": "Echinoderms are",
+    "questionOptions":[
+      "Exclusive marine prostostomes",
+      "Exclusive marine deuterostomes",
+      "Both a & b",
+      "Exclusively benthic"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Echinoderms are deuterostomes, where the blastopore develops into the anus, and they are exclusively marine."
+  },
+  {
+    "questionOrder": 6,
+    "questionType": "Objective",
+    "questionText": "In echinoderms blastopore give rise to",
+    "questionOptions":[
+      "Mouth",
+      "Anus",
+      "Both mouth as well anus",
+      "None"
+    ],
+    "correctIndex": 1,
+    "solutionText": "In deuterostomes like echinoderms, the blastopore gives rise to the anus."
+  },
+  {
+    "questionOrder": 7,
+    "questionType": "Objective",
+    "questionText": "Excretory organs in echinoderms are",
+    "questionOptions":[
+      "Coxal glands",
+      "Kidneys",
+      "Malphigian tubules",
+      "None"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Echinoderms lack specialized excretory organs. Excretion occurs through the general body surface."
+  },
+  {
+    "questionOrder": 8,
+    "questionType": "Objective",
+    "questionText": "One feature exclusive to Echinodermata is",
+    "questionOptions":[
+      "Water vascular system",
+      "Eye spots",
+      "Neurosensory cells",
+      "Radial symmetry"
+    ],
+    "correctIndex": 0,
+    "solutionText": "The water vascular system is a unique, distinguishing feature of echinoderms."
+  },
+  {
+    "questionOrder": null,
+    "questionType": "Objective",
+    "questionText": "One feature exclusive to Echinodermata is",
+    "questionOptions":[
+      "Vascular system",
+      "Radial canal",
+      "Triploblastic",
+      "Ambulacral system"
+    ],
+    "correctIndex": 3,
+    "solutionText": "The ambulacral system (water vascular system) is exclusively found in echinoderms."
+  },
+  {
+    "questionOrder": 9,
+    "questionType": "Objective",
+    "questionText": "Which of the following traits is not characteristic of echinoderms?",
+    "questionOptions":[
+      "Water vascular system",
+      "Trochophore larva",
+      "Tube feet",
+      "Enterocoel"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Trochophore larva is characteristic of annelids and molluscs, not echinoderms (which have bipinnaria, pluteus, etc.)."
+  },
+  {
+    "questionOrder": 10,
+    "questionType": "Objective",
+    "questionText": "A diagnostic characteristic of Echinodermata is",
+    "questionOptions":[
+      "Symmetry bilateral in larva and radial in adult",
+      "Respiration by trachea",
+      "Jointed legs",
+      "Exoskeleton of chitinous cuticle"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Echinoderms uniquely exhibit bilateral symmetry as larvae and secondary radial symmetry as adults."
+  },
+  {
+    "questionOrder": 11,
+    "questionType": "Objective",
+    "questionText": "Echinoderms show which of the following characteristics?",
+    "questionOptions":[
+      "Spiny skin, radial symmetry",
+      "Smooth skin, radial symmetry",
+      "Spiny skin, bilateral symmetry",
+      "Spiny skin, asymmetry"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Echinoderms are characterized by spiny skin and radial symmetry in their adult stage."
+  },
+  {
+    "questionOrder": 12,
+    "questionType": "Objective",
+    "questionText": "The nature of exoskeleton in Echinodermata is",
+    "questionOptions":[
+      "Silicious",
+      "Tunicin",
+      "Calcareous",
+      "Chitinous"
+    ],
+    "correctIndex": 2,
+    "solutionText": "The exoskeleton (endoskeleton of dermal ossicles) in echinoderms is calcareous."
+  },
+  {
+    "questionOrder": 13,
+    "questionType": "Objective",
+    "questionText": "Skeleton of echinoderm is derived from",
+    "questionOptions":[
+      "Ectoderm",
+      "Mesoderm",
+      "Endoderm",
+      "All"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The skeleton of echinoderms is composed of calcareous ossicles derived from the mesoderm."
+  },
+  {
+    "questionOrder": 14,
+    "questionType": "Objective",
+    "questionText": "Which of the following is a characteristic of the phylum Echinodermata?",
+    "questionOptions":[
+      "Metameric, enterocoelic, pentamerous",
+      "Freshwater, eucoelomate, radially symmetrical",
+      "Triploblastic, coelomate pentamerous",
+      "Diploblastic, enterocoelic, pentamerous"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Echinoderms are triploblastic, coelomate (enterocoelic), and show pentamerous radial symmetry."
+  },
+  {
+    "questionOrder": 15,
+    "questionType": "Objective",
+    "questionText": "Organs of locomotion in Echinodermata are",
+    "questionOptions":[
+      "Pseudopodia",
+      "Parapodia",
+      "Foot",
+      "Tube feet"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Tube feet are the characteristic organs of locomotion in echinoderms."
+  },
+  {
+    "questionOrder": 16,
+    "questionType": "Objective",
+    "questionText": "In Echinodermata, tube feet are related with",
+    "questionOptions":[
+      "Ambulacral system",
+      "Excretory system",
+      "Reproductive system",
+      "Respiratory system"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Tube feet are an extension of the ambulacral (water vascular) system."
+  },
+  {
+    "questionOrder": 17,
+    "questionType": "Objective",
+    "questionText": "The main function of tube feet in echinoderms is",
+    "questionOptions":[
+      "Nutrition",
+      "Locomotion",
+      "Circulation",
+      "Defence"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The primary function of tube feet is locomotion."
+  },
+  {
+    "questionOrder": null,
+    "questionType": "Objective",
+    "questionText": "The main function of tube feet in echinoderms is",
+    "questionOptions":[
+      "Excretion",
+      "Nutrition",
+      "Circulation",
+      "Defence"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Tube feet also help in capturing food, thus playing a role in nutrition."
+  },
+  {
+    "questionOrder": 18,
+    "questionType": "Objective",
+    "questionText": "Tube feet in Echinodermata helps in",
+    "questionOptions":[
+      "Locomotion",
+      "Nutrition",
+      "Respiration",
+      "All"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Tube feet assist in locomotion, respiration, and food capture (nutrition)."
+  },
+  {
+    "questionOrder": 19,
+    "questionType": "Objective",
+    "questionText": "Which type of fertilization occurs in echinoderms?",
+    "questionOptions":[
+      "External",
+      "Internal",
+      "In cocoon",
+      "In ootheca"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Fertilization in echinoderms is typically external, occurring in the seawater."
+  },
+  {
+    "questionOrder": 20,
+    "questionType": "Objective",
+    "questionText": "Development of echinoderm is",
+    "questionOptions":[
+      "Parthenogenetic",
+      "Direct",
+      "Indirect",
+      "Retrogressive"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Development is indirect in echinoderms, involving free-swimming larval stages."
+  },
+  {
+    "questionOrder": 21,
+    "questionType": "Objective",
+    "questionText": "Echinoderms are heartless, brainless, headless yet from evolutionary point, they have been placed on the top of the invertebrates because they",
+    "questionOptions":[
+      "Have exclusively marine habit",
+      "Have a great power of regeneration",
+      "Are enterocoelic",
+      "Show resemblance with chordates in their embryonic development"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Echinoderms are placed near chordates primarily because both are enterocoelic deuterostomes."
+  },
+  {
+    "questionOrder": 22,
+    "questionType": "Objective",
+    "questionText": "The enterocoelous coelom of echinoderms develop from",
+    "questionOptions":[
+      "Gut",
+      "Mesoderm",
+      "Both a & b",
+      "Endoderm"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The enterocoelous coelom develops from outpocketings of the archenteron (embryonic gut) known as mesoderm."
+  },
+  {
+    "questionOrder": 23,
+    "questionType": "Objective",
+    "questionText": "Larvae of echinoderms are",
+    "questionOptions":[
+      "Radially symmetrical",
+      "Asymmetrical",
+      "Bilaterally symmetrical",
+      "Both a & c"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Echinoderm larvae exhibit bilateral symmetry, unlike the radially symmetrical adults."
+  },
+  {
+    "questionOrder": 24,
+    "questionType": "Objective",
+    "questionText": "Tube feet are characteristic structures of",
+    "questionOptions":[
+      "Starfish",
+      "Cuttlefish",
+      "Crayfish",
+      "Jellyfish"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Tube feet are a defining characteristic of echinoderms, such as the starfish."
+  },
+  {
+    "questionOrder": 25,
+    "questionType": "Objective",
+    "questionText": "Starfish belongs to the class",
+    "questionOptions":[
+      "Pisces",
+      "Asteroidea",
+      "Ophiuroidea",
+      "Cephalopoda"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Starfish belong to the class Asteroidea."
+  },
+  {
+    "questionOrder": 26,
+    "questionType": "Objective",
+    "questionText": "Name a freshwater echinoderm",
+    "questionOptions":[
+      "Starfish",
+      "Asterias",
+      "Cucumaria",
+      "None"
+    ],
+    "correctIndex": 3,
+    "solutionText": "There are no freshwater echinoderms; all are exclusively marine."
+  },
+  {
+    "questionOrder": 27,
+    "questionType": "Objective",
+    "questionText": "The larval stage of starfish is",
+    "questionOptions":[
+      "Tornaria",
+      "Bipinnaria",
+      "Dipleurula",
+      "Auriularia"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The typical larval stage of a starfish is the Bipinnaria larva."
+  },
+  {
+    "questionOrder": 28,
+    "questionType": "Objective",
+    "questionText": "Starfishes are",
+    "questionOptions":[
+      "Carnivorous",
+      "Omnivorous",
+      "Autophagic",
+      "Herbivorous"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Starfishes are mostly carnivorous, feeding on molluscs and other invertebrates."
+  },
+  {
+    "questionOrder": null,
+    "questionType": "Objective",
+    "questionText": "Starfishes are",
+    "questionOptions":[
+      "Benthonic",
+      "Pelagic",
+      "Lotic",
+      "None"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Starfishes are benthonic, living on the sea bottom."
+  },
+  {
+    "questionOrder": 29,
+    "questionType": "Objective",
+    "questionText": "How many tube feet a starfish possesses?",
+    "questionOptions":[
+      "One pair",
+      "Five pairs",
+      "Ten pairs",
+      "Many pairs"
+    ],
+    "correctIndex": 3,
+    "solutionText": "A starfish has many pairs of tube feet arranged along its ambulacral grooves."
+  },
+  {
+    "questionOrder": 30,
+    "questionType": "Objective",
+    "questionText": "The ability of starfish to break off a part of its arm is called",
+    "questionOptions":[
+      "Autogamy",
+      "Autophagy",
+      "Autotomy",
+      "Autolysis"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Autotomy is the ability of an animal, like a starfish, to voluntarily break off a part of its body, such as an arm."
+  },
+  {
+    "questionOrder": 31,
+    "questionType": "Objective",
+    "questionText": "One of the following is not found in starfish",
+    "questionOptions":[
+      "Parasitism",
+      "Autotomy",
+      "Nocturnal habit",
+      "Benthonic life"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Parasitism is not found in starfish; they are typically free-living."
+  },
+  {
+    "questionOrder": 32,
+    "questionType": "Objective",
+    "questionText": "'Aristotle's lantern' is a characteristic of echinoderm class",
+    "questionOptions":[
+      "Echinoidea",
+      "Ophiuroidea",
+      "Asteroidea",
+      "Holothuroidea"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Aristotle's lantern is a complex chewing apparatus characteristic of the class Echinoidea."
+  },
+  {
+    "questionOrder": 33,
+    "questionType": "Objective",
+    "questionText": "'Aristotle's lantern' occurs in",
+    "questionOptions":[
+      "Sea anemone",
+      "Sea urchin",
+      "Starfish",
+      "Asterias"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Aristotle's lantern occurs in sea urchins, which belong to the class Echinoidea."
+  },
+  {
+    "questionOrder": 34,
+    "questionType": "Objective",
+    "questionText": "'Aristotle's lantern' is used for",
+    "questionOptions":[
+      "Chewing",
+      "Locomotion",
+      "Excretion",
+      "Chemoreception"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Aristotle's lantern functions as a chewing apparatus to scrape algae and food."
+  },
+  {
+    "questionOrder": 35,
+    "questionType": "Objective",
+    "questionText": "Which of the following is unrelated?",
+    "questionOptions":[
+      "Sea star",
+      "Sea cucumber",
+      "Sea squid",
+      "Sea urchin"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Sea squid is a mollusc, whereas sea star, sea cucumber, and sea urchin are echinoderms."
+  },
+  {
+    "questionOrder": 1,
+    "questionType": "Objective",
+    "questionText": "Radial symmetry is usually exhibited in animals which",
+    "questionOptions":[
+      "Have one opening of alimentary canal",
+      "Live in water",
+      "Have ciliary mode of feeding",
+      "Are attached to the substratum"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Radial symmetry is an adaptation often found in sessile or sedentary animals attached to the substratum."
+  },
+  {
+    "questionOrder": 2,
+    "questionType": "Objective",
+    "questionText": "Madreporite is associated with",
+    "questionOptions":[
+      "Water vascular system",
+      "Canal system",
+      "Blood vascular system",
+      "Digestive system"
+    ],
+    "correctIndex": 0,
+    "solutionText": "The madreporite is a sieve-like plate that serves as the intake valve for the water vascular system."
+  },
+  {
+    "questionOrder": 3,
+    "questionType": "Objective",
+    "questionText": "Which of the following is not a part of ambulacral system of a starfish?",
+    "questionOptions":[
+      "Stone canal",
+      "Madreporite",
+      "Radial canal",
+      "Excurrent canal"
+    ],
+    "correctIndex": 3,
+    "solutionText": "The excurrent canal is not a part of the ambulacral (water vascular) system of a starfish."
+  },
+  {
+    "questionOrder": 4,
+    "questionType": "Objective",
+    "questionText": "Which of the following is not a part of tube feet?",
+    "questionOptions":[
+      "Ampulla",
+      "Pedipalp",
+      "Podium",
+      "Sucker"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Pedipalps are found in arachnids, not in the tube feet of echinoderms, which consist of an ampulla, podium, and sucker."
+  },
+  {
+    "questionOrder": 5,
+    "questionType": "Objective",
+    "questionText": "Diagnostic character of the phylum echinoderm is the presence of",
+    "questionOptions":[
+      "Spiny skin",
+      "Pedicellariae",
+      "Water vascular system",
+      "All"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Echinoderms are characterized by spiny skin, pedicellariae, and a water vascular system."
+  },
+  {
+    "questionOrder": 6,
+    "questionType": "Objective",
+    "questionText": "Microscopic stalked pincer-like structures present in echinoderms are",
+    "questionOptions":[
+      "Tube feet",
+      "Spines",
+      "Pedicellariae",
+      "Ossicles"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Pedicellariae are microscopic stalked pincer-like structures on the surface of some echinoderms."
+  },
+  {
+    "questionOrder": 7,
+    "questionType": "Objective",
+    "questionText": "Ambulacral grooves are absent in the living forms of the class",
+    "questionOptions":[
+      "Asteroidea",
+      "Echinoidea",
+      "Ophiuroidea",
+      "All of these"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Ambulacral grooves are covered or absent in the living forms of the class Ophiuroidea (brittle stars)."
+  },
+  {
+    "questionOrder": 8,
+    "questionType": "Objective",
+    "questionText": "In which class of echinodermata stalk is found for attachment with substratum?",
+    "questionOptions":[
+      "Crinoidea",
+      "Echinoidea",
+      "Asteroidea",
+      "Holothuroidea"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Members of the class Crinoidea (sea lilies) are attached to the substratum by a stalk."
+  },
+  {
+    "questionOrder": 9,
+    "questionType": "Objective",
+    "questionText": "Arms are absent in",
+    "questionOptions":[
+      "Sea urchin",
+      "Sea cucumber",
+      "Both",
+      "None"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Sea cucumbers (class Holothuroidea) lack arms."
+  },
+  {
+    "questionOrder": 10,
+    "questionType": "Objective",
+    "questionText": "Madreporite is found in",
+    "questionOptions":[
+      "Starfsh",
+      "Sea urchin",
+      "Sea cucumber",
+      "Feather star"
+    ],
+    "correctIndex": 0,
+    "solutionText": "The madreporite is a prominent structure found on the aboral surface of a starfish."
+  },
+  {
+    "questionOrder": 11,
+    "questionType": "Objective",
+    "questionText": "Madreporite is a structure characteristic of some members of",
+    "questionOptions":[
+      "Eleutherozoa",
+      "Anthozoa",
+      "Polyzoa",
+      "Madreporaria"
+    ],
+    "correctIndex": 0,
+    "solutionText": "The madreporite is characteristic of Eleutherozoa, which are the free-living echinoderms."
+  },
+  {
+    "questionOrder": 12,
+    "questionType": "Objective",
+    "questionText": "In which of the animals does the stomach come out of the body, feed, and digest food outside the body?",
+    "questionOptions":[
+      "Pila",
+      "Freshwater mussel",
+      "Leech",
+      "Starfish"
+    ],
+    "correctIndex": 3,
+    "solutionText": "The starfish can evert its stomach outside its body to feed and partially digest its prey."
+  },
+  {
+    "questionOrder": 13,
+    "questionType": "Objective",
+    "questionText": "Which one is the common ancestral larval form of echinoderms, hemichordates, and chordates?",
+    "questionOptions":[
+      "Dipleurula",
+      "Bipinnaria",
+      "Tornaria",
+      "Trochophore"
+    ],
+    "correctIndex": 0,
+    "solutionText": "The Dipleurula larva is considered the hypothetical common ancestral larval form of echinoderms and hemichordates."
+  },
+  {
+    "questionOrder": 14,
+    "questionType": "Objective",
+    "questionText": "Select the option with the incorrect class",
+    "questionOptions":[
+      "Asteroidea - Sea star",
+      "Ophiuroidea - Brittle star",
+      "Echinoidea - Sea urchin",
+      "Holothuroidea - Sea squid"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Sea squid belongs to the phylum Mollusca (Cephalopoda), not Holothuroidea (which includes sea cucumbers)."
+  },
+  {
+    "questionOrder": 15,
+    "questionType": "Objective",
+    "questionText": "Which of the following feeds upon detritus & plankton?",
+    "questionOptions":[
+      "Sea urchin",
+      "Feather star",
+      "Sea cucumber",
+      "Brittle star"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Sea cucumbers are typically deposit feeders, feeding upon detritus and plankton."
+  },
+  {
+    "questionOrder": 16,
+    "questionType": "Objective",
+    "questionText": "Ambulacral grooves are absent in the living forms of the class",
+    "questionOptions":[
+      "Asteroidea",
+      "Echinoidea",
+      "Ophiuroidea",
+      "All of these"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Ambulacral grooves are closed or absent in the living forms of Ophiuroidea."
+  },
+  {
+    "questionOrder": 17,
+    "questionType": "Objective",
+    "questionText": "Which one is the common ancestral larval form of echinoderms, hemichordates, and chordates?",
+    "questionOptions":[
+      "Dipleurula",
+      "Bipinnaria",
+      "Tornaria",
+      "Trochophore"
+    ],
+    "correctIndex": 0,
+    "solutionText": "The dipleurula concept suggests it is the ancestral larval form of echinoderms, hemichordates, and chordates."
+  },
+  {
+    "questionOrder": 18,
+    "questionType": "Objective",
+    "questionText": "Pelmatozoa includes",
+    "questionOptions":[
+      "Asteroidea",
+      "Crinoidea",
+      "Ophiuroidea",
+      "Echinoidea"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Pelmatozoa includes the stalked echinoderms, primarily the class Crinoidea."
+  }
+]
