@@ -1331,7 +1331,7 @@ try {
 
                     // Find className from classesData using currentClassId
                     const selectedClass = classesData.find(c => c.classId === currentClassId);
-                    const className = selectedClass ? selectedClass.className : '';
+                    const className = selectedClass ? selectedClass.classId : '';
 
                     const params = new URLSearchParams({
     classId: currentClassId,
