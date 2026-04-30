@@ -959,7 +959,7 @@ html::-webkit-scrollbar {
                 document.getElementById('modal-register-password').value = '';
             }
 
-            function modalSwitchTab(tab) {
+            window.modalSwitchTab = function(tab) {
                 const loginForm = document.getElementById('modal-login-form');
                 const registerForm = document.getElementById('modal-register-form');
                 const tabLogin = document.getElementById('modal-tab-login');
@@ -990,19 +990,24 @@ html::-webkit-scrollbar {
                 el.style.color = isError ? '#b91c1c' : '#065f46';
             }
 
-            async function handleModalLogin() {
+            window.handleModalLogin = async function() {
                 const email = document.getElementById('modal-login-email').value.trim();
                 const password = document.getElementById('modal-login-password').value;
                 if (!email || !password) { showModalStatus('Please fill in all fields.', true); return; }
-                try {
-                    await auth.signInWithEmailAndPassword(email, password);
-                    showModalStatus('Signed in successfully!', false);
-                } catch (err) {
-                    showModalStatus(err.message || 'Login failed.', true);
-                }
+const loginBtn = document.querySelector('#modal-login-form button');
+loginBtn.disabled = true;
+loginBtn.textContent = 'Signing in...';
+try {
+    await auth.signInWithEmailAndPassword(email, password);
+    showModalStatus('Signed in successfully!', false);
+} catch (err) {
+    showModalStatus(err.message || 'Login failed.', true);
+    loginBtn.disabled = false;
+    loginBtn.textContent = 'Sign In';
+}
             }
 
-            async function handleModalRegister() {
+            window.handleModalRegister = async function() {
                 const name = document.getElementById('modal-register-name').value.trim();
                 const email = document.getElementById('modal-register-email').value.trim();
                 const password = document.getElementById('modal-register-password').value;
@@ -1329,20 +1334,19 @@ html::-webkit-scrollbar {
                     const className = selectedClass ? selectedClass.className : '';
 
                     const params = new URLSearchParams({
-                        classId: currentClassId,
-                        subjectId: currentSubjectId,
-                        chapterId: currentChapterId
-                    });
-                    if (practiceCursor !== null) params.append('after', practiceCursor.toString());
+    classId: currentClassId,
+    subjectId: currentSubjectId,
+    chapterId: currentChapterId,
+    className: className
+});
+if (practiceCursor !== null) params.append('after', practiceCursor.toString());
 
-                    const res = await fetch(`${BASE_URL}/questions?${params.toString()}`, {
-                        method: 'GET',
-                        headers: {
-                            'Authorization': `Bearer ${currentIdToken}`,
-                            'Content-Type': 'application/json'
-                        },
-                        body: JSON.stringify({ className })
-                    });
+const res = await fetch(`${BASE_URL}/questions?${params.toString()}`, {
+    method: 'GET',
+    headers: {
+        'Authorization': `Bearer ${currentIdToken}`
+    }
+});
                     if (res.status === 401) {
                         currentIdToken = await currentUser.getIdToken(true);
                         throw new Error('Session expired. Please try again.');
