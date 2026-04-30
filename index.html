@@ -14,7 +14,9 @@
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.js"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/contrib/auto-render.min.js"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
-    
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -881,7 +883,36 @@ html::-webkit-scrollbar {
 
             // ---------- CONFIGURATION ----------
             const BASE_URL = 'https://tutoriumfree.onrender.com';  // Public API
+            // ---------- FIREBASE AUTH ----------
+            const firebaseConfig = {
+                apiKey: "AIzaSyB7t1epo6Vsi-zhjmFoYEkznUfmAoxfRyY",
+                authDomain: "tutorup-dilshad.firebaseapp.com",
+                databaseURL: "https://tutorup-dilshad-default-rtdb.firebaseio.com",
+                projectId: "tutorup-dilshad",
+                storageBucket: "tutorup-dilshad.firebasestorage.app",
+                messagingSenderId: "845385268581",
+                appId: "1:845385268581:web:8af0729bd46012dc3a758c",
+                measurementId: "G-XQE1WF1V63"
+            };
+            firebase.initializeApp(firebaseConfig);
+            const auth = firebase.auth();
 
+            let currentUser = null;
+            let currentIdToken = null;
+
+            auth.onAuthStateChanged(async (user) => {
+                if (!user) {
+                    window.location.href = '/auth2.html';
+                    return;
+                }
+                currentUser = user;
+                currentIdToken = await user.getIdToken();
+                setInterval(async () => {
+                    if (currentUser) {
+                        currentIdToken = await currentUser.getIdToken(true);
+                    }
+                }, 50 * 60 * 1000);
+            });
             // ---------- VISIT TRACKING ----------
             (async function trackVisit() {
                 try {
@@ -1164,6 +1195,16 @@ html::-webkit-scrollbar {
                 if (!reset) loaderEl.style.display = 'block';
 
                 try {
+                    if (!currentIdToken) {
+                        document.getElementById('practice-error').style.display = 'block';
+                        document.getElementById('practice-error').textContent = '⚠️ You must be logged in to access questions.';
+                        return;
+                    }
+
+                    // Find className from classesData using currentClassId
+                    const selectedClass = classesData.find(c => c.classId === currentClassId);
+                    const className = selectedClass ? selectedClass.className : '';
+
                     const params = new URLSearchParams({
                         classId: currentClassId,
                         subjectId: currentSubjectId,
@@ -1171,7 +1212,24 @@ html::-webkit-scrollbar {
                     });
                     if (practiceCursor !== null) params.append('after', practiceCursor.toString());
 
-                    const res = await fetch(`${BASE_URL}/questions?${params.toString()}`);
+                    const res = await fetch(`${BASE_URL}/questions?${params.toString()}`, {
+                        method: 'GET',
+                        headers: {
+                            'Authorization': `Bearer ${currentIdToken}`,
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({ className })
+                    });
+                    if (res.status === 401) {
+                        currentIdToken = await currentUser.getIdToken(true);
+                        throw new Error('Session expired. Please try again.');
+                    }
+                    if (res.status === 403) {
+                        document.getElementById('practice-error').style.display = 'block';
+                        document.getElementById('practice-error').textContent = '🔒 You do not have permission to access questions for this class.';
+                        practiceHasMore = false;
+                        return;
+                    }
                     if (!res.ok) throw new Error(`Server error: ${res.status}`);
                     const data = await res.json();
 
