@@ -770,7 +770,13 @@ html::-webkit-scrollbar {
     <!-- Capsule Carousel -->
     <div class="max-w-6xl mx-auto mb-6 relative">
         <div id="capsule-carousel" class="flex overflow-x-auto no-scrollbar gap-3 py-4 px-8 snap-x mask-fade">
-
+    <!-- Default Feed -->
+<button id="capsule-default" class="flex-shrink-0 flex items-center gap-2.5 bg-white p-1 pr-4 rounded-full border border-slate-200/60 snap-center transition-all duration-300 hover:scale-105 active:scale-95 capsule-shadow-slate">
+    <div class="w-8 h-8 rounded-full bg-gradient-to-br from-indigo-500 to-indigo-600 flex items-center justify-center shadow-sm text-white">
+        <i data-lucide="home" class="w-4 h-4" stroke-width="2.5"></i>
+    </div>
+    <span class="text-[11px] font-extrabold uppercase tracking-wider text-slate-700">Default</span>
+</button>
             <!-- Lectures -->
             <button id="capsule-lectures" class="flex-shrink-0 flex items-center gap-2.5 bg-white p-1 pr-4 rounded-full border border-slate-200/60 snap-center transition-all duration-300 hover:scale-105 active:scale-95 capsule-shadow-purple">
                 <div class="w-8 h-8 rounded-full bg-gradient-to-br from-purple-500 to-purple-600 flex items-center justify-center shadow-sm text-white">
@@ -1037,12 +1043,22 @@ html::-webkit-scrollbar {
             };
 
             window.selectItem = function(chapterId, chapterName) {
-                selectedValueSpan.innerText = chapterName;
-                currentChapterId = chapterId === 'all' ? null : chapterId;
-                dropdownContainer.classList.remove('dropdown-open');
-                updateFeedSectionHeader();
-                loadPostsForCurrentChapter();
-            };
+    selectedValueSpan.innerText = chapterName;
+    currentChapterId = chapterId === 'all' ? null : chapterId;
+    dropdownContainer.classList.remove('dropdown-open');
+    updateFeedSectionHeader();
+    if (practiceMode && currentChapterId) {
+        practiceCursor = null;
+        practiceHasMore = true;
+        practiceLoading = false;
+        practiceQuestionCount = 0;
+        document.getElementById('questions-container').innerHTML =
+            `<div class="loader-grid col-span-full"><div class="loader-dot"></div><div class="loader-dot"></div><div class="loader-dot"></div></div>`;
+        fetchQuestionsPage(true);
+    } else {
+        loadPostsForCurrentChapter();
+    }
+};
 
             // Close chapter dropdown on outside click (separate from custom dropdowns)
             window.onclick = function(event) {
@@ -1057,11 +1073,7 @@ html::-webkit-scrollbar {
                 dropdownItemsContainer.innerHTML = '';
                 
                 // "Default Feed" option (renamed from "All Chapters")
-                const allBtn = document.createElement('button');
-                allBtn.className = 'dropdown-item px-5 py-3.5 text-left text-sm font-semibold text-gray-700 hover:bg-indigo-50 hover:text-indigo-600 transition-colors';
-                allBtn.textContent = 'Default Feed';
-                allBtn.onclick = () => selectItem('all', 'Default Feed');
-                dropdownItemsContainer.appendChild(allBtn);
+                
 
                 // API chapters
                 chaptersList.forEach(ch => {
@@ -1082,11 +1094,7 @@ html::-webkit-scrollbar {
                 chaptersList = chapters || [];
                 dropdownItemsContainer.innerHTML = '';
                 
-                const allBtn = document.createElement('button');
-                allBtn.className = 'dropdown-item px-5 py-3.5 text-left text-sm font-semibold text-gray-700 hover:bg-indigo-50 hover:text-indigo-600 transition-colors';
-                allBtn.textContent = 'Default Feed';
-                allBtn.onclick = () => selectItem('all', 'Default Feed');
-                dropdownItemsContainer.appendChild(allBtn);
+                
 
                 chaptersList.forEach(ch => {
                     const btn = document.createElement('button');
@@ -2026,6 +2034,7 @@ html::-webkit-scrollbar {
             // ---------- CAPSULE CLICK HANDLERS ----------
             document.getElementById('capsule-practice').addEventListener('click', showPracticeView);
             document.getElementById('capsule-lectures').addEventListener('click', showLecturesView);
+            document.getElementById('capsule-default').addEventListener('click', () => selectItem('all', 'Default Feed'));
         })();
     </script>
 </body>
