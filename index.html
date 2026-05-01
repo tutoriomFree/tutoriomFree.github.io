@@ -1037,12 +1037,22 @@ html::-webkit-scrollbar {
             };
 
             window.selectItem = function(chapterId, chapterName) {
-                selectedValueSpan.innerText = chapterName;
-                currentChapterId = chapterId === 'all' ? null : chapterId;
-                dropdownContainer.classList.remove('dropdown-open');
-                updateFeedSectionHeader();
-                loadPostsForCurrentChapter();
-            };
+    selectedValueSpan.innerText = chapterName;
+    currentChapterId = chapterId === 'all' ? null : chapterId;
+    dropdownContainer.classList.remove('dropdown-open');
+    updateFeedSectionHeader();
+    if (practiceMode && currentChapterId) {
+        practiceCursor = null;
+        practiceHasMore = true;
+        practiceLoading = false;
+        practiceQuestionCount = 0;
+        document.getElementById('questions-container').innerHTML =
+            `<div class="loader-grid col-span-full"><div class="loader-dot"></div><div class="loader-dot"></div><div class="loader-dot"></div></div>`;
+        fetchQuestionsPage(true);
+    } else {
+        loadPostsForCurrentChapter();
+    }
+};
 
             // Close chapter dropdown on outside click (separate from custom dropdowns)
             window.onclick = function(event) {
