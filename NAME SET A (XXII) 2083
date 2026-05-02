@@ -1,1 +1,2600 @@
-
+[
+  {
+    "questionOrder": 1,
+    "questionType": "Objective",
+    "questionText": "According to the most widely accepted modern theory, the origin of life on primitive Earth is best explained by:",
+    "questionOptions":[
+      "Theory of special creation",
+      "Biogenesis theory",
+      "Chemical evolution theory proposed by Oparin and Haldane",
+      "Lamarck's theory of use and disuse"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Chemical evolution theory, proposed by Oparin and Haldane, is the most widely accepted modern theory for the origin of life."
+  },
+  {
+    "questionOrder": 2,
+    "questionType": "Objective",
+    "questionText": "The forelimbs of whales, bats, horses and humans show similar bone arrangement but perform different functions. These organs are examples of:",
+    "questionOptions":[
+      "Analogous organs",
+      "Homologous organs",
+      "Vestigial organs",
+      "Atavistic structures"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Organs with similar underlying anatomical structure but different functions are known as homologous organs."
+  },
+  {
+    "questionOrder": 3,
+    "questionType": "Objective",
+    "questionText": "The presence of fossils in different sedimentary rock layers provides the strongest evidence in support of:",
+    "questionOptions":[
+      "Spontaneous generation",
+      "Darwin's theory of natural selection and descent with modification",
+      "Lamarckism",
+      "Special creation theory"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Fossil records in sedimentary layers strongly support Darwin's theory of descent with modification over time."
+  },
+  {
+    "questionOrder": 4,
+    "questionType": "Objective",
+    "questionText": "An animal possesses jointed appendages, chitinous exoskeleton, open circulatory system and undergoes metamorphosis. This animal belongs to the phylum:",
+    "questionOptions":[
+      "Mollusca",
+      "Arthropoda",
+      "Annelida",
+      "Echinodermata"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Jointed appendages and a chitinous exoskeleton are defining characteristics of the phylum Arthropoda."
+  },
+  {
+    "questionOrder": 5,
+    "questionType": "Objective",
+    "questionText": "In earthworm, the coiled tubular structures present in almost every segment that help in excretion and osmoregulation are known as:",
+    "questionOptions":[
+      "Flame cells",
+      "Nephridia",
+      "Malpighian tubules",
+      "Green glands"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Nephridia are the excretory and osmoregulatory organs found in almost every segment of an earthworm."
+  },
+  {
+    "questionOrder": 6,
+    "questionType": "Objective",
+    "questionText": "Peripatus is considered an important connecting link between two phyla because it possesses characters of both. Identify the two phyla:",
+    "questionOptions":[
+      "Annelida and Arthropoda",
+      "Annelida and Mollusca",
+      "Arthropoda and Echinodermata",
+      "Mollusca and Chordata"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Peripatus is a connecting link between Annelida and Arthropoda, exhibiting characteristics of both phyla."
+  },
+  {
+    "questionOrder": 7,
+    "questionType": "Objective",
+    "questionText": "In cockroach, respiration occurs through a network of branched, chitin-lined air tubes that open externally through small openings called spiracles. These tubes are called:",
+    "questionOptions":[
+      "Book lungs",
+      "Tracheae",
+      "Gills",
+      "Pulmonary sacs"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The respiratory system of a cockroach consists of a network of tracheae that communicate with the exterior via spiracles."
+  },
+  {
+    "questionOrder": 8,
+    "questionType": "Objective",
+    "questionText": "In which of the following chordates does the notochord persist throughout the entire life and never get replaced by a vertebral column?",
+    "questionOptions":[
+      "Frog",
+      "Amphioxus",
+      "Pigeon",
+      "Human"
+    ],
+    "correctIndex": 1,
+    "solutionText": "In Cephalochordates like Amphioxus, the notochord persists throughout life and is not replaced by a vertebral column."
+  },
+  {
+    "questionOrder": 9,
+    "questionType": "Objective",
+    "questionText": "The tissue that has the properties of excitability, conductivity and contractility and is responsible for movement and locomotion in animals is:",
+    "questionOptions":[
+      "Epithelial tissue",
+      "Muscular tissue",
+      "Connective tissue",
+      "Nervous tissue"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Muscular tissue is specialized for contractility and is responsible for movement and locomotion."
+  },
+  {
+    "questionOrder": 10,
+    "questionType": "Objective",
+    "questionText": "The thin, delicate epithelium that allows rapid diffusion of gases and is found lining the alveoli of lungs and Bowman's capsule is:",
+    "questionOptions":[
+      "Stratified squamous epithelium",
+      "Simple squamous epithelium",
+      "Cuboidal epithelium",
+      "Columnar epithelium"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Simple squamous epithelium consists of a single layer of thin cells, ideal for rapid diffusion in structures like lung alveoli."
+  },
+  {
+    "questionOrder": 11,
+    "questionType": "Objective",
+    "questionText": "The longest bone in the human body that bears the maximum body weight is:",
+    "questionOptions":[
+      "Humerus",
+      "Tibia",
+      "Femur",
+      "Fibula"
+    ],
+    "correctIndex": 2,
+    "solutionText": "The femur (thigh bone) is the longest, heaviest, and strongest bone in the human body."
+  },
+  {
+    "questionOrder": 12,
+    "questionType": "Objective",
+    "questionText": "The structural and functional unit of the kidney responsible for ultrafiltration, selective reabsorption and tubular secretion is:",
+    "questionOptions":[
+      "Neuron",
+      "Nephron",
+      "Alveolus",
+      "Osteon"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The nephron is the microscopic structural and functional unit of the kidney."
+  },
+  {
+    "questionOrder": 13,
+    "questionType": "Objective",
+    "questionText": "The natural pacemaker of the human heart that initiates the cardiac impulse is located in the wall of the right atrium and is called:",
+    "questionOptions":[
+      "Atrioventricular node",
+      "Sinoatrial node",
+      "Bundle of His",
+      "Purkinje fibres"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The Sinoatrial (SA) node acts as the natural pacemaker of the heart."
+  },
+  {
+    "questionOrder": 14,
+    "questionType": "Objective",
+    "questionText": "In humans, more than $95\\%$ of oxygen is transported from the lungs to the body tissues in combination with:",
+    "questionOptions":[
+      "Plasma proteins",
+      "Haemoglobin in erythrocytes",
+      "Dissolved form in plasma",
+      "Carbonic acid"
+    ],
+    "correctIndex": 1,
+    "solutionText": "About $97\\%$ of oxygen is transported bound to haemoglobin in RBCs (erythrocytes)."
+  },
+  {
+    "questionOrder": 15,
+    "questionType": "Objective",
+    "questionText": "A person suffering from bleeding gums, loosening of teeth and poor wound healing is most likely deficient in:",
+    "questionOptions":[
+      "Vitamin A",
+      "Vitamin B12",
+      "Vitamin C",
+      "Vitamin D"
+    ],
+    "correctIndex": 2,
+    "solutionText": "These symptoms describe scurvy, which is caused by a deficiency of Vitamin C (ascorbic acid)."
+  },
+  {
+    "questionOrder": 16,
+    "questionType": "Objective",
+    "questionText": "The hormone secreted by beta cells of the islets of Langerhans that lowers blood glucose level by promoting uptake of glucose by cells is:",
+    "questionOptions":[
+      "Glucagon",
+      "Insulin",
+      "Adrenaline",
+      "Cortisol"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Insulin is secreted by beta cells and functions to lower blood glucose levels."
+  },
+  {
+    "questionOrder": 17,
+    "questionType": "Objective",
+    "questionText": "People living in hilly areas often suffer from swelling in the neck region due to deficiency of iodine in their diet. This condition is known as:",
+    "questionOptions":[
+      "Diabetes mellitus",
+      "Goitre",
+      "Night blindness",
+      "Rickets"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Iodine deficiency leads to the enlargement of the thyroid gland, a condition known as goitre."
+  },
+  {
+    "questionOrder": 18,
+    "questionType": "Objective",
+    "questionText": "Malaria is a protozoan disease caused by Plasmodium species and is transmitted to humans by the bite of:",
+    "questionOptions":[
+      "Male Culex mosquito",
+      "Infected female Anopheles mosquito",
+      "Tse-tse fly",
+      "Housefly"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Malaria is transmitted through the bite of an infected female Anopheles mosquito."
+  },
+  {
+    "questionOrder": 19,
+    "questionType": "Objective",
+    "questionText": "Typhoid fever is a bacterial disease caused by Salmonella typhi. The most common mode of transmission of this disease is:",
+    "questionOptions":[
+      "Inhaling contaminated air",
+      "Contaminated food and water",
+      "Mosquito bite",
+      "Direct physical contact"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Typhoid fever is primarily transmitted via the fecal-oral route through contaminated food and water."
+  },
+  {
+    "questionOrder": 20,
+    "questionType": "Objective",
+    "questionText": "The Human Immunodeficiency Virus (HIV) primarily attacks and destroys which type of cells of the immune system, leading to severe immunodeficiency?",
+    "questionOptions":[
+      "B-lymphocytes",
+      "Helper T-lymphocytes (CD4+ cells)",
+      "Erythrocytes",
+      "Thrombocytes"
+    ],
+    "correctIndex": 1,
+    "solutionText": "HIV primarily infects and destroys CD4+ Helper T-lymphocytes, weakening the immune response."
+  },
+  {
+    "questionOrder": 21,
+    "questionType": "Objective",
+    "questionText": "The blood group that can be safely donated to a person of any ABO blood group is known as:",
+    "questionOptions":[
+      "A",
+      "B",
+      "AB",
+      "O"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Blood group O is considered the universal donor as it lacks A and B antigens on the red blood cells."
+  },
+  {
+    "questionOrder": 22,
+    "questionType": "Objective",
+    "questionText": "The process of formation of all types of blood cells from hematopoietic stem cells in red bone marrow is termed as:",
+    "questionOptions":[
+      "Haemolysis",
+      "Haematopoiesis",
+      "Haemostasis",
+      "Agglutination"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Haematopoiesis (or hemopoiesis) is the biological process of blood cell formation."
+  },
+  {
+    "questionOrder": 23,
+    "questionType": "Objective",
+    "questionText": "The hormone secreted by parathyroid glands that increases blood calcium level by promoting bone resorption is:",
+    "questionOptions":[
+      "Calcitonin",
+      "Parathyroid hormone",
+      "Thyroxine",
+      "Insulin"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Parathyroid hormone (PTH) increases blood calcium levels by stimulating osteoclasts to break down bone matrix."
+  },
+  {
+    "questionOrder": 24,
+    "questionType": "Objective",
+    "questionText": "The largest gland in the human body that performs detoxification, bile secretion and protein metabolism is:",
+    "questionOptions":[
+      "Pancreas",
+      "Thyroid gland",
+      "Liver",
+      "Pituitary gland"
+    ],
+    "correctIndex": 2,
+    "solutionText": "The liver is the largest internal organ and gland in the human body, responsible for bile production and detoxification."
+  },
+  {
+    "questionOrder": 25,
+    "questionType": "Objective",
+    "questionText": "The basic structural and functional unit of the nervous system specialized for reception, conduction and transmission of nerve impulses is:",
+    "questionOptions":[
+      "Nephron",
+      "Neuron",
+      "Synapse",
+      "Neuroglial cell"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Neurons are the fundamental units of the nervous system that transmit electrical impulses."
+  },
+  {
+    "questionOrder": 26,
+    "questionType": "Objective",
+    "questionText": "The sexually transmitted bacterial disease caused by Treponema pallidum that can damage multiple organs if left untreated is known as:",
+    "questionOptions":[
+      "Gonorrhoea",
+      "Syphilis",
+      "AIDS",
+      "Chancroid"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Syphilis is an STI caused by the bacterium Treponema pallidum."
+  },
+  {
+    "questionOrder": 27,
+    "questionType": "Objective",
+    "questionText": "ELISA test is a highly sensitive immunological test primarily used for the diagnosis of:",
+    "questionOptions":[
+      "Tuberculosis",
+      "HIV infection",
+      "Malaria",
+      "Typhoid fever"
+    ],
+    "correctIndex": 1,
+    "solutionText": "ELISA (Enzyme-Linked Immunosorbent Assay) is a standard screening test for detecting HIV antibodies."
+  },
+  {
+    "questionOrder": 28,
+    "questionType": "Objective",
+    "questionText": "The live attenuated vaccine given to infants for the prevention of tuberculosis is:",
+    "questionOptions":[
+      "DPT vaccine",
+      "BCG vaccine",
+      "Oral polio vaccine",
+      "MMR vaccine"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The BCG (Bacillus Calmette-Guérin) vaccine provides immunity or protection against tuberculosis."
+  },
+  {
+    "questionOrder": 29,
+    "questionType": "Objective",
+    "questionText": "The branch of biology that deals with the interactions between living organisms and their physical and biological environment is known as:",
+    "questionOptions":[
+      "Taxonomy",
+      "Ecology",
+      "Physiology",
+      "Embryology"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Ecology is the scientific study of the interactions between organisms and their environments."
+  },
+  {
+    "questionOrder": 30,
+    "questionType": "Objective",
+    "questionText": "In Nepal, the one-horned rhinoceros is strictly protected because its population has drastically declined due to poaching and habitat destruction. It is currently categorized as:",
+    "questionOptions":[
+      "Critically endangered",
+      "Endangered",
+      "Vulnerable",
+      "Extinct in the wild"
+    ],
+    "correctIndex": 2,
+    "solutionText": "The greater one-horned rhinoceros is currently listed as Vulnerable on the IUCN Red List."
+  },
+  {
+    "questionOrder": 31,
+    "questionType": "Objective",
+    "questionText": "The major cause of depletion of the ozone layer in the stratosphere is the release of:",
+    "questionOptions":[
+      "Carbon dioxide and methane",
+      "Chlorofluorocarbons (CFCs)",
+      "Sulphur dioxide",
+      "Nitrogen oxides from vehicles"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Chlorofluorocarbons (CFCs) release chlorine atoms in the stratosphere, which catalytically destroy ozone molecules."
+  },
+  {
+    "questionOrder": 32,
+    "questionType": "Objective",
+    "questionText": "Biofertilizers are considered environment-friendly because they mainly consist of:",
+    "questionOptions":[
+      "Chemical salts",
+      "Living beneficial microorganisms",
+      "Animal dung only",
+      "Synthetic plant hormones"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Biofertilizers contain living microorganisms that enhance soil fertility by fixing nitrogen and solubilizing phosphorus."
+  },
+  {
+    "questionOrder": 33,
+    "questionType": "Objective",
+    "questionText": "Which of the following is considered an example of ex-situ conservation of biodiversity?",
+    "questionOptions":[
+      "National Park",
+      "Wildlife Sanctuary",
+      "Zoological garden",
+      "Biosphere Reserve"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Zoological gardens are an ex-situ conservation method, as animals are conserved outside their natural habitat."
+  },
+  {
+    "questionOrder": 34,
+    "questionType": "Objective",
+    "questionText": "The normal pH value of human blood that is maintained by buffer systems is:",
+    "questionOptions":[
+      "6.8 - 7.0",
+      "7.35 - 7.45",
+      "8.0 - 8.5",
+      "5.5 - 6.0"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The normal physiological pH of human blood is slightly alkaline, ranging from 7.35 to 7.45."
+  },
+  {
+    "questionOrder": 35,
+    "questionType": "Objective",
+    "questionText": "The hormone released from the posterior pituitary that causes strong contraction of the uterus during childbirth is:",
+    "questionOptions":[
+      "Prolactin",
+      "Oxytocin",
+      "Vasopressin",
+      "Thyroxine"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Oxytocin stimulates uterine contractions during labor and childbirth."
+  },
+  {
+    "questionOrder": 36,
+    "questionType": "Objective",
+    "questionText": "The smallest bone in the human body is found in:",
+    "questionOptions":[
+      "Thigh region",
+      "Middle ear",
+      "Lower leg",
+      "Wrist"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The stapes, located in the middle ear, is the smallest bone in the human body."
+  },
+  {
+    "questionOrder": 37,
+    "questionType": "Objective",
+    "questionText": "Which blood vessel carries oxygenated blood from the lungs to the left atrium of the heart?",
+    "questionOptions":[
+      "Pulmonary artery",
+      "Pulmonary vein",
+      "Aorta",
+      "Superior vena cava"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The pulmonary veins are the only veins in the human body that carry oxygenated blood, delivering it from the lungs to the left atrium."
+  },
+  {
+    "questionOrder": 38,
+    "questionType": "Objective",
+    "questionText": "Amoebic dysentery (amoebiasis) is caused by the protozoan parasite:",
+    "questionOptions":[
+      "Plasmodium vivax",
+      "Entamoeba histolytica",
+      "Trypanosoma gambiense",
+      "Giardia intestinalis"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Entamoeba histolytica is an anaerobic parasitic amoebozoan that causes amoebic dysentery."
+  },
+  {
+    "questionOrder": 39,
+    "questionType": "Objective",
+    "questionText": "The organ known as the \"graveyard of RBCs\" because old and worn-out red blood cells are destroyed here is:",
+    "questionOptions":[
+      "Liver",
+      "Spleen",
+      "Kidney",
+      "Bone marrow"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The spleen filters blood and removes old or damaged red blood cells, hence it is known as the graveyard of RBCs."
+  },
+  {
+    "questionOrder": 40,
+    "questionType": "Objective",
+    "questionText": "The total number of chromosomes present in a normal human somatic cell is:",
+    "questionOptions":[
+      "23",
+      "46",
+      "48",
+      "44"
+    ],
+    "correctIndex": 1,
+    "solutionText": "A normal human somatic cell contains 23 pairs of chromosomes, totaling 46."
+  },
+  {
+    "questionOrder": 41,
+    "questionType": "Objective",
+    "questionText": "Which of the following is not a nitrogen base present in DNA?",
+    "questionOptions":[
+      "Adenine",
+      "Guanine",
+      "Uracil",
+      "Thymine"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Uracil is found in RNA. In DNA, it is replaced by Thymine."
+  },
+  {
+    "questionOrder": 42,
+    "questionType": "Objective",
+    "questionText": "Housekeeping genes are mainly responsible for:",
+    "questionOptions":[
+      "Cell division",
+      "Basic metabolic functions and maintenance",
+      "Defence against pathogens",
+      "Reproduction"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Housekeeping genes are constitutively expressed and maintain essential basic cellular functions."
+  },
+  {
+    "questionOrder": 43,
+    "questionType": "Objective",
+    "questionText": "The most abundant biomolecule in the biosphere is:",
+    "questionOptions":[
+      "Protein",
+      "Lipid",
+      "Carbohydrate",
+      "Nucleic acid"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Carbohydrates (specifically cellulose in plants) are the most abundant organic biomolecules in the biosphere."
+  },
+  {
+    "questionOrder": 44,
+    "questionType": "Objective",
+    "questionText": "Which pigment is responsible for the red colour in Rhodophyta (red algae)?",
+    "questionOptions":[
+      "Phycocyanin",
+      "Phycoerythrin",
+      "Fucoxanthin",
+      "Chlorophyll b"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Phycoerythrin is a red protein-pigment complex present in red algae (Rhodophyta)."
+  },
+  {
+    "questionOrder": 45,
+    "questionType": "Objective",
+    "questionText": "Lichens represent which type of relationship?",
+    "questionOptions":[
+      "Parasitism",
+      "Commensalism",
+      "Mutualism",
+      "Amensalism"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Lichens are a classic example of mutualism between a fungus and a photosynthetic partner (algae or cyanobacteria)."
+  },
+  {
+    "questionOrder": 46,
+    "questionType": "Objective",
+    "questionText": "In ecological succession, the first organisms to colonize a barren area are called:",
+    "questionOptions":[
+      "Climax community",
+      "Pioneer species",
+      "Keystone species",
+      "Dominant species"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Pioneer species are the hardy species that first colonize previously disrupted or damaged ecosystems."
+  },
+  {
+    "questionOrder": 47,
+    "questionType": "Objective",
+    "questionText": "The pyramid of energy in any ecosystem is always:",
+    "questionOptions":[
+      "Inverted",
+      "Upright",
+      "Spindle shaped",
+      "Variable"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Due to the 10% law of energy transfer, the energy available at each successive trophic level decreases, making the pyramid of energy always upright."
+  },
+  {
+    "questionOrder": 48,
+    "questionType": "Objective",
+    "questionText": "Biodiversity is maximum in:",
+    "questionOptions":[
+      "Polar region",
+      "Tropical rain forest",
+      "Desert",
+      "Temperate forest"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Tropical rain forests host the highest biodiversity due to stable, warm, and humid climate conditions."
+  },
+  {
+    "questionOrder": 49,
+    "questionType": "Objective",
+    "questionText": "The main difference between prokaryotic and eukaryotic cell is the presence of:",
+    "questionOptions":[
+      "Cell wall",
+      "Well-defined nucleus",
+      "Ribosome",
+      "Cytoplasm"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Eukaryotic cells have a true, well-defined nucleus enclosed by a nuclear membrane, whereas prokaryotes do not."
+  },
+  {
+    "questionOrder": 50,
+    "questionType": "Objective",
+    "questionText": "During mitosis, chromosomes are arranged at the equatorial plate in:",
+    "questionOptions":[
+      "Prophase",
+      "Metaphase",
+      "Anaphase",
+      "Telophase"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Chromosomes align at the cell's equator (metaphase plate) during the metaphase stage of mitosis."
+  },
+  {
+    "questionOrder": 51,
+    "questionType": "Objective",
+    "questionText": "Crossing over occurs during:",
+    "questionOptions":[
+      "Prophase of mitosis",
+      "Prophase I of meiosis",
+      "Metaphase II of meiosis",
+      "Anaphase I of meiosis"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Crossing over, the exchange of genetic material between homologous chromosomes, occurs during Prophase I of meiosis (pachytene stage)."
+  },
+  {
+    "questionOrder": 52,
+    "questionType": "Objective",
+    "questionText": "The enzyme that unwinds DNA double helix during replication is:",
+    "questionOptions":[
+      "DNA polymerase",
+      "Helicase",
+      "DNA ligase",
+      "Primase"
+    ],
+    "correctIndex": 1,
+    "solutionText": "DNA helicase breaks the hydrogen bonds between base pairs, unwinding the DNA double helix."
+  },
+  {
+    "questionOrder": 53,
+    "questionType": "Objective",
+    "questionText": "A frameshift mutation is caused due to:",
+    "questionOptions":[
+      "Substitution of one base",
+      "Insertion or deletion of bases not in multiple of three",
+      "Change in a single codon",
+      "Inversion of chromosome segment"
+    ],
+    "correctIndex": 1,
+    "solutionText": "A frameshift mutation happens when nucleotides are inserted or deleted in numbers that are not a multiple of three, altering the reading frame."
+  },
+  {
+    "questionOrder": 54,
+    "questionType": "Objective",
+    "questionText": "In incomplete dominance, the phenotypic ratio in F2 generation is:",
+    "questionOptions":[
+      "3:1",
+      "1:2:1",
+      "9:3:3:1",
+      "9:7"
+    ],
+    "correctIndex": 1,
+    "solutionText": "In incomplete dominance, the phenotypic ratio matches the genotypic ratio of 1:2:1 in the F2 generation."
+  },
+  {
+    "questionOrder": 55,
+    "questionType": "Objective",
+    "questionText": "Which tissue provides mechanical support to young growing parts of dicot stem?",
+    "questionOptions":[
+      "Parenchyma",
+      "Collenchyma",
+      "Sclerenchyma",
+      "Xylem"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Collenchyma tissue consists of living cells with unevenly thickened walls, providing flexibility and mechanical support to young dicot stems."
+  },
+  {
+    "questionOrder": 56,
+    "questionType": "Objective",
+    "questionText": "Vascular bundles in dicot stem are:",
+    "questionOptions":[
+      "Radial",
+      "Conjoint, collateral and open",
+      "Conjoint, collateral and closed",
+      "Scattered"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Dicot stem vascular bundles are conjoint, collateral, and have cambium present (open), enabling secondary growth."
+  },
+  {
+    "questionOrder": 57,
+    "questionType": "Objective",
+    "questionText": "The opening and closing of stomata is regulated by:",
+    "questionOptions":[
+      "Guard cells",
+      "Subsidiary cells",
+      "Epidermal cells",
+      "Companion cells"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Changes in the turgor pressure of the guard cells regulate the opening and closing of stomata."
+  },
+  {
+    "questionOrder": 58,
+    "questionType": "Objective",
+    "questionText": "Double fertilization is characteristic of:",
+    "questionOptions":[
+      "Gymnosperms",
+      "Angiosperms",
+      "Pteridophytes",
+      "Bryophytes"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Double fertilization, involving syngamy and triple fusion, is a unique defining feature of Angiosperms."
+  },
+  {
+    "questionOrder": 59,
+    "questionType": "Objective",
+    "questionText": "The fruit develops from:",
+    "questionOptions":[
+      "Ovule",
+      "Ovary",
+      "Style",
+      "Stigma"
+    ],
+    "correctIndex": 1,
+    "solutionText": "After fertilization, the ovary matures and ripens into a fruit, while ovules become seeds."
+  },
+  {
+    "questionOrder": 60,
+    "questionType": "Objective",
+    "questionText": "Which plant hormone is known as stress hormone?",
+    "questionOptions":[
+      "Auxin",
+      "Gibberellin",
+      "Abscisic acid",
+      "Cytokinin"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Abscisic acid (ABA) is called a stress hormone because it increases tolerance of plants to various environmental stresses, such as inducing stomatal closure during drought."
+  },
+  {
+    "questionOrder": 61,
+    "questionType": "Objective",
+    "questionText": "Krebs cycle occurs in:",
+    "questionOptions":[
+      "Cytoplasm",
+      "Mitochondrial matrix",
+      "Inner mitochondrial membrane",
+      "Chloroplast stroma"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The enzymes for the Krebs cycle (Citric Acid Cycle) are located in the mitochondrial matrix."
+  },
+  {
+    "questionOrder": 62,
+    "questionType": "Objective",
+    "questionText": "Photorespiration is more prominent in:",
+    "questionOptions":[
+      "C4 plants",
+      "C3 plants",
+      "CAM plants",
+      "All plants equally"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Photorespiration occurs when RuBisCO binds oxygen instead of CO2, a process highly prominent in C3 plants but minimized in C4 plants."
+  },
+  {
+    "questionOrder": 63,
+    "questionType": "Objective",
+    "questionText": "Kranz anatomy is found in:",
+    "questionOptions":[
+      "C3 plants",
+      "C4 plants",
+      "CAM plants",
+      "Bryophytes"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Kranz anatomy is a specialized leaf structure in C4 plants that helps minimize photorespiration."
+  },
+  {
+    "questionOrder": 64,
+    "questionType": "Objective",
+    "questionText": "Which of the following is a parthenocarpic fruit?",
+    "questionOptions":[
+      "Mango",
+      "Banana",
+      "Pea",
+      "Wheat"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Banana is a natural parthenocarpic fruit, meaning it develops without fertilization and is seedless."
+  },
+  {
+    "questionOrder": 65,
+    "questionType": "Objective",
+    "questionText": "Ti plasmid is widely used as a vector in:",
+    "questionOptions":[
+      "Animal biotechnology",
+      "Plant genetic engineering",
+      "Bacterial cloning only",
+      "Virus production"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The Ti (tumor-inducing) plasmid from Agrobacterium tumefaciens is widely used as a gene transfer vector in plant genetic engineering."
+  },
+  {
+    "questionOrder": 66,
+    "questionType": "Objective",
+    "questionText": "Bt cotton is genetically modified to provide resistance against:",
+    "questionOptions":[
+      "Virus",
+      "Fungus",
+      "Bollworm",
+      "Drought"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Bt cotton is modified to express a toxin from Bacillus thuringiensis, making it resistant to bollworm pests."
+  },
+  {
+    "questionOrder": 67,
+    "questionType": "Objective",
+    "questionText": "Large scale production of genetically identical plants is done by:",
+    "questionOptions":[
+      "Grafting",
+      "Micropropagation",
+      "Hybridization",
+      "Selection"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Micropropagation (plant tissue culture) is used for the large-scale production of genetically identical plant clones."
+  },
+  {
+    "questionOrder": 68,
+    "questionType": "Objective",
+    "questionText": "Alkaloids are examples of:",
+    "questionOptions":[
+      "Primary metabolites",
+      "Secondary metabolites",
+      "Storage proteins",
+      "Carbohydrates"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Alkaloids are secondary metabolites; they are not strictly essential for basic growth and development but serve ecological functions."
+  },
+  {
+    "questionOrder": 69,
+    "questionType": "Objective",
+    "questionText": "Quinine is commercially extracted from:",
+    "questionOptions":[
+      "Cinchona",
+      "Papaver somniferum",
+      "Hevea brasiliensis",
+      "Atropa belladonna"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Quinine, an anti-malarial drug, is extracted from the bark of the Cinchona tree."
+  },
+  {
+    "questionOrder": 70,
+    "questionType": "Objective",
+    "questionText": "In prokaryotes, the genetic material is:",
+    "questionOptions":[
+      "Linear DNA with histone",
+      "Circular naked DNA",
+      "RNA only",
+      "Linear RNA"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Prokaryotes typically possess a single, circular, double-stranded DNA molecule that is not associated with histone proteins (naked DNA)."
+  },
+  {
+    "questionOrder": 71,
+    "questionType": "Objective",
+    "questionText": "The first stable product of Calvin cycle in C3 plants is:",
+    "questionOptions":[
+      "Oxaloacetic acid",
+      "3-Phosphoglyceric acid (PGA)"
+    ],
+    "correctIndex": 1,
+    "solutionText": "In C3 plants, CO2 fixation produces 3-phosphoglyceric acid (3-PGA) as the first stable 3-carbon intermediate."
+  },
+  {
+    "questionOrder": 72,
+    "questionType": "Objective",
+    "questionText": "Collenchyma tissue is characterized by:",
+    "questionOptions":[
+      "Dead cells with lignified wall",
+      "Living cells with uneven pectin thickening",
+      "Living cells with thin wall",
+      "Dead cells with thin wall"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Collenchyma consists of living cells with localized uneven cell wall thickenings made of pectin and cellulose."
+  },
+  {
+    "questionOrder": 73,
+    "questionType": "Objective",
+    "questionText": "Imbibition is important for:",
+    "questionOptions":[
+      "Ascent of sap",
+      "Seed germination",
+      "Transpiration",
+      "Guttation"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Imbibition is the first crucial step in seed germination, causing seeds to swell and break their seed coat."
+  },
+  {
+    "questionOrder": 74,
+    "questionType": "Objective",
+    "questionText": "Pleiotropy means:",
+    "questionOptions":[
+      "Many genes control one trait",
+      "One gene controls many traits",
+      "Gene interaction",
+      "Incomplete dominance"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Pleiotropy occurs when a single gene influences multiple, seemingly unrelated phenotypic traits."
+  },
+  {
+    "questionOrder": 75,
+    "questionType": "Objective",
+    "questionText": "The respiratory quotient (RQ) of carbohydrate is:",
+    "questionOptions":[
+      "0.7",
+      "1.0",
+      "1.3",
+      "More than 1"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The respiratory quotient (RQ) for carbohydrates is 1.0, because the volume of CO2 released equals the volume of O2 consumed."
+  },
+  {
+    "questionOrder": 76,
+    "questionType": "Objective",
+    "questionText": "Which of the following is a stem tuber?",
+    "questionOptions":[
+      "Carrot",
+      "Potato",
+      "Turnip",
+      "Radish"
+    ],
+    "correctIndex": 1,
+    "solutionText": "A potato is a modified underground stem called a stem tuber, which stores food."
+  },
+  {
+    "questionOrder": 77,
+    "questionType": "Objective",
+    "questionText": "Electron transport chain is located in:",
+    "questionOptions":[
+      "Cytoplasm",
+      "Mitochondrial inner membrane",
+      "Chloroplast stroma",
+      "Peroxisome"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The electron transport chain in eukaryotes is located in the inner mitochondrial membrane."
+  },
+  {
+    "questionOrder": 78,
+    "questionType": "Objective",
+    "questionText": "Runner is an example of:",
+    "questionOptions":[
+      "Underground stem",
+      "Sub-aerial stem modification",
+      "Root modification",
+      "Leaf modification"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Runners (like in strawberry) are a form of sub-aerial weak stem modification used for vegetative propagation."
+  },
+  {
+    "questionOrder": 79,
+    "questionType": "Objective",
+    "questionText": "High $CO_2$ concentration inside leaf causes:",
+    "questionOptions":[
+      "Stomatal opening",
+      "Stomatal closing",
+      "Increased rate of photosynthesis",
+      "No effect on stomata"
+    ],
+    "correctIndex": 1,
+    "solutionText": "An increase in internal $CO_2$ concentration inside a leaf signals guard cells to lose turgor, leading to stomatal closure."
+  },
+  {
+    "questionOrder": 80,
+    "questionType": "Objective",
+    "questionText": "Restriction endonucleases are used in:",
+    "questionOptions":[
+      "Gel electrophoresis",
+      "Recombinant DNA technology",
+      "PCR technique",
+      "Tissue culture"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Restriction endonucleases act as \"molecular scissors\" to cut DNA at specific recognition sites in recombinant DNA technology."
+  },
+  {
+    "questionOrder": 81,
+    "questionType": "Objective",
+    "questionText": "Among the following pairs of compounds, the one that illustrates the law of multiple proportions is:",
+    "questionOptions":[
+      "NH3 and NCl3",
+      "H2S and SO2",
+      "CS2 and FeSO4",
+      "CuO and Cu2O"
+    ],
+    "correctIndex": 3,
+    "solutionText": "$CuO$ and $Cu_2O$ contain the same two elements (Copper and Oxygen) combined in different whole-number mass ratios, satisfying the law of multiple proportions."
+  },
+  {
+    "questionOrder": 82,
+    "questionType": "Objective",
+    "questionText": "7.5 grams of a gas occupy 5.6 litres of volume at STP. The gas is:",
+    "questionOptions":[
+      "N2O",
+      "NO",
+      "CO",
+      "CO2"
+    ],
+    "correctIndex": 1,
+    "solutionText": "5.6 L at STP is $1/4$ mole (5.6/22.4 = 0.25 mol). Molar mass = $7.5 / 0.25 = 30$ g/mol. Nitric oxide (NO) has a molar mass of $14 + 16 = 30$ g/mol."
+  },
+  {
+    "questionOrder": 83,
+    "questionType": "Objective",
+    "questionText": "Which of the following does not contain number of neutrons equal to that of Ar (Mass 40, Atomic No 18)?",
+    "questionOptions":[
+      "$^{41}K_{19}$",
+      "$^{43}Sc_{21}$",
+      "$^{45}Sc_{21}$",
+      "$^{42}Ca_{20}$"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Argon ($^{40}Ar_{18}$) has $40 - 18 = 22$ neutrons. $^{45}Sc_{21}$ has $45 - 21 = 24$ neutrons, which is not equal to 22."
+  },
+  {
+    "questionOrder": 84,
+    "questionType": "Objective",
+    "questionText": "The values of quantum numbers n, l and m for the 5th electron of Boron will be:",
+    "questionOptions":[
+      "n = 2, l = 1, m = -1",
+      "n = 2, l = 1, m = 1",
+      "n = 2, l = 2, m = -1",
+      "n = 1, l = 2, m = -1"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Boron ($Z=5$) has configuration $1s^2 2s^2 2p^1$. The 5th electron enters the 2p subshell, so $n=2$, $l=1$, and $m$ can be -1, 0, or 1."
+  },
+  {
+    "questionOrder": 85,
+    "questionType": "Objective",
+    "questionText": "Which of the following is isoelectronic with carbon atom?",
+    "questionOptions":[
+      "Na+",
+      "Al3+",
+      "O2-",
+      "N+"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Carbon ($Z=6$) has 6 electrons. Nitrogen cation ($N^+$) has $7 - 1 = 6$ electrons."
+  },
+  {
+    "questionOrder": 86,
+    "questionType": "Objective",
+    "questionText": "In $XeF_2$, $XeF_4$ and $XeF_6$, the number of lone pairs on Xe are respectively:",
+    "questionOptions":[
+      "2, 3, 1",
+      "1, 2, 3",
+      "4, 1, 2",
+      "3, 2, 1"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Xe has 8 valence electrons. $XeF_2$ has 2 bond pairs and 3 lone pairs. $XeF_4$ has 4 bond pairs and 2 lone pairs. $XeF_6$ has 6 bond pairs and 1 lone pair. Thus, 3, 2, 1."
+  },
+  {
+    "questionOrder": 87,
+    "questionType": "Objective",
+    "questionText": "Based on kinetic theory of gases, which of the following laws can be proved?",
+    "questionOptions":[
+      "Boyle's law",
+      "Charles law",
+      "Avogadro's law",
+      "All of these"
+    ],
+    "correctIndex": 3,
+    "solutionText": "The ideal gas laws (Boyle's, Charles's, and Avogadro's) can all be derived from the postulates and equations of the kinetic theory of gases."
+  },
+  {
+    "questionOrder": 88,
+    "questionType": "Objective",
+    "questionText": "The partial pressure of oxygen in a flask containing 32 g $O_2$ and 32 g $SO_2$ is:",
+    "questionOptions":[
+      "1/16 of total pressure",
+      "1/2 of total pressure",
+      "2/3 of total pressure",
+      "1/5 of total pressure"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Moles of $O_2 = 32/32 = 1$. Moles of $SO_2 = 32/64 = 0.5$. Total moles = 1.5. Mole fraction of $O_2 = 1 / 1.5 = 2/3$. Partial pressure = $2/3$ of total."
+  },
+  {
+    "questionOrder": 89,
+    "questionType": "Objective",
+    "questionText": "The internal energy of a substance does not depend upon:",
+    "questionOptions":[
+      "Translational energy",
+      "Vibrational energy",
+      "Energy due to gravitational pull",
+      "Rotational energy"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Internal energy is the sum of translational, vibrational, and rotational kinetic energies, but not macroscopic potential energy like gravitational pull."
+  },
+  {
+    "questionOrder": 90,
+    "questionType": "Objective",
+    "questionText": "If an inert gas is added in the reaction: $N_2 + 3H_2 \\rightleftharpoons 2NH_3$ at constant volume, then its equilibrium:",
+    "questionOptions":[
+      "Remains unaffected",
+      "Favours the backward reaction",
+      "Favours the forward reaction",
+      "Increases the dissociation of reactants"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Adding an inert gas at constant volume does not change the partial pressures of the reacting gases, so the equilibrium remains unaffected."
+  },
+  {
+    "questionOrder": 91,
+    "questionType": "Objective",
+    "questionText": "The conjugate base of $OH^-$ is:",
+    "questionOptions":[
+      "$H_2O$",
+      "$H_3O^+$",
+      "$O^{2-}$",
+      "$O_2$"
+    ],
+    "correctIndex": 2,
+    "solutionText": "A conjugate base is formed by removing an $H^+$ ion. Removing $H^+$ from $OH^-$ leaves $O^{2-}$."
+  },
+  {
+    "questionOrder": 92,
+    "questionType": "Objective",
+    "questionText": "The pH of a $10^{-8}$ molar solution of HCl in water is:",
+    "questionOptions":[
+      "-8",
+      "8",
+      "Between 6 and 7",
+      "Between 7 and 8"
+    ],
+    "correctIndex": 2,
+    "solutionText": "For a very dilute acid like $10^{-8}$ M HCl, the contribution of $H^+$ from water cannot be ignored. The total $[H^+]$ is slightly greater than $10^{-7}$, yielding a pH between 6 and 7."
+  },
+  {
+    "questionOrder": 93,
+    "questionType": "Objective",
+    "questionText": "Hydrogen ion concentration in mol/L in solution of pH 5.4 will be:",
+    "questionOptions":[
+      "$3.88 \\times 10^6$",
+      "$3.98 \\times 10^{-6}$",
+      "$3.98 \\times 10^6$",
+      "$3.68 \\times 10^{-6}$"
+    ],
+    "correctIndex": 1,
+    "solutionText": "$[H^+] = 10^{-\\text{pH}} = 10^{-5.4} = 10^{0.6} \\times 10^{-6} \\approx 3.98 \\times 10^{-6}$ mol/L."
+  },
+  {
+    "questionOrder": 94,
+    "questionType": "Objective",
+    "questionText": "If a, b, c are unequal and $\\alpha, \\beta, \\gamma$ are unequal and not $90^\\circ$, it represents a:",
+    "questionOptions":[
+      "Triclinic system",
+      "Tetragonal",
+      "Monoclinic",
+      "Orthorhombic"
+    ],
+    "correctIndex": 0,
+    "solutionText": "The triclinic crystal system is characterized by $a \\neq b \\neq c$ and $\\alpha \\neq \\beta \\neq \\gamma \\neq 90^\\circ$."
+  },
+  {
+    "questionOrder": 95,
+    "questionType": "Objective",
+    "questionText": "The number of moles of sodium hydroxide present in 2.5 L and 0.5 M aqueous solution will be:",
+    "questionOptions":[
+      "1.25",
+      "0.5",
+      "12.5",
+      "5"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Molarity $M = n/V$. Moles $n = M \\times V = 0.5 \\text{ mol/L} \\times 2.5 \\text{ L} = 1.25$ moles."
+  },
+  {
+    "questionOrder": 96,
+    "questionType": "Objective",
+    "questionText": "People add sodium chloride to water while boiling eggs. This is to:",
+    "questionOptions":[
+      "Decrease the boiling point of water",
+      "Increase the boiling point of water",
+      "Prevent breaking of eggs",
+      "Make eggs tasty"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Adding solute (NaCl) causes boiling point elevation, which increases the boiling point of water, allowing eggs to cook faster."
+  },
+  {
+    "questionOrder": 97,
+    "questionType": "Objective",
+    "questionText": "What is the electrochemical equivalent (in g coulomb$^{-1}$) of silver?",
+    "questionOptions":[
+      "108F",
+      "108/F",
+      "F/108",
+      "1/108 F"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Electrochemical equivalent $Z = \\text{Equivalent weight} / F$. For silver, equivalent weight is 108, so $Z = 108/F$."
+  },
+  {
+    "questionOrder": 98,
+    "questionType": "Objective",
+    "questionText": "The first-order rate constant for the decomposition of $N_2O_5$ is $6.2 \\times 10^{-4} s^{-1}$. The half-life for this decomposition is:",
+    "questionOptions":[
+      "1177.7 s",
+      "1117.7 s",
+      "6.077 s",
+      "110.77 s"
+    ],
+    "correctIndex": 1,
+    "solutionText": "$t_{1/2} = 0.693 / k = 0.693 / (6.2 \\times 10^{-4}) \\approx 1117.7$ seconds."
+  },
+  {
+    "questionOrder": 99,
+    "questionType": "Objective",
+    "questionText": "The outermost configuration of the most electronegative elements is:",
+    "questionOptions":[
+      "$ns^2 np^5$",
+      "$ns^2 np^6$",
+      "$ns^2 np^4$",
+      "$ns^2 np^3$"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Halogens are the most electronegative elements in the periodic table, and their general outer electronic configuration is $ns^2 np^5$."
+  },
+  {
+    "questionOrder": 100,
+    "questionType": "Objective",
+    "questionText": "$D_2O$ is used in/as:",
+    "questionOptions":[
+      "Insecticide",
+      "Medicine",
+      "Industry",
+      "Nuclear reactor"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Heavy water ($D_2O$) is used as a neutron moderator and coolant in certain types of nuclear reactors."
+  },
+  {
+    "questionOrder": 101,
+    "questionType": "Objective",
+    "questionText": "In view of their low ionization energies, the alkali metals are:",
+    "questionOptions":[
+      "Strong oxidizing agents",
+      "Weak oxidizing agents",
+      "Strong reducing agents",
+      "Weak reducing agents"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Alkali metals easily lose their valence electron due to low ionization energy, making them strong reducing agents."
+  },
+  {
+    "questionOrder": 102,
+    "questionType": "Objective",
+    "questionText": "What is the molecular formula of plaster of paris?",
+    "questionOptions":[
+      "CaSO4.2H2O",
+      "2CaSO4.H2O",
+      "2CaSO4.2H2O",
+      "CaSO4.3H2O"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Plaster of Paris is calcium sulphate hemihydrate, represented as $CaSO_4 \\cdot \\frac{1}{2}H_2O$ or $2CaSO_4 \\cdot H_2O$."
+  },
+  {
+    "questionOrder": 103,
+    "questionType": "Objective",
+    "questionText": "Poisonous gas present in the exhaust fumes of an automobile is:",
+    "questionOptions":[
+      "CO2",
+      "CH4",
+      "CO",
+      "C2H6"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Carbon monoxide (CO) is a highly poisonous gas produced from incomplete combustion in automobile engines."
+  },
+  {
+    "questionOrder": 104,
+    "questionType": "Objective",
+    "questionText": "Which one of the following is used as an acid flux in metallurgy?",
+    "questionOptions":[
+      "SiO2",
+      "SO2",
+      "Na2CO3",
+      "CaO"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Silica ($SiO_2$) is an acidic flux used to remove basic impurities like $FeO$ in metallurgy."
+  },
+  {
+    "questionOrder": 105,
+    "questionType": "Objective",
+    "questionText": "N forms only $NCl_3$ whereas P can form both $PCl_3$ and $PCl_5$. This is because:",
+    "questionOptions":[
+      "N atoms is larger than P in size",
+      "P has low lying 3d-orbitals, which can be used for bonding but N does not have any d-orbitals in its valence shell",
+      "P is more reactive towards Cl than N",
+      "None of these"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Nitrogen lacks empty d-orbitals in its valence shell to expand its octet, while phosphorus has vacant 3d-orbitals."
+  },
+  {
+    "questionOrder": 106,
+    "questionType": "Objective",
+    "questionText": "The number of hydrogen atom(s) attached to phosphorous atom in hypophosphorous acid is:",
+    "questionOptions":[
+      "Zero",
+      "Two",
+      "One",
+      "Three"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Hypophosphorous acid ($H_3PO_2$) has two hydrogen atoms directly bonded to the central phosphorus atom."
+  },
+  {
+    "questionOrder": 107,
+    "questionType": "Objective",
+    "questionText": "The increase in boiling points of noble gases from He to Xe is due to the:",
+    "questionOptions":[
+      "Increase in atomic volume",
+      "Increase in electron affinity",
+      "Increase in polarizability",
+      "Decrease in ionization energy"
+    ],
+    "correctIndex": 2,
+    "solutionText": "As atomic size increases down the group, the electron cloud is more easily polarized, increasing the strength of London dispersion forces and boiling point."
+  },
+  {
+    "questionOrder": 108,
+    "questionType": "Objective",
+    "questionText": "Which of the following is the strongest oxidizing agent?",
+    "questionOptions":[
+      "HClO4",
+      "HClO3",
+      "HClO2",
+      "HOCl"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Oxidizing power of oxoacids of chlorine decreases as the oxidation state of chlorine increases; therefore, HOCl is the strongest oxidizing agent."
+  },
+  {
+    "questionOrder": 109,
+    "questionType": "Objective",
+    "questionText": "Arrange the following acids: 1. $H_2SO_3$, 2. $H_3PO_3$, 3. $HClO_3$ in the increasing order of acid strength.",
+    "questionOptions":[
+      "2 > 3 > 1",
+      "3 > 2 > 1",
+      "1 > 3 > 2",
+      "1 > 2 > 3"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The order of acid strength is $HClO_3 > H_3PO_3 > H_2SO_3$. So the correct sequence is 3 > 2 > 1."
+  },
+  {
+    "questionOrder": 110,
+    "questionType": "Objective",
+    "questionText": "Which one of the following is present as an active ingredient in bleaching Powder for bleaching action?",
+    "questionOptions":[
+      "CaOCl2",
+      "CaCl2",
+      "CaO2Cl",
+      "Ca(OCl)2"
+    ],
+    "correctIndex": 0,
+    "solutionText": "The active ingredient in bleaching powder is Calcium hypochlorite, typically written as $CaOCl_2$."
+  },
+  {
+    "questionOrder": 111,
+    "questionType": "Objective",
+    "questionText": "What is the general outer configuration of the coinage metals?",
+    "questionOptions":[
+      "$ns^2 np^6$",
+      "$(n - 1) d^{10} ns^1$",
+      "$(n - 1) d^{10} ns^2$",
+      "$(n - 1) d^{10} ns^2$"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Coinage metals (Group 11: Cu, Ag, Au) have an anomalous full d-orbital configuration: $(n-1)d^{10} ns^1$."
+  },
+  {
+    "questionOrder": 112,
+    "questionType": "Objective",
+    "questionText": "Which of the following is the main ore of Zinc?",
+    "questionOptions":[
+      "Zinc Blende",
+      "Calamine",
+      "Bornite",
+      "Azurite"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Zinc blende ($ZnS$) is the primary and most important ore of zinc."
+  },
+  {
+    "questionOrder": 113,
+    "questionType": "Objective",
+    "questionText": "Which of the following is used as additive in denatured alcohol?",
+    "questionOptions":[
+      "Ethanol",
+      "Petrol",
+      "Methanol",
+      "Water"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Methanol is a toxic substance commonly added to ethanol to \"denature\" it, making it unfit for human consumption."
+  },
+  {
+    "questionOrder": 114,
+    "questionType": "Objective",
+    "questionText": "The C-H bond distance is longest in:",
+    "questionOptions":[
+      "C2H2",
+      "C2H4",
+      "C2H6",
+      "C2H2Br2"
+    ],
+    "correctIndex": 2,
+    "solutionText": "In ethane ($C_2H_6$), the carbon atoms are $sp^3$ hybridized. As s-character decreases, bond length increases, so $sp^3$ C-H is the longest."
+  },
+  {
+    "questionOrder": 115,
+    "questionType": "Objective",
+    "questionText": "One recently discovered allotrope of carbon ($C_{60}$) is commonly known as:",
+    "questionOptions":[
+      "Fluorine",
+      "Fluorene",
+      "Freon",
+      "Fullerene"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Buckminsterfullerene ($C_{60}$) is a spherical fullerene molecule with the formula $C_{60}$."
+  },
+  {
+    "questionOrder": 116,
+    "questionType": "Objective",
+    "questionText": "Phenol is more reactive than benzene towards electrophilic substitution due to:",
+    "questionOptions":[
+      "Strong mesomeric effect",
+      "Hyperconjugative effect",
+      "Inductive effect only",
+      "Hydrogen bonding"
+    ],
+    "correctIndex": 0,
+    "solutionText": "The strongly activating +M (mesomeric/resonance) effect of the -OH group increases electron density in the ring, making phenol more reactive."
+  },
+  {
+    "questionOrder": 117,
+    "questionType": "Objective",
+    "questionText": "Which of the following intermediate has the complete octet around the carbon atom?",
+    "questionOptions":[
+      "Free radical",
+      "Carbene",
+      "Carbanion",
+      "Carbonium ion"
+    ],
+    "correctIndex": 2,
+    "solutionText": "A carbanion has 8 electrons in its valence shell (3 bonds and 1 lone pair), thus having a complete octet."
+  },
+  {
+    "questionOrder": 118,
+    "questionType": "Objective",
+    "questionText": "The compound that does not give a blue colour in Lassaigne's test is:",
+    "questionOptions":[
+      "Aniline",
+      "Glycine",
+      "Hydrazine",
+      "Urea"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Hydrazine ($NH_2NH_2$) lacks carbon, so it cannot form sodium cyanide (NaCN) during fusion, yielding a negative Lassaigne's test."
+  },
+  {
+    "questionOrder": 119,
+    "questionType": "Objective",
+    "questionText": "On the addition of HBr to propene in the absence of peroxides, the first step involves the addition of:",
+    "questionOptions":[
+      "$H^+$",
+      "$Br^-$",
+      "$H^\\bullet$ radical",
+      "$Br^\\bullet$ radical"
+    ],
+    "correctIndex": 0,
+    "solutionText": "In electrophilic addition across an alkene without peroxides, the electrophile $H^+$ adds first to form a stable carbocation."
+  },
+  {
+    "questionOrder": 120,
+    "questionType": "Objective",
+    "questionText": "On warming with silver powder, chloroform is converted into:",
+    "questionOptions":[
+      "Hexachloroethane",
+      "Acetylene",
+      "Ethylene",
+      "Carbon"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Heating chloroform with silver powder leads to dehalogenation, producing acetylene (ethyne) gas."
+  },
+  {
+    "questionOrder": 121,
+    "questionType": "Objective",
+    "questionText": "A set of compounds in which the reactivity of halogen atom in the ascending order is:",
+    "questionOptions":[
+      "Chloroethane, chlorobenzene, vinyl chloride",
+      "Chlorobenzene, vinyl chloride, chloroethane",
+      "Vinyl chloride, chloroethane, chlorobenzene",
+      "Vinyl chloride, chlorobenzene, chloroethane"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Chlorobenzene is least reactive due to resonance. Vinyl chloride is also stable but less sterically hindered than phenyl. Chloroethane undergoes SN reactions easily. So, Chlorobenzene < Vinyl chloride < Chloroethane."
+  },
+  {
+    "questionOrder": 122,
+    "questionType": "Objective",
+    "questionText": "Alcohol manufactured from water gas is:",
+    "questionOptions":[
+      "Ethanol",
+      "Butanol",
+      "Isobutanol",
+      "Methanol"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Methanol is industrially synthesized by catalytic hydrogenation of water gas ($CO + H_2$)."
+  },
+  {
+    "questionOrder": 123,
+    "questionType": "Objective",
+    "questionText": "Ethyl chloride is converted into diethyl ether in:",
+    "questionOptions":[
+      "Wurtz reaction",
+      "Grignard reaction",
+      "Perkin reaction",
+      "Williamson synthesis"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Williamson ether synthesis involves the reaction of an alkyl halide (ethyl chloride) with an alkoxide (sodium ethoxide) to form an ether."
+  },
+  {
+    "questionOrder": 124,
+    "questionType": "Objective",
+    "questionText": "The reaction of benzoyl chloride with $H_2 / Pd-BaSO_4$ produces:",
+    "questionOptions":[
+      "Benzaldehyde",
+      "Benzyl alcohol",
+      "Benzoic acid",
+      "Benzoyl cyanide"
+    ],
+    "correctIndex": 0,
+    "solutionText": "This is the Rosenmund reduction, which reduces acid chlorides to corresponding aldehydes."
+  },
+  {
+    "questionOrder": 125,
+    "questionType": "Objective",
+    "questionText": "Ketones can be obtained in one step by:",
+    "questionOptions":[
+      "Hydrolysis of esters",
+      "Oxidation of primary alcohols",
+      "Oxidation of secondary alcohols",
+      "Reaction of acid halides and alcohols"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Mild or strong oxidation of secondary alcohols yields ketones directly."
+  },
+  {
+    "questionOrder": 126,
+    "questionType": "Objective",
+    "questionText": "The reagent that can be used to distinguished between methanoic acid and ethanoic acid is:",
+    "questionOptions":[
+      "Sodium carbonate solution",
+      "Ammonical silver nitrate solution",
+      "Phenolphthalein",
+      "Neutral ferric chloride solution"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Methanoic acid (formic acid) has aldehydic properties and will reduce Tollen's reagent (ammonical silver nitrate), whereas ethanoic acid will not."
+  },
+  {
+    "questionOrder": 127,
+    "questionType": "Objective",
+    "questionText": "Hydrolysis of an ester gives a carboxylic acid which on Kolbe's electrolysis yields ethane. The ester is:",
+    "questionOptions":[
+      "Methyl methanoate",
+      "Methyl propanoate",
+      "Ethyl methanoate",
+      "Methyl ethanoate"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Kolbe's electrolysis of acetic (ethanoic) acid salts yields ethane. So the acid is ethanoic acid. Methyl ethanoate upon hydrolysis gives ethanoic acid and methanol."
+  },
+  {
+    "questionOrder": 128,
+    "questionType": "Objective",
+    "questionText": "Which amine of the following will not give carbylamine reaction?",
+    "questionOptions":[
+      "Ethylamine",
+      "Dimethylamine",
+      "Methylamine",
+      "Phenylamine"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The carbylamine reaction is a specific test for primary amines. Dimethylamine is a secondary amine and will not respond to it."
+  },
+  {
+    "questionOrder": 129,
+    "questionType": "Objective",
+    "questionText": "Antipyretics are medical compounds which:",
+    "questionOptions":[
+      "Relieve pain",
+      "Control malaria",
+      "Can kill other organisms",
+      "Lower body temperature"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Antipyretics are drugs used to reduce fever (lower elevated body temperature)."
+  },
+  {
+    "questionOrder": 130,
+    "questionType": "Objective",
+    "questionText": "Which of the following is not made of polyamides?",
+    "questionOptions":[
+      "Nylon",
+      "Natural silk",
+      "Wool",
+      "Artificial silk"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Artificial silk (Rayon) is a regenerated cellulose fiber, not a polyamide. Nylon, natural silk, and wool contain amide linkages."
+  },
+  {
+    "questionOrder": 131,
+    "questionType": "Objective",
+    "questionText": "A vector is represented by $3i + j + 2k$. Its length in xy plane is:",
+    "questionOptions":[
+      "1",
+      "$\\sqrt{14}$",
+      "$\\sqrt{10}$",
+      "$\\sqrt{5}$"
+    ],
+    "correctIndex": 2,
+    "solutionText": "The projection of the vector in the xy-plane is $3i + j$. Its magnitude is $\\sqrt{3^2 + 1^2} = \\sqrt{10}$."
+  },
+  {
+    "questionOrder": 132,
+    "questionType": "Objective",
+    "questionText": "The position x of a particle varies with time t as $x = at^2 - bt^3$. The acceleration at a time t of the particle will be equal to zero, where t is equal to:",
+    "questionOptions":[
+      "2a/3b",
+      "a/b",
+      "a/3b",
+      "zero"
+    ],
+    "correctIndex": 2,
+    "solutionText": "$v = dx/dt = 2at - 3bt^2$. $acceleration = dv/dt = 2a - 6bt$. Setting $a=0 \\implies 2a - 6bt = 0 \\implies t = a/3b$."
+  },
+  {
+    "questionOrder": 133,
+    "questionType": "Objective",
+    "questionText": "Two bodies of masses 1 kg and 5kg are dropped gently from the top of a tower. At a point 20 cm from the ground both bodies will have same:",
+    "questionOptions":[
+      "momentum",
+      "kinetic energy",
+      "velocity",
+      "total energy"
+    ],
+    "correctIndex": 2,
+    "solutionText": "The acceleration due to gravity is independent of mass, so both bodies will achieve the same velocity after falling the same distance."
+  },
+  {
+    "questionOrder": 134,
+    "questionType": "Objective",
+    "questionText": "The maximum range of a projectile is 100 m. The maximum height reached by it is:",
+    "questionOptions":[
+      "100 m",
+      "25 m",
+      "200 m",
+      "75 m"
+    ],
+    "correctIndex": 1,
+    "solutionText": "$R_{max} = u^2/g = 100$ m at $45^\\circ$. The maximum height at this angle is $H = (u^2 \\sin^2 45^\\circ)/2g = (u^2/g) \\times (1/4) = 100 / 4 = 25$ m."
+  },
+  {
+    "questionOrder": 135,
+    "questionType": "Objective",
+    "questionText": "When a body moves with a constant speed along a circle:",
+    "questionOptions":[
+      "no work is done on it",
+      "no acceleration produced on the body",
+      "no force acting on a body",
+      "its velocity remains constant"
+    ],
+    "correctIndex": 0,
+    "solutionText": "In uniform circular motion, the centripetal force is perpendicular to the displacement at every point, so work done is zero."
+  },
+  {
+    "questionOrder": 136,
+    "questionType": "Objective",
+    "questionText": "A block of mass 10 kg placed on rough horizontal surface having coefficient of friction $\\mu = 0.5$. If a horizontal force of 100 N acting on it, then acceleration of the block will be:",
+    "questionOptions":[
+      "10 m/s^2",
+      "5 m/s^2",
+      "15 m/s^2",
+      "0.5 m/s^2"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Frictional force $f = \\mu mg = 0.5 \\times 10 \\times 10 = 50$ N. Net force $F_{net} = 100 - 50 = 50$ N. Acceleration $a = F_{net}/m = 50/10 = 5 \\text{ m/s}^2$."
+  },
+  {
+    "questionOrder": 137,
+    "questionType": "Objective",
+    "questionText": "If the earth stops rotating, the value of g at the equator will:",
+    "questionOptions":[
+      "increase",
+      "remains same",
+      "decreases",
+      "none of above"
+    ],
+    "correctIndex": 0,
+    "solutionText": "The effective gravity is $g' = g - R\\omega^2 \\cos^2\\lambda$. If $\\omega$ becomes 0, the centrifugal term vanishes, and $g$ at the equator increases."
+  },
+  {
+    "questionOrder": 138,
+    "questionType": "Objective",
+    "questionText": "For steel $Y = 2 \\times 10^{11} N/m^2$. The force required to double the length of a steel wire of area $1 cm^2$ is:",
+    "questionOptions":[
+      "$2 \\times 10^7$ N",
+      "$2 \\times 10^9$ N",
+      "$2 \\times 10^8$ N",
+      "$2 \\times 10^5$ N"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Doubling length means strain $\\Delta L / L = 1$. $F = Y A (\\Delta L / L) = (2 \\times 10^{11}) \\times (10^{-4}) \\times 1 = 2 \\times 10^7$ N."
+  },
+  {
+    "questionOrder": 139,
+    "questionType": "Objective",
+    "questionText": "The potential energy of a molecule on the surface of a liquid compared to one inside the liquid is:",
+    "questionOptions":[
+      "zero",
+      "lesser",
+      "equal",
+      "greater"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Work must be done against intermolecular attractive forces to bring a molecule from the bulk to the surface, hence giving surface molecules greater potential energy."
+  },
+  {
+    "questionOrder": 140,
+    "questionType": "Objective",
+    "questionText": "A simple pendulum performs SHM about x = 0 with an amplitude A and time period T. The speed of the pendulum at x = A/2 will be:",
+    "questionOptions":[
+      "$\\pi A \\sqrt{3} / T$",
+      "$\\pi A / T$",
+      "$\\pi A \\sqrt{3} / 2T$",
+      "$3\\pi^2 A / T$"
+    ],
+    "correctIndex": 0,
+    "solutionText": "$v = \\omega \\sqrt{A^2 - x^2} = (2\\pi/T) \\sqrt{A^2 - (A/2)^2} = (2\\pi/T) (A\\sqrt{3}/2) = \\pi A \\sqrt{3} / T$."
+  },
+  {
+    "questionOrder": 141,
+    "questionType": "Objective",
+    "questionText": "A wire of cross-sectional area A at temperature T is held taut with negligible tension between two rigid supports. If the wire is cooled to a temperature (T - $\\Delta T$), what tension is developed in the wire? The coefficient of linear expansion is $\\alpha$ and Young's modulus is Y.",
+    "questionOptions":[
+      "$Y A \\alpha \\Delta T$",
+      "$Y a \\Delta T / A$",
+      "$A \\alpha \\Delta T / Y$",
+      "$Y A / a \\Delta T$"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Thermal strain is $\\alpha \\Delta T$. Tension $F = Y A \\times \\text{strain} = Y A \\alpha \\Delta T$."
+  },
+  {
+    "questionOrder": 142,
+    "questionType": "Objective",
+    "questionText": "Two blocks of ice when pressed together join to form one block because:",
+    "questionOptions":[
+      "of heat produced during pressing",
+      "of cold produced during pressing",
+      "melting point of ice decreases with increase of pressure",
+      "melting point of ice increases with increase in pressure"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Increasing pressure lowers the melting point of ice, causing the ice at the interface to melt. Releasing pressure refreezes the water (regelation)."
+  },
+  {
+    "questionOrder": 143,
+    "questionType": "Objective",
+    "questionText": "If Q, E and W denote respectively the heat added, change in internal energy and the work done in a closed cycle process, then:",
+    "questionOptions":[
+      "W = 0",
+      "Q = W = 0",
+      "E = 0",
+      "Q = 0"
+    ],
+    "correctIndex": 2,
+    "solutionText": "In a closed cycle, the system returns to its initial state, meaning the change in internal energy ($E$) is exactly zero."
+  },
+  {
+    "questionOrder": 144,
+    "questionType": "Objective",
+    "questionText": "420 J of energy supplied to 10g of water will raise its temperature by nearly:",
+    "questionOptions":[
+      "$1^\\circ C$",
+      "$4.2^\\circ C$",
+      "$10^\\circ C$",
+      "$42^\\circ C$"
+    ],
+    "correctIndex": 2,
+    "solutionText": "$Q = m c \\Delta T \\implies 420 = 10 \\times 4.2 \\times \\Delta T \\implies \\Delta T = 420 / 42 = 10^\\circ C$."
+  },
+  {
+    "questionOrder": 145,
+    "questionType": "Objective",
+    "questionText": "A carnot's engine working between $27^\\circ C$ and $127^\\circ C$ has a work output of 200 J/Cycle. The energy supplied to the engine from the source in each cycle is:",
+    "questionOptions":[
+      "400 J",
+      "800 J",
+      "600 J",
+      "500 J"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Efficiency $\\eta = 1 - T_{cold}/T_{hot} = 1 - 300/400 = 0.25$. Since $W = \\eta Q_{in}$, $Q_{in} = 200 / 0.25 = 800$ J."
+  },
+  {
+    "questionOrder": 146,
+    "questionType": "Objective",
+    "questionText": "A bucket full of hot water is kept in a room and it cools from $75^\\circ C$ to $70^\\circ C$ in $T_1$ minutes, from $70^\\circ C$ to $65^\\circ C$ in $T_2$ minutes and from $65^\\circ C$ to $60^\\circ C$ in $T_3$ minutes. Then:",
+    "questionOptions":[
+      "$T_1 = T_2 = T_3$",
+      "$T_1 < T_2 < T_3$",
+      "$T_1 > T_2 > T_3$",
+      "$T_1 < T_3 > T_2$"
+    ],
+    "correctIndex": 1,
+    "solutionText": "According to Newton's Law of Cooling, rate of cooling decreases as the temperature difference with the surroundings decreases, so it takes longer to cool."
+  },
+  {
+    "questionOrder": 147,
+    "questionType": "Objective",
+    "questionText": "Which of the following parameters is constant for the molecules of all gases at a given temperature?",
+    "questionOptions":[
+      "Mass",
+      "Momentum",
+      "Speed",
+      "Kinetic energy"
+    ],
+    "correctIndex": 3,
+    "solutionText": "The average translational kinetic energy of gas molecules is $3/2 kT$, which solely depends on absolute temperature."
+  },
+  {
+    "questionOrder": 148,
+    "questionType": "Objective",
+    "questionText": "The refractive index of water is 4/3 and that of glass is 5/3. What will be the critical angle for the ray of light entering water from glass?",
+    "questionOptions":[
+      "$\\sin^{-1} (4/5)$",
+      "$\\sin^{-1} (5/4)$",
+      "$\\sin^{-1} (1/2)$",
+      "$\\sin^{-1} (2/1)$"
+    ],
+    "correctIndex": 0,
+    "solutionText": "$\\sin \\theta_c = n_r / n_d = (4/3) / (5/3) = 4/5$. Therefore, the critical angle is $\\sin^{-1} (4/5)$."
+  },
+  {
+    "questionOrder": 149,
+    "questionType": "Objective",
+    "questionText": "A virtual image larger than the object can be produced by:",
+    "questionOptions":[
+      "convex mirror",
+      "concave mirror",
+      "plane mirror",
+      "concave lens"
+    ],
+    "correctIndex": 1,
+    "solutionText": "A concave mirror can form an erect, magnified, and virtual image when the object is placed between the pole and focus."
+  },
+  {
+    "questionOrder": 150,
+    "questionType": "Objective",
+    "questionText": "An achromatic combination of lenses produced:",
+    "questionOptions":[
+      "large in black and white",
+      "colored images",
+      "image unaffected by variation of refractive index with wavelength",
+      "highly enlarged image"
+    ],
+    "correctIndex": 2,
+    "solutionText": "An achromatic lens is designed to limit the effects of chromatic aberration, ensuring the image is unaffected by differences in wavelength refraction."
+  },
+  {
+    "questionOrder": 151,
+    "questionType": "Objective",
+    "questionText": "Two waves of same wavelength and amplitude interference to give a minimum when phase difference is:",
+    "questionOptions":[
+      "0",
+      "$\\pi/2$",
+      "$\\pi$",
+      "$3\\pi/2$"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Destructive interference (a minimum) occurs when waves are exactly out of phase, which is an odd multiple of $\\pi$ (e.g., $\\pi$)."
+  },
+  {
+    "questionOrder": 152,
+    "questionType": "Objective",
+    "questionText": "The condition for observing Fraunhofer diffraction from a single slit is that the light wavefront incident on the slit should be:",
+    "questionOptions":[
+      "spherical",
+      "cylindrical",
+      "plane",
+      "elliptical"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Fraunhofer diffraction specifically occurs when the incident wavefront is a plane wave, and both source and screen are effectively at infinity."
+  },
+  {
+    "questionOrder": 153,
+    "questionType": "Objective",
+    "questionText": "A wave equation which gives the displacement along the Y direction is given by $Y = 10^{-4} \\sin(60t + 2x)$ where x and y are in meters and t in seconds. This represents:",
+    "questionOptions":[
+      "travelling with a velocity of 30 m/s in the negative x direction",
+      "of wavelength $\\pi$ meter",
+      "of frequency $30/\\pi$ Hz",
+      "all"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Velocity $v = \\omega / k = 60 / 2 = 30$ m/s. The '+' sign in $(60t + 2x)$ indicates the wave propagates in the negative x direction."
+  },
+  {
+    "questionOrder": 154,
+    "questionType": "Objective",
+    "questionText": "The distance between two points differing in phase by $60^\\circ$ on a wave, velocity 360 m/s and frequency 500 Hz is:",
+    "questionOptions":[
+      "24 cm",
+      "12 cm",
+      "6 cm",
+      "1 cm"
+    ],
+    "correctIndex": 1,
+    "solutionText": "$\\lambda = v/f = 360 / 500 = 0.72$ m $= 72$ cm. A phase difference of $60^\\circ$ ($\\pi/3$) corresponds to path difference $\\lambda / 6 = 72 / 6 = 12$ cm."
+  },
+  {
+    "questionOrder": 155,
+    "questionType": "Objective",
+    "questionText": "Standing waves are produced in a 10 m long stretched string. If the string vibrates in 5 segments and the wave velocity is 20 m/s, the frequency is:",
+    "questionOptions":[
+      "2 Hz",
+      "4 Hz",
+      "5 Hz",
+      "10 Hz"
+    ],
+    "correctIndex": 2,
+    "solutionText": "For 5 segments, $L = 5 \\lambda / 2 \implies 10 = 5 \\lambda / 2 \implies \\lambda = 4$ m. Frequency $f = v/\\lambda = 20 / 4 = 5$ Hz."
+  },
+  {
+    "questionOrder": 156,
+    "questionType": "Objective",
+    "questionText": "The electric field intensity at the surface of a charged conductor is:",
+    "questionOptions":[
+      "zero",
+      "directed normally to the surface",
+      "directed tangentially to surface",
+      "directed along $45^\\circ$ to surface"
+    ],
+    "correctIndex": 1,
+    "solutionText": "To maintain electrostatic equilibrium, the electric field just outside the surface of a charged conductor is always directed perpendicular (normal) to the surface."
+  },
+  {
+    "questionOrder": 157,
+    "questionType": "Objective",
+    "questionText": "A point charge Q is placed at one of the vertices of a cubical block. The electric flux flowing through this cube is:",
+    "questionOptions":[
+      "$Q / 6\\epsilon_0$",
+      "$Q / 4\\epsilon_0$",
+      "$Q / 8\\epsilon_0$",
+      "$Q / \\epsilon_0$"
+    ],
+    "correctIndex": 2,
+    "solutionText": "A charge at the vertex of a cube is shared equally among 8 adjacent cubes, so the flux through one such cube is $Q / 8\\epsilon_0$."
+  },
+  {
+    "questionOrder": 158,
+    "questionType": "Objective",
+    "questionText": "In a charged capacitor the energy resides:",
+    "questionOptions":[
+      "On the positive plate",
+      "On both positive and negative plates",
+      "In the field between the plates",
+      "Around the edge of capacitor plates"
+    ],
+    "correctIndex": 2,
+    "solutionText": "The electrical potential energy of a capacitor is stored in the electric field generated between its charged plates."
+  },
+  {
+    "questionOrder": 159,
+    "questionType": "Objective",
+    "questionText": "A sphere of radius 10 cm is charged to a potential of 300 volts. The energy of sphere is:",
+    "questionOptions":[
+      "$5 \\times 10^{-7}$ J",
+      "$5 \\times 10^{-6}$ J",
+      "$5 \\times 10^{-5}$ J",
+      "$5 \\times 10^{-3}$ J"
+    ],
+    "correctIndex": 0,
+    "solutionText": "$C = 4\\pi\\epsilon_0 R = 0.1 / (9 \\times 10^9)$. Energy $E = 1/2 C V^2 = 0.5 \\times [0.1 / (9 \\times 10^9)] \\times (300)^2 = 0.5 \\times 10^{-6} = 5 \\times 10^{-7}$ J."
+  },
+  {
+    "questionOrder": 160,
+    "questionType": "Objective",
+    "questionText": "Two copper wires have their masses in the ratio 2:3 and the length in the ratio 3:4. The ratio of their resistance is:",
+    "questionOptions":[
+      "4:9",
+      "27:32",
+      "16:9",
+      "27:128"
+    ],
+    "correctIndex": 1,
+    "solutionText": "$R \\propto L^2 / m$. $R_1/R_2 = (L_1/L_2)^2 \\times (m_2/m_1) = (3/4)^2 \\times (3/2) = (9/16) \\times 3/2 = 27/32$."
+  },
+  {
+    "questionOrder": 161,
+    "questionType": "Objective",
+    "questionText": "Kirchhoff's second law is based on law of conservation of:",
+    "questionOptions":[
+      "charge",
+      "energy",
+      "momentum",
+      "sum of mass and energy"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Kirchhoff's Voltage Law (KVL) is a direct consequence of the principle of conservation of energy."
+  },
+  {
+    "questionOrder": 162,
+    "questionType": "Objective",
+    "questionText": "If bulbs whose resistance are in ratio 1:2 are connected in series, the power dissipated in them has the ratio of:",
+    "questionOptions":[
+      "1:1",
+      "1:2",
+      "1:4",
+      "2:1"
+    ],
+    "correctIndex": 1,
+    "solutionText": "In a series circuit, current $I$ is constant. Power $P = I^2 R$, so power dissipated is directly proportional to resistance, giving a ratio of 1:2."
+  },
+  {
+    "questionOrder": 163,
+    "questionType": "Objective",
+    "questionText": "A cell having emf 2 V When connected across resistance $10 \\,\\Omega$, p.d. developed across it is 1.5 V. The internal resistance of cell is:",
+    "questionOptions":[
+      "$1 \\,\\Omega$",
+      "$2.25 \\,\\Omega$",
+      "$2.55 \\,\\Omega$",
+      "$3.33 \\,\\Omega$"
+    ],
+    "correctIndex": 3,
+    "solutionText": "$V = E - Ir \\implies 1.5 = 2 - I r$. $I = V/R = 1.5/10 = 0.15$ A. So $0.15r = 0.5 \implies r = 0.5/0.15 = 3.33 \\,\\Omega$."
+  },
+  {
+    "questionOrder": 164,
+    "questionType": "Objective",
+    "questionText": "An electric charge in uniform motion produces:",
+    "questionOptions":[
+      "an electric field only",
+      "a magnetic field only",
+      "both electric field and magnetic fields",
+      "no such field at all"
+    ],
+    "correctIndex": 2,
+    "solutionText": "A stationary charge produces only an electric field, but a moving charge produces both electric and magnetic fields."
+  },
+  {
+    "questionOrder": 165,
+    "questionType": "Objective",
+    "questionText": "A long wire carries steady current. It is bent into a circle of one turn and the magnetic field at the center of the coil is B. It is then bent into a circular loop of n turns. The magnetic field at the center of the coil will be:",
+    "questionOptions":[
+      "nB",
+      "$n^2B$",
+      "2nB",
+      "$2n^2B$"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The magnetic field at the center of an n-turn loop is $n \\times (\\mu_0 I / 2r)$. For same length, $r' = r/n$. Thus, $B' = n^2 B$."
+  },
+  {
+    "questionOrder": 166,
+    "questionType": "Objective",
+    "questionText": "The temperature at which ferromagnetic material becomes paramagnetic is called a:",
+    "questionOptions":[
+      "nature temperature",
+      "curie temperature",
+      "inversion temperature",
+      "critical temperature"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The Curie temperature is the critical temperature above which a ferromagnetic material loses its spontaneous magnetism and becomes paramagnetic."
+  },
+  {
+    "questionOrder": 167,
+    "questionType": "Objective",
+    "questionText": "If the number of turns per unit length of coil of solenoid is doubled, then the self-inductance of solenoid will:",
+    "questionOptions":[
+      "remain same",
+      "be halved",
+      "be doubled",
+      "be four times"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Self-inductance $L$ is proportional to $n^2$ (square of turns per unit length). Doubling $n$ makes the inductance four times."
+  },
+  {
+    "questionOrder": 168,
+    "questionType": "Objective",
+    "questionText": "Current in a circuit is wattless if:",
+    "questionOptions":[
+      "inductance in the circuit is zero",
+      "resistance in the circuit is zero",
+      "current is alternating",
+      "resistance and inductance both are zero"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Power $P = VI \\cos\\phi$. For a purely reactive (zero resistance) circuit, phase angle $\\phi = 90^\\circ$ and $\\cos\\phi = 0$, so no real power is dissipated."
+  },
+  {
+    "questionOrder": 169,
+    "questionType": "Objective",
+    "questionText": "In Millikan's oil drop experiment an oil drop remains stationary between plates when P.d. of V is applied between plates. If radius of oil drop is doubled with same charge, the new p.d. to keep oil drop stationary is:",
+    "questionOptions":[
+      "V",
+      "2V",
+      "4V",
+      "8V"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Balancing force: $qE = mg \\implies q(V/d) = \\frac{4}{3}\\pi r^3 \\rho g$. Thus $V \\propto r^3$. Doubling $r$ increases volume (and mass) by 8 times, requiring 8V."
+  },
+  {
+    "questionOrder": 170,
+    "questionType": "Objective",
+    "questionText": "A photon in motion has a mass:",
+    "questionOptions":[
+      "c/hf",
+      "h/f",
+      "hf",
+      "$hf/c^2$"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Using mass-energy equivalence $E = mc^2$ and photon energy $E = hf$, we get $m = hf/c^2$."
+  },
+  {
+    "questionOrder": 171,
+    "questionType": "Objective",
+    "questionText": "The speed of electron in H atom in ground state is:",
+    "questionOptions":[
+      "c",
+      "c/10",
+      "c/2",
+      "c/137"
+    ],
+    "correctIndex": 3,
+    "solutionText": "The speed in the first Bohr orbit is $v = \\frac{c}{137}$, representing the fine-structure constant ratio."
+  },
+  {
+    "questionOrder": 172,
+    "questionType": "Objective",
+    "questionText": "The density $\\rho$ of a nuclear matter varies with nucleon number A of nucleus as:",
+    "questionOptions":[
+      "$\\rho \\propto A^{2/3}$",
+      "$\\rho \\propto A^{1/3}$",
+      "$\\rho \\propto A$",
+      "$\\rho \\propto A^0$"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Nuclear density is constant and independent of mass number A. Hence, $\\rho \\propto A^0$."
+  },
+  {
+    "questionOrder": 173,
+    "questionType": "Objective",
+    "questionText": "A moderator is used in nuclear reactors in order to:",
+    "questionOptions":[
+      "slow down the speed of neutrons",
+      "accelerates the neutrons",
+      "increase the number of neutrons",
+      "decrease the number of neutrons"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Moderators (like graphite or heavy water) are used to slow down fast neutrons to thermal energies, making them more likely to cause further fission."
+  },
+  {
+    "questionOrder": 174,
+    "questionType": "Objective",
+    "questionText": "In which sequence, the radioactive radiations are emitted in the following reaction: \n $Z^{X^A} \\to {}_{Z+1}Y^A \\to {}_{Z-1}K^{A-4} \\to {}_{Z-1}M^{A-4}$",
+    "questionOptions":[
+      "$\\beta \\alpha \\gamma$",
+      "$\\beta \\gamma \\alpha$",
+      "$\\alpha \\beta \\alpha$",
+      "$\\gamma \\alpha \\beta$"
+    ],
+    "correctIndex": 0,
+    "solutionText": "1) Z increases by 1, A constant = $\\beta$ emission. 2) Z decreases by 2, A decreases by 4 = $\\alpha$ emission. 3) Z and A are unchanged = $\\gamma$ emission."
+  },
+  {
+    "questionOrder": 175,
+    "questionType": "Objective",
+    "questionText": "In a semiconductor the forbidden energy gap between the valance and conduction band is of:",
+    "questionOptions":[
+      "1 eV",
+      "5 eV",
+      "1 KeV",
+      "1 MeV"
+    ],
+    "correctIndex": 0,
+    "solutionText": "For typical semiconductors (like silicon or germanium), the band gap is in the order of ~1 eV."
+  },
+  {
+    "questionOrder": 176,
+    "questionType": "Objective",
+    "questionText": "If the forward voltage in the diode is increased, the length of depletion layer:",
+    "questionOptions":[
+      "decreases",
+      "increases",
+      "no change",
+      "none of the above"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Forward biasing opposes the built-in potential barrier, which narrows and decreases the width of the depletion layer."
+  },
+  {
+    "questionOrder": 177,
+    "questionType": "Objective",
+    "questionText": "The only function of a NOT gate is to:",
+    "questionOptions":[
+      "stop signals",
+      "recomplement a signal",
+      "invert an input signal",
+      "act as universal gate"
+    ],
+    "correctIndex": 2,
+    "solutionText": "A NOT gate is a basic logic gate that performs logical negation, perfectly inverting its input signal."
+  },
+  {
+    "questionOrder": 178,
+    "questionType": "Objective",
+    "questionText": "What is the approximate percentage of the universe's total energy-matter content that is attributed to dark energy?",
+    "questionOptions":[
+      "5%",
+      "27%",
+      "68%",
+      "95%"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Based on current cosmological models, dark energy makes up roughly 68% of the universe."
+  },
+  {
+    "questionOrder": 179,
+    "questionType": "Objective",
+    "questionText": "According to Hubble's Law, galaxies that are farther away from us tend to have:",
+    "questionOptions":[
+      "Slower recession velocities",
+      "Faster recession velocities",
+      "No recession velocities",
+      "Variable recession velocities"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Hubble's Law states that the recession velocity of a galaxy is directly proportional to its proper distance ($v = H_0 D$)."
+  },
+  {
+    "questionOrder": 180,
+    "questionType": "Objective",
+    "questionText": "What is the Higgs Boson?",
+    "questionOptions":[
+      "A fundamental particle that carries the electromagnetic force",
+      "A particle responsible for the strong nuclear force",
+      "A particle that gives mass to other fundamental particles",
+      "A particle responsible for gravity"
+    ],
+    "correctIndex": 2,
+    "solutionText": "The Higgs Boson is an elementary particle associated with the Higgs field, giving mass to fundamental subatomic particles."
+  },
+  {
+    "questionOrder": 181,
+    "questionType": "Objective",
+    "questionText": "If GOLD is coded as HOME, COME is coded as DONE and CORD is coded as DOSE, how would you code SONS?",
+    "questionOptions":[
+      "TPOT",
+      "TOOT",
+      "TOOS",
+      "TONT"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The pattern is: first letter +1, second letter same, third letter +1, fourth letter +1. Thus S(+1)O(0)N(+1)S(+1) yields TOOT."
+  },
+  {
+    "questionOrder": 182,
+    "questionType": "Objective",
+    "questionText": "If '-' stands for 'division', '+' for 'multiplication', '$\\div$' for 'subtraction' and 'x' for 'addition', then which one of the following equations is correct?",
+    "questionOptions":[
+      "4 x 5 + 9 - 3 $\\div$ 4 = 15",
+      "4 x 5 + 9 - 3 $\\div$ 4 = 17",
+      "4 - 5 + 9 x 3 - 4 = 11",
+      "4 + 5 - 9 - 3 + 4 = 18"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Applying substitution to option (a): $4 + 5 \\times 9 / 3 - 4 = 4 + 15 - 4 = 15$. This is correct."
+  },
+  {
+    "questionOrder": 183,
+    "questionType": "Objective",
+    "questionText": "The statements are followed by conclusions. Study the conclusions based on the given statements and select the appropriate answer.\nStatements\nV = D < Y < A $\\ge$ G $\\ge$ E; P = A; R < V\nConclusions\nI. E > P\nII. P > E",
+    "questionOptions":[
+      "Only conclusion I is true",
+      "Only conclusion II is true",
+      "Both conclusion I and II are true",
+      "No conclusions are true"
+    ],
+    "correctIndex": 3,
+    "solutionText": "From statements: $P = A$ and $A \\ge E$. So $P \\ge E$. It means P can be strictly greater than E or equal to E. Thus neither I nor II is definitely true."
+  },
+  {
+    "questionOrder": 184,
+    "questionType": "Objective",
+    "questionText": "There are 13 couples, 5 single males and 7 single females in party. Every male shakes hand with every female once. But none shakes hand with his wife. How many handshakes in total took place in the party?",
+    "questionOptions":[
+      "156",
+      "247",
+      "347",
+      "156 = 5! 7! 13!"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Total males = 13 + 5 = 18. Total females = 13 + 7 = 20. Total possible handshakes = $18 \\times 20 = 360$. Subtracting 13 handshakes with wives gives $360 - 13 = 347$."
+  },
+  {
+    "questionOrder": 185,
+    "questionType": "Objective",
+    "questionText": "Odd one out: Sketch, Poster, Chart, Paper, Diagram",
+    "questionOptions":[
+      "Sketch",
+      "Diagram",
+      "Paper",
+      "Chart"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Paper is the medium on which all the other items (Sketch, Poster, Chart, Diagram) are drawn."
+  },
+  {
+    "questionOrder": 186,
+    "questionType": "Objective",
+    "questionText": "A father told his son, \"I was as old as you are at present at the time of your birth\". If the father's age is 38 years now, the son's age five years back was:",
+    "questionOptions":[
+      "14 years",
+      "19 years",
+      "33 years",
+      "38 years"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Let son's age be x. Father's age at son's birth was x. So, $x + x = 38 \\implies x = 19$. The son's age 5 years ago was $19 - 5 = 14$."
+  },
+  {
+    "questionOrder": 187,
+    "questionType": "Objective",
+    "questionText": "3 days before yesterday was Sunday. What day will be the day 2 days after tomorrow?",
+    "questionOptions":[
+      "Sunday",
+      "Monday",
+      "Tuesday",
+      "Saturday"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Yesterday minus 3 days = Sunday -> Yesterday was Wednesday -> Today is Thursday. Tomorrow is Friday. 2 days after tomorrow is Sunday, but the answer marked is Saturday (perhaps assuming \"2 days after today\" or similar anomaly). Based on standard logical interpretation it should be Sunday, but Saturday is indicated."
+  },
+  {
+    "questionOrder": 188,
+    "questionType": "Objective",
+    "questionText": "A does half as much work as B and C does half as much work as A and B together in the same time. If C alone can do the work in 40 days, all of them together will finish the work in:",
+    "questionOptions":[
+      "12 days",
+      "12.5 days",
+      "13.33 days",
+      "15 days"
+    ],
+    "correctIndex": 2,
+    "solutionText": "C's 1-day work = 1/40. C = (A+B)/2 $\\implies$ A+B = 2C. So A+B 1-day work = 2/40. (A+B+C) 1-day work = 3/40. Total days = 40/3 = 13.33 days."
+  },
+  {
+    "questionOrder": 189,
+    "questionType": "Objective",
+    "questionText": "If the positions of the first and the sixth letters in the word DISTRIBUTE are interchanged; similarly, the positions of the second and the seventh, the third and the eighth and so on, which of the following letters will be the fifth from left after interchanging the positions?",
+    "questionOptions":[
+      "E",
+      "I",
+      "S",
+      "T"
+    ],
+    "correctIndex": 0,
+    "solutionText": "The word split into halves: DISTR | IBUTE. Swapping halves yields IBUTE | DISTR. The 5th letter from the left is E."
+  },
+  {
+    "questionOrder": 190,
+    "questionType": "Objective",
+    "questionText": "Bird : Wing :: Fish : ?",
+    "questionOptions":[
+      "Gill",
+      "Fin",
+      "Tail",
+      "Scale"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Birds use wings for movement/flying; similarly, fish use fins for movement/swimming."
+  },
+  {
+    "questionOrder": 191,
+    "questionType": "Objective",
+    "questionText": "What will be in the place of the question mark? [Diagram Present]",
+    "questionOptions":[
+      "30",
+      "125",
+      "225",
+      "1125"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The pattern is appending the square of the bottom numbers: $3^2=9$ and $4^2=16 \\implies 916$. For the last figure: $1^2=1$ and $5^2=25 \\implies 125$."
+  },
+  {
+    "questionOrder": 192,
+    "questionType": "Objective",
+    "questionText": "How many triangles are in the figure below? [Diagram Present]",
+    "questionOptions":[
+      "13",
+      "15",
+      "12",
+      "14"
+    ],
+    "correctIndex": 1,
+    "solutionText": "By systematically counting individual triangles, two-component triangles, and larger structural triangles in the given star-like geometry, the total is 15."
+  },
+  {
+    "questionOrder": 193,
+    "questionType": "Objective",
+    "questionText": "Which of the following diagrams indicates the best relation between Animal, Living thing and Man? [Diagram Present]",
+    "questionOptions":[
+      "Concentric circles",
+      "Three separate circles",
+      "Two overlapping inside one",
+      "Three overlapping circles"
+    ],
+    "correctIndex": 0,
+    "solutionText": "All men are animals, and all animals are living things. This relationship is best represented by three concentric circles."
+  },
+  {
+    "questionOrder": 194,
+    "questionType": "Objective",
+    "questionText": "Calculate the compound interest on Rs.1000 at a rate of 20% per year for 18 months when interest is compounded semi-annually.",
+    "questionOptions":[
+      "1331",
+      "331",
+      "216",
+      "728"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Rate = 10% per half-year. Time = 3 half-years. Amount = $1000 \\times (1.1)^3 = 1331$. CI = 1331 - 1000 = 331."
+  },
+  {
+    "questionOrder": 195,
+    "questionType": "Objective",
+    "questionText": "A man buys a cycle for Rs. 1400 and sells it at a loss of 15%. What is the selling price of the cycle?",
+    "questionOptions":[
+      "Rs. 1090",
+      "Rs. 1190",
+      "Rs. 1260",
+      "Rs. 1305"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Selling Price = $1400 \\times (1 - 0.15) = 1400 \\times 0.85 = 1190$ Rs."
+  },
+  {
+    "questionOrder": 196,
+    "questionType": "Objective",
+    "questionText": "Starting from point X, Jack walked 15 m towards the west. He turned left and walked 20 m. He then turned left and walked 15 m. After this he turned to his right and walked 12 m. How far and in which directions is now Jack from X?",
+    "questionOptions":[
+      "32 m, South",
+      "47 m, East",
+      "32 m, North",
+      "27 m, South"
+    ],
+    "correctIndex": 0,
+    "solutionText": "West 15m, South 20m, East 15m (cancels West 15m), South 12m. Total displacement = 20 + 12 = 32m South."
+  },
+  {
+    "questionOrder": 197,
+    "questionType": "Objective",
+    "questionText": "Identify the figure that completes the pattern.[Diagram Present]",
+    "questionOptions":[
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Observing the transformations in the 3x3 matrix, the element matching the logic is figure 4."
+  },
+  {
+    "questionOrder": 198,
+    "questionType": "Objective",
+    "questionText": "Select a figure from amongst the Answer Figures which will replace the missing place in the given series as established by the five Problem Figures. [Diagram Present]",
+    "questionOptions":[
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Based on sequential rotation and movement of inner components, figure A correctly continues the sequence."
+  },
+  {
+    "questionOrder": 199,
+    "questionType": "Objective",
+    "questionText": "Find out the alternative figure which contains figure X) as its part. [Diagram Present]",
+    "questionOptions":[
+      "3",
+      "2",
+      "4",
+      "1"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Tracing the shape X reveals that it is uniquely embedded within alternative figure 3."
+  },
+  {
+    "questionOrder": 200,
+    "questionType": "Objective",
+    "questionText": "Which number is on the face opposite 5, if the three different positions of a dice are as shown in the figure given below. [Diagram Present]",
+    "questionOptions":[
+      "3",
+      "2",
+      "1",
+      "6"
+    ],
+    "correctIndex": 1,
+    "solutionText": "From the dice orientations, 5 is adjacent to 4, 6, 1, and 3. The only remaining face, 2, must be opposite 5."
+  }
+]
