@@ -70,6 +70,7 @@ html::-webkit-scrollbar {
             border-right: 5px solid transparent;
             border-top: 7px solid #4f46e5;
             transition: transform 0.3s ease;
+            margin-right: 6px;
         }
         .dropdown-open .triangle-down {
             transform: rotate(180deg);
@@ -1512,7 +1513,7 @@ html::-webkit-scrollbar {
                 loadPostsForCurrentChapter();
             }
 
-            function copyChapterLink() {
+            window.copyChapterLink = function() {
                 if (!currentClassId || !currentSubjectId || !currentChapterId) return;
                 const url = new URL(window.location.href);
                 url.searchParams.set('classId', currentClassId);
@@ -1523,10 +1524,20 @@ html::-webkit-scrollbar {
                     const icon = btn.querySelector('i');
                     icon.className = 'fas fa-check text-sm';
                     setTimeout(() => { icon.className = 'fas fa-link text-sm'; }, 1500);
+                    let toast = document.getElementById('copy-toast');
+                    if (!toast) {
+                        toast = document.createElement('div');
+                        toast.id = 'copy-toast';
+                        toast.style.cssText = 'position:fixed;bottom:80px;left:50%;transform:translateX(-50%);background:#1e293b;color:white;padding:10px 24px;border-radius:9999px;font-size:0.85rem;font-weight:600;font-family:Montserrat,sans-serif;z-index:99999;opacity:0;transition:opacity 0.3s ease;pointer-events:none;white-space:nowrap;';
+                        document.body.appendChild(toast);
+                    }
+                    toast.textContent = '🔗 Link Copied!';
+                    toast.style.opacity = '1';
+                    setTimeout(() => { toast.style.opacity = '0'; }, 2000);
                 }).catch(() => {
                     alert('Could not copy. Please copy the URL manually.');
                 });
-            }
+            };
 
             // ---------- PRACTICE: INFINITE SCROLL ----------
             window.addEventListener('scroll', () => {
