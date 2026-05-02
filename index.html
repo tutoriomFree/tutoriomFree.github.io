@@ -782,7 +782,7 @@ html::-webkit-scrollbar {
         <div class="flex items-center gap-3">
         <div class="max-w-xs flex-shrink-0" id="dropdown-container">
             <button onclick="toggleDropdown()" class="w-full bg-white border border-gray-200 text-gray-700 py-4 px-5 rounded-xl shadow-sm flex items-center justify-between hover:border-indigo-300 transition-all focus:outline-none focus:ring-2 focus:ring-indigo-500/10">
-                <span id="selected-value" class="font-bold text-sm text-gray-900 tracking-wide">--- Select Chapter ---</span>
+                <span id="selected-value" class="font-bold text-sm text-gray-900 tracking-wide" style="overflow:hidden; text-overflow:ellipsis; white-space:nowrap; max-width:220px; display:inline-block;">--- Select Chapter ---</span>
                 <div class="triangle-down"></div>
             </button>
             <div class="dropdown-content bg-white border border-gray-200 rounded-xl shadow-xl animate-in fade-in slide-in-from-top-1 duration-200">
