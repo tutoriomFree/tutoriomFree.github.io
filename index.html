@@ -754,7 +754,8 @@ html::-webkit-scrollbar {
 
     <!-- Custom Chapter Dropdown Container (existing) -->
     <section class="max-w-6xl mx-auto mb-6 relative">
-        <div class="max-w-xs" id="dropdown-container">
+        <div class="flex items-center gap-3">
+        <div class="max-w-xs flex-shrink-0" id="dropdown-container">
             <button onclick="toggleDropdown()" class="w-full bg-white border border-gray-200 text-gray-700 py-4 px-5 rounded-xl shadow-sm flex items-center justify-between hover:border-indigo-300 transition-all focus:outline-none focus:ring-2 focus:ring-indigo-500/10">
                 <span id="selected-value" class="font-bold text-sm text-gray-900 tracking-wide">--- Select Chapter ---</span>
                 <div class="triangle-down"></div>
@@ -765,6 +766,12 @@ html::-webkit-scrollbar {
                 </div>
             </div>
         </div>
+        <button id="copy-link-btn" onclick="copyChapterLink()" title="Copy shareable link"
+            class="flex-shrink-0 w-10 h-10 items-center justify-center bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl shadow transition-colors"
+            style="display:none;">
+            <i class="fas fa-link text-sm"></i>
+        </button>
+    </div>
     </section>
 
     <!-- Capsule Carousel -->
@@ -1041,17 +1048,14 @@ html::-webkit-scrollbar {
     currentChapterId = chapterId === 'all' ? null : chapterId;
     dropdownContainer.classList.remove('dropdown-open');
     updateFeedSectionHeader();
-    if (practiceMode && currentChapterId) {
-        practiceCursor = null;
-        practiceHasMore = true;
-        practiceLoading = false;
-        practiceQuestionCount = 0;
-        document.getElementById('questions-container').innerHTML =
-            `<div class="loader-grid col-span-full"><div class="loader-dot"></div><div class="loader-dot"></div><div class="loader-dot"></div></div>`;
-        fetchQuestionsPage(true);
+   if (currentChapterId) {
+        showPracticeView();
     } else {
+        practiceMode = false;
+        document.getElementById('practice-section').classList.remove('visible');
+        postsGrid.style.display = '';
         loadPostsForCurrentChapter();
-    }
+    } 
 };
 
             // Close chapter dropdown on outside click (separate from custom dropdowns)
@@ -1505,6 +1509,31 @@ html::-webkit-scrollbar {
                 document.getElementById('practice-section').classList.remove('visible');
                 postsGrid.style.display = '';
                 updateFeedSectionHeader();
+
+                function showLecturesView() {
+                practiceMode = false;
+
+                // Hide practice, show posts
+                document.getElementById('practice-section').classList.remove('visible');
+                postsGrid.style.display = '';
+                updateFeedSectionHeader();
+                loadPostsForCurrentChapter();
+            }
+
+            function copyChapterLink() {
+                if (!currentClassId || !currentSubjectId || !currentChapterId) return;
+                const url = new URL(window.location.href);
+                url.searchParams.set('classId', currentClassId);
+                url.searchParams.set('subjectId', currentSubjectId);
+                url.searchParams.set('chapterId', currentChapterId);
+                navigator.clipboard.writeText(url.toString()).then(() => {
+                    const btn = document.getElementById('copy-link-btn');
+                    const icon = btn.querySelector('i');
+                    icon.className = 'fas fa-check text-sm';
+                    setTimeout(() => { icon.className = 'fas fa-link text-sm'; }, 1500);
+                }).catch(() => {
+                    alert('Could not copy. Please copy the URL manually.');
+                });
             }
 
             // ---------- PRACTICE: INFINITE SCROLL ----------
@@ -1535,10 +1564,10 @@ html::-webkit-scrollbar {
             }
 
             // ---------- COURSE/SUBJECT UI BUILDERS ----------
-            function renderCourseSelect() {
+            function renderCourseSelect(preSelectId = null) {
                 const options = classesData.map(c => ({ value: c.classId, label: c.className }));
                 // CHANGE 3: no pre-selection, placeholder changed
-                const selectEl = buildCustomSelect(options, '--- Select Course ---', null, (classId) => {
+                const selectEl = buildCustomSelect(options, '--- Select Course ---', preSelectId, (classId) => {
                     currentClassId = classId;
                     // Find selected class and repopulate subjects without auto-selection
                     const selectedClass = classesData.find(c => c.classId === classId);
@@ -1552,10 +1581,10 @@ html::-webkit-scrollbar {
                 courseWrapper.appendChild(selectEl);
             }
 
-            function renderSubjectSelect(subjects) {
+            function renderSubjectSelect(subjects, preSelectId = null) {
                 const options = subjects.map(s => ({ value: s.subjectId, label: s.subjectName }));
                 // CHANGE 3: no pre-selection, placeholder changed
-                const selectEl = buildCustomSelect(options, '--- Select Subject ---', null, (subjectId) => {
+                const selectEl = buildCustomSelect(options, '--- Select Subject ---', preSelectId, (subjectId) => {
                     currentSubjectId = subjectId;
                     // Only now reload chapters and posts
                     resetAndReloadAfterSubjectChange();
@@ -1606,6 +1635,8 @@ html::-webkit-scrollbar {
                     // Partial selection — hide header
                     header.classList.remove('visible');
                 }
+                const copyBtn = document.getElementById('copy-link-btn');
+                if (copyBtn) copyBtn.style.display = allSelected ? 'flex' : 'none';
             }
             
             // ---------- IN-CARD PLAYER (with double-tap modifications) ----------
@@ -2011,21 +2042,30 @@ html::-webkit-scrollbar {
                     
                     classesData = classes;
                     
-                    // CHANGE 2: No auto-selection; currentClassId/SubjectId remain null
-                    currentClassId = null;
-                    currentSubjectId = null;
-                    
-                    // Render course/subject dropdowns without pre-selection
-                    renderCourseSelect();
-                    // Subject dropdown initially empty (or with placeholder)
-                    renderSubjectSelect([]);
-                    
-                    // CHANGE 2: Populate chapter dropdown with empty list, placeholder set
-                    populateDropdown([]);
-                    
-                    // CHANGE 2: Render recent posts immediately
-                    renderPosts(recentPosts);
-                    updateFeedSectionHeader();
+                    if (paramClassId && paramSubjectId && paramChapterId) {
+                        currentClassId = paramClassId;
+                        currentSubjectId = paramSubjectId;
+                        const selectedClass = classesData.find(c => c.classId === paramClassId);
+                        renderCourseSelect(paramClassId);
+                        renderSubjectSelect(selectedClass ? selectedClass.subjects : [], paramSubjectId);
+                        const chapters = await fetchChapters();
+                        populateDropdown(chapters);
+                        const matchedChapter = chapters.find(ch => ch.chapterId === paramChapterId);
+                        if (matchedChapter) {
+                            selectedValueSpan.innerText = matchedChapter.chapterName;
+                        }
+                        currentChapterId = paramChapterId;
+                        updateFeedSectionHeader();
+                        showPracticeView();
+                    } else {
+                        currentClassId = null;
+                        currentSubjectId = null;
+                        renderCourseSelect();
+                        renderSubjectSelect([]);
+                        populateDropdown([]);
+                        renderPosts(recentPosts);
+                        updateFeedSectionHeader();
+                    }
                 } catch (err) {
                     console.error('Init error:', err);
                     postsGrid.innerHTML = `<div class="error-message col-span-full">Failed to load initial data. Please refresh.</div>`;
