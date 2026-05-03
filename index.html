@@ -1319,7 +1319,7 @@ html::-webkit-scrollbar {
             function createQuestionElement(q, globalIndex) {
                 const formattedQuestionText = replaceNewlinesWithBr(q.questionText);
                 const formattedOptions = q.questionOptions ? q.questionOptions.map(opt => replaceNewlinesWithBr(opt)) : [];
-                const formattedSolutionText = q.solutionText ? replaceNewlinesWithBr(q.solutionText) : null;
+                const formattedSolutionText = q.solutionText ? replaceNewlinesWithBr(q.solutionText).replace(/\*\*(.+?)\*\*/g, '<strong><u>$1</u></strong>') : null;
                 const isSubjective = (q.questionType === 'Subjective');
 
                 const questionDiv = document.createElement('div');
