@@ -629,7 +629,7 @@ html::-webkit-scrollbar {
         }
         .option-container {
             display: flex;
-            align-items: flex-start;
+            align-items: center;
             padding: 10px 14px;
             margin: 6px 0;
             border: 1px solid #cbd5e1;
@@ -1362,7 +1362,6 @@ html::-webkit-scrollbar {
                         radio.name = `pq_${globalIndex}`;
                         radio.value = optIdx;
                         const span = document.createElement('span');
-                        span.style.cssText = 'flex:1; min-width:0; word-break:break-word;';
                         span.innerHTML = opt;
                         label.appendChild(radio);
                         label.appendChild(span);
