@@ -1,0 +1,2606 @@
+
+
+
+```json[
+  {
+    "questionOrder": 1,
+    "questionType": "Objective",
+    "questionText": "In a bicollateral vascular bundle, which is a characteristic feature of the family Cucurbitaceae, what is the specific arrangement of cambium?",
+    "questionOptions":[
+      "Cambium is completely absent",
+      "One strip of cambium exists between xylem and outer phloem only",
+      "Two strips of cambium exist, one on each side of the central xylem",
+      "Cambium completely surrounds the central xylem core"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Bicollateral bundles have two patches of phloem and two strips of cambium (outer and inner) situated on both sides of a central xylem patch."
+  },
+  {
+    "questionOrder": 2,
+    "questionType": "Objective",
+    "questionText": "During the C4 cycle of photosynthesis, the primary acceptor of carbon dioxide in the mesophyll cells is:",
+    "questionOptions":[
+      "Ribulose 1,5-bisphosphate (RuBP)",
+      "Phosphoenolpyruvate (PEP)",
+      "Oxaloacetic acid (OAA)",
+      "Malic acid"
+    ],
+    "correctIndex": 1,
+    "solutionText": "In C4 plants, Phosphoenolpyruvate (PEP), a 3-carbon compound, is the primary CO2 acceptor in mesophyll cells, forming the 4-carbon Oxaloacetic acid (OAA)."
+  },
+  {
+    "questionOrder": 3,
+    "questionType": "Objective",
+    "questionText": "For a successful graft between two plants, it is absolutely essential to ensure physical contact and union between their:",
+    "questionOptions":[
+      "Epidermis",
+      "Cortex",
+      "Vascular cambium",
+      "Pith"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Grafting is successful only when the vascular cambium of the scion and stock are in direct contact to allow the formation of continuous vascular connections."
+  },
+  {
+    "questionOrder": 4,
+    "questionType": "Objective",
+    "questionText": "What is the ploidy level of the cells of the tapetum, the innermost wall layer of the microsporangium?",
+    "questionOptions":[
+      "Haploid (n)",
+      "Diploid (2n) strictly",
+      "Polyploid/Multinucleate",
+      "Triploid (3n)"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Tapetal cells provide nourishment to developing pollen. Due to endomitosis or free nuclear division, they often become multinucleate and polyploid."
+  },
+  {
+    "questionOrder": 5,
+    "questionType": "Objective",
+    "questionText": "If a red-flowered plant and a white-flowered plant produce pink-flowered offspring, crossing two pink-flowered plants will result in a phenotypic ratio of:",
+    "questionOptions":[
+      "3:1",
+      "1:1",
+      "9:3:3:1",
+      "1:2:1"
+    ],
+    "correctIndex": 3,
+    "solutionText": "This is incomplete dominance. A cross between two heterozygotes (Pink x Pink) yields 1 Red : 2 Pink : 1 White."
+  },
+  {
+    "questionOrder": 6,
+    "questionType": "Objective",
+    "questionText": "The 'Richmond-Lang effect', which refers to the delay of leaf senescence, is commercially utilized and is mediated by:",
+    "questionOptions":[
+      "Auxins",
+      "Gibberellins",
+      "Cytokinins",
+      "Abscisic acid"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Cytokinins delay the aging (senescence) of leaves and other organs by promoting nutrient mobilization, a phenomenon known as the Richmond-Lang effect."
+  },
+  {
+    "questionOrder": 7,
+    "questionType": "Objective",
+    "questionText": "The life cycle of Spirogyra is best described as:",
+    "questionOptions":[
+      "Diplontic",
+      "Haplontic",
+      "Haplo-diplontic",
+      "Diplobiontic"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Spirogyra has a haplontic life cycle where the main plant body is haploid. The only diploid stage is the zygote (zygospore), which undergoes meiosis."
+  },
+  {
+    "questionOrder": 8,
+    "questionType": "Objective",
+    "questionText": "An 'endarch' arrangement of primary xylem, where protoxylem lies towards the center and metaxylem towards the periphery, is a characteristic feature of:",
+    "questionOptions":[
+      "Dicot roots",
+      "Monocot roots",
+      "Stems of both monocots and dicots",
+      "Leaves of all angiosperms"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Stems characteristically exhibit endarch xylem, whereas roots exhibit an exarch arrangement of primary xylem."
+  },
+  {
+    "questionOrder": 9,
+    "questionType": "Objective",
+    "questionText": "If the leaf cells of a flowering plant have 24 chromosomes, the number of chromosomes in its endosperm will be:",
+    "questionOptions":[
+      "12",
+      "24",
+      "36",
+      "48"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Leaf cells are diploid (2n = 24), so n = 12. Angiosperm endosperm is triploid (3n). Therefore, 3 × 12 = 36 chromosomes."
+  },
+  {
+    "questionOrder": 10,
+    "questionType": "Objective",
+    "questionText": "The ability of red algae to thrive at great oceanic depths is primarily due to the presence of:",
+    "questionOptions":[
+      "Chlorophyll a",
+      "Fucoxanthin",
+      "Phycoerythrin",
+      "Phycocyanin"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Phycoerythrin is a red accessory pigment that effectively absorbs blue-green light, which penetrates deepest into the ocean."
+  },
+  {
+    "questionOrder": 11,
+    "questionType": "Objective",
+    "questionText": "In cellular respiration, the end product of glycolysis that enters the mitochondrion for further oxidation is:",
+    "questionOptions":[
+      "Acetyl-CoA",
+      "Citric acid",
+      "Pyruvic acid",
+      "Lactic acid"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Glycolysis breaks down glucose into two molecules of pyruvic acid (pyruvate), which then enter the mitochondrion under aerobic conditions."
+  },
+  {
+    "questionOrder": 12,
+    "questionType": "Objective",
+    "questionText": "Which of the following cell organelles is considered semi-autonomous due to the presence of its own circular DNA and 70S ribosomes?",
+    "questionOptions":[
+      "Endoplasmic reticulum",
+      "Golgi apparatus",
+      "Chloroplast",
+      "Lysosome"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Mitochondria and chloroplasts contain their own DNA and 70S ribosomes, allowing them to synthesize some of their own proteins, making them semi-autonomous."
+  },
+  {
+    "questionOrder": 13,
+    "questionType": "Objective",
+    "questionText": "A fleshy receptacle enclosing a hollow cavity with an apical opening (ostiole) containing multiple flowers is characteristic of which inflorescence?",
+    "questionOptions":[
+      "Verticillaster",
+      "Hypanthodium",
+      "Cyathium",
+      "Capitulum"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The hypanthodium inflorescence is typical of the genus Ficus (e.g., banyan, fig), featuring a flask-shaped fleshy receptacle."
+  },
+  {
+    "questionOrder": 14,
+    "questionType": "Objective",
+    "questionText": "In genetic engineering, plasmids are extensively used as vectors. A plasmid is naturally found as:",
+    "questionOptions":[
+      "The main genomic DNA of a virus",
+      "An extrachromosomal circular DNA in bacteria",
+      "A linear DNA fragment in yeast",
+      "A specialized protein in the bacterial cell wall"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Plasmids are small, circular, double-stranded, extrachromosomal DNA molecules found primarily in bacteria, capable of independent replication."
+  },
+  {
+    "questionOrder": 15,
+    "questionType": "Objective",
+    "questionText": "The action spectrum of photosynthesis indicates that the maximum rate of photosynthesis occurs in the:",
+    "questionOptions":[
+      "Green and yellow regions of light",
+      "Blue and red regions of light",
+      "Violet and indigo regions of light",
+      "Orange and red regions of light"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Chlorophyll pigments primarily absorb blue and red wavelengths of light, which corresponds to the peaks in the action spectrum of photosynthesis."
+  },
+  {
+    "questionOrder": 16,
+    "questionType": "Objective",
+    "questionText": "The middle lamella, which acts as a cementing layer between the primary walls of adjacent plant cells, is predominantly composed of:",
+    "questionOptions":[
+      "Cellulose and hemicellulose",
+      "Lignin and suberin",
+      "Calcium and magnesium pectates",
+      "Chitin and cutin"
+    ],
+    "correctIndex": 2,
+    "solutionText": "The middle lamella is the first layer formed during cell division and is mainly composed of calcium and magnesium salts of pectic acid."
+  },
+  {
+    "questionOrder": 17,
+    "questionType": "Objective",
+    "questionText": "To determine whether a tall pea plant is homozygous or heterozygous, it should be crossed with a dwarf (recessive) plant. This type of cross is known as a:",
+    "questionOptions":[
+      "Back cross",
+      "Test cross",
+      "Reciprocal cross",
+      "Monohybrid cross"
+    ],
+    "correctIndex": 1,
+    "solutionText": "A test cross involves crossing an individual of unknown genotype exhibiting a dominant trait with a homozygous recessive individual."
+  },
+  {
+    "questionOrder": 18,
+    "questionType": "Objective",
+    "questionText": "In the Kranz anatomy of C4 leaves, the chloroplasts of the bundle sheath cells differ from those of mesophyll cells in that they are:",
+    "questionOptions":[
+      "Smaller and contain well-developed grana",
+      "Larger and lack grana (agranal)",
+      "Non-functional in photosynthesis",
+      "Located exclusively in the upper epidermis"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Bundle sheath chloroplasts in C4 plants are large and agranal (lack grana), relying on the Calvin cycle to fix CO2 delivered from the mesophyll."
+  },
+  {
+    "questionOrder": 19,
+    "questionType": "Objective",
+    "questionText": "During the nitrogen cycle, the conversion of ammonia to nitrite is primarily carried out by the bacteria:",
+    "questionOptions":[
+      "Nitrobacter",
+      "Pseudomonas",
+      "Nitrosomonas",
+      "Rhizobium"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Nitrification is a two-step process: Nitrosomonas converts ammonia to nitrite, and Nitrobacter converts nitrite to nitrate."
+  },
+  {
+    "questionOrder": 20,
+    "questionType": "Objective",
+    "questionText": "In which of the following bryophytes is the sporophyte the simplest, consisting only of a capsule?",
+    "questionOptions":[
+      "Riccia",
+      "Marchantia",
+      "Funaria",
+      "Sphagnum"
+    ],
+    "correctIndex": 0,
+    "solutionText": "In Riccia, the sporophyte lacks both a foot and a seta; it is represented solely by a capsule embedded within the gametophyte tissue."
+  },
+  {
+    "questionOrder": 21,
+    "questionType": "Objective",
+    "questionText": "The X-shaped structures called chiasmata, which represent the sites of crossing over, become clearly visible during which sub-stage of Prophase I?",
+    "questionOptions":[
+      "Zygotene",
+      "Pachytene",
+      "Diplotene",
+      "Diakinesis"
+    ],
+    "correctIndex": 2,
+    "solutionText": "While crossing over occurs in Pachytene, the homologous chromosomes begin to separate in Diplotene, making the chiasmata clearly visible."
+  },
+  {
+    "questionOrder": 22,
+    "questionType": "Objective",
+    "questionText": "Under conditions of severe water stress, which plant hormone rapidly accumulates in leaves to induce stomatal closure?",
+    "questionOptions":[
+      "Indole-3-acetic acid",
+      "Gibberellic acid",
+      "Abscisic acid (ABA)",
+      "Ethylene"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Abscisic acid is known as the 'stress hormone' because it helps the plant cope with adverse environmental conditions, primarily by closing stomata to conserve water."
+  },
+  {
+    "questionOrder": 23,
+    "questionType": "Objective",
+    "questionText": "When an ovule is bent such that the micropyle and chalaza lie in a straight horizontal line at right angles to the funicle, it is termed:",
+    "questionOptions":[
+      "Orthotropous",
+      "Anatropous",
+      "Campylotropous",
+      "Hemianatropous"
+    ],
+    "correctIndex": 3,
+    "solutionText": "In a hemianatropous ovule, the body of the ovule is placed transversely (at right angles) to the funiculus."
+  },
+  {
+    "questionOrder": 24,
+    "questionType": "Objective",
+    "questionText": "The plant commonly referred to as 'Club moss' belongs to which category of the plant kingdom?",
+    "questionOptions":[
+      "Bryophyta",
+      "Pteridophyta",
+      "Gymnospermae",
+      "Angiospermae"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Lycopodium, commonly called club moss due to its moss-like appearance and club-shaped strobili, is actually a vascular cryptogam (Pteridophyte)."
+  },
+  {
+    "questionOrder": 25,
+    "questionType": "Objective",
+    "questionText": "The hypothetical flowering hormone transported from leaves to shoot apices in response to an appropriate photoperiod is called:",
+    "questionOptions":[
+      "Phytochrome",
+      "Florigen",
+      "Vernalin",
+      "Zeatin"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Florigen is the theorized signal/hormone that travels from the leaf (where light is perceived) to the apical meristem to induce floral development."
+  },
+  {
+    "questionOrder": 26,
+    "questionType": "Objective",
+    "questionText": "In the insectivorous Pitcher plant (Nepenthes), the actual pitcher structure is a morphological modification of the:",
+    "questionOptions":[
+      "Leaf petiole",
+      "Leaf apex",
+      "Leaf lamina",
+      "Stem"
+    ],
+    "correctIndex": 2,
+    "solutionText": "In Nepenthes, the leaf lamina (blade) is modified into the pitcher to trap insects, while the petiole becomes leaf-like to perform photosynthesis."
+  },
+  {
+    "questionOrder": 27,
+    "questionType": "Objective",
+    "questionText": "According to the fluid mosaic model, which component of the cell membrane is responsible for active transport and acting as receptors?",
+    "questionOptions":[
+      "Phospholipid bilayer",
+      "Cholesterol",
+      "Integral and peripheral proteins",
+      "Glycolipids"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Proteins in the membrane act as channels, pumps (for active transport), enzymes, and receptors for signal transduction."
+  },
+  {
+    "questionOrder": 28,
+    "questionType": "Objective",
+    "questionText": "Double fertilization in angiosperms involves two fusion events. These are:",
+    "questionOptions":[
+      "Syngamy and plasmogamy",
+      "Plasmogamy and karyogamy",
+      "Syngamy and triple fusion",
+      "Triple fusion and vegetative apomixis"
+    ],
+    "correctIndex": 2,
+    "solutionText": "One male gamete fuses with the egg cell (syngamy forming zygote) and the other fuses with the two polar nuclei (triple fusion forming primary endosperm nucleus)."
+  },
+  {
+    "questionOrder": 29,
+    "questionType": "Objective",
+    "questionText": "The presence of a 'clamp connection' to ensure proper segregation of nuclei during cell division is a hallmark feature of:",
+    "questionOptions":[
+      "Zygomycetes",
+      "Ascomycetes",
+      "Basidiomycetes",
+      "Deuteromycetes"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Clamp connections are unique structures formed by growing hyphal cells of certain Basidiomycota to maintain the dikaryotic state."
+  },
+  {
+    "questionOrder": 30,
+    "questionType": "Objective",
+    "questionText": "The primary role of the Casparian strip in the endodermis of roots is to:",
+    "questionOptions":[
+      "Provide mechanical strength to the root",
+      "Block the symplastic pathway of water",
+      "Block the apoplastic pathway to regulate water entry into the xylem",
+      "Store starch granules for energy"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Casparian strips contain water-impermeable suberin, forcing water and dissolved minerals to cross the plasma membrane (symplast) before entering the vascular cylinder."
+  },
+  {
+    "questionOrder": 31,
+    "questionType": "Objective",
+    "questionText": "In a mycorrhizal association, the fungal partner primarily assists the plant by:",
+    "questionOptions":[
+      "Fixing atmospheric nitrogen",
+      "Enhancing the absorption of phosphorus and water from the soil",
+      "Providing structural support to the root system",
+      "Synthesizing carbohydrates for the plant"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The extensive hyphal network of the fungus greatly increases the surface area for water and mineral absorption, particularly immobile nutrients like phosphorus."
+  },
+  {
+    "questionOrder": 32,
+    "questionType": "Objective",
+    "questionText": "Which of the following ecological pyramids is generally inverted in an aquatic ecosystem?",
+    "questionOptions":[
+      "Pyramid of energy",
+      "Pyramid of biomass",
+      "Pyramid of numbers",
+      "Both biomass and energy pyramids"
+    ],
+    "correctIndex": 1,
+    "solutionText": "In aquatic ecosystems, the biomass of phytoplankton (producers) is much smaller at any given time than the biomass of the zooplankton and fish that consume them."
+  },
+  {
+    "questionOrder": 33,
+    "questionType": "Objective",
+    "questionText": "The ABO blood grouping in humans is governed by the 'I' gene which has three alleles. This is a classic example of:",
+    "questionOptions":[
+      "Polygenic inheritance",
+      "Multiple allelism and co-dominance",
+      "Pleiotropy",
+      "Epistasis"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The I^A, I^B, and i alleles demonstrate multiple allelism in a population, and I^A and I^B exhibit co-dominance in an individual."
+  },
+  {
+    "questionOrder": 34,
+    "questionType": "Objective",
+    "questionText": "Colchicine is a chemical mutagen used to induce polyploidy in agricultural crops. Its mechanism of action is to:",
+    "questionOptions":[
+      "Prevent DNA replication during the S phase",
+      "Inhibit the formation of the spindle fibers, arresting mitosis at metaphase",
+      "Cause double-strand breaks in DNA",
+      "Prevent the breakdown of the nuclear envelope"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Colchicine inhibits microtubule polymerization, thus preventing spindle formation. Chromosomes duplicate but cannot separate, doubling the ploidy."
+  },
+  {
+    "questionOrder": 35,
+    "questionType": "Objective",
+    "questionText": "According to the most widely accepted theory of stomatal movement, the opening of stomata in the light is driven by the influx of which ion into the guard cells?",
+    "questionOptions":[
+      "Calcium (Ca2+)",
+      "Sodium (Na+)",
+      "Potassium (K+)",
+      "Chloride (Cl-)"
+    ],
+    "correctIndex": 2,
+    "solutionText": "The active pumping of K+ ions into guard cells lowers their water potential, causing water to enter via osmosis. The cells become turgid, opening the pore."
+  },
+  {
+    "questionOrder": 36,
+    "questionType": "Objective",
+    "questionText": "Which statement accurately describes a key difference between DNA and RNA?",
+    "questionOptions":[
+      "DNA contains ribose sugar, while RNA contains deoxyribose.",
+      "DNA utilizes uracil, whereas RNA uses thymine.",
+      "DNA is typically double-stranded, while RNA is generally single-stranded.",
+      "RNA is the primary genetic material in all eukaryotic cells."
+    ],
+    "correctIndex": 2,
+    "solutionText": "DNA consists of a double helix and deoxyribose sugar, using thymine. RNA is single-stranded, has ribose sugar, and uses uracil."
+  },
+  {
+    "questionOrder": 37,
+    "questionType": "Objective",
+    "questionText": "According to Chargaff's rules for double-stranded DNA, which of the following ratios is always equal to 1?",
+    "questionOptions":[
+      "(A + T) / (G + C)",
+      "(A + G) / (T + C)",
+      "A / G",
+      "T / C"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Chargaff's rule states that purines equal pyrimidines. Thus, A + G = T + C, making the ratio (A+G)/(T+C) = 1."
+  },
+  {
+    "questionOrder": 38,
+    "questionType": "Objective",
+    "questionText": "The mature prothallus of a typical fern (like Dryopteris) is:",
+    "questionOptions":[
+      "Diploid, independent, and strictly male",
+      "Haploid, independent, and monoecious (bearing both archegonia and antheridia)",
+      "Diploid, parasitic, and female only",
+      "Haploid, dependent on the sporophyte, and monoecious"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The fern prothallus is the gametophyte stage: it is haploid, photosynthetic (independent), and typically monoecious/hermaphroditic."
+  },
+  {
+    "questionOrder": 39,
+    "questionType": "Objective",
+    "questionText": "Mendel's Law of Independent Assortment is strictly valid only for genes that are:",
+    "questionOptions":[
+      "Located very close together on the same chromosome",
+      "Located on homologous chromosomes",
+      "Located on different, non-homologous chromosomes (or far apart on the same)",
+      "Recessive in nature"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Genes that are linked (close on the same chromosome) do not assort independently. The law requires genes to be on different chromosomes or unlinked."
+  },
+  {
+    "questionOrder": 40,
+    "questionType": "Objective",
+    "questionText": "Cells that do not divide further exit the G1 phase to enter an inactive, quiescent stage known as:",
+    "questionOptions":[
+      "S phase",
+      "G2 phase",
+      "G0 phase",
+      "M phase"
+    ],
+    "correctIndex": 2,
+    "solutionText": "The G0 phase is a resting state where cells remain metabolically active but do not undergo proliferation unless called upon to do so."
+  },
+  {
+    "questionOrder": 41,
+    "questionType": "Objective",
+    "questionText": "An individual with blood group AB positive is known as a universal recipient because their blood plasma naturally lacks:",
+    "questionOptions":[
+      "Both A and B antigens",
+      "Both Anti-A and Anti-B antibodies",
+      "The Rh factor",
+      "Fibrinogen"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Group AB has both A and B antigens on RBCs, so the immune system does not produce Anti-A or Anti-B antibodies, allowing them to receive any blood type safely."
+  },
+  {
+    "questionOrder": 42,
+    "questionType": "Objective",
+    "questionText": "In the pathogenesis of malaria, the multiplication phase of Plasmodium that occurs in the hepatocytes (liver cells) of humans is termed:",
+    "questionOptions":[
+      "Erythrocytic schizogony",
+      "Sporogony",
+      "Gametogony",
+      "Exo-erythrocytic schizogony"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Before invading red blood cells, sporozoites multiply asexually in liver cells. This pre-blood stage is known as exo-erythrocytic (or pre-erythrocytic) schizogony."
+  },
+  {
+    "questionOrder": 43,
+    "questionType": "Objective",
+    "questionText": "The phenomenon where individuals heterozygous for the sickle cell trait exhibit higher survival rates in malaria-endemic regions is a classic example of:",
+    "questionOptions":[
+      "Directional selection",
+      "Heterozygote advantage (Balancing selection)",
+      "Genetic drift",
+      "Founder effect"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Heterozygotes (HbA HbS) suffer mildly from anemia but are highly resistant to severe malaria, keeping both alleles in the population (balancing selection)."
+  },
+  {
+    "questionOrder": 44,
+    "questionType": "Objective",
+    "questionText": "Damage to the medulla oblongata is often immediately fatal because it contains the vital autonomic centers that regulate:",
+    "questionOptions":[
+      "Voluntary muscle coordination and balance",
+      "Memory, learning, and conscious thought",
+      "Heart rate, respiration, and blood pressure",
+      "Body temperature, thirst, and hunger"
+    ],
+    "correctIndex": 2,
+    "solutionText": "The medulla controls essential life-sustaining functions such as cardiovascular and respiratory rhythms. (Temperature is the hypothalamus)."
+  },
+  {
+    "questionOrder": 45,
+    "questionType": "Objective",
+    "questionText": "Which of the following animals is classified as a true bony fish (Osteichthyes)?",
+    "questionOptions":[
+      "Jellyfish",
+      "Starfish",
+      "Silverfish",
+      "Seahorse"
+    ],
+    "correctIndex": 3,
+    "solutionText": "The seahorse (Hippocampus) is a marine bony fish. Jellyfish is a cnidarian, starfish an echinoderm, and silverfish an insect."
+  },
+  {
+    "questionOrder": 46,
+    "questionType": "Objective",
+    "questionText": "The clinical condition 'Angina pectoris' is primarily characterized by:",
+    "questionOptions":[
+      "Complete cessation of heartbeat",
+      "Acute chest pain due to inadequate oxygen supply to the heart muscle",
+      "Death of a segment of heart muscle tissue",
+      "Abnormal thickening of the heart valves"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Angina is acute chest pain reflecting myocardial ischemia (insufficient O2), which does not yet involve the irreversible tissue death seen in a myocardial infarction."
+  },
+  {
+    "questionOrder": 47,
+    "questionType": "Objective",
+    "questionText": "Although the earthworm is a hermaphrodite, self-fertilization does not occur. This is strictly prevented by a condition called:",
+    "questionOptions":[
+      "Protogyny",
+      "Protandry",
+      "Dioecism",
+      "Parthenogenesis"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Earthworms are protandrous, meaning the testes mature earlier than the ovaries, ensuring cross-fertilization during copulation."
+  },
+  {
+    "questionOrder": 48,
+    "questionType": "Objective",
+    "questionText": "The highly toxic pigment 'hemozoin', which causes the periodic malarial fever, is synthesized by the parasite from the breakdown of:",
+    "questionOptions":[
+      "Liver glycogen",
+      "Host cell membrane lipids",
+      "Hemoglobin in red blood cells",
+      "White blood cell nuclei"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Plasmodium digests the globin part of hemoglobin for amino acids and converts the toxic heme portion into an insoluble polymer called hemozoin."
+  },
+  {
+    "questionOrder": 49,
+    "questionType": "Objective",
+    "questionText": "Considering the toxicity and water required for elimination, which nitrogenous waste product requires the maximum amount of water for its excretion?",
+    "questionOptions":[
+      "Urea",
+      "Uric acid",
+      "Ammonia",
+      "Creatinine"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Ammonia is highly toxic and highly soluble in water, necessitating a large volume of water for safe excretion (ammonotelism), common in aquatic animals."
+  },
+  {
+    "questionOrder": 50,
+    "questionType": "Objective",
+    "questionText": "Peripatus is an evolutionary significance because it is considered a connecting link between:",
+    "questionOptions":[
+      "Reptiles and Birds",
+      "Amphibians and Reptiles",
+      "Annelida and Arthropoda",
+      "Fishes and Amphibians"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Peripatus possesses both annelid-like traits (nephridia, soft unsegmented body) and arthropod-like traits (trachea, claws)."
+  },
+  {
+    "questionOrder": 51,
+    "questionType": "Objective",
+    "questionText": "In the mammalian testis, which specific cells provide nourishment to the developing spermatids?",
+    "questionOptions":[
+      "Leydig cells",
+      "Sertoli cells",
+      "Spermatogonia",
+      "Primary spermatocytes"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Sertoli (sustentacular) cells line the seminiferous tubules and nurse the developing sperm cells, providing nutrients and structural support."
+  },
+  {
+    "questionOrder": 52,
+    "questionType": "Objective",
+    "questionText": "The wings of a bird and the wings of an insect are a classic example of:",
+    "questionOptions":[
+      "Homologous organs indicating divergent evolution",
+      "Analogous organs indicating convergent evolution",
+      "Vestigial organs",
+      "Atavism"
+    ],
+    "correctIndex": 1,
+    "solutionText": "They have different structural origins but perform the same function (flight), demonstrating convergent evolution due to similar environmental pressures."
+  },
+  {
+    "questionOrder": 53,
+    "questionType": "Objective",
+    "questionText": "The rapid transmission of a nerve impulse along a myelinated axon, jumping from one Node of Ranvier to the next, is termed:",
+    "questionOptions":[
+      "Continuous conduction",
+      "Synaptic transmission",
+      "Saltatory conduction",
+      "Active transport"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Saltatory (jumping) conduction occurs in myelinated fibers, making the impulse travel much faster than in unmyelinated fibers."
+  },
+  {
+    "questionOrder": 54,
+    "questionType": "Objective",
+    "questionText": "During the secretory phase of the menstrual cycle, the thickened uterine endometrium is primarily maintained by:",
+    "questionOptions":[
+      "Estrogen secreted by the follicle",
+      "Progesterone secreted by the corpus luteum",
+      "Luteinizing Hormone (LH) from the pituitary",
+      "Prolactin from the anterior pituitary"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Following ovulation, the ruptured follicle forms the corpus luteum, which secretes progesterone. Progesterone prepares and maintains the endometrium for potential implantation."
+  },
+  {
+    "questionOrder": 55,
+    "questionType": "Objective",
+    "questionText": "The principal excretory organs in insects, such as the cockroach, are the:",
+    "questionOptions":[
+      "Green glands",
+      "Flame cells",
+      "Nephridia",
+      "Malpighian tubules"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Malpighian tubules absorb nitrogenous wastes from the hemolymph and empty them into the gut to be excreted as uric acid."
+  },
+  {
+    "questionOrder": 56,
+    "questionType": "Objective",
+    "questionText": "Which class of immunoglobulin (antibody) is predominantly found in human colostrum and mucosal secretions, conferring passive immunity to the newborn?",
+    "questionOptions":[
+      "IgG",
+      "IgM",
+      "IgA",
+      "IgE"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Secretory IgA is abundant in bodily secretions like breast milk (colostrum), tears, and saliva, providing local mucosal immunity."
+  },
+  {
+    "questionOrder": 57,
+    "questionType": "Objective",
+    "questionText": "Klinefelter's syndrome is a chromosomal disorder in humans characterized by the karyotype:",
+    "questionOptions":[
+      "44 Autosomes + XO",
+      "44 Autosomes + XXY",
+      "45 Autosomes + XX",
+      "44 Autosomes + XYY"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Klinefelter's syndrome involves an extra X chromosome in a male (47, XXY), leading to hypogonadism and feminine physical traits."
+  },
+  {
+    "questionOrder": 58,
+    "questionType": "Objective",
+    "questionText": "The highly acidic environment of the stomach (pH ~ 1.8) is necessary to:",
+    "questionOptions":[
+      "Activate pancreatic enzymes",
+      "Convert inactive pepsinogen into active pepsin",
+      "Emulsify dietary lipids",
+      "Stimulate the secretion of saliva"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Hydrochloric acid (HCl) creates the optimal acidic pH required to cleave the proenzyme pepsinogen into the active protease pepsin."
+  },
+  {
+    "questionOrder": 59,
+    "questionType": "Objective",
+    "questionText": "In the cardiac conduction system, the Purkinje fibers are responsible for directly stimulating the:",
+    "questionOptions":[
+      "Atria to contract",
+      "Sinoatrial node",
+      "Ventricles to contract",
+      "Atrioventricular valves to close"
+    ],
+    "correctIndex": 2,
+    "solutionText": "The Purkinje fibers rapidly distribute the electrical impulse throughout the muscular walls of the right and left ventricles, causing a synchronized ventricular contraction."
+  },
+  {
+    "questionOrder": 60,
+    "questionType": "Objective",
+    "questionText": "The structural framework (skeleton) of sponges is primarily composed of:",
+    "questionOptions":[
+      "Chitinous plates",
+      "Cartilage",
+      "Calcareous or siliceous spicules and spongin fibers",
+      "Calcium phosphate bone tissue"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Poriferans possess an internal skeleton made of organic spongin fibers and inorganic spicules (calcium carbonate or silica)."
+  },
+  {
+    "questionOrder": 61,
+    "questionType": "Objective",
+    "questionText": "Which cranial nerve is a pure sensory nerve responsible for transmitting visual information from the retina to the brain?",
+    "questionOptions":[
+      "Olfactory (I)",
+      "Optic (II)",
+      "Oculomotor (III)",
+      "Trochlear (IV)"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The Optic nerve (Cranial Nerve II) is strictly sensory and carries visual signals from the eye to the visual cortex."
+  },
+  {
+    "questionOrder": 62,
+    "questionType": "Objective",
+    "questionText": "In the digestive system of the earthworm, what is the function of the typhlosole?",
+    "questionOptions":[
+      "Grinding of food particles",
+      "Secretion of digestive enzymes",
+      "Increasing the effective area for absorption in the intestine",
+      "Storage of ingested soil"
+    ],
+    "correctIndex": 2,
+    "solutionText": "The typhlosole is an internal dorsal fold in the earthworm's intestine that significantly increases the surface area for nutrient absorption."
+  },
+  {
+    "questionOrder": 63,
+    "questionType": "Objective",
+    "questionText": "Which type of white blood cell is responsible for the cell-mediated immune response, such as recognizing and destroying virus-infected cells?",
+    "questionOptions":[
+      "B-lymphocytes",
+      "T-lymphocytes",
+      "Eosinophils",
+      "Basophils"
+    ],
+    "correctIndex": 1,
+    "solutionText": "T-lymphocytes mediate cellular immunity (attacking infected/cancerous cells directly), whereas B-lymphocytes mediate humoral immunity (antibodies)."
+  },
+  {
+    "questionOrder": 64,
+    "questionType": "Objective",
+    "questionText": "In human sex determination, the key gene responsible for initiating male development is located on the Y chromosome and is known as:",
+    "questionOptions":[
+      "The BRCA gene",
+      "The SRY gene",
+      "The XIST gene",
+      "The PAR gene"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The SRY (Sex-determining Region Y) gene directs the undifferentiated gonads to develop into testes."
+  },
+  {
+    "questionOrder": 65,
+    "questionType": "Objective",
+    "questionText": "Darwin's theory of evolution rests upon the core mechanism of:",
+    "questionOptions":[
+      "Inheritance of acquired traits",
+      "Use and disuse of organs",
+      "Natural selection acting on inherited variations",
+      "Sudden, large-scale mutations"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Charles Darwin proposed that populations evolve over generations through a process of natural selection favoring advantageous inheritable traits."
+  },
+  {
+    "questionOrder": 66,
+    "questionType": "Objective",
+    "questionText": "The process of ultrafiltration, the first step in urine formation, occurs across the semi-permeable membrane of the:",
+    "questionOptions":[
+      "Proximal convoluted tubule",
+      "Loop of Henle",
+      "Glomerulus and Bowman's capsule",
+      "Collecting duct"
+    ],
+    "correctIndex": 2,
+    "solutionText": "High hydrostatic pressure forces water and small solutes out of the glomerular capillaries into the Bowman's capsule, forming the glomerular filtrate."
+  },
+  {
+    "questionOrder": 67,
+    "questionType": "Objective",
+    "questionText": "The phenomenon of exhibiting two distinct morphological body plans, a sessile polyp and a free-swimming medusa, is a feature of:",
+    "questionOptions":[
+      "Platyhelminthes",
+      "Cnidaria",
+      "Ctenophora",
+      "Mollusca"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Many cnidarians (like Obelia) exhibit polymorphism, alternating between a vegetative, asexual polyp stage and a reproductive, sexual medusa stage."
+  },
+  {
+    "questionOrder": 68,
+    "questionType": "Objective",
+    "questionText": "The inputs for the urea (ornithine) cycle in the liver include ammonia, carbon dioxide, and:",
+    "questionOptions":[
+      "ATP",
+      "Glucose",
+      "Uric acid",
+      "Fatty acids"
+    ],
+    "correctIndex": 0,
+    "solutionText": "The synthesis of urea is an energy-consuming metabolic pathway that requires ATP to convert ammonia and CO2 into urea."
+  },
+  {
+    "questionOrder": 69,
+    "questionType": "Objective",
+    "questionText": "During muscle contraction, the release of calcium ions from the sarcoplasmic reticulum triggers contraction by binding to:",
+    "questionOptions":[
+      "Myosin heads",
+      "Actin filaments directly",
+      "Troponin",
+      "Tropomyosin"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Calcium binds to the troponin complex, causing tropomyosin to shift and expose the myosin-binding sites on the actin filaments."
+  },
+  {
+    "questionOrder": 70,
+    "questionType": "Objective",
+    "questionText": "The primary respiratory pigment in the blood of many mollusks and arthropods (crustaceans), which contains copper, is:",
+    "questionOptions":[
+      "Hemoglobin",
+      "Hemocyanin",
+      "Myoglobin",
+      "Chlorocruorin"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Hemocyanin is a copper-containing protein that transports oxygen in the hemolymph of arthropods and mollusks, appearing blue when oxygenated."
+  },
+  {
+    "questionOrder": 71,
+    "questionType": "Objective",
+    "questionText": "Which hormone acts antagonistically to Parathyroid Hormone (PTH) by decreasing blood calcium levels?",
+    "questionOptions":[
+      "Aldosterone",
+      "Cortisol",
+      "Calcitonin",
+      "Thyroxine"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Calcitonin, secreted by the parafollicular cells of the thyroid gland, lowers blood calcium levels by promoting bone deposition and inhibiting resorption."
+  },
+  {
+    "questionOrder": 72,
+    "questionType": "Objective",
+    "questionText": "The 'blind spot' in the human eye is the region on the retina where:",
+    "questionOptions":[
+      "Only rods are present in high density",
+      "The optic nerve exits the eye, lacking photoreceptors",
+      "Visual acuity is at its highest (fovea centralis)",
+      "The lens attaches to the ciliary body"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The optic disc (blind spot) has no rods or cones because it is the point where ganglion cell axons bundle together to form the optic nerve."
+  },
+  {
+    "questionOrder": 73,
+    "questionType": "Objective",
+    "questionText": "Erythroblastosis fetalis (Hemolytic Disease of the Newborn) can occur when a:",
+    "questionOptions":[
+      "Rh+ mother carries a Rh- fetus",
+      "Rh- mother carries a Rh+ fetus",
+      "Mother with blood group O carries a fetus with group A",
+      "Both mother and father are Rh-"
+    ],
+    "correctIndex": 1,
+    "solutionText": "If a sensitized Rh- mother carries a Rh+ fetus, her anti-Rh IgG antibodies cross the placenta and destroy the fetal red blood cells."
+  },
+  {
+    "questionOrder": 74,
+    "questionType": "Objective",
+    "questionText": "In the malaria parasite's life cycle, the motile, worm-like zygote that penetrates the mosquito's gut wall is called an:",
+    "questionOptions":[
+      "Oocyst",
+      "Ookinete",
+      "Sporozoite",
+      "Merozoite"
+    ],
+    "correctIndex": 1,
+    "solutionText": "After fertilization in the mosquito's stomach, the zygote elongates into a motile ookinete, which burrows into the gut wall to form an oocyst."
+  },
+  {
+    "questionOrder": 75,
+    "questionType": "Objective",
+    "questionText": "A single gene mutation affecting multiple, seemingly unrelated phenotypic traits (such as in Marfan syndrome or Phenylketonuria) illustrates:",
+    "questionOptions":[
+      "Polygenic inheritance",
+      "Co-dominance",
+      "Pleiotropy",
+      "Epistasis"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Pleiotropy occurs when one single gene influences two or more distinct phenotypic traits."
+  },
+  {
+    "questionOrder": 76,
+    "questionType": "Objective",
+    "questionText": "A defining histological feature of mammalian compact bone is the presence of longitudinal channels containing blood vessels and nerves, called:",
+    "questionOptions":[
+      "Volkmann's canals",
+      "Haversian canals",
+      "Lacunae",
+      "Canaliculi"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Haversian systems (osteons) with a central Haversian canal are characteristic structural units of mammalian compact bone."
+  },
+  {
+    "questionOrder": 77,
+    "questionType": "Objective",
+    "questionText": "Within the human ear, the actual sensory receptors for hearing (hair cells) are located within the:",
+    "questionOptions":[
+      "Tympanic membrane",
+      "Semicircular canals",
+      "Organ of Corti",
+      "Eustachian tube"
+    ],
+    "correctIndex": 2,
+    "solutionText": "The Organ of Corti, situated on the basilar membrane inside the cochlea, contains the mechanosensory hair cells that transduce sound waves into nerve impulses."
+  },
+  {
+    "questionOrder": 78,
+    "questionType": "Objective",
+    "questionText": "Antidiuretic hormone (ADH), which increases water reabsorption in the kidneys, is synthesized by the:",
+    "questionOptions":[
+      "Posterior pituitary",
+      "Anterior pituitary",
+      "Hypothalamus",
+      "Adrenal cortex"
+    ],
+    "correctIndex": 2,
+    "solutionText": "ADH (vasopressin) is synthesized in the supraoptic nuclei of the hypothalamus and is then transported to the posterior pituitary for storage and release."
+  },
+  {
+    "questionOrder": 79,
+    "questionType": "Objective",
+    "questionText": "The powerful digestive enzyme 'steapsin', responsible for the bulk of fat digestion in the small intestine, is chemically a:",
+    "questionOptions":[
+      "Gastric lipase",
+      "Pancreatic lipase",
+      "Bile salt",
+      "Salivary amylase"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Steapsin is another name for pancreatic lipase, the primary enzyme that breaks down triglycerides into monoglycerides and free fatty acids."
+  },
+  {
+    "questionOrder": 80,
+    "questionType": "Objective",
+    "questionText": "The Bowman's capsule in the nephron is lined internally by specialized epithelial cells with foot-like processes, known as:",
+    "questionOptions":[
+      "Chondrocytes",
+      "Podocytes",
+      "Macrophages",
+      "Endothelial cells"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Podocytes wrap around the glomerular capillaries, creating filtration slits that govern the ultrafiltration of blood."
+  },
+  {
+    "questionOrder": 81,
+    "questionType": "Objective",
+    "questionText": "If the distance between the source (slits) and the screen in Young's Double Slit Experiment is doubled, the fringe width will:",
+    "questionOptions":[
+      "Become half",
+      "Remain unchanged",
+      "Become double",
+      "Become four times"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Fringe width is given by β = (λD)/d. Since β is directly proportional to D (the distance to the screen), doubling D doubles the fringe width."
+  },
+  {
+    "questionOrder": 82,
+    "questionType": "Objective",
+    "questionText": "In an interference pattern, if the ratio of the widths of two slits is 4:1, the ratio of maximum to minimum intensity (I_max : I_min) on the screen is:",
+    "questionOptions":[
+      "4:1",
+      "9:1",
+      "16:1",
+      "25:9"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Slit width ratio = Intensity ratio = I1/I2 = 4/1. Amplitude ratio A1/A2 = √4/√1 = 2/1. I_max/I_min = (A1+A2)² / (A1-A2)² = (2+1)² / (2-1)² = 9/1."
+  },
+  {
+    "questionOrder": 83,
+    "questionType": "Objective",
+    "questionText": "The escape velocity of a projectile from the Earth is 11.2 km/s. What would be the escape velocity from a planet whose mass is twice that of Earth and radius is half that of Earth?",
+    "questionOptions":[
+      "11.2 km/s",
+      "22.4 km/s",
+      "5.6 km/s",
+      "44.8 km/s"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Ve = √(2GM/R). For the new planet, M' = 2M, R' = R/2. Ve' = √(2G(2M)/(R/2)) = √(4 * 2GM/R) = 2 * Ve. Thus, 2 * 11.2 = 22.4 km/s."
+  },
+  {
+    "questionOrder": 84,
+    "questionType": "Objective",
+    "questionText": "Which universal logic gate produces a HIGH (1) output only when all of its inputs are LOW (0)?",
+    "questionOptions":[
+      "NAND",
+      "NOR",
+      "XOR",
+      "AND"
+    ],
+    "correctIndex": 1,
+    "solutionText": "A NOR gate is the inverse of an OR gate. It outputs 1 only when inputs are 0,0. Any '1' input forces the output to 0."
+  },
+  {
+    "questionOrder": 85,
+    "questionType": "Objective",
+    "questionText": "To convert a moving coil galvanometer into a voltmeter capable of reading large potential differences, one must connect:",
+    "questionOptions":[
+      "A high resistance in parallel",
+      "A low resistance in series",
+      "A high resistance in series",
+      "A low resistance in parallel"
+    ],
+    "correctIndex": 2,
+    "solutionText": "A voltmeter requires a very high total resistance so it draws negligible current from the circuit. This is achieved by placing a large multiplier resistance in series with the galvanometer."
+  },
+  {
+    "questionOrder": 86,
+    "questionType": "Objective",
+    "questionText": "When a p-n junction diode is forward biased, the width of the depletion layer:",
+    "questionOptions":[
+      "Increases significantly",
+      "Remains unaffected",
+      "Decreases",
+      "Fluctuates periodically"
+    ],
+    "correctIndex": 2,
+    "solutionText": "In forward bias, the applied external voltage opposes the built-in barrier potential, pushing majority carriers toward the junction and reducing the depletion layer width."
+  },
+  {
+    "questionOrder": 87,
+    "questionType": "Objective",
+    "questionText": "An n-type extrinsic semiconductor is formed by doping a pure silicon crystal with atoms of:",
+    "questionOptions":[
+      "Boron",
+      "Aluminum",
+      "Phosphorus",
+      "Gallium"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Pentavalent impurities (Group 15 elements like Phosphorus, Arsenic, Antimony) provide an extra electron, creating an n-type semiconductor."
+  },
+  {
+    "questionOrder": 88,
+    "questionType": "Objective",
+    "questionText": "In the photoelectric experiment, increasing the intensity of incident monochromatic light (kept above the threshold frequency) will cause an increase in the:",
+    "questionOptions":[
+      "Maximum kinetic energy of photoelectrons",
+      "Stopping potential",
+      "Number of photoelectrons emitted per second",
+      "Work function of the metal surface"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Intensity determines the number of photons hitting the surface per unit time, directly increasing the number of ejected photoelectrons (photoelectric current) but not their kinetic energy."
+  },
+  {
+    "questionOrder": 89,
+    "questionType": "Objective",
+    "questionText": "In a purely resistive AC circuit, what is the power factor?",
+    "questionOptions":[
+      "0",
+      "0.5",
+      "1",
+      "Infinity"
+    ],
+    "correctIndex": 2,
+    "solutionText": "In a purely resistive circuit, voltage and current are exactly in phase (phase angle φ = 0). The power factor is cos(0) = 1."
+  },
+  {
+    "questionOrder": 90,
+    "questionType": "Objective",
+    "questionText": "If the frequency of the input AC voltage to a full-wave rectifier is 50 Hz, the ripple frequency of the output pulsating DC will be:",
+    "questionOptions":[
+      "25 Hz",
+      "50 Hz",
+      "100 Hz",
+      "200 Hz"
+    ],
+    "correctIndex": 2,
+    "solutionText": "A full-wave rectifier rectifies both half-cycles of the AC input, producing two output pulses per input cycle. Thus, the output frequency is 2f = 100 Hz."
+  },
+  {
+    "questionOrder": 91,
+    "questionType": "Objective",
+    "questionText": "A symmetric biconvex lens of focal length 'f' is cut along its principal axis into two identical halves. The focal length of each half will be:",
+    "questionOptions":[
+      "f / 2",
+      "f",
+      "2f",
+      "Infinity"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Cutting along the principal axis creates plano-convex lenses. By Lens Maker's Formula, the new focal length becomes double (2f)."
+  },
+  {
+    "questionOrder": 92,
+    "questionType": "Objective",
+    "questionText": "Comparing the critical angles of a glass-air interface (C1) and a glass-water interface (C2), which relationship holds true? (Given: n_glass > n_water > n_air)",
+    "questionOptions":[
+      "C1 = C2",
+      "C1 > C2",
+      "C1 < C2",
+      "TIR cannot occur at a glass-water interface"
+    ],
+    "correctIndex": 2,
+    "solutionText": "sin(C) = n_rarer / n_denser. Since n_water > n_air, sin(C2) > sin(C1), meaning C2 > C1. The critical angle for glass-water is greater than for glass-air."
+  },
+  {
+    "questionOrder": 93,
+    "questionType": "Objective",
+    "questionText": "A step-up transformer designed to operate from a 220 V supply has 100 turns in the primary coil and 1000 turns in the secondary. Assuming 100% efficiency, the secondary voltage is:",
+    "questionOptions":[
+      "22 V",
+      "220 V",
+      "2200 V",
+      "4400 V"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Vs/Vp = Ns/Np. Vs = Vp * (Ns/Np) = 220 * (1000/100) = 220 * 10 = 2200 V."
+  },
+  {
+    "questionOrder": 94,
+    "questionType": "Objective",
+    "questionText": "The critical temperature above which a ferromagnetic material loses its permanent magnetism and behaves like a paramagnetic material is called the:",
+    "questionOptions":[
+      "Boyle temperature",
+      "Inversion temperature",
+      "Curie temperature",
+      "Critical point"
+    ],
+    "correctIndex": 2,
+    "solutionText": "At the Curie temperature, increased thermal agitation disrupts the aligned magnetic domains of a ferromagnetic material, rendering it paramagnetic."
+  },
+  {
+    "questionOrder": 95,
+    "questionType": "Objective",
+    "questionText": "According to the Bohr model, the energy of an electron in the ground state of a hydrogen atom is -13.6 eV. Its energy in the first excited state (n=2) is:",
+    "questionOptions":[
+      "-3.4 eV",
+      "-6.8 eV",
+      "-1.51 eV",
+      "-27.2 eV"
+    ],
+    "correctIndex": 0,
+    "solutionText": "En = -13.6 / n² eV. For the first excited state, n=2. E2 = -13.6 / 4 = -3.4 eV."
+  },
+  {
+    "questionOrder": 96,
+    "questionType": "Objective",
+    "questionText": "The de Broglie wavelength of an electron accelerated from rest through a potential difference of 100 V is approximately:",
+    "questionOptions":[
+      "1.227 Å",
+      "0.1227 Å",
+      "12.27 Å",
+      "122.7 Å"
+    ],
+    "correctIndex": 0,
+    "solutionText": "λ = 12.27 / √(V) Å. For V = 100 V, λ = 12.27 / 10 = 1.227 Å."
+  },
+  {
+    "questionOrder": 97,
+    "questionType": "Objective",
+    "questionText": "How does the nuclear density of an atom vary with its mass number (A)?",
+    "questionOptions":[
+      "Directly proportional to A",
+      "Directly proportional to A^(1/3)",
+      "Inversely proportional to A",
+      "It is independent of A"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Nuclear radius R is proportional to A^(1/3), so volume V is proportional to A. Mass is also proportional to A. Density = Mass/Volume, so A cancels out, making nuclear density roughly constant for all nuclei."
+  },
+  {
+    "questionOrder": 98,
+    "questionType": "Objective",
+    "questionText": "Which type of solid exhibits long-range periodic order and a sharp, well-defined melting point?",
+    "questionOptions":[
+      "Amorphous solids",
+      "Glass",
+      "Crystalline solids",
+      "Polymers"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Crystalline solids possess a highly ordered, repeating 3D lattice structure, leading to distinct physical properties like a sharp melting point."
+  },
+  {
+    "questionOrder": 99,
+    "questionType": "Objective",
+    "questionText": "An ideal refrigerator operates between a cold reservoir at -3°C and a hot reservoir at 27°C. Its Coefficient of Performance (COP) is:",
+    "questionOptions":[
+      "9",
+      "10",
+      "11",
+      "8"
+    ],
+    "correctIndex": 0,
+    "solutionText": "COP (β) = Tc / (Th - Tc) in Kelvin. Tc = 270 K, Th = 300 K. β = 270 / (300 - 270) = 270 / 30 = 9."
+  },
+  {
+    "questionOrder": 100,
+    "questionType": "Objective",
+    "questionText": "During an isothermal expansion of an ideal gas, which of the following is true regarding the work done by the gas and the heat absorbed?",
+    "questionOptions":[
+      "Heat absorbed is zero; work done relies on internal energy.",
+      "Heat absorbed is equal to the work done by the gas.",
+      "Work done is zero; heat absorbed goes into internal energy.",
+      "Heat rejected equals the work done on the gas."
+    ],
+    "correctIndex": 1,
+    "solutionText": "Isothermal means constant temperature (ΔT = 0), so change in internal energy (ΔU) is 0. By First Law (ΔQ = ΔU + ΔW), ΔQ = ΔW. Heat absorbed equals work done."
+  },
+  {
+    "questionOrder": 101,
+    "questionType": "Objective",
+    "questionText": "The root mean square (rms) speed of Hydrogen molecules at 300 K is V. What will be the rms speed of Oxygen molecules at the same temperature? (Molar mass of O2 is 16 times that of H2)",
+    "questionOptions":[
+      "V",
+      "V / 4",
+      "V / 16",
+      "4V"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Vrms is inversely proportional to the square root of molar mass (Vrms ∝ 1/√M). Since M_O2 = 16 M_H2, V_O2 = V / √16 = V / 4."
+  },
+  {
+    "questionOrder": 102,
+    "questionType": "Objective",
+    "questionText": "If the Earth is assumed to be a uniform solid sphere, the acceleration due to gravity at its center is:",
+    "questionOptions":[
+      "Infinite",
+      "Maximum",
+      "Half of that on the surface",
+      "Zero"
+    ],
+    "correctIndex": 3,
+    "solutionText": "At the center of a uniform spherical mass, the gravitational forces from all directions cancel out completely, making the net gravity zero."
+  },
+  {
+    "questionOrder": 103,
+    "questionType": "Objective",
+    "questionText": "A solid sphere and a hollow sphere of the same mass and radius are rolled down an inclined plane. Which one will reach the bottom first?",
+    "questionOptions":[
+      "The hollow sphere",
+      "The solid sphere",
+      "Both will reach simultaneously",
+      "Depends on the angle of inclination"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The solid sphere has a smaller moment of inertia (2/5 MR² vs 2/3 MR²), meaning less energy goes into rotation and more into linear velocity. It accelerates faster and arrives first."
+  },
+  {
+    "questionOrder": 104,
+    "questionType": "Objective",
+    "questionText": "In uniform circular motion, the work done by the centripetal force during one complete revolution is:",
+    "questionOptions":[
+      "mv²r",
+      "mv²/r",
+      "Zero",
+      "2πmv²"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Centripetal force is always directed towards the center, perpendicular to the instantaneous displacement (velocity vector). Work = F·d·cos(90°) = 0."
+  },
+  {
+    "questionOrder": 105,
+    "questionType": "Objective",
+    "questionText": "The energy stored in a charged capacitor of capacitance C and potential difference V is given by:",
+    "questionOptions":[
+      "CV",
+      "CV²",
+      "(1/2)CV²",
+      "(1/2)C²V"
+    ],
+    "correctIndex": 2,
+    "solutionText": "The work done to charge a capacitor is stored as electrostatic potential energy, calculated as U = 1/2 CV² (or Q²/2C)."
+  },
+  {
+    "questionOrder": 106,
+    "questionType": "Objective",
+    "questionText": "A car sounding its horn at a frequency of 500 Hz approaches a stationary observer. The frequency heard by the observer will be:",
+    "questionOptions":[
+      "Exactly 500 Hz",
+      "Less than 500 Hz",
+      "Greater than 500 Hz",
+      "Alternating rapidly above and below 500 Hz"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Due to the Doppler effect, when the source moves toward the observer, the sound waves are compressed, leading to a higher apparent frequency."
+  },
+  {
+    "questionOrder": 107,
+    "questionType": "Objective",
+    "questionText": "Two tuning forks produce 4 beats per second when sounded together. If the frequency of one fork is 256 Hz and the other is loaded with a little wax, the beat frequency drops to 2 Hz. The original frequency of the second fork was:",
+    "questionOptions":[
+      "252 Hz",
+      "260 Hz",
+      "254 Hz",
+      "258 Hz"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Possible frequencies are 256±4 (260 or 252). Loading with wax decreases frequency. If it was 260, lowering it to 258 gives 2 beats (matches). If 252, lowering it makes the difference larger than 4. So it was 260 Hz."
+  },
+  {
+    "questionOrder": 108,
+    "questionType": "Objective",
+    "questionText": "The fundamental frequency of an open organ pipe of length L is f. What is the fundamental frequency of a closed organ pipe of the same length?",
+    "questionOptions":[
+      "f / 2",
+      "f",
+      "2f",
+      "4f"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Open pipe f_open = v / 2L. Closed pipe f_closed = v / 4L. Thus, f_closed = f_open / 2 = f / 2."
+  },
+  {
+    "questionOrder": 109,
+    "questionType": "Objective",
+    "questionText": "The dispersive power of a prism material depends principally on:",
+    "questionOptions":[
+      "The angle of the prism",
+      "The nature of the material of the prism",
+      "The size of the prism",
+      "The angle of incidence"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Dispersive power ω = (nv - nr) / (ny - 1). It is a dimensionless constant that depends solely on the refractive indices of the material for different wavelengths."
+  },
+  {
+    "questionOrder": 110,
+    "questionType": "Objective",
+    "questionText": "If there is a 2% error in measuring the radius of a sphere, what will be the percentage error in its calculated volume?",
+    "questionOptions":[
+      "2%",
+      "4%",
+      "6%",
+      "8%"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Volume V = (4/3)πR³. The percentage error in V = 3 × (percentage error in R) = 3 × 2% = 6%."
+  },
+  {
+    "questionOrder": 111,
+    "questionType": "Objective",
+    "questionText": "For a projectile launched with speed 'u' on a level plane, the maximum horizontal range is achieved at an angle of:",
+    "questionOptions":[
+      "30°",
+      "45°",
+      "60°",
+      "90°"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Range R = (u² sin 2θ) / g. Max range occurs when sin 2θ = 1, meaning 2θ = 90°, so θ = 45°."
+  },
+  {
+    "questionOrder": 112,
+    "questionType": "Objective",
+    "questionText": "If the dot product (scalar product) of two non-zero vectors A and B is zero, the angle between them is:",
+    "questionOptions":[
+      "0°",
+      "45°",
+      "90°",
+      "180°"
+    ],
+    "correctIndex": 2,
+    "solutionText": "A·B = |A||B|cosθ. If A·B = 0 and magnitudes are non-zero, cosθ must be 0, which occurs at 90° (vectors are perpendicular)."
+  },
+  {
+    "questionOrder": 113,
+    "questionType": "Objective",
+    "questionText": "A stationary bomb explodes into two fragments of unequal masses. Which of the following statements is strictly correct?",
+    "questionOptions":[
+      "They fly off in the same direction with unequal speeds.",
+      "They fly off in opposite directions with equal speeds.",
+      "They fly off in opposite directions with equal kinetic energies.",
+      "They fly off in opposite directions with equal momenta."
+    ],
+    "correctIndex": 3,
+    "solutionText": "By conservation of linear momentum, the initial momentum is zero. Thus, m1v1 + m2v2 = 0, meaning m1v1 = -m2v2. They move in opposite directions with equal and opposite momenta."
+  },
+  {
+    "questionOrder": 114,
+    "questionType": "Objective",
+    "questionText": "According to Stokes' Law, the terminal velocity of a small spherical body falling through a viscous fluid is proportional to:",
+    "questionOptions":[
+      "The radius of the sphere",
+      "The square of the radius of the sphere",
+      "The inverse of the radius of the sphere",
+      "The square root of the radius of the sphere"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Terminal velocity v = (2r²(ρ-σ)g) / (9η). It is directly proportional to the square of the radius of the falling sphere (r²)."
+  },
+  {
+    "questionOrder": 115,
+    "questionType": "Objective",
+    "questionText": "The excess pressure inside a soap bubble of radius R and surface tension T is given by:",
+    "questionOptions":[
+      "T / R",
+      "2T / R",
+      "4T / R",
+      "8T / R"
+    ],
+    "correctIndex": 2,
+    "solutionText": "A soap bubble has two surfaces (inner and outer) exposed to air, so the excess pressure is 2 * (2T/R) = 4T/R. (A liquid drop is 2T/R)."
+  },
+  {
+    "questionOrder": 116,
+    "questionType": "Objective",
+    "questionText": "In a Simple Harmonic Motion (SHM), the kinetic energy of the particle is maximum at:",
+    "questionOptions":[
+      "The extreme positions",
+      "The mean position",
+      "Half the amplitude",
+      "Any point randomly"
+    ],
+    "correctIndex": 1,
+    "solutionText": "At the mean position, the velocity of the oscillating particle is maximum, hence the kinetic energy is also maximum."
+  },
+  {
+    "questionOrder": 117,
+    "questionType": "Objective",
+    "questionText": "The time period of a simple pendulum on Earth is T. If it is taken to the surface of the moon (where gravity is g/6), its new time period will be:",
+    "questionOptions":[
+      "T / √6",
+      "T",
+      "T * √6",
+      "6T"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Time period T = 2π√(L/g). If g becomes g/6, the new period T' = 2π√(L/(g/6)) = √6 * 2π√(L/g) = √6 T."
+  },
+  {
+    "questionOrder": 118,
+    "questionType": "Objective",
+    "questionText": "The volume of a given mass of water is minimum, and its density is maximum, at exactly:",
+    "questionOptions":[
+      "0°C",
+      "4°C",
+      "100°C",
+      "-4°C"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Due to anomalous expansion, water contracts upon heating from 0°C to 4°C, reaching its minimum volume and maximum density at 4°C."
+  },
+  {
+    "questionOrder": 119,
+    "questionType": "Objective",
+    "questionText": "Wien's displacement law states that the wavelength corresponding to maximum spectral emissive power is:",
+    "questionOptions":[
+      "Directly proportional to the fourth power of absolute temperature",
+      "Directly proportional to absolute temperature",
+      "Inversely proportional to absolute temperature",
+      "Independent of temperature"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Wien's law is λ_max * T = b (constant). Thus, λ_max is inversely proportional to the absolute temperature (T)."
+  },
+  {
+    "questionOrder": 120,
+    "questionType": "Objective",
+    "questionText": "The magnifying power of a simple microscope (convex lens) when the image is formed at the least distance of distinct vision (D) is:",
+    "questionOptions":[
+      "D / f",
+      "1 + (D / f)",
+      "1 - (D / f)",
+      "f / D"
+    ],
+    "correctIndex": 1,
+    "solutionText": "For a simple microscope, if the virtual image is formed at the near point D, the magnification is m = 1 + (D/f)."
+  },
+  {
+    "questionOrder": 121,
+    "questionType": "Objective",
+    "questionText": "Two thin lenses of focal lengths +20 cm and -10 cm are placed in contact. The power of the combination is:",
+    "questionOptions":[
+      "+5 D",
+      "-5 D",
+      "-10 D",
+      "+10 D"
+    ],
+    "correctIndex": 1,
+    "solutionText": "P1 = 100/20 = +5 D. P2 = 100/(-10) = -10 D. Total Power P = P1 + P2 = 5 - 10 = -5 D."
+  },
+  {
+    "questionOrder": 122,
+    "questionType": "Objective",
+    "questionText": "According to Gauss's law, the electric field intensity deep inside a charged hollow spherical conductor is:",
+    "questionOptions":[
+      "Maximum at the center",
+      "Uniform and non-zero everywhere",
+      "Zero everywhere inside",
+      "Inversely proportional to the distance from the center"
+    ],
+    "correctIndex": 2,
+    "solutionText": "The charge resides entirely on the outer surface of the conductor. Since there is no enclosed charge within a Gaussian surface inside, the electric field is exactly zero."
+  },
+  {
+    "questionOrder": 123,
+    "questionType": "Objective",
+    "questionText": "Kirchhoff's first law (Junction Rule) in current electricity is a direct consequence of the conservation of:",
+    "questionOptions":[
+      "Energy",
+      "Momentum",
+      "Mass",
+      "Charge"
+    ],
+    "correctIndex": 3,
+    "solutionText": "The sum of currents entering a junction equals the sum of currents leaving, meaning no charge can accumulate or disappear. This embodies the conservation of charge."
+  },
+  {
+    "questionOrder": 124,
+    "questionType": "Objective",
+    "questionText": "The magnitude of the magnetic field at the center of a circular coil of radius 'r' carrying current 'I' is proportional to:",
+    "questionOptions":[
+      "r",
+      "r²",
+      "1/r",
+      "1/r²"
+    ],
+    "correctIndex": 2,
+    "solutionText": "The magnetic field at the center of a loop is given by B = (μ0 * I) / (2r), making it inversely proportional to the radius 'r'."
+  },
+  {
+    "questionOrder": 125,
+    "questionType": "Objective",
+    "questionText": "Two straight, long, parallel wires carrying currents in the same direction will:",
+    "questionOptions":[
+      "Repel each other",
+      "Attract each other",
+      "Exert no force on each other",
+      "Rotate around each other"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Parallel currents attract each other due to the interaction of their generated magnetic fields, while anti-parallel currents repel."
+  },
+  {
+    "questionOrder": 126,
+    "questionType": "Objective",
+    "questionText": "Lenz's law, which states that the direction of an induced EMF opposes the change producing it, is firmly rooted in the principle of conservation of:",
+    "questionOptions":[
+      "Magnetic Flux",
+      "Charge",
+      "Momentum",
+      "Energy"
+    ],
+    "correctIndex": 3,
+    "solutionText": "The mechanical work done against the opposing induced force is converted into the electrical energy of the induced current, fulfilling the law of conservation of energy."
+  },
+  {
+    "questionOrder": 127,
+    "questionType": "Objective",
+    "questionText": "In an X-ray tube, the minimum wavelength (cut-off wavelength) of the continuous X-ray spectrum is inversely proportional to:",
+    "questionOptions":[
+      "The atomic number of the target material",
+      "The accelerating potential across the tube",
+      "The temperature of the filament",
+      "The current flowing through the tube"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The Duane-Hunt limit states that λ_min = hc / (eV). Thus, the shortest wavelength is inversely proportional to the accelerating voltage (V)."
+  },
+  {
+    "questionOrder": 128,
+    "questionType": "Objective",
+    "questionText": "The SI unit of the activity of a radioactive sample is the:",
+    "questionOptions":[
+      "Curie",
+      "Rutherford",
+      "Becquerel",
+      "Roentgen"
+    ],
+    "correctIndex": 2,
+    "solutionText": "While Curie and Rutherford are older units, the SI unit of radioactive decay rate (activity) is the Becquerel (Bq), defined as one disintegration per second."
+  },
+  {
+    "questionOrder": 129,
+    "questionType": "Objective",
+    "questionText": "The half-life of a radioactive isotope is 5 years. The time required for 87.5% of a given sample to decay is:",
+    "questionOptions":[
+      "10 years",
+      "15 years",
+      "20 years",
+      "25 years"
+    ],
+    "correctIndex": 1,
+    "solutionText": "87.5% decayed means 12.5% (1/8th) remains. 1/8 = (1/2)³, which equals 3 half-lives. 3 × 5 years = 15 years."
+  },
+  {
+    "questionOrder": 130,
+    "questionType": "Objective",
+    "questionText": "Which type of spectrum is uniquely produced when an atom is excited in a gaseous state at low pressure?",
+    "questionOptions":[
+      "Continuous emission spectrum",
+      "Band spectrum",
+      "Line emission spectrum",
+      "Continuous absorption spectrum"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Isolated atoms in a dilute gas emit discrete, characteristic wavelengths when electrons drop to lower energy levels, creating a line (atomic) emission spectrum."
+  },
+  {
+    "questionOrder": 131,
+    "questionType": "Objective",
+    "questionText": "The Lucas test is utilized to distinguish between primary, secondary, and tertiary alcohols. The Lucas reagent is a mixture of:",
+    "questionOptions":[
+      "Concentrated HCl and anhydrous ZnCl2",
+      "Concentrated HNO3 and concentrated H2SO4",
+      "Aqueous NaOH and I2",
+      "Ammoniacal silver nitrate"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Lucas reagent (conc. HCl + anhydrous ZnCl2) reacts with alcohols to form insoluble alkyl chlorides, creating turbidity at different rates depending on alcohol class."
+  },
+  {
+    "questionOrder": 132,
+    "questionType": "Objective",
+    "questionText": "Reductive ozonolysis of 2-butene followed by treatment with Zinc dust and water yields:",
+    "questionOptions":[
+      "Two molecules of formaldehyde",
+      "Two molecules of acetaldehyde",
+      "One molecule of acetone and one of formaldehyde",
+      "One molecule of glyoxal"
+    ],
+    "correctIndex": 1,
+    "solutionText": "2-butene (CH3-CH=CH-CH3) is cleaved at the double bond during ozonolysis. Each side becomes an aldehyde, yielding two molecules of acetaldehyde (ethanal)."
+  },
+  {
+    "questionOrder": 133,
+    "questionType": "Objective",
+    "questionText": "During the laboratory esterification reaction between acetic acid and ethanol, concentrated sulfuric acid is used. Its primary role is to:",
+    "questionOptions":[
+      "Act solely as a solvent",
+      "Act as an oxidizing agent",
+      "Act as a catalyst and a dehydrating agent to shift equilibrium forward",
+      "Provide an alkaline medium"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Esterification produces water. Concentrated H2SO4 acts as an acid catalyst and removes this water (dehydration), driving the reversible reaction towards ester formation."
+  },
+  {
+    "questionOrder": 134,
+    "questionType": "Objective",
+    "questionText": "In a standard flame test, the presence of Potassium ions imparts which characteristic color to the non-luminous flame?",
+    "questionOptions":[
+      "Golden yellow",
+      "Apple green",
+      "Brick red",
+      "Lilac (Pale Violet)"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Alkali metals show distinct flame colors: Sodium is golden yellow, Lithium is crimson red, and Potassium is lilac or pale violet."
+  },
+  {
+    "questionOrder": 135,
+    "questionType": "Objective",
+    "questionText": "The oxidation number of Nitrogen in Urea (NH2CONH2) is:",
+    "questionOptions":[
+      "-3",
+      "0",
+      "+3",
+      "+5"
+    ],
+    "correctIndex": 0,
+    "solutionText": "In the amino groups (-NH2), Nitrogen is bonded to Carbon and Hydrogen. Hydrogen is +1, Carbon is more electropositive than N, leading to an oxidation state of -3 for Nitrogen."
+  },
+  {
+    "questionOrder": 136,
+    "questionType": "Objective",
+    "questionText": "During the manufacture of Portland cement, a small amount of gypsum (CaSO4·2H2O) is deliberately added to the clinker primarily to:",
+    "questionOptions":[
+      "Increase the final strength of the concrete",
+      "Provide a white color to the cement",
+      "Retard the initial setting time of the cement",
+      "Act as a flux to lower the melting point"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Gypsum slows down the hydration process of calcium aluminate, retarding the flash setting of cement and allowing sufficient time for mixing and pouring."
+  },
+  {
+    "questionOrder": 137,
+    "questionType": "Objective",
+    "questionText": "The standard reduction potential of the Standard Hydrogen Electrode (SHE) at 298 K is conventionally assigned a value of:",
+    "questionOptions":[
+      "1.00 V",
+      "-1.00 V",
+      "0.00 V",
+      "0.059 V"
+    ],
+    "correctIndex": 2,
+    "solutionText": "By international IUPAC convention, the Standard Hydrogen Electrode acts as the reference point with an exactly assigned potential of 0.00 Volts."
+  },
+  {
+    "questionOrder": 138,
+    "questionType": "Objective",
+    "questionText": "An SN1 reaction in organic chemistry proceeds via the formation of a highly reactive intermediate known as a(n):",
+    "questionOptions":[
+      "Carbanion",
+      "Carbocation",
+      "Free radical",
+      "Transition state complex only"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The unimolecular nucleophilic substitution (SN1) is a two-step process where the leaving group departs first, forming a planar carbocation intermediate."
+  },
+  {
+    "questionOrder": 139,
+    "questionType": "Objective",
+    "questionText": "In Friedel-Crafts alkylation of benzene, anhydrous Aluminum Chloride (AlCl3) is used. Its function is to act as a:",
+    "questionOptions":[
+      "Lewis base to extract a proton",
+      "Reducing agent",
+      "Lewis acid to generate an electrophile",
+      "Solvent"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Anhydrous AlCl3 is electron-deficient (a Lewis acid) and accepts a chloride ion from the alkyl halide, thereby generating a reactive carbocation electrophile."
+  },
+  {
+    "questionOrder": 140,
+    "questionType": "Objective",
+    "questionText": "The Haber process for synthesizing ammonia is exothermic and involves a decrease in gas moles. According to Le Chatelier's principle, the optimum conditions for maximum yield are:",
+    "questionOptions":[
+      "High temperature and low pressure",
+      "Low temperature and high pressure",
+      "Low temperature and low pressure",
+      "High temperature and high pressure"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Since the reaction produces heat, low temperature favors the forward reaction. Since 4 moles of gas convert to 2 moles, high pressure shifts equilibrium forward."
+  },
+  {
+    "questionOrder": 141,
+    "questionType": "Objective",
+    "questionText": "Hinsberg's reagent is used to separate and identify primary, secondary, and tertiary amines. What is its chemical name?",
+    "questionOptions":[
+      "Benzenesulfonyl chloride",
+      "p-Toluenesulfonic acid",
+      "Acetyl chloride",
+      "Benzoyl chloride"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Benzenesulfonyl chloride (C6H5SO2Cl) reacts with 1° and 2° amines to form sulfonamides with different solubilities in alkali, allowing their separation."
+  },
+  {
+    "questionOrder": 142,
+    "questionType": "Objective",
+    "questionText": "Natural rubber is a linear addition polymer. What is its monomeric unit?",
+    "questionOptions":[
+      "Chloroprene",
+      "Isoprene",
+      "Styrene",
+      "Tetrafluoroethylene"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Natural rubber is cis-1,4-polyisoprene, formed by the polymerization of the monomer isoprene (2-methyl-1,3-butadiene)."
+  },
+  {
+    "questionOrder": 143,
+    "questionType": "Objective",
+    "questionText": "The maximum number of orbitals present in a principal energy shell 'n' is given by the formula:",
+    "questionOptions":[
+      "n",
+      "2n",
+      "n²",
+      "2n²"
+    ],
+    "correctIndex": 2,
+    "solutionText": "The total number of orbitals in a shell is n². Since each orbital holds 2 electrons, the maximum number of electrons is 2n²."
+  },
+  {
+    "questionOrder": 144,
+    "questionType": "Objective",
+    "questionText": "An acidic buffer solution exhibits its maximum buffer capacity, effectively resisting changes in pH, when:",
+    "questionOptions":[
+      "The concentration of salt is double the acid",
+      "The pH is exactly 7.0",
+      "The pH is equal to the pKa of the weak acid",
+      "The solution is highly diluted"
+    ],
+    "correctIndex": 2,
+    "solutionText": "According to the Henderson-Hasselbalch equation, when [Salt] = [Acid], log(1)=0, making pH = pKa. At this point, the buffer resists pH changes best in both directions."
+  },
+  {
+    "questionOrder": 145,
+    "questionType": "Objective",
+    "questionText": "Ethylenediaminetetraacetic acid (EDTA) is a widely used complexing agent in analytical chemistry. It is classified as a:",
+    "questionOptions":[
+      "Bidentate ligand",
+      "Tridentate ligand",
+      "Hexadentate ligand",
+      "Ambidentate ligand"
+    ],
+    "correctIndex": 2,
+    "solutionText": "EDTA can donate six pairs of electrons (from two amine nitrogens and four carboxylate oxygens) to a central metal ion, making it a hexadentate ligand."
+  },
+  {
+    "questionOrder": 146,
+    "questionType": "Objective",
+    "questionText": "According to the Bronsted-Lowry concept, a base is defined as a chemical species that acts as a:",
+    "questionOptions":[
+      "Proton donor",
+      "Proton acceptor",
+      "Electron pair donor",
+      "Electron pair acceptor"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Bronsted-Lowry acids are proton (H+) donors, while bases are proton acceptors."
+  },
+  {
+    "questionOrder": 147,
+    "questionType": "Objective",
+    "questionText": "The Iodoform test, yielding a yellow precipitate, is positive for compounds containing the CH3-CO- group. Which of the following alcohols will give a positive iodoform test?",
+    "questionOptions":[
+      "Methanol",
+      "Ethanol",
+      "Propan-1-ol",
+      "Butan-1-ol"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Ethanol (CH3CH2OH) is oxidized by iodine and base to acetaldehyde (CH3CHO), which contains the required methyl ketone group and yields iodoform."
+  },
+  {
+    "questionOrder": 148,
+    "questionType": "Objective",
+    "questionText": "The technique of determining the molar mass of an unknown non-volatile solute by measuring the elevation in boiling point is known as:",
+    "questionOptions":[
+      "Cryoscopy",
+      "Ebullioscopy",
+      "Osmometry",
+      "Voltammetry"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Ebullioscopy refers to the use of boiling point elevation (ΔTb) to calculate molar mass. Cryoscopy relates to freezing point depression."
+  },
+  {
+    "questionOrder": 149,
+    "questionType": "Objective",
+    "questionText": "In the molecule Sulfur hexafluoride (SF6), the central sulfur atom undergoes which type of hybridization?",
+    "questionOptions":[
+      "sp3",
+      "dsp2",
+      "sp3d",
+      "sp3d2"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Sulfur has 6 valence electrons and forms 6 single bonds with fluorine, requiring 6 hybrid orbitals. This corresponds to sp3d2 hybridization and an octahedral geometry."
+  },
+  {
+    "questionOrder": 150,
+    "questionType": "Objective",
+    "questionText": "Faraday's First Law of Electrolysis states that the mass (m) of a substance deposited at an electrode is mathematically given by:",
+    "questionOptions":[
+      "m = Z / (I*t)",
+      "m = (I*t) / Z",
+      "m = Z * I * t",
+      "m = Z * I² * t"
+    ],
+    "correctIndex": 2,
+    "solutionText": "The mass deposited is proportional to the total charge Q passed. Since Q = I*t, m = Z * I * t, where Z is the electrochemical equivalent."
+  },
+  {
+    "questionOrder": 151,
+    "questionType": "Objective",
+    "questionText": "The IUPAC name for glycerol, a common trihydric alcohol, is:",
+    "questionOptions":[
+      "Propane-1,2-diol",
+      "Propane-1,2,3-triol",
+      "2-Methylpropan-2-ol",
+      "Butane-1,2,3-triol"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Glycerol has a three-carbon backbone with a hydroxyl group attached to each carbon (CH2OH-CHOH-CH2OH), making it propane-1,2,3-triol."
+  },
+  {
+    "questionOrder": 152,
+    "questionType": "Objective",
+    "questionText": "Grignard reagents (RMgX) must be synthesized and stored in strictly anhydrous conditions (dry ether) because they react violently with water to form:",
+    "questionOptions":[
+      "Alcohols",
+      "Alkenes",
+      "Alkanes",
+      "Ketones"
+    ],
+    "correctIndex": 2,
+    "solutionText": "The highly polarized carbanion in RMgX acts as a strong base, abstracting a proton from water to immediately form the corresponding alkane (RH)."
+  },
+  {
+    "questionOrder": 153,
+    "questionType": "Objective",
+    "questionText": "Vitamin C, a crucial water-soluble vitamin that prevents scurvy, is chemically known as:",
+    "questionOptions":[
+      "Retinol",
+      "Calciferol",
+      "Ascorbic acid",
+      "Tocopherol"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Vitamin C is Ascorbic acid. Retinol is Vitamin A, Calciferol is Vitamin D, and Tocopherol is Vitamin E."
+  },
+  {
+    "questionOrder": 154,
+    "questionType": "Objective",
+    "questionText": "Most transition metal compounds are highly colored in solid state or aqueous solution. This color primarily arises due to:",
+    "questionOptions":[
+      "Complete pairing of all d-electrons",
+      "d-d electron transitions within split d-orbitals",
+      "Emission of gamma rays",
+      "Refraction of light by crystal lattices"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Ligands cause the splitting of degenerate d-orbitals. Unpaired electrons absorb specific visible light wavelengths to jump between these split levels (d-d transition), transmitting the complementary color."
+  },
+  {
+    "questionOrder": 155,
+    "questionType": "Objective",
+    "questionText": "A defining characteristic of a first-order chemical reaction is that its half-life is:",
+    "questionOptions":[
+      "Directly proportional to the initial concentration",
+      "Inversely proportional to the initial concentration",
+      "Independent of the initial concentration of the reactant",
+      "Proportional to the square of the concentration"
+    ],
+    "correctIndex": 2,
+    "solutionText": "For a first-order reaction, t(1/2) = 0.693 / k. The equation does not contain a concentration term, making it entirely independent of initial amounts."
+  },
+  {
+    "questionOrder": 156,
+    "questionType": "Objective",
+    "questionText": "The addition of HBr to propene in the presence of an organic peroxide yields 1-bromopropane. This 'Anti-Markovnikov' addition is also known as the:",
+    "questionOptions":[
+      "Wurtz effect",
+      "Kharasch effect",
+      "Aldol effect",
+      "Zeisel effect"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The Kharasch effect (or peroxide effect) occurs via a free radical mechanism, causing HBr to add contrary to Markovnikov's rule."
+  },
+  {
+    "questionOrder": 157,
+    "questionType": "Objective",
+    "questionText": "The enthalpy of neutralization is found to be practically constant (-57.1 kJ/mol) for the reaction between:",
+    "questionOptions":[
+      "A weak acid and a strong base",
+      "A strong acid and a weak base",
+      "Any acid and any base",
+      "A strong acid and a strong base"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Strong acids and strong bases ionize completely. Their neutralization is simply the reaction of H+ and OH- to form water, yielding a constant enthalpy release."
+  },
+  {
+    "questionOrder": 158,
+    "questionType": "Objective",
+    "questionText": "Which element in the periodic table exhibits the highest negative electron affinity (electron gain enthalpy)?",
+    "questionOptions":[
+      "Fluorine",
+      "Chlorine",
+      "Oxygen",
+      "Bromine"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Although fluorine is more electronegative, chlorine has a higher electron affinity due to fluorine's very small atomic size, which causes inter-electronic repulsion when an electron is added."
+  },
+  {
+    "questionOrder": 159,
+    "questionType": "Objective",
+    "questionText": "Among the hydrogen halides, which is the strongest acid in aqueous solution?",
+    "questionOptions":[
+      "HF",
+      "HCl",
+      "HBr",
+      "HI"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Acid strength depends on the ease of H+ release. Since the H-I bond is the longest and weakest due to iodine's large size, HI is the strongest acid."
+  },
+  {
+    "questionOrder": 160,
+    "questionType": "Objective",
+    "questionText": "The froth flotation process is a metallurgical concentration method specifically based on preferential wetting, primarily used for:",
+    "questionOptions":[
+      "Oxide ores",
+      "Carbonate ores",
+      "Sulphide ores",
+      "Halide ores"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Sulphide ores (like Zinc blende, Galena) are preferentially wetted by pine oil and rise in the froth, separating them from water-wetted gangue particles."
+  },
+  {
+    "questionOrder": 161,
+    "questionType": "Objective",
+    "questionText": "In a typical Galvanic cell, the salt bridge contains an inert electrolyte suspended in agar-agar gel. A common electrolyte used is:",
+    "questionOptions":[
+      "Copper sulfate",
+      "Potassium chloride (KCl)",
+      "Sodium hydroxide",
+      "Hydrochloric acid"
+    ],
+    "correctIndex": 1,
+    "solutionText": "KCl, KNO3, or NH4NO3 are used because the transport numbers (mobilities) of their cations and anions are nearly equal, minimizing liquid junction potential."
+  },
+  {
+    "questionOrder": 162,
+    "questionType": "Objective",
+    "questionText": "The cell constant of a conductivity cell is defined as the ratio of the distance between the electrodes (l) to their cross-sectional area (A). Its SI unit is:",
+    "questionOptions":[
+      "m²",
+      "m",
+      "m⁻¹",
+      "m⁻²"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Cell constant = l / A. With 'l' in meters and 'A' in square meters, the unit becomes m / m² = m⁻¹ (or commonly cm⁻¹)."
+  },
+  {
+    "questionOrder": 163,
+    "questionType": "Objective",
+    "questionText": "Due to the presence of one lone pair of electrons causing enhanced repulsion, the bond angle in an ammonia (NH3) molecule is reduced from the normal tetrahedral angle to approximately:",
+    "questionOptions":[
+      "109.5°",
+      "107°",
+      "104.5°",
+      "120°"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The lone pair-bond pair repulsion is stronger than bond pair-bond pair repulsion, squeezing the H-N-H angle from 109.5° to ~107°."
+  },
+  {
+    "questionOrder": 164,
+    "questionType": "Objective",
+    "questionText": "In the Contact process for manufacturing sulfuric acid, the crucial catalytic oxidation of SO2 to SO3 utilizes which catalyst?",
+    "questionOptions":[
+      "Finely divided iron",
+      "Nickel",
+      "Vanadium pentoxide (V2O5)",
+      "Manganese dioxide"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Vanadium pentoxide (V2O5) is the preferred commercial catalyst in the Contact process because it resists poisoning better than platinized asbestos."
+  },
+  {
+    "questionOrder": 165,
+    "questionType": "Objective",
+    "questionText": "For an organic molecule to exhibit optical isomerism (enantiomerism), it must possess:",
+    "questionOptions":[
+      "A carbon-carbon double bond",
+      "A plane of symmetry",
+      "A chiral center (asymmetric carbon)",
+      "At least four carbon atoms"
+    ],
+    "correctIndex": 2,
+    "solutionText": "A chiral center, where a carbon atom is bonded to four different groups, results in a molecule that is non-superimposable on its mirror image."
+  },
+  {
+    "questionOrder": 166,
+    "questionType": "Objective",
+    "questionText": "During the dehydrohalogenation of alkyl halides, the formation of the more highly substituted, more stable alkene as the major product is governed by:",
+    "questionOptions":[
+      "Markovnikov's rule",
+      "Saytzeff's (Zaitsev's) rule",
+      "Hofmann's rule",
+      "Hückel's rule"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Saytzeff's rule dictates that in elimination reactions, the alkene with the greatest number of alkyl groups attached to the double bond carbon atoms predominates."
+  },
+  {
+    "questionOrder": 167,
+    "questionType": "Objective",
+    "questionText": "In thermodynamics, a measure of the degree of disorder or randomness of a system is defined as:",
+    "questionOptions":[
+      "Enthalpy",
+      "Internal energy",
+      "Gibbs free energy",
+      "Entropy"
+    ],
+    "correctIndex": 3,
+    "solutionText": "Entropy (S) is the thermodynamic property that quantifies the level of disorder. The Second Law states the universe's entropy tends to increase."
+  },
+  {
+    "questionOrder": 168,
+    "questionType": "Objective",
+    "questionText": "What is the pH of a 0.1 M aqueous solution of sodium hydroxide (NaOH) at 25°C?",
+    "questionOptions": [
+      "1",
+      "7",
+      "13",
+      "14"
+    ],
+    "correctIndex": 2,
+    "solutionText": "[OH-] = 0.1 M = 10^-1 M. pOH = -log(10^-1) = 1. Since pH + pOH = 14, pH = 14 - 1 = 13."
+  },
+  {
+    "questionOrder": 169,
+    "questionType": "Objective",
+    "questionText": "The colorless, sweet-smelling gas commonly known as 'laughing gas', used as a mild anesthetic in dentistry, is:",
+    "questionOptions":[
+      "Nitrogen dioxide (NO2)",
+      "Nitric oxide (NO)",
+      "Nitrous oxide (N2O)",
+      "Dinitrogen tetroxide (N2O4)"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Nitrous oxide (N2O) induces a state of euphoria and mild anesthesia, earning it the name laughing gas."
+  },
+  {
+    "questionOrder": 170,
+    "questionType": "Objective",
+    "questionText": "Nylon 6,6 is a synthetic polymer formed by the condensation polymerization of hexamethylenediamine and:",
+    "questionOptions":[
+      "Terephthalic acid",
+      "Adipic acid",
+      "Caprolactam",
+      "Phthalic acid"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Nylon 6,6 is a polyamide formed by condensing a 6-carbon diamine (hexamethylenediamine) with a 6-carbon dicarboxylic acid (adipic acid)."
+  },
+  {
+    "questionOrder": 171,
+    "questionType": "Objective",
+    "questionText": "According to Avogadro's law, one mole of any ideal gas at Standard Temperature and Pressure (STP) occupies a volume of approximately:",
+    "questionOptions":[
+      "11.2 liters",
+      "22.4 liters",
+      "24.0 liters",
+      "100 liters"
+    ],
+    "correctIndex": 1,
+    "solutionText": "At STP (0°C and 1 atm), one mole of an ideal gas occupies roughly 22.4 liters (or 22.7 liters at 1 bar)."
+  },
+  {
+    "questionOrder": 172,
+    "questionType": "Objective",
+    "questionText": "In Lassaigne's test for the detection of nitrogen in organic compounds, the development of a Prussian blue color indicates the formation of:",
+    "questionOptions":[
+      "Sodium cyanide",
+      "Ferric ferrocyanide",
+      "Sodium thiocyanate",
+      "Ammonium molybdate"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The nitrogen forms sodium cyanide, which reacts with iron salts to produce the complex ferric ferrocyanide (Fe4[Fe(CN)6]3), having a characteristic Prussian blue color."
+  },
+  {
+    "questionOrder": 173,
+    "questionType": "Objective",
+    "questionText": "The Pauli Exclusion Principle states that no two electrons in an atom can have the same set of four quantum numbers. A direct consequence is that a single orbital can hold a maximum of:",
+    "questionOptions":[
+      "1 electron",
+      "2 electrons",
+      "6 electrons",
+      "10 electrons"
+    ],
+    "correctIndex": 1,
+    "solutionText": "If two electrons occupy the same orbital, their first three quantum numbers (n, l, m) are identical. Thus, their spin (s) must be different (+1/2, -1/2), limiting the orbital to 2 electrons."
+  },
+  {
+    "questionOrder": 174,
+    "questionType": "Objective",
+    "questionText": "Which gas law establishes that at constant pressure, the volume of a fixed mass of gas is directly proportional to its absolute temperature?",
+    "questionOptions":[
+      "Boyle's Law",
+      "Charles's Law",
+      "Avogadro's Law",
+      "Gay-Lussac's Law"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Charles's law states V ∝ T (at constant P). Boyle's law is P ∝ 1/V (at constant T)."
+  },
+  {
+    "questionOrder": 175,
+    "questionType": "Objective",
+    "questionText": "In the powerful oxidizing agent Potassium dichromate (K2Cr2O7), the oxidation number of Chromium is:",
+    "questionOptions":[
+      "+3",
+      "+4",
+      "+6",
+      "+7"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Let x be the oxidation state of Cr. 2(+1) + 2x + 7(-2) = 0. 2x - 12 = 0, so 2x = 12, yielding x = +6."
+  },
+  {
+    "questionOrder": 176,
+    "questionType": "Objective",
+    "questionText": "Which nitrogenous base is present in DNA but uniquely absent in RNA?",
+    "questionOptions":[
+      "Adenine",
+      "Guanine",
+      "Cytosine",
+      "Thymine"
+    ],
+    "correctIndex": 3,
+    "solutionText": "DNA contains Thymine, while RNA replaces it with Uracil. Both contain Adenine, Guanine, and Cytosine."
+  },
+  {
+    "questionOrder": 177,
+    "questionType": "Objective",
+    "questionText": "In the periodic table, Lithium shows an anomalous 'diagonal relationship', sharing many chemical properties with which element in Group 2?",
+    "questionOptions":[
+      "Beryllium",
+      "Magnesium",
+      "Calcium",
+      "Strontium"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Lithium (Period 2, Group 1) has a diagonal relationship with Magnesium (Period 3, Group 2) due to their similar polarizing power (ionic charge/size ratio)."
+  },
+  {
+    "questionOrder": 178,
+    "questionType": "Objective",
+    "questionText": "The Nernst equation allows the calculation of cell potential under non-standard conditions. It mathematically relates the electrode potential to the:",
+    "questionOptions":[
+      "Mass of the electrodes only",
+      "Volume of the electrolyte only",
+      "Concentration of the ions and temperature",
+      "Atmospheric pressure strictly"
+    ],
+    "correctIndex": 2,
+    "solutionText": "The Nernst equation is E = E° - (RT/nF)*ln(Q), linking cell potential to temperature and the reaction quotient (ion concentrations)."
+  },
+  {
+    "questionOrder": 179,
+    "questionType": "Objective",
+    "questionText": "When an aliphatic aldehyde is heated with Fehling's solution (a mixture of copper sulfate and Rochelle salt), it is oxidized, producing a characteristic:",
+    "questionOptions":[
+      "Silver mirror",
+      "Brick-red precipitate",
+      "White precipitate",
+      "Deep blue coloration"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Aldehydes reduce the soluble blue Cu2+ complex in Fehling's solution to insoluble Copper(I) oxide (Cu2O), which is a brick-red precipitate."
+  },
+  {
+    "questionOrder": 180,
+    "questionType": "Objective",
+    "questionText": "Among the following 3d transition metals, which one exhibits strong ferromagnetism at room temperature?",
+    "questionOptions": [
+      "Scandium",
+      "Titanium",
+      "Iron",
+      "Zinc"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Iron (Fe), Cobalt (Co), and Nickel (Ni) are the classic ferromagnetic metals, capable of retaining permanent magnetic domains."
+  },
+  {
+    "questionOrder": 181,
+    "questionType": "Objective",
+    "questionText": "A father is currently three times as old as his son. In 12 years, the father will be twice as old as his son. What is the present age of the son?",
+    "questionOptions":[
+      "12",
+      "15",
+      "18",
+      "24"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Let son's age = x. Father's age = 3x. In 12 years: 3x + 12 = 2(x + 12) -> 3x + 12 = 2x + 24 -> x = 12. The son is 12."
+  },
+  {
+    "questionOrder": 182,
+    "questionType": "Objective",
+    "questionText": "At exactly what time between 4 and 5 o'clock will the hour and minute hands of a clock overlap completely?",
+    "questionOptions":[
+      "4:20",
+      "4:21 and 9/11 minutes",
+      "4:22 and 5/11 minutes",
+      "4:25"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The hands overlap when the angle is 0. Time = 5x * (12/11) past the hour. For 4 o'clock, x=4, so 20 * (12/11) = 240/11 = 21 and 9/11 minutes."
+  },
+  {
+    "questionOrder": 183,
+    "questionType": "Objective",
+    "questionText": "A 150 m long train moving at 72 km/h crosses a stationary platform in 15 seconds. What is the length of the platform?",
+    "questionOptions":[
+      "100 m",
+      "150 m",
+      "200 m",
+      "250 m"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Speed = 72 km/h = 72 * (5/18) = 20 m/s. Total distance = Speed * Time = 20 * 15 = 300 m. Platform length = 300 - 150 = 150 m."
+  },
+  {
+    "questionOrder": 184,
+    "questionType": "Objective",
+    "questionText": "Find the next number in the Fibonacci-style series: 2, 3, 5, 8, 13, 21, ?",
+    "questionOptions":[
+      "32",
+      "34",
+      "36",
+      "42"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Each term is the sum of the two preceding terms. 13 + 21 = 34."
+  },
+  {
+    "questionOrder": 185,
+    "questionType": "Objective",
+    "questionText": "A batsman has a certain average for 10 innings. In the 11th inning, he scores 100 runs, thereby increasing his average by 5 runs. What is his new average?",
+    "questionOptions":[
+      "45",
+      "50",
+      "55",
+      "60"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Let old average be x. Total runs = 10x. New runs = 10x + 100. New average = x + 5. (10x + 100)/11 = x + 5. 10x + 100 = 11x + 55 -> x = 45. New average = 45 + 5 = 50."
+  },
+  {
+    "questionOrder": 186,
+    "questionType": "Objective",
+    "questionText": "Pointing to a man in a photograph, a woman says, 'His brother's father is the only son of my grandfather.' How is the woman related to the man in the photograph?",
+    "questionOptions":[
+      "Mother",
+      "Aunt",
+      "Sister",
+      "Daughter"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Her grandfather's only son is her father. The man's brother's father is also the man's father. Thus, her father is the man's father, making them sister and brother."
+  },
+  {
+    "questionOrder": 187,
+    "questionType": "Objective",
+    "questionText": "One morning after sunrise, Ram and Shyam were standing facing each other. If Shyam's shadow fell exactly to the right of Ram, which direction was Ram facing?",
+    "questionOptions":[
+      "North",
+      "South",
+      "East",
+      "West"
+    ],
+    "correctIndex": 1,
+    "solutionText": "In the morning, the sun is in the East, so shadows fall to the West. If Shyam's shadow (West) is to Ram's right, Ram must be facing South."
+  },
+  {
+    "questionOrder": 188,
+    "questionType": "Objective",
+    "questionText": "In a class of 40 students, Rohan is ranked 15th from the top. What is his rank from the bottom?",
+    "questionOptions":[
+      "24",
+      "25",
+      "26",
+      "27"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Rank from bottom = (Total students - Rank from top) + 1. So, (40 - 15) + 1 = 26th."
+  },
+  {
+    "questionOrder": 189,
+    "questionType": "Objective",
+    "questionText": "If the word 'DOCTOR' is coded as 'W L X G L I', how will the word 'NURSE' be coded according to the same pattern?",
+    "questionOptions":[
+      "M F I H V",
+      "M F J G V",
+      "M E I H U",
+      "L F I H V"
+    ],
+    "correctIndex": 0,
+    "solutionText": "The code uses reverse alphabetical letters (A-Z, B-Y, etc.). D-W, O-L, C-X, T-G, O-L, R-I. For NURSE: N-M, U-F, R-I, S-H, E-V. Code: M F I H V."
+  },
+  {
+    "questionOrder": 190,
+    "questionType": "Objective",
+    "questionText": "Which number logically replaces the question mark in the sequence: 1, 8, 27, 64, 125, ?",
+    "questionOptions":[
+      "196",
+      "216",
+      "243",
+      "256"
+    ],
+    "correctIndex": 1,
+    "solutionText": "The sequence consists of perfect cubes: 1³, 2³, 3³, 4³, 5³. The next is 6³ = 216."
+  },
+  {
+    "questionOrder": 191,
+    "questionType": "Objective",
+    "questionText": "Choose the word that is least like the others in the following group:",
+    "questionOptions": [
+      "Brass",
+      "Copper",
+      "Zinc",
+      "Iron"
+    ],
+    "correctIndex": 0,
+    "solutionText": "Copper, Zinc, and Iron are pure elements (metals), whereas Brass is an alloy (mixture of Copper and Zinc)."
+  },
+  {
+    "questionOrder": 192,
+    "questionType": "Objective",
+    "questionText": "Five friends are sitting on a bench facing North. A is sitting next to B. C is sitting next to D. D is not sitting with E, who is on the left end. C is on the second position from the right. A is to the right of B and E. Who is sitting exactly in the middle?",
+    "questionOptions":[
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "correctIndex": 0,
+    "solutionText": "E is on the left end (Pos 1). C is 2nd from right (Pos 4). D is next to C but not E, so D must be at Pos 5 (right end). That leaves Pos 2 and 3 for B and A. Since A is right of B, B is Pos 2, A is Pos 3. Sequence: E, B, A, C, D. A is in the middle."
+  },
+  {
+    "questionOrder": 193,
+    "questionType": "Objective",
+    "questionText": "Statement 1: All birds are animals. Statement 2: All animals are living. \nConclusion I: All birds are living. \nConclusion II: Some living are birds.\nWhich conclusion(s) logically follow?",
+    "questionOptions":[
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither follows"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Birds ⊂ Animals ⊂ Living. So, all birds are living (I is true). Since birds are a subset of living things, it is true that some living things are birds (II is true). Both follow."
+  },
+  {
+    "questionOrder": 194,
+    "questionType": "Objective",
+    "questionText": "If January 1st of a non-leap year falls on a Monday, what day of the week will December 31st of the same year be?",
+    "questionOptions":[
+      "Sunday",
+      "Monday",
+      "Tuesday",
+      "Wednesday"
+    ],
+    "correctIndex": 1,
+    "solutionText": "A non-leap year has 365 days. 365 / 7 = 52 weeks and 1 odd day. The first day and the last day of a non-leap year are the same. Thus, it will be Monday."
+  },
+  {
+    "questionOrder": 195,
+    "questionType": "Objective",
+    "questionText": "In a standard six-sided die, the sum of the dots on any two opposite faces is always 7. If the number 3 is on the top face, which number is on the bottom face?",
+    "questionOptions":[
+      "2",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Since opposite faces always sum to 7 in a standard die, the bottom face must be 7 - 3 = 4."
+  },
+  {
+    "questionOrder": 196,
+    "questionType": "Objective",
+    "questionText": "Which of the following Venn diagrams best represents the relationship between: 'Vehicles, Cars, and Bicycles'?",
+    "questionOptions":[
+      "One large circle containing two intersecting smaller circles",
+      "Three separate independent circles",
+      "One large circle containing two completely separate smaller circles",
+      "Three concentric circles"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Cars and Bicycles are completely different entities, so their circles do not overlap. However, both fall under the broader category of Vehicles, so both are inside the large 'Vehicles' circle."
+  },
+  {
+    "questionOrder": 197,
+    "questionType": "Objective",
+    "questionText": "If a merchant sells an item for Rs. 600, he incurs a loss of 20%. To gain a profit of 20%, at what price should he sell the item?",
+    "questionOptions":[
+      "Rs. 720",
+      "Rs. 800",
+      "Rs. 900",
+      "Rs. 1000"
+    ],
+    "correctIndex": 2,
+    "solutionText": "Selling Price (SP) = Cost Price (CP) * (80/100) = 600. So, CP = 600 * 100 / 80 = 750. For 20% profit, SP = 750 * 1.20 = Rs. 900."
+  },
+  {
+    "questionOrder": 198,
+    "questionType": "Objective",
+    "questionText": "Select the option that correctly completes the analogy: 'Scalpel' is to 'Surgeon' as 'Awl' is to '?'",
+    "questionOptions":[
+      "Carpenter",
+      "Cobbler",
+      "Mason",
+      "Blacksmith"
+    ],
+    "correctIndex": 1,
+    "solutionText": "A scalpel is the primary working tool of a surgeon. Similarly, an awl (used for piercing holes in leather) is a primary tool of a cobbler."
+  },
+  {
+    "questionOrder": 199,
+    "questionType": "Objective",
+    "questionText": "A can finish a piece of work in 10 days, and B can finish the same work in 15 days. If they work together, how many days will it take to finish the work?",
+    "questionOptions":[
+      "5 days",
+      "6 days",
+      "8 days",
+      "12 days"
+    ],
+    "correctIndex": 1,
+    "solutionText": "Work done by A in 1 day = 1/10. Work by B in 1 day = 1/15. Together in 1 day = 1/10 + 1/15 = 3/30 + 2/30 = 5/30 = 1/6. So they finish it in 6 days."
+  },
+  {
+    "questionOrder": 200,
+    "questionType": "Objective",
+    "questionText": "Arrange the following words in a meaningful and logical sequence: 1. Yarn, 2. Plant, 3. Shirt, 4. Cotton, 5. Cloth",
+    "questionOptions":[
+      "2, 4, 1, 5, 3",
+      "2, 4, 5, 1, 3",
+      "4, 2, 1, 5, 3",
+      "2, 1, 4, 5, 3"
+    ],
+    "correctIndex": 0,
+    "solutionText": "The logical sequence of production: A Plant (2) produces Cotton (4), which is spun into Yarn (1), woven into Cloth (5), and finally tailored into a Shirt (3)."
+  }
+]
+```
