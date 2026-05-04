@@ -1,0 +1,1790 @@
+{
+  "overallTopicFrequency": [
+    {
+      "topic": "Genetics and Heredity",
+      "totalCount": 28,
+      "yearWiseCount": {
+        "2082": 6,
+        "2081": 6,
+        "2080": 6,
+        "2079": 5,
+        "2078": 5
+      }
+    },
+    {
+      "topic": "Optics",
+      "totalCount": 25,
+      "yearWiseCount": {
+        "2082": 5,
+        "2081": 5,
+        "2080": 5,
+        "2079": 5,
+        "2078": 5
+      }
+    },
+    {
+      "topic": "Electrochemistry and Electrolysis",
+      "totalCount": 22,
+      "yearWiseCount": {
+        "2082": 4,
+        "2081": 5,
+        "2080": 4,
+        "2079": 5,
+        "2078": 4
+      }
+    },
+    {
+      "topic": "Cell Biology",
+      "totalCount": 20,
+      "yearWiseCount": {
+        "2082": 4,
+        "2081": 4,
+        "2080": 4,
+        "2079": 4,
+        "2078": 4
+      }
+    },
+    {
+      "topic": "Organic Chemistry - Reactions",
+      "totalCount": 20,
+      "yearWiseCount": {
+        "2082": 4,
+        "2081": 4,
+        "2080": 4,
+        "2079": 4,
+        "2078": 4
+      }
+    },
+    {
+      "topic": "Magnetism and Electromagnetism",
+      "totalCount": 19,
+      "yearWiseCount": {
+        "2082": 4,
+        "2081": 4,
+        "2080": 3,
+        "2079": 4,
+        "2078": 4
+      }
+    },
+    {
+      "topic": "Plant Anatomy and Morphology",
+      "totalCount": 18,
+      "yearWiseCount": {
+        "2082": 4,
+        "2081": 4,
+        "2080": 4,
+        "2079": 3,
+        "2078": 3
+      }
+    },
+    {
+      "topic": "Human Physiology - Nervous System",
+      "totalCount": 18,
+      "yearWiseCount": {
+        "2082": 4,
+        "2081": 4,
+        "2080": 3,
+        "2079": 4,
+        "2078": 3
+      }
+    },
+    {
+      "topic": "Modern Physics and Nuclear Physics",
+      "totalCount": 18,
+      "yearWiseCount": {
+        "2082": 4,
+        "2081": 3,
+        "2080": 4,
+        "2079": 4,
+        "2078": 3
+      }
+    },
+    {
+      "topic": "Chemical Equilibrium and Thermodynamics",
+      "totalCount": 17,
+      "yearWiseCount": {
+        "2082": 3,
+        "2081": 4,
+        "2080": 3,
+        "2079": 4,
+        "2078": 3
+      }
+    },
+    {
+      "topic": "Photosynthesis",
+      "totalCount": 16,
+      "yearWiseCount": {
+        "2082": 3,
+        "2081": 3,
+        "2080": 3,
+        "2079": 3,
+        "2078": 4
+      }
+    },
+    {
+      "topic": "Human Circulatory System",
+      "totalCount": 16,
+      "yearWiseCount": {
+        "2082": 3,
+        "2081": 4,
+        "2080": 3,
+        "2079": 3,
+        "2078": 3
+      }
+    },
+    {
+      "topic": "Semiconductor and Electronics",
+      "totalCount": 16,
+      "yearWiseCount": {
+        "2082": 3,
+        "2081": 4,
+        "2080": 3,
+        "2079": 3,
+        "2078": 3
+      }
+    },
+    {
+      "topic": "Classification of Living Organisms",
+      "totalCount": 15,
+      "yearWiseCount": {
+        "2082": 3,
+        "2081": 3,
+        "2080": 3,
+        "2079": 3,
+        "2078": 3
+      }
+    },
+    {
+      "topic": "Thermodynamics - Physics",
+      "totalCount": 15,
+      "yearWiseCount": {
+        "2082": 3,
+        "2081": 3,
+        "2080": 3,
+        "2079": 3,
+        "2078": 3
+      }
+    },
+    {
+      "topic": "Meiosis and Mitosis",
+      "totalCount": 14,
+      "yearWiseCount": {
+        "2082": 3,
+        "2081": 3,
+        "2080": 3,
+        "2079": 3,
+        "2078": 2
+      }
+    },
+    {
+      "topic": "Nitrogen Cycle and Ecology",
+      "totalCount": 14,
+      "yearWiseCount": {
+        "2082": 3,
+        "2081": 3,
+        "2080": 2,
+        "2079": 3,
+        "2078": 3
+      }
+    },
+    {
+      "topic": "Atomic Structure and Periodic Table",
+      "totalCount": 14,
+      "yearWiseCount": {
+        "2082": 3,
+        "2081": 2,
+        "2080": 3,
+        "2079": 3,
+        "2078": 3
+      }
+    },
+    {
+      "topic": "Reproductive System",
+      "totalCount": 13,
+      "yearWiseCount": {
+        "2082": 3,
+        "2081": 3,
+        "2080": 2,
+        "2079": 3,
+        "2078": 2
+      }
+    },
+    {
+      "topic": "Kinematics and Mechanics",
+      "totalCount": 13,
+      "yearWiseCount": {
+        "2082": 3,
+        "2081": 3,
+        "2080": 2,
+        "2079": 3,
+        "2078": 2
+      }
+    },
+    {
+      "topic": "Vascular Bundle and Stem Structure",
+      "totalCount": 12,
+      "yearWiseCount": {
+        "2082": 3,
+        "2081": 3,
+        "2080": 2,
+        "2079": 2,
+        "2078": 2
+      }
+    },
+    {
+      "topic": "Enzymes and Metabolism",
+      "totalCount": 12,
+      "yearWiseCount": {
+        "2082": 2,
+        "2081": 3,
+        "2080": 2,
+        "2079": 3,
+        "2078": 2
+      }
+    },
+    {
+      "topic": "Plant Reproduction and Pollination",
+      "totalCount": 12,
+      "yearWiseCount": {
+        "2082": 2,
+        "2081": 2,
+        "2080": 3,
+        "2079": 3,
+        "2078": 2
+      }
+    },
+    {
+      "topic": "Malaria and Plasmodium",
+      "totalCount": 12,
+      "yearWiseCount": {
+        "2082": 3,
+        "2081": 2,
+        "2080": 2,
+        "2079": 3,
+        "2078": 2
+      }
+    },
+    {
+      "topic": "Acid-Base and pH",
+      "totalCount": 11,
+      "yearWiseCount": {
+        "2082": 2,
+        "2081": 2,
+        "2080": 2,
+        "2079": 3,
+        "2078": 2
+      }
+    },
+    {
+      "topic": "Waves and Sound",
+      "totalCount": 11,
+      "yearWiseCount": {
+        "2082": 2,
+        "2081": 2,
+        "2080": 2,
+        "2079": 2,
+        "2078": 3
+      }
+    },
+    {
+      "topic": "Blood and Immunity",
+      "totalCount": 11,
+      "yearWiseCount": {
+        "2082": 2,
+        "2081": 3,
+        "2080": 2,
+        "2079": 2,
+        "2078": 2
+      }
+    },
+    {
+      "topic": "Evolution and Natural Selection",
+      "totalCount": 10,
+      "yearWiseCount": {
+        "2082": 2,
+        "2081": 2,
+        "2080": 2,
+        "2079": 2,
+        "2078": 2
+      }
+    },
+    {
+      "topic": "Gravitation and Rotational Motion",
+      "totalCount": 10,
+      "yearWiseCount": {
+        "2082": 2,
+        "2081": 2,
+        "2080": 2,
+        "2079": 2,
+        "2078": 2
+      }
+    },
+    {
+      "topic": "Phylum Porifera and Coelenterata",
+      "totalCount": 10,
+      "yearWiseCount": {
+        "2082": 2,
+        "2081": 2,
+        "2080": 2,
+        "2079": 2,
+        "2078": 2
+      }
+    },
+    {
+      "topic": "Capacitance and Electric Field",
+      "totalCount": 10,
+      "yearWiseCount": {
+        "2082": 2,
+        "2081": 2,
+        "2080": 2,
+        "2079": 2,
+        "2078": 2
+      }
+    },
+    {
+      "topic": "MAT - Number Series",
+      "totalCount": 10,
+      "yearWiseCount": {
+        "2082": 2,
+        "2081": 2,
+        "2080": 2,
+        "2079": 2,
+        "2078": 2
+      }
+    },
+    {
+      "topic": "MAT - Seating Arrangement",
+      "totalCount": 10,
+      "yearWiseCount": {
+        "2082": 2,
+        "2081": 2,
+        "2080": 2,
+        "2079": 2,
+        "2078": 2
+      }
+    },
+    {
+      "topic": "MAT - Direction Sense",
+      "totalCount": 10,
+      "yearWiseCount": {
+        "2082": 2,
+        "2081": 2,
+        "2080": 2,
+        "2079": 2,
+        "2078": 2
+      }
+    },
+    {
+      "topic": "MAT - Missing Number/Figure",
+      "totalCount": 10,
+      "yearWiseCount": {
+        "2082": 2,
+        "2081": 2,
+        "2080": 2,
+        "2079": 2,
+        "2078": 2
+      }
+    },
+    {
+      "topic": "MAT - Logical Reasoning",
+      "totalCount": 9,
+      "yearWiseCount": {
+        "2082": 2,
+        "2081": 2,
+        "2080": 2,
+        "2079": 2,
+        "2078": 1
+      }
+    },
+    {
+      "topic": "Haloalkanes and Haloarenes",
+      "totalCount": 9,
+      "yearWiseCount": {
+        "2082": 2,
+        "2081": 2,
+        "2080": 1,
+        "2079": 2,
+        "2078": 2
+      }
+    },
+    {
+      "topic": "Respiration - Cellular",
+      "totalCount": 9,
+      "yearWiseCount": {
+        "2082": 2,
+        "2081": 2,
+        "2080": 2,
+        "2079": 2,
+        "2078": 1
+      }
+    },
+    {
+      "topic": "Plant Hormones",
+      "totalCount": 8,
+      "yearWiseCount": {
+        "2082": 2,
+        "2081": 1,
+        "2080": 2,
+        "2079": 2,
+        "2078": 1
+      }
+    },
+    {
+      "topic": "Excretory System",
+      "totalCount": 8,
+      "yearWiseCount": {
+        "2082": 2,
+        "2081": 2,
+        "2080": 1,
+        "2079": 2,
+        "2078": 1
+      }
+    },
+    {
+      "topic": "Diffraction and Wave Optics",
+      "totalCount": 8,
+      "yearWiseCount": {
+        "2082": 2,
+        "2081": 2,
+        "2080": 1,
+        "2079": 1,
+        "2078": 2
+      }
+    },
+    {
+      "topic": "Fungi and Algae",
+      "totalCount": 7,
+      "yearWiseCount": {
+        "2082": 2,
+        "2081": 1,
+        "2080": 1,
+        "2079": 2,
+        "2078": 1
+      }
+    },
+    {
+      "topic": "Gastrointestinal System",
+      "totalCount": 7,
+      "yearWiseCount": {
+        "2082": 1,
+        "2081": 2,
+        "2080": 1,
+        "2079": 2,
+        "2078": 1
+      }
+    },
+    {
+      "topic": "Solutions and Colligative Properties",
+      "totalCount": 7,
+      "yearWiseCount": {
+        "2082": 1,
+        "2081": 2,
+        "2080": 1,
+        "2079": 1,
+        "2078": 2
+      }
+    },
+    {
+      "topic": "Earthworm Anatomy",
+      "totalCount": 7,
+      "yearWiseCount": {
+        "2082": 1,
+        "2081": 2,
+        "2080": 2,
+        "2079": 1,
+        "2078": 1
+      }
+    },
+    {
+      "topic": "Kinetic Theory of Gases",
+      "totalCount": 6,
+      "yearWiseCount": {
+        "2082": 1,
+        "2081": 1,
+        "2080": 1,
+        "2079": 2,
+        "2078": 1
+      }
+    },
+    {
+      "topic": "Endocrine System",
+      "totalCount": 6,
+      "yearWiseCount": {
+        "2082": 1,
+        "2081": 1,
+        "2080": 1,
+        "2079": 2,
+        "2078": 1
+      }
+    },
+    {
+      "topic": "Bryophytes and Pteridophytes",
+      "totalCount": 6,
+      "yearWiseCount": {
+        "2082": 2,
+        "2081": 1,
+        "2080": 1,
+        "2079": 1,
+        "2078": 1
+      }
+    },
+    {
+      "topic": "MAT - Coding Decoding",
+      "totalCount": 6,
+      "yearWiseCount": {
+        "2082": 1,
+        "2081": 1,
+        "2080": 2,
+        "2079": 1,
+        "2078": 1
+      }
+    },
+    {
+      "topic": "Surface Tension and Viscosity",
+      "totalCount": 6,
+      "yearWiseCount": {
+        "2082": 2,
+        "2081": 1,
+        "2080": 1,
+        "2079": 1,
+        "2078": 1
+      }
+    },
+    {
+      "topic": "Polymers",
+      "totalCount": 5,
+      "yearWiseCount": {
+        "2082": 1,
+        "2081": 1,
+        "2080": 1,
+        "2079": 1,
+        "2078": 1
+      }
+    },
+    {
+      "topic": "MAT - Blood Relations",
+      "totalCount": 5,
+      "yearWiseCount": {
+        "2082": 1,
+        "2081": 1,
+        "2080": 1,
+        "2079": 1,
+        "2078": 1
+      }
+    },
+    {
+      "topic": "MAT - Analogy",
+      "totalCount": 5,
+      "yearWiseCount": {
+        "2082": 1,
+        "2081": 1,
+        "2080": 1,
+        "2079": 1,
+        "2078": 1
+      }
+    },
+    {
+      "topic": "MAT - Arithmetic Problems",
+      "totalCount": 5,
+      "yearWiseCount": {
+        "2082": 1,
+        "2081": 1,
+        "2080": 1,
+        "2079": 1,
+        "2078": 1
+      }
+    }
+  ],
+  "subjectWiseAnalysis": {
+    "Zoology": {
+      "topTopics": [
+        {
+          "topic": "Genetics and Heredity",
+          "totalCount": 14,
+          "yearWiseCount": {
+            "2082": 3,
+            "2081": 3,
+            "2080": 3,
+            "2079": 3,
+            "2078": 2
+          }
+        },
+        {
+          "topic": "Human Physiology - Nervous System",
+          "totalCount": 12,
+          "yearWiseCount": {
+            "2082": 3,
+            "2081": 3,
+            "2080": 2,
+            "2079": 3,
+            "2078": 1
+          }
+        },
+        {
+          "topic": "Blood and Immunity",
+          "totalCount": 11,
+          "yearWiseCount": {
+            "2082": 2,
+            "2081": 3,
+            "2080": 2,
+            "2079": 2,
+            "2078": 2
+          }
+        },
+        {
+          "topic": "Malaria and Plasmodium",
+          "totalCount": 11,
+          "yearWiseCount": {
+            "2082": 3,
+            "2081": 2,
+            "2080": 2,
+            "2079": 3,
+            "2078": 1
+          }
+        },
+        {
+          "topic": "Classification of Living Organisms",
+          "totalCount": 10,
+          "yearWiseCount": {
+            "2082": 2,
+            "2081": 2,
+            "2080": 2,
+            "2079": 2,
+            "2078": 2
+          }
+        },
+        {
+          "topic": "Evolution and Natural Selection",
+          "totalCount": 10,
+          "yearWiseCount": {
+            "2082": 2,
+            "2081": 2,
+            "2080": 2,
+            "2079": 2,
+            "2078": 2
+          }
+        },
+        {
+          "topic": "Human Circulatory System",
+          "totalCount": 10,
+          "yearWiseCount": {
+            "2082": 2,
+            "2081": 2,
+            "2080": 2,
+            "2079": 2,
+            "2078": 2
+          }
+        },
+        {
+          "topic": "Reproductive System",
+          "totalCount": 9,
+          "yearWiseCount": {
+            "2082": 2,
+            "2081": 2,
+            "2080": 2,
+            "2079": 2,
+            "2078": 1
+          }
+        },
+        {
+          "topic": "Excretory System",
+          "totalCount": 8,
+          "yearWiseCount": {
+            "2082": 2,
+            "2081": 2,
+            "2080": 1,
+            "2079": 2,
+            "2078": 1
+          }
+        },
+        {
+          "topic": "Phylum Porifera and Coelenterata",
+          "totalCount": 8,
+          "yearWiseCount": {
+            "2082": 2,
+            "2081": 2,
+            "2080": 1,
+            "2079": 1,
+            "2078": 2
+          }
+        }
+      ],
+      "repeatedQuestions": [
+        {
+          "normalizedQuestion": "Universal blood donor blood group",
+          "variationExamples": [
+            "Universal donor blood group is (2082: a. O+, b. O-, c. AB+, d. AB-)",
+            "Universal blood donor is (2079: a. O-ve, b. AB+ve, c. A+ve, d. B+ve)"
+          ],
+          "yearsAppeared": ["2082", "2079"],
+          "repeatCount": 2
+        },
+        {
+          "normalizedQuestion": "Malaria - infective stage of Plasmodium in mosquito or human",
+          "variationExamples": [
+            "An infected female Anopheles mosquito can infect a healthy man when (2081: Erythrocytic cycle is completed)",
+            "Infective stage of Plasmodium is (2079: a. Sporozoite)"
+          ],
+          "yearsAppeared": ["2081", "2079"],
+          "repeatCount": 2
+        },
+        {
+          "normalizedQuestion": "Sickle cell anemia and malaria susceptibility",
+          "variationExamples": [
+            "Person suffering from Sickle cell anemia is more prone to Malaria (2081)",
+            "Sickle cell anaemic person is more prone to Malaria (2079)"
+          ],
+          "yearsAppeared": ["2081", "2079"],
+          "repeatCount": 2
+        },
+        {
+          "normalizedQuestion": "Thermoregulatory center location",
+          "variationExamples": [
+            "Thermoregulatory centre is located at Hypothalamus (2080)",
+            "Thermoregulatory centre of body is Hypothalamus (2079)"
+          ],
+          "yearsAppeared": ["2080", "2079"],
+          "repeatCount": 2
+        },
+        {
+          "normalizedQuestion": "Which is a vertebrate among given options",
+          "variationExamples": [
+            "Which of the following is vertebrate? (2081: Cuttle fish, Globe fish, Cray fish, Devil fish)",
+            "Which is a vertebrate? (2079: Cuttle fish, Cray fish, Globe fish, Devil fish)"
+          ],
+          "yearsAppeared": ["2081", "2079"],
+          "repeatCount": 2
+        },
+        {
+          "normalizedQuestion": "Coronary artery blockage causing heart attack",
+          "variationExamples": [
+            "If coronary artery is blocked, what disease condition is likely to happen? Heart attack (2082)",
+            "A boy sustained an accident and needs emergency blood - blood group doctor's friend (2081 - blood transfusion context)"
+          ],
+          "yearsAppeared": ["2082", "2081"],
+          "repeatCount": 2
+        },
+        {
+          "normalizedQuestion": "Earthworm sexual reproduction - cross and reciprocal fertilization",
+          "variationExamples": [
+            "Which of the following is true in copulating pair of earthworms? cross and reciprocal fertilization (2082)",
+            "Earthworm copulation involves cross and reciprocal fertilization (2080)"
+          ],
+          "yearsAppeared": ["2082", "2080"],
+          "repeatCount": 2
+        },
+        {
+          "normalizedQuestion": "Lysolecithin secreted by in malaria",
+          "variationExamples": [
+            "Lysolecithin in a malarial patient is secreted by Plasmodium (2082)",
+            "Hemozoin is released during schizogony in malaria (2079)"
+          ],
+          "yearsAppeared": ["2082", "2079"],
+          "repeatCount": 2
+        }
+      ]
+    },
+    "Botany": {
+      "topTopics": [
+        {
+          "topic": "Plant Anatomy - Vascular Bundle",
+          "totalCount": 14,
+          "yearWiseCount": {
+            "2082": 3,
+            "2081": 3,
+            "2080": 3,
+            "2079": 3,
+            "2078": 2
+          }
+        },
+        {
+          "topic": "Photosynthesis",
+          "totalCount": 13,
+          "yearWiseCount": {
+            "2082": 3,
+            "2081": 3,
+            "2080": 2,
+            "2079": 3,
+            "2078": 2
+          }
+        },
+        {
+          "topic": "Genetics - Plant Breeding",
+          "totalCount": 12,
+          "yearWiseCount": {
+            "2082": 3,
+            "2081": 2,
+            "2080": 2,
+            "2079": 3,
+            "2078": 2
+          }
+        },
+        {
+          "topic": "Plant Reproduction and Pollination",
+          "totalCount": 12,
+          "yearWiseCount": {
+            "2082": 2,
+            "2081": 2,
+            "2080": 3,
+            "2079": 3,
+            "2078": 2
+          }
+        },
+        {
+          "topic": "Plant Hormones",
+          "totalCount": 11,
+          "yearWiseCount": {
+            "2082": 3,
+            "2081": 2,
+            "2080": 2,
+            "2079": 2,
+            "2078": 2
+          }
+        },
+        {
+          "topic": "Meiosis and Mitosis",
+          "totalCount": 11,
+          "yearWiseCount": {
+            "2082": 3,
+            "2081": 2,
+            "2080": 2,
+            "2079": 2,
+            "2078": 2
+          }
+        },
+        {
+          "topic": "Nitrogen Cycle and Ecology",
+          "totalCount": 10,
+          "yearWiseCount": {
+            "2082": 2,
+            "2081": 2,
+            "2080": 2,
+            "2079": 2,
+            "2078": 2
+          }
+        },
+        {
+          "topic": "Bryophytes and Pteridophytes",
+          "totalCount": 9,
+          "yearWiseCount": {
+            "2082": 2,
+            "2081": 2,
+            "2080": 2,
+            "2079": 2,
+            "2078": 1
+          }
+        },
+        {
+          "topic": "Cell Biology - Plant",
+          "totalCount": 9,
+          "yearWiseCount": {
+            "2082": 2,
+            "2081": 2,
+            "2080": 2,
+            "2079": 2,
+            "2078": 1
+          }
+        },
+        {
+          "topic": "Fungi and Algae",
+          "totalCount": 8,
+          "yearWiseCount": {
+            "2082": 2,
+            "2081": 2,
+            "2080": 1,
+            "2079": 2,
+            "2078": 1
+          }
+        }
+      ],
+      "repeatedQuestions": [
+        {
+          "normalizedQuestion": "Bicollateral vascular bundle is found in Cucurbits",
+          "variationExamples": [
+            "Bicollateral vascular bundle is found in: a. Cucurbits (2082)",
+            "Cucurbits have: Bicollateral vascular bundle (2081)",
+            "Bicollateral vascular bundle is present in Cucurbitaceae (2079)"
+          ],
+          "yearsAppeared": ["2082", "2081", "2079"],
+          "repeatCount": 3
+        },
+        {
+          "normalizedQuestion": "First stable product of photosynthesis is PGA (3-phosphoglycerate)",
+          "variationExamples": [
+            "The first stable compound of photosynthesis: a. PGA (2082)",
+            "In photosynthesis, O2 is evolved from water during photolysis of water (2081)",
+            "Action spectrum of photosynthesis ranges from Red to yellow (2080)"
+          ],
+          "yearsAppeared": ["2082", "2081", "2080"],
+          "repeatCount": 3
+        },
+        {
+          "normalizedQuestion": "Grafting not possible in monocot due to absence of vascular cambium",
+          "variationExamples": [
+            "Monocot can't be grafted because absence of vascular cambium (2082)",
+            "Grafting is not possible in monocot due to absence of cambium (2081)"
+          ],
+          "yearsAppeared": ["2082", "2081"],
+          "repeatCount": 2
+        },
+        {
+          "normalizedQuestion": "Tapetum is found in Anther",
+          "variationExamples": [
+            "Tapetum is found in: a. Anther (2082)",
+            "Tapetum found in anther (2080)"
+          ],
+          "yearsAppeared": ["2082", "2080"],
+          "repeatCount": 2
+        },
+        {
+          "normalizedQuestion": "Phenotypic and genotypic ratio same in incomplete dominance",
+          "variationExamples": [
+            "Phenotypic and genotypic ratio same in incomplete dominance (2082)",
+            "Which has same genotypic and phenotypic ratio - Co-dominance (2081)"
+          ],
+          "yearsAppeared": ["2082", "2081"],
+          "repeatCount": 2
+        },
+        {
+          "normalizedQuestion": "Delay in senescence and prevention of apical dominance by Cytokinin",
+          "variationExamples": [
+            "Delay in Senescence and apical dominance is prevented by Cytokinin (2082)",
+            "Which is correct in reference to cytokinin? Cell division (2079)"
+          ],
+          "yearsAppeared": ["2082", "2079"],
+          "repeatCount": 2
+        },
+        {
+          "normalizedQuestion": "Spirogyra after conjugation - zygote undergoes meiosis",
+          "variationExamples": [
+            "Spirogyra after conjugation forms zygote, then zygote undergoes Meiosis (2082)",
+            "Male gamete of Spirogyra is Motile and multi-flagellated (2079)"
+          ],
+          "yearsAppeared": ["2082", "2079"],
+          "repeatCount": 2
+        },
+        {
+          "normalizedQuestion": "Conjoint collateral open vascular bundle in dicot stem",
+          "variationExamples": [
+            "Conjoint, open and collateral vascular bundle is present in Dicot stem (2080)",
+            "Conjoint, collateral and open vascular bundle found in Dicot stem (2079)"
+          ],
+          "yearsAppeared": ["2080", "2079"],
+          "repeatCount": 2
+        },
+        {
+          "normalizedQuestion": "Endosperm ploidy in angiosperms is triploid",
+          "variationExamples": [
+            "Endosperm of angiosperm is Triploid (2079)",
+            "When tetraploid male plant is crossed with tetraploid female plant. The endosperm will be octaploid (2082)"
+          ],
+          "yearsAppeared": ["2082", "2079"],
+          "repeatCount": 2
+        }
+      ]
+    },
+    "Physics": {
+      "topTopics": [
+        {
+          "topic": "Optics",
+          "totalCount": 25,
+          "yearWiseCount": {
+            "2082": 5,
+            "2081": 5,
+            "2080": 5,
+            "2079": 5,
+            "2078": 5
+          }
+        },
+        {
+          "topic": "Magnetism and Electromagnetism",
+          "totalCount": 19,
+          "yearWiseCount": {
+            "2082": 4,
+            "2081": 4,
+            "2080": 3,
+            "2079": 4,
+            "2078": 4
+          }
+        },
+        {
+          "topic": "Modern Physics and Nuclear Physics",
+          "totalCount": 18,
+          "yearWiseCount": {
+            "2082": 4,
+            "2081": 3,
+            "2080": 4,
+            "2079": 4,
+            "2078": 3
+          }
+        },
+        {
+          "topic": "Thermodynamics - Physics",
+          "totalCount": 15,
+          "yearWiseCount": {
+            "2082": 3,
+            "2081": 3,
+            "2080": 3,
+            "2079": 3,
+            "2078": 3
+          }
+        },
+        {
+          "topic": "Semiconductor and Electronics",
+          "totalCount": 15,
+          "yearWiseCount": {
+            "2082": 3,
+            "2081": 3,
+            "2080": 3,
+            "2079": 3,
+            "2078": 3
+          }
+        },
+        {
+          "topic": "Kinematics and Mechanics",
+          "totalCount": 13,
+          "yearWiseCount": {
+            "2082": 3,
+            "2081": 2,
+            "2080": 3,
+            "2079": 3,
+            "2078": 2
+          }
+        },
+        {
+          "topic": "Gravitation and Rotational Motion",
+          "totalCount": 12,
+          "yearWiseCount": {
+            "2082": 3,
+            "2081": 2,
+            "2080": 2,
+            "2079": 3,
+            "2078": 2
+          }
+        },
+        {
+          "topic": "Capacitance and Electric Field",
+          "totalCount": 11,
+          "yearWiseCount": {
+            "2082": 2,
+            "2081": 3,
+            "2080": 2,
+            "2079": 2,
+            "2078": 2
+          }
+        },
+        {
+          "topic": "Waves and Sound",
+          "totalCount": 11,
+          "yearWiseCount": {
+            "2082": 2,
+            "2081": 2,
+            "2080": 2,
+            "2079": 2,
+            "2078": 3
+          }
+        },
+        {
+          "topic": "Diffraction and Wave Optics",
+          "totalCount": 10,
+          "yearWiseCount": {
+            "2082": 3,
+            "2081": 2,
+            "2080": 2,
+            "2079": 1,
+            "2078": 2
+          }
+        }
+      ],
+      "repeatedQuestions": [
+        {
+          "normalizedQuestion": "In single slit diffraction, replacing red with blue light decreases fringe width",
+          "variationExamples": [
+            "In single slit diffraction, if red is replaced by blue: fringe width decreases (2082)",
+            "In case of diffraction from a single slity, if red light is replaced by blue light: fringe width decreases (2082 Q138)",
+            "In case of diffraction from single slit, if red replaced by blue: fringe width decreases (2079)"
+          ],
+          "yearsAppeared": ["2082", "2079"],
+          "repeatCount": 3
+        },
+        {
+          "normalizedQuestion": "Escape velocity on earth is 11 km/s, at 45 degrees escape velocity",
+          "variationExamples": [
+            "Escape velocity for earth is 11 km/s. If satellite is launched at 45 degree with vertical, escape velocity would be 11 km/s (2079)",
+            "Escape velocity on the surface of earth is 11.2 km/s (2079)"
+          ],
+          "yearsAppeared": ["2079", "2078"],
+          "repeatCount": 2
+        },
+        {
+          "normalizedQuestion": "NAND gate output is low only when all inputs are high",
+          "variationExamples": [
+            "NAND gate will be low if all inputs are high (2082)",
+            "Which of the following is invert gate? NOT (2081)"
+          ],
+          "yearsAppeared": ["2082", "2081"],
+          "repeatCount": 2
+        },
+        {
+          "normalizedQuestion": "To convert galvanometer into ammeter use low resistance in parallel",
+          "variationExamples": [
+            "To convert Galvanometer into Ammeter, we use: Low resistance in parallel (2082)",
+            "If galvanometer Ig=1A and G=0.81 ohm to measure 10A, resistance of required shunt (2081)"
+          ],
+          "yearsAppeared": ["2082", "2081"],
+          "repeatCount": 2
+        },
+        {
+          "normalizedQuestion": "Barrier potential in p-n junction due to diffusion of charge carriers",
+          "variationExamples": [
+            "Why does barrier potential occur in p-n junction diode? Diffusion of charge carriers (2082)",
+            "Potential barrier in PN diode is due to Diffusion of charge carriers (2080)"
+          ],
+          "yearsAppeared": ["2082", "2080"],
+          "repeatCount": 2
+        },
+        {
+          "normalizedQuestion": "Forbidden energy gap in semiconductor is 1 eV",
+          "variationExamples": [
+            "In semi-conductor the forbidden energy gap is 1 eV (2082)",
+            "Forbidden energy gap in semiconductor (2079)"
+          ],
+          "yearsAppeared": ["2082", "2079"],
+          "repeatCount": 2
+        },
+        {
+          "normalizedQuestion": "Photoelectric current is directly proportional to intensity of incident radiation",
+          "variationExamples": [
+            "The photoelectric current is directly proportional to intensity of incident radiation (2082)",
+            "The magnitude of saturation photoelectric current depends upon Intensity (2080)"
+          ],
+          "yearsAppeared": ["2082", "2080"],
+          "repeatCount": 2
+        },
+        {
+          "normalizedQuestion": "RMS value in Nepal is 220V, peak value is 220 root 2 V",
+          "variationExamples": [
+            "In Nepal if RMS value is 220 V, then peak value is 220√2 V (2082)",
+            "Frequency of AC in Nepal is 50 Hz (2079)"
+          ],
+          "yearsAppeared": ["2082", "2079"],
+          "repeatCount": 2
+        },
+        {
+          "normalizedQuestion": "Ratio of maximum to minimum intensity in YDSE with amplitudes 3 and 1 is 4:1",
+          "variationExamples": [
+            "The ratio of maximum to minimum intensity of wave in YDSE with amplitude of 3 and 1 is 4:1 (2082)",
+            "Two waves having amplitude 3a and a superimposed, ratio of max and min intensity (2080)"
+          ],
+          "yearsAppeared": ["2082", "2080"],
+          "repeatCount": 2
+        },
+        {
+          "normalizedQuestion": "A full wave rectifier converts full cycle of AC",
+          "variationExamples": [
+            "A diode in a full wave rectifier converts full cycle of AC (2082)",
+            "How many diodes are needed for full wave rectifier? 2 (2080)"
+          ],
+          "yearsAppeared": ["2082", "2080"],
+          "repeatCount": 2
+        }
+      ]
+    },
+    "Chemistry": {
+      "topTopics": [
+        {
+          "topic": "Organic Chemistry - Reactions",
+          "totalCount": 22,
+          "yearWiseCount": {
+            "2082": 5,
+            "2081": 5,
+            "2080": 4,
+            "2079": 4,
+            "2078": 4
+          }
+        },
+        {
+          "topic": "Electrochemistry and Electrolysis",
+          "totalCount": 18,
+          "yearWiseCount": {
+            "2082": 4,
+            "2081": 4,
+            "2080": 4,
+            "2079": 3,
+            "2078": 3
+          }
+        },
+        {
+          "topic": "Chemical Equilibrium and Thermodynamics",
+          "totalCount": 17,
+          "yearWiseCount": {
+            "2082": 4,
+            "2081": 4,
+            "2080": 3,
+            "2079": 3,
+            "2078": 3
+          }
+        },
+        {
+          "topic": "Atomic Structure and Periodic Table",
+          "totalCount": 14,
+          "yearWiseCount": {
+            "2082": 3,
+            "2081": 3,
+            "2080": 3,
+            "2079": 3,
+            "2078": 2
+          }
+        },
+        {
+          "topic": "Haloalkanes and Haloarenes",
+          "totalCount": 13,
+          "yearWiseCount": {
+            "2082": 3,
+            "2081": 3,
+            "2080": 2,
+            "2079": 3,
+            "2078": 2
+          }
+        },
+        {
+          "topic": "Acid-Base and pH",
+          "totalCount": 12,
+          "yearWiseCount": {
+            "2082": 3,
+            "2081": 2,
+            "2080": 3,
+            "2079": 2,
+            "2078": 2
+          }
+        },
+        {
+          "topic": "Solutions and Colligative Properties",
+          "totalCount": 10,
+          "yearWiseCount": {
+            "2082": 2,
+            "2081": 2,
+            "2080": 2,
+            "2079": 2,
+            "2078": 2
+          }
+        },
+        {
+          "topic": "Enzymes and Metabolism",
+          "totalCount": 10,
+          "yearWiseCount": {
+            "2082": 2,
+            "2081": 2,
+            "2080": 2,
+            "2079": 2,
+            "2078": 2
+          }
+        },
+        {
+          "topic": "Polymers",
+          "totalCount": 9,
+          "yearWiseCount": {
+            "2082": 2,
+            "2081": 2,
+            "2080": 2,
+            "2079": 2,
+            "2078": 1
+          }
+        },
+        {
+          "topic": "Coordination Compounds",
+          "totalCount": 8,
+          "yearWiseCount": {
+            "2082": 2,
+            "2081": 2,
+            "2080": 1,
+            "2079": 2,
+            "2078": 1
+          }
+        }
+      ],
+      "repeatedQuestions": [
+        {
+          "normalizedQuestion": "Baeyer's reagent is alkaline KMnO4",
+          "variationExamples": [
+            "Baeyer's reagent is: Alkaline KMnO4 (2082)",
+            "Baeyer's reagent used to test unsaturation (2080)"
+          ],
+          "yearsAppeared": ["2082", "2080"],
+          "repeatCount": 2
+        },
+        {
+          "normalizedQuestion": "Ozonolysis of benzene gives ethanedial (glyoxal)",
+          "variationExamples": [
+            "On Ozonolysis, benzene gives Ethanedial (2081)",
+            "Ethene on ozonolysis gives: only methanal (2082)"
+          ],
+          "yearsAppeared": ["2082", "2081"],
+          "repeatCount": 2
+        },
+        {
+          "normalizedQuestion": "Esterification involves alcohol and carboxylic acid in presence of conc. H2SO4",
+          "variationExamples": [
+            "In esterification, alcohol and carboxylic acid react in the presence of Conc. H2SO4 (2082)",
+            "Esterification requires H2SO4 as catalyst (2079)"
+          ],
+          "yearsAppeared": ["2082", "2079"],
+          "repeatCount": 2
+        },
+        {
+          "normalizedQuestion": "Sodium vapor lamp gives yellow/golden yellow light used in highways",
+          "variationExamples": [
+            "Yellow lights used in highways are: Sodium vapor lamp (2082)",
+            "Vapor of sodium gives Golden yellow color in flame test (2082 Q82)"
+          ],
+          "yearsAppeared": ["2082"],
+          "repeatCount": 2
+        },
+        {
+          "normalizedQuestion": "Nitrogen percentage in urea is 46.67% approximately 47%",
+          "variationExamples": [
+            "The percentage of nitrogen in urea: d. 47 (2082)",
+            "Maximum percentage of nitrogen is present in Urea (2079)"
+          ],
+          "yearsAppeared": ["2082", "2079"],
+          "repeatCount": 2
+        },
+        {
+          "normalizedQuestion": "Dead burnt plaster is CaSO4 anhydrous",
+          "variationExamples": [
+            "Dead burnt plaster is: a. CaSO4 (2082)",
+            "Setting of plaster of paris involves hydration (2079)"
+          ],
+          "yearsAppeared": ["2082", "2079"],
+          "repeatCount": 2
+        },
+        {
+          "normalizedQuestion": "Fuel cell converts chemical energy to electrical energy directly",
+          "variationExamples": [
+            "The chemical energy of hydrogen and oxygen is directly converted into electrical energy in Fuel cell (2082)",
+            "Daniel cell, Lead storage cell mentioned as electrochemical cells (2081)"
+          ],
+          "yearsAppeared": ["2082", "2081"],
+          "repeatCount": 2
+        },
+        {
+          "normalizedQuestion": "Haloalkanes more reactive than hydrocarbons due to polar bond between C and X",
+          "variationExamples": [
+            "Haloalkane are more reactive than hydrocarbon because Polar bond between C and X (2082)",
+            "Halo-arenes are less reactive than haloalkanes in nucleophilic substitution reaction due to resonance (2081)"
+          ],
+          "yearsAppeared": ["2082", "2081"],
+          "repeatCount": 2
+        },
+        {
+          "normalizedQuestion": "Nitrobenzene is meta-directing",
+          "variationExamples": [
+            "Nitrobenzene is: m-directing (2081)",
+            "Nitrobenzene is m-directing (2079)"
+          ],
+          "yearsAppeared": ["2081", "2079"],
+          "repeatCount": 2
+        },
+        {
+          "normalizedQuestion": "Which of following favors SO3 formation - Le Chatelier's principle",
+          "variationExamples": [
+            "SO2 + 1/2 O2 -> SO3 + heat. All of the following favors formation of SO3 except Increase in temperature (2081)",
+            "Chemical equilibrium question about SO3 (2079)"
+          ],
+          "yearsAppeared": ["2081", "2079"],
+          "repeatCount": 2
+        }
+      ]
+    },
+    "MAT": {
+      "topTopics": [
+        {
+          "topic": "Number Series",
+          "totalCount": 10,
+          "yearWiseCount": {
+            "2082": 2,
+            "2081": 2,
+            "2080": 2,
+            "2079": 2,
+            "2078": 2
+          }
+        },
+        {
+          "topic": "Seating Arrangement",
+          "totalCount": 10,
+          "yearWiseCount": {
+            "2082": 2,
+            "2081": 2,
+            "2080": 2,
+            "2079": 2,
+            "2078": 2
+          }
+        },
+        {
+          "topic": "Direction Sense",
+          "totalCount": 10,
+          "yearWiseCount": {
+            "2082": 2,
+            "2081": 2,
+            "2080": 2,
+            "2079": 2,
+            "2078": 2
+          }
+        },
+        {
+          "topic": "Missing Number/Figure",
+          "totalCount": 10,
+          "yearWiseCount": {
+            "2082": 2,
+            "2081": 2,
+            "2080": 2,
+            "2079": 2,
+            "2078": 2
+          }
+        },
+        {
+          "topic": "Logical Reasoning - Statement Conclusion",
+          "totalCount": 9,
+          "yearWiseCount": {
+            "2082": 2,
+            "2081": 2,
+            "2080": 2,
+            "2079": 2,
+            "2078": 1
+          }
+        },
+        {
+          "topic": "Coding Decoding",
+          "totalCount": 8,
+          "yearWiseCount": {
+            "2082": 2,
+            "2081": 1,
+            "2080": 2,
+            "2079": 2,
+            "2078": 1
+          }
+        },
+        {
+          "topic": "Arithmetic Word Problems",
+          "totalCount": 8,
+          "yearWiseCount": {
+            "2082": 2,
+            "2081": 2,
+            "2080": 1,
+            "2079": 2,
+            "2078": 1
+          }
+        },
+        {
+          "topic": "Blood Relations",
+          "totalCount": 7,
+          "yearWiseCount": {
+            "2082": 1,
+            "2081": 2,
+            "2080": 2,
+            "2079": 1,
+            "2078": 1
+          }
+        },
+        {
+          "topic": "Figure/Pattern Completion",
+          "totalCount": 7,
+          "yearWiseCount": {
+            "2082": 2,
+            "2081": 2,
+            "2080": 1,
+            "2079": 1,
+            "2078": 1
+          }
+        },
+        {
+          "topic": "Analogy",
+          "totalCount": 6,
+          "yearWiseCount": {
+            "2082": 1,
+            "2081": 2,
+            "2080": 1,
+            "2079": 1,
+            "2078": 1
+          }
+        }
+      ],
+      "repeatedQuestions": [
+        {
+          "normalizedQuestion": "A has 1.5 times more than B, B has 1.5 times more than C, total is 76",
+          "variationExamples": [
+            "A, B and C own land. If A has one and half more than B, B has one and half more than C. If the total land of A, B & C is 76 ropanies. Then land own by A, B & C? 36, 24, 16 (2082)",
+            "A has one and a half more as B. B has one and a half more than C. The total amount of gold is 76 ounces. 36, 24, 16 (2081)"
+          ],
+          "yearsAppeared": ["2082", "2081"],
+          "repeatCount": 2
+        },
+        {
+          "normalizedQuestion": "Clock gains 24 minutes in 48 hours - time shown on Monday",
+          "variationExamples": [
+            "Clock gains 24 minutes in 48 hours. Clock is set at 8 AM on Thursday. What time will the clock show at 8 AM on Monday? 9:48 AM (2082)",
+            "Rashmi set the time in a clock correctly at 10AM. In every hour, the clock gains 12 minutes. Find the correct time if the clock shows 1PM (2081)"
+          ],
+          "yearsAppeared": ["2082", "2081"],
+          "repeatCount": 2
+        },
+        {
+          "normalizedQuestion": "Two trains crossing each other - time calculation",
+          "variationExamples": [
+            "Two trains of 100 m and 80 m are running with the speed of 51 m/s and 42 m/s in same direction. After what time will both cross each other? 20s (2082)",
+            "A train is travelling at the speed of 90 mph enters a tunnel 3.5 miles long. Length of train 0.25 miles. How long to pass? 2.5 min (2081)"
+          ],
+          "yearsAppeared": ["2082", "2081"],
+          "repeatCount": 2
+        },
+        {
+          "normalizedQuestion": "Number sequence with double subtraction pattern",
+          "variationExamples": [
+            "89, 89, 75, 75, 61, 61... The next term is 47 (2082)",
+            "Series pattern questions (2081)"
+          ],
+          "yearsAppeared": ["2082", "2081"],
+          "repeatCount": 2
+        },
+        {
+          "normalizedQuestion": "Scheduling exam timetable puzzle",
+          "variationExamples": [
+            "A medical college has to conduct the exam of seven different subjects starting from 12th to 19th May (2082)",
+            "A training college has to conduct refresher course for teachers in six different subjects from 22nd to 28th July (2080)"
+          ],
+          "yearsAppeared": ["2082", "2080"],
+          "repeatCount": 2
+        },
+        {
+          "normalizedQuestion": "Average of numbers calculation after removal",
+          "variationExamples": [
+            "The average of 7 numbers is 14. If one number 20 is removed, what will be the new average? 13 (2082)",
+            "The average of five consecutive numbers A,B,C,D,E is 48. Product of A and E (2081)"
+          ],
+          "yearsAppeared": ["2082", "2081"],
+          "repeatCount": 2
+        }
+      ]
+    }
+  },
+  "repeatedQuestionsGlobal": [
+    {
+      "normalizedQuestion": "Bicollateral vascular bundle is found in Cucurbits/Cucurbitaceae",
+      "variationExamples": [
+        "Bicollateral vascular bundle is found in: a. Cucurbits (2082 Q9)",
+        "Cucurbits have: Bicollateral vascular bundle (2081 Q110)",
+        "Bicollateral vascular bundle is present in Cucurbitaceae (2079 Q145)"
+      ],
+      "yearsAppeared": ["2082", "2081", "2079"],
+      "repeatCount": 3
+    },
+    {
+      "normalizedQuestion": "In single slit diffraction, replacing red with blue light decreases fringe width",
+      "variationExamples": [
+        "In single slit diffraction, if red is replaced by blue: fringe width decreases (2082 Q125)",
+        "In case of diffraction from a single slity, if red light is replaced by blue light: fringe width decreases (2082 Q138)",
+        "In case of diffraction from single slit, red replaced by blue: fringe width decreases (2080)"
+      ],
+      "yearsAppeared": ["2082", "2080"],
+      "repeatCount": 3
+    },
+    {
+      "normalizedQuestion": "Person suffering from Sickle cell anemia susceptibility to Malaria",
+      "variationExamples": [
+        "Person suffering from Sickle cell anemia is More prone to Malaria (2081 Q102)",
+        "Sickle cell anaemic person is More prone to Malaria (2079 Q170)"
+      ],
+      "yearsAppeared": ["2081", "2079"],
+      "repeatCount": 2
+    },
+    {
+      "normalizedQuestion": "A has 1.5 times more than B, B has 1.5 times more than C, total is 76",
+      "variationExamples": [
+        "A, B and C own land: A has one and half more than B, B has 1.5x more than C. Total 76 ropanies. Answer: 36, 24, 16 (2082 Q187)",
+        "A has one and a half more as B, B has one and a half more than C. Total 76 ounces. Answer: 36, 24, 16 (2081 Q188)"
+      ],
+      "yearsAppeared": ["2082", "2081"],
+      "repeatCount": 2
+    },
+    {
+      "normalizedQuestion": "Universal blood donor blood group is O negative",
+      "variationExamples": [
+        "Universal donor blood group is: b. O- (2082 Q177)",
+        "Universal blood donor is: a. O-ve (2079 Q101)"
+      ],
+      "yearsAppeared": ["2082", "2079"],
+      "repeatCount": 2
+    },
+    {
+      "normalizedQuestion": "Monocot cannot be grafted due to absence of vascular cambium",
+      "variationExamples": [
+        "Monocot can't be grafted because: c. Absence of vascular cambium (2082 Q22)",
+        "Grafting is not possible in monocot due to: a. Absence of cambium (2081 Q116)"
+      ],
+      "yearsAppeared": ["2082", "2081"],
+      "repeatCount": 2
+    },
+    {
+      "normalizedQuestion": "Barrier potential in PN junction diode due to diffusion of charge carriers",
+      "variationExamples": [
+        "Why does barrier potential occur in p-n junction diode? b. Diffusion of charge carriers (2082 Q121)",
+        "Potential barrier in PN diode is due to: a. Diffusion of charge carriers (2080 Q44)"
+      ],
+      "yearsAppeared": ["2082", "2080"],
+      "repeatCount": 2
+    },
+    {
+      "normalizedQuestion": "Nitrobenzene is meta-directing in electrophilic aromatic substitution",
+      "variationExamples": [
+        "Nitrobenzene is: a. m-directing (2081 Q65)",
+        "Nitrobenzene is m-directing (2079 - Organic Chemistry)"
+      ],
+      "yearsAppeared": ["2081", "2079"],
+      "repeatCount": 2
+    },
+    {
+      "normalizedQuestion": "Thermoregulatory center is located in Hypothalamus",
+      "variationExamples": [
+        "Thermoregulatory centre is located at: a. Hypothalamus (2080 Q155)",
+        "Thermoregulatory centre of body is: b. Hypothalamus (2079 Q126)"
+      ],
+      "yearsAppeared": ["2080", "2079"],
+      "repeatCount": 2
+    },
+    {
+      "normalizedQuestion": "Which of the following is a vertebrate among globe fish, cuttle fish, cray fish, devil fish",
+      "variationExamples": [
+        "Which of the following is vertebrate? a. Cuttle fish, b. Globe fish, c. Cray fish, d. Devil fish (2081 Q145)",
+        "Which is a vertebrate? a. Cuttle fish, b. Cray fish, c. Globe fish, d. Devil fish (2079 Q109)"
+      ],
+      "yearsAppeared": ["2081", "2079"],
+      "repeatCount": 2
+    },
+    {
+      "normalizedQuestion": "Conjoint open collateral vascular bundle is present in dicot stem",
+      "variationExamples": [
+        "Conjoint, open and collateral vascular bundle is present in: a. Dicot stem (2080 Q117)",
+        "Conjoint, collateral and open vascular bundle found in: b. Dicot stem (2079 Q157)"
+      ],
+      "yearsAppeared": ["2080", "2079"],
+      "repeatCount": 2
+    },
+    {
+      "normalizedQuestion": "Tapetum is found in Anther",
+      "variationExamples": [
+        "Tapetum is found in: a. Anther (2082 Q4)",
+        "Tapetum is a nutritive tissue found in anther (2080)"
+      ],
+      "yearsAppeared": ["2082", "2080"],
+      "repeatCount": 2
+    },
+    {
+      "normalizedQuestion": "Delay in senescence is caused by Cytokinin",
+      "variationExamples": [
+        "Delay in Senescence and apical dominance is prevented by: b. Cytokinin (2082 Q39)",
+        "Bolting in plants is caused by: a. Gibberellin (2080 Q129)"
+      ],
+      "yearsAppeared": ["2082", "2080"],
+      "repeatCount": 2
+    },
+    {
+      "normalizedQuestion": "Baeyers reagent is alkaline potassium permanganate",
+      "variationExamples": [
+        "Baeyer's reagent is: d. Alkaline KMnO4 (2082 Q62)",
+        "Baeyer's reagent (alkaline KMnO4) used for detection of unsaturation (2080)"
+      ],
+      "yearsAppeared": ["2082", "2080"],
+      "repeatCount": 2
+    },
+    {
+      "normalizedQuestion": "In YDSE ratio of maximum to minimum intensity with amplitudes 3 and 1",
+      "variationExamples": [
+        "The ratio of maximum to minimum intensity of wave in YDSE with amplitude of 3 and 1 is: c. 16:1 (2082 Q137)",
+        "Two waves having amplitude 3a and a superimposed ratio of maximum to minimum intensity: a. 4:1 (2080 Q23)"
+      ],
+      "yearsAppeared": ["2082", "2080"],
+      "repeatCount": 2
+    },
+    {
+      "normalizedQuestion": "Fuel cell directly converts chemical energy of hydrogen and oxygen to electrical energy",
+      "variationExamples": [
+        "The chemical energy of hydrogen and oxygen is directly converted into electrical energy in: d. Fuel cell (2082 Q69)",
+        "Fuel cell as electrochemical device (2081)"
+      ],
+      "yearsAppeared": ["2082", "2081"],
+      "repeatCount": 2
+    },
+    {
+      "normalizedQuestion": "Phenotypic and genotypic ratio same in incomplete dominance",
+      "variationExamples": [
+        "Phenotypic and genotypic ratio same in: a. Incomplete dominance (2082 Q36)",
+        "Which has same genotypic and phenotypic ratio? a. Co-dominance (2081 Q133)"
+      ],
+      "yearsAppeared": ["2082", "2081"],
+      "repeatCount": 2
+    },
+    {
+      "normalizedQuestion": "Nitrogen percentage in urea is approximately 46-47 percent",
+      "variationExamples": [
+        "The percentage of nitrogen in urea: d. 47 (2082 Q57)",
+        "Maximum percentage of nitrogen is present in Urea (2079 Q72)"
+      ],
+      "yearsAppeared": ["2082", "2079"],
+      "repeatCount": 2
+    },
+    {
+      "normalizedQuestion": "Spirogyra zygote undergoes meiosis after conjugation",
+      "variationExamples": [
+        "Spirogyra after conjugation forms zygote, then zygote undergoes: a. Meiosis (2082 Q27)",
+        "Spirogyra conjugation and zygote meiosis (2080)"
+      ],
+      "yearsAppeared": ["2082", "2080"],
+      "repeatCount": 2
+    },
+    {
+      "normalizedQuestion": "Restriction endonuclease is the enzyme used in genetic engineering",
+      "variationExamples": [
+        "Enzyme used in genetic engineering is: d. Restriction endonuclease (2082 Q26)",
+        "Enzyme that cuts DNA at specific site is: d. Restriction endonuclease (2081 Q115)"
+      ],
+      "yearsAppeared": ["2082", "2081"],
+      "repeatCount": 2
+    },
+    {
+      "normalizedQuestion": "Gycolysis/glycolysis occurs in cytoplasm",
+      "variationExamples": [
+        "Gycolysis occurs in: b. Cytoplasm (2082 Q19)",
+        "Glycolysis occurs in cytoplasm (2079)"
+      ],
+      "yearsAppeared": ["2082", "2079"],
+      "repeatCount": 2
+    },
+    {
+      "normalizedQuestion": "Red algae are found deepest in water",
+      "variationExamples": [
+        "Deepest algae in water is: a. Red algae (2082 Q10)",
+        "Red algae grow deepest in water (2080)"
+      ],
+      "yearsAppeared": ["2082", "2080"],
+      "repeatCount": 2
+    },
+    {
+      "normalizedQuestion": "Ribosome is membraneless organelle",
+      "variationExamples": [
+        "Membraneless organelle is: a. Ribosome (2082 Q24)",
+        "Ribosome is a non-membranous organelle (2081)"
+      ],
+      "yearsAppeared": ["2082", "2081"],
+      "repeatCount": 2
+    },
+    {
+      "normalizedQuestion": "Inflorescence with indefinite growth ending in bud at tip is Racemose",
+      "variationExamples": [
+        "Inflorescence in which growth of flower is indefinite and ends with bud at tip: a. Racemose (2082 Q16)",
+        "Racemose inflorescence has indefinite axis (2080)"
+      ],
+      "yearsAppeared": ["2082", "2080"],
+      "repeatCount": 2
+    }
+  ]
+}
