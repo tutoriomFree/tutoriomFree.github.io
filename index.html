@@ -1809,14 +1809,19 @@ html::-webkit-scrollbar {
 
                 setupControls() {
                     const c = this.container;
-                    const playBtn = c.querySelector('.play-pause-btn');
-                    if (playBtn) playBtn.addEventListener('click', (e) => {
-                        e.stopPropagation();
-                        if (!this.player) return;
-                        this.player.getPlayerState() === YT.PlayerState.PLAYING
-                            ? this.player.pauseVideo()
-                            : this.player.playVideo();
-                    });
+                  const playBtn = c.querySelector('.play-pause-btn');
+const togglePlay = (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    if (!this.player) return;
+    this.player.getPlayerState() === YT.PlayerState.PLAYING
+        ? this.player.pauseVideo()
+        : this.player.playVideo();
+};
+if (playBtn) {
+    playBtn.addEventListener('click', togglePlay);
+    playBtn.addEventListener('touchend', togglePlay);
+}
 
                     const progressBar = c.querySelector('.top-progress-container');
                     if (progressBar) {
@@ -1841,27 +1846,40 @@ html::-webkit-scrollbar {
                     });
 
                     const speedBtn = c.querySelector('.speed-btn');
-                    if (speedBtn) speedBtn.addEventListener('click', (e) => {
-                        e.stopPropagation();
-                        if (!this.player) return;
-                        const idx = this.playbackRates.indexOf(this.currentPlaybackRate);
-                        this.currentPlaybackRate = this.playbackRates[(idx + 1) % this.playbackRates.length];
-                        this.player.setPlaybackRate(this.currentPlaybackRate);
-                        speedBtn.textContent = `${this.currentPlaybackRate}x`;
-                    });
+const cycleSpeed = (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    if (!this.player) return;
+    const idx = this.playbackRates.indexOf(this.currentPlaybackRate);
+    this.currentPlaybackRate = this.playbackRates[(idx + 1) % this.playbackRates.length];
+    this.player.setPlaybackRate(this.currentPlaybackRate);
+    speedBtn.textContent = `${this.currentPlaybackRate}x`;
+};
+if (speedBtn) {
+    speedBtn.addEventListener('click', cycleSpeed);
+    speedBtn.addEventListener('touchend', cycleSpeed);
+}
 
                     const fsBtn = c.querySelector('.fullscreen-btn');
-                    if (fsBtn) fsBtn.addEventListener('click', (e) => {
-                        e.stopPropagation();
-                        const target = c.querySelector('.video-player-container');
-                        if (!document.fullscreenElement) {
-                            (target.requestFullscreen || target.webkitRequestFullscreen).call(target);
-                            fsBtn.innerHTML = '<i class="fas fa-compress"></i>';
-                        } else {
-                            (document.exitFullscreen || document.webkitExitFullscreen).call(document);
-                            fsBtn.innerHTML = '<i class="fas fa-expand"></i>';
-                        }
-                    });
+const toggleFullscreen = (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    const target = c.querySelector('.video-player-container');
+    if (!document.fullscreenElement && !document.webkitFullscreenElement) {
+        if (target.requestFullscreen) target.requestFullscreen();
+        else if (target.webkitRequestFullscreen) target.webkitRequestFullscreen();
+        else if (target.webkitEnterFullscreen) target.webkitEnterFullscreen(); // iOS video fallback
+        fsBtn.innerHTML = '<i class="fas fa-compress"></i>';
+    } else {
+        if (document.exitFullscreen) document.exitFullscreen();
+        else if (document.webkitExitFullscreen) document.webkitExitFullscreen();
+        fsBtn.innerHTML = '<i class="fas fa-expand"></i>';
+    }
+};
+if (fsBtn) {
+    fsBtn.addEventListener('click', toggleFullscreen);
+    fsBtn.addEventListener('touchend', toggleFullscreen);
+}
 
                     const overlay = c.querySelector('.video-overlay');
                     if (overlay) {
@@ -1872,7 +1890,8 @@ html::-webkit-scrollbar {
                         overlay.addEventListener('mouseenter', () => { show(); this.hideControlsAfterDelay(); });
                         overlay.addEventListener('mousemove', () => { show(); this.hideControlsAfterDelay(); });
                         overlay.addEventListener('mouseleave', () => this.hideControlsAfterDelay());
-                        overlay.addEventListener('touchstart', (e) => {
+                       overlay.addEventListener('touchstart', (e) => {
+    if (e.target.closest('.modern-control-bar')) return;
     const bar = c.querySelector('.modern-control-bar');
     if (bar && bar.classList.contains('visible')) {
         bar.classList.remove('visible');
@@ -1881,12 +1900,13 @@ html::-webkit-scrollbar {
         this.hideControlsAfterDelay();
     }
 }, { passive: true });
-                        
+
                         // CHANGE 5: Double-tap handling with new seek deltas (-10 min, +20 min)
-                        overlay.addEventListener('touchstart', (e) => {
-                            const touch = e.touches[0];
+overlay.addEventListener('touchstart', (e) => {
+    if (e.target.closest('.modern-control-bar')) return;
+    const touch = e.touches[0];
                             const rect = overlay.getBoundingClientRect();
-                            const x = touch.clientX - rect.left;
+                            const x = to                        //uch.clientX - rect.left;
                             const isLeft = x < rect.width / 2;
                             const now = Date.now();
                             const doubleTapDelay = 300;
